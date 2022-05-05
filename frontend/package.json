@@ -12,10 +12,12 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-node": "^1.0.0-next.73",
     "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "next",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
+    "rollup": "^2.72.0",
     "svelte": "^3.44.0"
   },
   "type": "module"
