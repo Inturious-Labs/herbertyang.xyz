@@ -90,5 +90,6 @@ Domain hosted on: Google Domain Service
 
 ## References
 
-https://mattjennings.io/blog/rewriting-my-website-in-sveltekit
-https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/
+- https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
+- https://mattjennings.io/blog/rewriting-my-website-in-sveltekit
+- https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/
