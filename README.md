@@ -15,12 +15,13 @@ Domain hosted on: Google Domain Service
 	```bash
 	npm run build
 	```
+
 	It will return
 	
 	```bash
 	> Using @sveltejs/adapter-static
-  Wrote site to "build"
-  ✔ done
+  	Wrote site to "build"
+  	✔ done
 	```
 	
 	The static files for the site have been updated in `frontend/build` folder. 
@@ -86,3 +87,8 @@ Domain hosted on: Google Domain Service
 	```
 	
 	The private repo is here [https://github.com/zire/herbertyang.xyz](https://github.com/zire/herbertyang.xyz)
+
+## References
+
+https://mattjennings.io/blog/rewriting-my-website-in-sveltekit
+https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/
