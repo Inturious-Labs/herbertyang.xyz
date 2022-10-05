@@ -1,4 +1,7 @@
-# Vote on NNS Proposals with Command-Line Tool
+---
+title: Vote on NNS Proposals with Command-Line Tool
+date: '2022-05-01'
+---
 
 ## Table of Contents
 

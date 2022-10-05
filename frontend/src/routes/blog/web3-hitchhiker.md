@@ -1,9 +1,9 @@
-# Hitchhiker's Guide to Web3, Blockchain, the Internet Computer, and DFINITY Foundation
-
+---
+title: Hitchhiker's Guide to Web3, Blockchain, the Internet Computer, and DFINITY Foundation
+date: "2022-02-05"
+---
 
 **[https://herbertyang.xyz/blog/web3-hitchhiker.html](https://herbertyang.xyz/blog/web3-hitchhiker.html)**
-
-Feb 05, 2022
 
 So, you're new to crypto but have already heard about IC or DFINITY from some friends. You're curious to find out more and may even be interested in joining the DFINITY team or contributing to the IC community. How do you learn more about this industry, the DFINITY team, and the Internet Computer?
 
