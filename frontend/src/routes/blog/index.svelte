@@ -1,1 +1,1 @@
-just a test
+here's the list of the blog articles

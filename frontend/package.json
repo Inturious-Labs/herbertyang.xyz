@@ -21,7 +21,8 @@
     "rollup": "^2.72.0",
     "sass": "^1.51.0",
     "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.6"
+    "svelte-preprocess": "^4.10.6",
+    "vite-plugin-markdown": "^2.1.0"
   },
   "type": "module"
 }

@@ -31,6 +31,12 @@ Domain hosted on: Google Domain Service
 	```bash
 	npm run preview
 	```
+
+	or
+
+	```bash
+	npm run dev
+	```
 	
 	Check out the site on port 3000: [http://localhost:3000](http://localhost:3000/)
 
@@ -90,6 +96,8 @@ Domain hosted on: Google Domain Service
 
 ## References
 
+- https://gotofritz.net/blog/blog-with-sveltekit-and-markdown
+- https://fantinel.dev/blog-development-sveltekit/
 - https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
 - https://mattjennings.io/blog/rewriting-my-website-in-sveltekit
 - https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/
