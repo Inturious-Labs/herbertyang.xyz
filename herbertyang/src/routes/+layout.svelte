@@ -13,4 +13,4 @@
   <slot />
 </main>
 
-<footer>Hello, I'm the footer.</footer>
+<center><footer>© Herbert Yang 2022 All Rights Reserved</footer></center>

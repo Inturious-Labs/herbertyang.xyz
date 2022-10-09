@@ -18,3 +18,7 @@ code {
     background: #E3EAF2;
     font-weight: bold;
 }
+footer {
+    margin-bottom: 40px;
+    font-style: italic;
+}
