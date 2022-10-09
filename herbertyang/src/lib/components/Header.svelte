@@ -1,6 +1,6 @@
 <header>
     <a href="/">Home</a>
-  
+
     <nav>
       <ul>
         <li>

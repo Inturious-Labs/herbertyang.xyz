@@ -1,6 +1,9 @@
 ---
 title: Hitchhiker's Guide to Web3, Blockchain, the Internet Computer, and DFINITY Foundation
 date: "2022-02-05"
+tw_card_type: "summary_large_image"
+tw_card_desc: "how to get started on Web3, blockchain, Internet Computer, and DFINITY"
+tw_card_image: "https://s3.us-west-1.amazonaws.com/guizishanren.com/big+island_02_%E5%8D%83%E9%87%8C%E8%8C%AB%E8%8C%AB%E8%8B%A5%E6%A2%A6.jpg"
 ---
 
 **[https://herbertyang.xyz/blog/web3-hitchhiker.html](https://herbertyang.xyz/blog/web3-hitchhiker.html)**
