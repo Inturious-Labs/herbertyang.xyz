@@ -14,6 +14,7 @@ Here's a guide that can help you get started to grasp some basic concepts and ge
 
 TL'DR | 20 min read
 
+---
 ## 1\. Challenges of Learning Blockchain
 
 We shall first reckon with the challenges before the deep dive. Learning about blockchain/crypto is not easy. Everyone is talking about it. Every media is tossing around buzzwords like Web3, metaverse as if the future has already arrived and you're going to miss the train. Everyone seems to have a strong opinion about it with very divided views. People from different blockchain camps diss each other and everyone thinks his/her chain is the greatest.
@@ -24,6 +25,7 @@ There are many notions in blockchain that are hard to fathom. For one, many are 
 
 Also, information decays very fast in the blockchain. What you read three months ago may have already become obsolete now. The trending topics for the moment seem to be rotating at a lightning speed. Just when you think you've got a hang of something, that thing is no longer hot and something else has taken over the airwave. It's all very tiring and confusing.
 
+---
 ## 2\. How To Do Research
 
 Don't panic.
@@ -40,6 +42,7 @@ Fourth, always apply the first principle by asking these two questions: 1) **"Wh
 
 Last, while it's natural to ask a few friends who seem to be closer to the crypto industry to get started, nobody is any wiser and you should do your own research (DYOR) to draw conclusions in your own method. It's extremely difficult, if not impossible, to find a neutral voice in this industry. People are often too knee-deep in a camp already to tell you something objective - including myself. Read the white paper, conduct due diligence on the team, and observe how they conduct themselves on Twitter. Only after you commit sufficient time and effort to do this research with brutal intellectual honesty, the path to truth or faith (always in relative terms in crypto) may then reveal itself to you.
 
+---
 ## 3\. Where to Start on Web3 and Crypto
 
 First, start with Twitter. The following IDs will usher you into several interesting realms.
@@ -76,6 +79,7 @@ Reading whitepaper is the right way to sink into blockchain. We like it hard-cor
 
 Newsletter is another good venue of good content. This is the best times for writers, people who can articulate their thoughts and build an audience with their narratives. Writing is the easiest way to establish credibility and gain respect. Most people I follow are writing on either Substack or Ghost. I used to subscribe to 20+ newsletters - I still do, but I just don't have time to read them anymore. Crypto is moving too fast. Between Twitter and Podcast, I get 90% of what I need to know.
 
+---
 ## 4\. Where to Start Researching on DFINITY and ICP
 
 It's important to read from the right sources. [DFINITY's official website](https://dfinity.org/) is your jump-off point, where you will find all things DFINITY and IC. [DFINITY's Twitter account](https://twitter.com/dfinity) has the latest information and official announcements. [ICA Dashboard](https://dashboard.internetcomputer.org/) from [Internet Computer Association](https://internetcomputer.org/) provides real-time statistics about the Internet Computer Protocol (ICP) network. [DFINITY's Developer Forum](https://forum.dfinity.org/) is where the engineering team of DFINITY discusses issues, bug fixes, product features with IC developers and users - this is the best place to conduct your due diligence on DFINITY.
@@ -94,6 +98,7 @@ Besides the above sites/articles from the DFINITY team, my own [Twitter ID @herb
 
 At the time of writing this article, we don't run any social media site/group on Wechat or Weibo. If you see something in Chinese that labels itself with a prefix of "DFINITY", "Dfinity", "IC", or "ICP", keep in mind that they are **NOT** managed by the DFINITY team, but by independent third-party community members. Some of them have excellent contents that complement our official social media/site very well; some of them are done with poor taste that makes us cringe, if not want to send them a cease-and-desist letter right away. Don't place your blind trust in someone simply because they claim to be the "official" channel of DFINITY. There is a lot of misinformation and disinformation on Wechat and Weibo.
 
+---
 ## 5\. How to Try Out ICP
 
 If you're a developer, start out with [smartcontracts.org](https://smartcontracts.org/) to download the IC SDK and go from there.
@@ -108,6 +113,7 @@ If you're not a developer but an Internet user or investor, you can start your I
 6.  Explore some NFTs at [Entrepot](https://twitter.com/EntrepotApp), the largest NFT marketplace for IC, a sort of Opensea for Ethereum. Buying NFT on IC is instantaneous and you pay NO gas fee. IC uses a "reverse gas model" that would give you the same user experience as traditional Internet, where the developer bears the cost of up-keeping a site and users pay no extra transaction fee like the gas fee in the Ethereum ecosystem.
 7.  Explore a few SocialFi dApps in true Web3 fashion, [DSCVR](https://twitter.com/DscvrO) (reddit on IC), [distrikt](https://twitter.com/DistriktApp) (Linkedin/Twitter on IC) and [OpenChat](https://twitter.com/OpenChat) (WhatsAp/Wechat on IC).
 
+---
 ## 6\. Desirable Qualities to Excel in DFINITY and Web3
 
 First and foremost, you need to have a **passion for technology** and how it will change people's lives. Without this passion, you're just doing a job by taking orders like a bot. Many work in technology but only a small cohort of people actually think about it, talk about it, write about it and act on it, 24/7, non-stop. If you're a technology enthusiast, you will have a reputation by now and you know it.
@@ -120,6 +126,7 @@ Fourth, you need to have a **high level of conviction**. Others could give you t
 
 Fifth, you're an optimistic **contrarian**, not a cynical conventionalist. If your first question to a startup founder is, what if Tencent, Alibaba, ByteDance, or Facebook launch the same product as your startup, then you might as well stay in Big Tech and carry on with your life. Not saying you're beyond the point of salvation, but it will consume too much effort on both sides to turn you around.
 
+---
 ## 7\. Proof-of-Commitment
 
 Since the entire blockchain industry was created to solve the problem of trust, let's game on, carry forward that spirit, and be more tactical about how we can get to know each other more.
@@ -132,6 +139,7 @@ Make **warm intro** for us. ICP doesn't aspire to create a better version of Bit
 
 Last but not the least, you can also apply to DFINITY's **[Community Awards Program](https://dfinity.org/community/)** to leverage your resources and contribute to the growth of the ICP ecosystem. You don't have to be a programmer or know a line of code. You can be an artist, a community volunteer, a translation expert, an event ninja, a BD veteran, or just about any role in any capacity, small or large, public or private. You can do your day job at Company XYZ, and moonlight for IC, and receive grant awards. This Medium article by [Mike Hunte](https://twitter.com/TheMikeHunte) of DFINITY shares helpful [Tips on Writing the Best Community Awards Program Grant Application](https://medium.com/dfinity/tips-for-writing-the-best-community-awards-program-grant-application-950d84c7771d). If you end up joining DFINITY one day, you will be doing all these tasks (in turbo mode). This is a good way to size up yourself and get your hands dirty before you ape in.
 
+---
 ## 8\. Thank You
 
 It's a long read but hopefully a solid rope to help you get started. This website is deployed 100% on ICP. Its front end is built in a Gatsby framework based on React/JavaScript. The code is compiled into a Web Assembly binary file as a smart contract. The smart contract is deployed to a canister `hbc6w-gqaaa-aaaag-aagdq-cai` on one of the 30+ subnets that are connected by Chain Key Cryptography to form an ever-expanding blockchain network that provides the storage and computing power to keep this site on. Since this is a simple single-page site with static contents whose states will not be modified by readers (you), it has only Query call, no Update call. Query call is currently not charged by the node providers (independent third-party data centers) for ICP, so my cost of maintaining this site is only for storage of the deployment files, which is about 11.5MB. Given that the storage cost on ICP is estimated to be $5 for 1GB per year at present, my cost of upkeeping this site is about **$0.06/year**. You can view this article/site on PC/Mac or mobile phone.
