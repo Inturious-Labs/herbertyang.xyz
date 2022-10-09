@@ -128,6 +128,40 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	
 	The private repo is here [https://github.com/zire/herbertyang.xyz](https://github.com/zire/herbertyang.xyz)
 
+
+5. Manage canisters and wallet on ic
+
+	To view the principal
+
+	```bash
+	dfx identity get-principal
+	```
+
+	dfx will return `yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae`
+
+	The key pairs can be found on the local machine
+
+	```bash
+	ls -l ~/.config/dfx/identity/kun/
+	```
+
+	`identity.pem` is the private key. `wallets.json` is the public key hashed from the private key.
+
+	Check wallet balance on ic
+
+	```bash
+	dfx wallet --network=ic balance
+	```
+
+	To reclaim cycles from inactive canisters, stop them first and then delete the canisters
+
+	```bash
+	dfx canister --network=ic stop --all
+	dfx canister --network=ic delete --all
+	```
+
+	Check the wallet balance again and the balance should be updated to reflect the reclaimed cycles.
+
 ## References
 
 - https://gotofritz.net/blog/blog-with-sveltekit-and-markdown
