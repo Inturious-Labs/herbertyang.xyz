@@ -45,7 +45,9 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	The static files for the site have been updated in `frontend/build` folder. 
 	
 
-3. Return to the `dfx` project folder
+3. Testing and deploy on dfx server
+
+	Return to the `dfx` project folder
 
 	Make sure dfx is using the correct identity
 	
@@ -59,7 +61,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx identity use kun
 	```
 
-	Test dfx on local environment
+	Start dfx server on local machine
 
 	```bash
 	dfx start --clean
@@ -72,7 +74,19 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	
 	The local site can be viewed on [http://localhost:8000](http://localhost:8000)
 
-	Deploy to `ic`
+	It will say `Could not find a canister id to forward to.`. 
+
+	Deploy on the local dfx server
+
+	```bash
+	dfx deploy
+	```
+
+	It will complete the local deployment and return a canister id `rrkah-fqaaa-aaaaa-aaaaq-cai`
+
+	Visit this URL to preview the locally deployed site [http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:8000/](http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:8000/)
+
+	Deploy to `ic` network
 
 	```bash
 	dfx deploy --network=ic --no-wallet
@@ -84,6 +98,8 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	Committing batch.
 	Deployed canisters.
 	```
+
+	The site has gone live on the ic network and can be viewed at [https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app/)
 	
 4. Git push to Github repo
 
