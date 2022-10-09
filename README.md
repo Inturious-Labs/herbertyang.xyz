@@ -53,7 +53,20 @@ Domain hosted on: Google Domain Service
 	```bash
 	dfx identity use kun
 	```
+
+	Test dfx on local environment
+
+	```bash
+	dfx start --clean
+	```
+
+	or run this in the background
+	```bash
+	dfx start --background
+	```
 	
+	The local site can be viewed on [http://localhost:8000](http://localhost:8000)
+
 	Deploy to `ic`
 
 	```bash
