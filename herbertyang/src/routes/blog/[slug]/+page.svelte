@@ -15,9 +15,9 @@
         }}
     />
     <h1>{ data.title }</h1>
-    <p>Published: {data.date}</p>
+    <p style="font-style:italic">Published: {data.date}</p>
     <svelte:component this={data.content} />
-    <p>Written on: {data.date}</p>
+    <p style="font-style:italic">Written on: {data.date} by Herbert Yang</p>
     <center>-------------------------- &infin; -----------------------------</center>
     <p>
         Like this article? Give me a shout-out!

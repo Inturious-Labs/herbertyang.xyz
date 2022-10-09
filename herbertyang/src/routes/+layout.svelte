@@ -7,10 +7,14 @@
 
 <Header />
 
-<header>Hi, I'm a header</header>
+<header></header>
 
 <main>
   <slot />
 </main>
 
-<center><footer>© Herbert Yang 2022 All Rights Reserved</footer></center>
+<center><footer>
+  <div>©Herbert Yang 2022 All Rights Reserved</div>
+  <p />
+  <div><a href="https://dfinity.org"><img src="/img/100_on_chain-slim-bg_dark.png" alt="100% built on the Internet Computer"></a></div>
+</footer></center>

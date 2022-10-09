@@ -1,2 +1,15 @@
-<h1>Welcome to Herbert Yang's digital garden</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<head>
+    <meta description="digital garden">
+</head>
+
+<center>
+    <div style="font-size: 20px; font-weight: bold">
+        <p>a persistent digital temple for the curious mind</p>
+        <hr>
+        <img src="/img/wuhan_home_landscape.JPG" alt="digital temple" width="100%">
+        <p>Technology Evangelist</p>
+        <p>Serial Entreprenuer</p>
+        <p>Community Builder</p>
+        <p>Writing since 2005</p>
+    </div>
+</center>

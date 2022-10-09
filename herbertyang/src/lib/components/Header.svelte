@@ -1,5 +1,12 @@
 <header>
-    <a href="/">Home</a>
+    <a href="/" style="
+    background: #FF65A9;
+    font-weight: bold; 
+    color: #FFF;
+    font-size: 20px
+    ">
+      HERBERT YANG
+    </a>
 
     <nav>
       <ul>
