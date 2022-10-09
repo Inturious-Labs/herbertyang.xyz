@@ -8,9 +8,27 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
 ## Deployment Workflow
 
-1. Make changes in `frontend/` folder. The contents of the site are in `frontend/src`. 
+1. Make changes in `herbertyang/` folder. The contents of the site are in `herbertyang/src`. 
 
-2. In `frontend/` folder, run
+2. Testing, deploy and build on Svelte server (run by vite)
+
+	In `herbertyang/` folder, run
+
+	Preview on local machine
+	
+	```bash
+	npm run preview
+	```
+
+	or
+
+	```bash
+	npm run dev
+	```
+	
+	Check out the site on port 3000: [http://localhost:3000](http://localhost:3000/)
+
+	Build the final output files
 
 	```bash
 	npm run build
@@ -26,19 +44,6 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	
 	The static files for the site have been updated in `frontend/build` folder. 
 	
-	Preview on local machine
-	
-	```bash
-	npm run preview
-	```
-
-	or
-
-	```bash
-	npm run dev
-	```
-	
-	Check out the site on port 3000: [http://localhost:3000](http://localhost:3000/)
 
 3. Return to the `dfx` project folder
 
