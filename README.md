@@ -4,7 +4,7 @@ Canister URL:
 
 [https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app/)
 
-Domain hosted on: Google Domain Service
+Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
 ## Deployment Workflow
 
