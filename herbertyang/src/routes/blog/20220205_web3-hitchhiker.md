@@ -3,10 +3,10 @@ title: Hitchhiker's Guide to Web3, Blockchain, the Internet Computer, and DFINIT
 date: "2022/02/05"
 tw_card_type: "summary_large_image"
 tw_card_desc: "how to get started on Web3, blockchain, Internet Computer, and DFINITY"
-tw_card_image: "/img/big_island.jpg"
+tw_card_image: "https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app/img/big_island.jpg"
 ---
 
-<img src="/img/big_island.jpg" alt="Herbert Yang headshot" width="100%" loading="lazy">
+<img src="../img/big_island.jpg" alt="Herbert Yang headshot" width="100%" loading="lazy">
 
 So, you're new to crypto but have already heard about IC or DFINITY from some friends. You're curious to find out more and may even be interested in joining the DFINITY team or contributing to the IC community. How do you learn more about this industry, the DFINITY team, and the Internet Computer?
 

@@ -3,12 +3,12 @@ title: The Unofficial Apple Consumer Strategy
 date: "2006/05/18"
 Tags: 
 Category: Tech
-tw_card_type: "summary_large_image"
+tw_card_type: "summary"
 tw_card_desc: "How I envisioned Apple's consumer strategy on a one-pager, in 2006"
-tw_card_image: "/img/unofficial-apples-consumer-strategy.jpg"
+tw_card_image: "../img/unofficial-apples-consumer-strategy.jpg"
 ---
 
-<img src="/img/unofficial-apples-consumer-strategy.jpg" alt="apple strategy in 2006" width="100%" loading="lazy">
+<img src="../img/unofficial-apples-consumer-strategy.jpg" alt="apple strategy in 2006" width="100%" loading="lazy">
 
 I won’t do justice to the below chart that I drew up a few days ago in
 my attempt to summarize Apple’s consumer strategy if I don’t follow up

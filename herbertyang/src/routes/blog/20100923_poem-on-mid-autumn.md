@@ -3,8 +3,9 @@ title: 雨霖铃 - 中秋
 date: "2010/09/23"
 Tags: 中文,诗歌
 Category: Amusement
-tw_card_type: "summary"
+tw_card_type: "summary_large_image"
 tw_card_desc: 每逢秋姐，或者春姐出场时，各类祝福短信总是漫天飞舞。每年短信越发越多，但质量似乎越来越低。每每看到前同事们或者朋友亲戚们亲切的问候，想回复又不想重蹈三俗路线，于是被逼得只好填词了。前两年的春节借用的是沁园春的词牌，这次借很少有人用的雨霖铃涂鸦一番。（词中关键处借用了劳兄一句诗）
+tw_card_image: "../img/autumn_airport.jpg"
 ---
 
 每逢秋姐，或者春姐出场时，各类祝福短信总是漫天飞舞。每年短信越发越多，但质量似乎越来越低。每每看到前同事们或者朋友亲戚们亲切的问候，想回复又不想重蹈三俗路线，于是被逼得只好填词了。前两年的春节借用的是沁园春的词牌，这次借很少有人用的雨霖铃涂鸦一番。（词中关键处借用了劳兄一句诗，特此申明）
@@ -17,7 +18,7 @@ tw_card_desc: 每逢秋姐，或者春姐出场时，各类祝福短信总是漫
 
 > 方案破，华中窘迫，暮霭沉沉钓鱼碣。
 
-<img src="/img/autumn_airport.jpg" alt="airport" width="100%" loading="lazy">
+<img src="../img/autumn_airport.jpg" alt="airport" width="100%" loading="lazy">
 
 > 京城自古多拥堵，更那堪，喧嚣中秋节！
 
@@ -27,4 +28,4 @@ tw_card_desc: 每逢秋姐，或者春姐出场时，各类祝福短信总是漫
 
 > 便纵有层层梦境，更与谁人言!
 
-<img src="/img/autumn_dream.jpg" alt="airport" width="100%" loading="lazy">
+<img src="../img/autumn_dream.jpg" alt="airport" width="100%" loading="lazy">

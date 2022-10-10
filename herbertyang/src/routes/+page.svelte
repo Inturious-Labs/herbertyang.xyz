@@ -1,3 +1,8 @@
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Herbert Yang's digital temple">
+<meta name="twitter:creator" content="Herbert Yang">
+<meta name="twitter:image" content="/img/wuhan_home_landscape.JPG">
+<meta name="twitter:description" content="a persistent digital temple for the curious mind">
 <center>
     <div style="font-size: 20px; font-weight: bold">
         <p>a persistent digital temple for the curious mind</p>

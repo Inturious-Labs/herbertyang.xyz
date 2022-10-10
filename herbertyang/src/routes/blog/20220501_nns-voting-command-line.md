@@ -1,6 +1,8 @@
 ---
 title: Vote on NNS Proposals with Command-Line
 date: '2022/05/01'
+tw_card_type: "summary"
+tw_card_desc: how to vote on ICP's NNS with command-line tools
 ---
 
 ---

@@ -3,7 +3,7 @@ title: Break Up GE To Unlock Its Value
 date: "2006/05/09"
 Tags:
 Category: Business
-tw_card_type: "summary_large_image"
+tw_card_type: "summary"
 tw_card_desc: "why it makes sense to break up General Electric"
 ---
 
