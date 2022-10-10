@@ -3,7 +3,7 @@ title: The Unofficial Apple Consumer Strategy
 date: "2006/05/18"
 Tags: 
 Category: Tech
-tw_card_type: "summary"
+tw_card_type: "summary_large_image"
 tw_card_desc: "How I envisioned Apple's consumer strategy on a one-pager, in 2006"
 tw_card_image: "../img/unofficial-apples-consumer-strategy.jpg"
 ---

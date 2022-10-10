@@ -14,6 +14,9 @@
           <a href="/blog">Blog</a>
         </li>
         <li>
+          <a href="/talks">Talks</a>
+        </li>
+        <li>
           <a href="/about">About</a>
         </li>
         <li>
