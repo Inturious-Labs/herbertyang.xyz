@@ -1,7 +1,3 @@
-<head>
-    <meta description="digital garden">
-</head>
-
 <center>
     <div style="font-size: 20px; font-weight: bold">
         <p>a persistent digital temple for the curious mind</p>
@@ -10,6 +6,6 @@
         <p>Technology Evangelist</p>
         <p>Serial Entreprenuer</p>
         <p>Community Builder</p>
-        <p>Writing since 2005</p>
+        <p>Writing since 2006</p>
     </div>
 </center>
