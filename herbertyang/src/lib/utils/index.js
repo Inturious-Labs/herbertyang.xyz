@@ -16,4 +16,23 @@ export const fetchMarkdownPosts = async () => {
   
     return allPosts
 }
+
+export const fetchMarkdownTalks = async () => {
+  const allPostFiles = import.meta.glob('/src/routes/talks/*.md')
+  const iterablePostFiles = Object.entries(allPostFiles)
+  
+  const allTalks = await Promise.all(
+    iterablePostFiles.map(async ([path, resolver]) => {
+      const { metadata } = await resolver()
+      const postPath = path.slice(11, -3)
+
+      return {
+        meta: metadata,
+        path: postPath,
+      }
+    })
+  )
+
+  return allTalks
+}
   
