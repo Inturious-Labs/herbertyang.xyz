@@ -1,12 +1,11 @@
-Title: 跟你干革命，凭什么？
-Date: 2011-10-10 18:11
+---
+title: 跟你干革命，凭什么？
+date: "2011/10/10"
 Tags: 中文
 Category: Framework
-Slug: what-does-it-take-to-be-a-good-boss
-Summary: 在江湖浮沉数载，从外企到国企到民企，历经各种叱咤风云的领袖人物，常考虑一个问题，作为老板（或者领导），你凭什么让人跟你干革命？我总结了一下，大概有七种方式，简称**PLORHIM**（普罗西姆）
-
-<iframe width="257" height="33" src="http://www.xiami.com/widget/0_387736/singlePlayer.swf" wmode="transparent">
-</iframe>
+tw_card_type: "summary_large_image"
+tw_card_desc: 作为老板（或者领导），你凭什么让人跟你干革命？我总结了一下，大概有七种方式，简称**PLORHIM**（普罗西姆）
+---
 
 在江湖浮沉数载，从外企到国企到民企，历经各种叱咤风云的领袖人物，常考虑一个问题，作为老板（或者领导），你凭什么让人跟你干革命？
 

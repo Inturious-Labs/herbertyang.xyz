@@ -1,12 +1,11 @@
-Title: 职业选择的考虑
-Date: 2011-10-21 15:47
+---
+title: 职业选择的考虑
+date: "2011/10/21"
 Tags: 中文, theory
 Category: Business
-Slug: career-choice-consideration
-Summary: 以为自己N年前就写过这篇文章了，在网站上遍寻不获，为方便转发，只好重新码字。在考虑换工作或者职业发展的下一步时，通常有这么几大因素需要考虑：老板，行业，地点，公司，职位，工作（工作环境，同事，交通，薪水，新技能。。。这些技术细节不是本文关注的焦点），按照重要性从高到低的排序如下：
-
-<p><iframe width="257" height="33" type="application/x-shockwave-flash" src="http://www.xiami.com/widget/0_2960195/singlePlayer.swf" wmode="transparent">
-</iframe></p>
+tw_card_type: "summary_large_image"
+tw_card_desc: 以为自己N年前就写过这篇文章了，在网站上遍寻不获，为方便转发，只好重新码字。在考虑换工作或者职业发展的下一步时，通常有这么几大因素需要考虑：老板，行业，地点，公司，职位，工作（工作环境，同事，交通，薪水，新技能。。。这些技术细节不是本文关注的焦点），按照重要性从高到低的排序如下：
+---
 
 以为自己N年前就写过这篇文章了，在网站上遍寻不获，为方便转发，只好重新码字。
 
