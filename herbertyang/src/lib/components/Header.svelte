@@ -17,6 +17,9 @@
           <a href="/talks">Talks</a>
         </li>
         <li>
+          <a href="/awesome-IC">Awesome IC</a>
+        </li>
+        <li>
           <a href="/about">About</a>
         </li>
         <li>

@@ -5,20 +5,22 @@
 <meta name="twitter:image" content="../image/blog_writing.jpeg">
 
 <script>
+    import PostsList from '$lib/components/PostsList.svelte'
+    import Pagination from '$lib/components/Pagination.svelte'
+    import { siteDescription } from '$lib/config'
+
     export let data
 </script>
     
+<svelte:head>
+	<title>Blog</title>
+	<meta data-key="description" name="description" content={siteDescription}>
+</svelte:head>
+
 <h2>Blog</h2>
 
 <img src="../img/blog_writing.jpeg" alt="writing" width="100%" loading="lazy">
 
-<ul>
-    {#each data.posts as post}
-        <li>        
-            <a href={post.path}>
-              {post.meta.title}, 
-              {post.meta.date}
-            </a>
-        </li>
-    {/each}
-</ul>
+<PostsList posts={data.posts} />
+
+<Pagination currentPage={1} totalPosts={data.total} />

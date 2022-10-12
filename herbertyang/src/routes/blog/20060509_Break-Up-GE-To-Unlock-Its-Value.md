@@ -1,6 +1,7 @@
 ---
 title: Break Up GE To Unlock Its Value
 date: "2006/05/09"
+slug: break up GE
 Tags:
 Category: Business
 tw_card_type: "summary"

@@ -1,8 +1,9 @@
-export const load = async ({ fetch }) => {
-    const response = await fetch(`/api-ic/posts`)
-    const posts = await response.json()
+export const load = async ({ url }) => {
+    const postRes = await fetch(`${url.origin}/api-ic/posts.json`)
+    const posts = await postRes.json()
+
+    const totalRes = await fetch(`${url.origin}/api-ic/posts/count`)
+    const total = await totalRes.json()
   
-    return {
-      posts
-    }
+    return { posts, total }
 }
