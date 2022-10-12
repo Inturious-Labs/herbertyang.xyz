@@ -12,9 +12,7 @@ Highlights from the two-hour Zoom call with the Chinese community on 2022/10/10 
 
 <iframe src="//player.bilibili.com/player.html?aid=473942566&bvid=BV1LT411N7UA&cid=858356333&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" title="ICP Community Discussion EP03"> </iframe>
 
-Below is only my first draft of the meeting. All are welcome to comment on the original Google Doc and suggest edits if anything is missing or should be added to this draft. 
-
-https://docs.google.com/document/d/1E0JkMdIxVqz8_1TaHswG6s8YD2hSGV3MlPQ97Cc6gNk/edit?usp=sharing
+Below is only my first draft of the meeting. [All are welcome to comment on the original Google Doc](https://docs.google.com/document/d/1E0JkMdIxVqz8_1TaHswG6s8YD2hSGV3MlPQ97Cc6gNk/edit?usp=sharing) and suggest edits if anything is missing or should be added to this draft. 
 
 Suggestions and comments:
 
@@ -34,7 +32,7 @@ The discussions for motion proposals can be saved on a reputable media platform 
 ## NNS API & Tooling
 
 - NNS’ APIs should be made open to the community so that developers can build their own applications and tools around those APIs to facilitate community discussions. We need a lot more tooling to make NNS easier for all. (BlockPunk)
-- All the APIs for NNS have already been made available to the public and are all defined in one single Candid file. (Paul Liu & Herbert Yang) https://raw.githubusercontent.com/dfinity/ic/master/rs/nns/governance/canister/governance.did
+- [All the APIs for NNS have already been made available to the public and are all defined in one single Candid file](https://raw.githubusercontent.com/dfinity/ic/master/rs/nns/governance/canister/governance.did). (Paul Liu & Herbert Yang) 
 The governance.did needs to have its own documentation. (Paul Liu)
 
 ## Granularity
