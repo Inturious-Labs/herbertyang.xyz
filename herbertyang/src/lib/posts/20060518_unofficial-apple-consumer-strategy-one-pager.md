@@ -1,0 +1,200 @@
+---
+title: The Unofficial Apple Consumer Strategy
+date: "2006/05/18"
+updated: ""
+categories:
+    - "tech"
+excerpt: How I envisioned Apple's consumer strategy on a one-pager, in 2006
+coverImage: "/img/unofficial-apples-consumer-strategy.jpg"
+tw_card_type: "summary_large_image"
+tw_card_desc: "How I envisioned Apple's consumer strategy on a one-pager, in 2006"
+tw_card_image: "/img/unofficial-apples-consumer-strategy.jpg"
+---
+
+<img src="../img/unofficial-apples-consumer-strategy.jpg" alt="apple strategy in 2006" width="100%" loading="lazy">
+
+I won’t do justice to the below chart that I drew up a few days ago in
+my attempt to summarize Apple’s consumer strategy if I don’t follow up
+with a more detailed elaboration. I’ll just use English given the
+petty-sized Chinese Mac community (most Chinese websites based in
+Mainland have very poor compatibility with Apple platform, reflecting
+the fact that most Chinese website designers there (and obviously
+99.9999% of the consumers) probably never use a Mac before, which is
+just a sad sad situation).
+
+This chart can be viewed from a few different angles:
+
+## Where We Are
+
+Apple’s current offering already covers study room (iMac) and living
+room (AppleTV); static state (iMac) and mobile state (Macbook); indoor
+and outdoor (iPod). With the addition of iPhone, Apple is posed to
+become the 24/7 soul mate for the consumer no matter where he is at and
+no matter what he is doing. It’s no secret that Apple makes most of its
+money on hardware. Its journey on that path is pretty remarkable  if you
+think about the fact that until iPod’s birth in 2001, Apple only had
+Macintosh desktops/powerbooks to compete with the ubiquitous PC/windows
+combo. Seeing that it was a mission impossible to upstage the 95% market
+leader, Apple shrewdly ventured into an off-the-beaten path of the MP3
+player domain. By commanding lion’s share of the player market and
+opening up iTunes for Windows, it successfully converted hordes of new
+fans like me. Convinced how cool Apple’s application was, many naturally
+bought big-ticket items like iMac/Powerbook/Macbook and never looked
+back at PC/Windows since.
+
+In retrospective, that curve ball strategy was certainly a stroke of
+genius and is now stuff of legend. With the full line-up we’re about to
+witness in June (iPhone), Apple will be in position to launch the
+greatest counter-strike ever. Forget about all the exciting
+functionalities (most of which are not revenue streams) for a second,
+iPhone’s importance lies in its ability to drive iMac/Macbook sales. Why
+it has a shot of doing that? Because it syncs. It syncs with iTunes on
+existing Macs and potentially it can sync with AppleTV (my speculation)
+so that you can control your entire Internet experience without stepping
+out of your living room (assuming your Macs are in a separate study).
+
+## What We Can Have
+
+iTunes is over-due for a name change, obviously (my suggestions are
+iCosmo,  iVerse, iSphere… yeah..very lame, I know. iLife is actually
+very good, but it’s already taken by Apple itself). One key factor in
+iPod’s success is the vast amount of contents available through iTunes.
+I think eventually we can pretty much have everything through Mac
+applications. Just list down all the non-interactive information you
+ever want to have by the medium it’s presented through. Music, checked;
+video/movie, checked; TV programs, checked; images, checked (iPhoto);
+radio, checked. Let’s fill the blank now. What else is missing? Books?
+Bingo!
+
+iPod is too small for book-reading, but iPhone has the right size to
+serve as an excellent book reader with its relatively large screen. I’m
+usually not a huge fan for digital book reader as I feel there is
+something unique about flipping through freshly minted pages. But if
+this market will ever take off, I’ll give my benefit of doubt to Steve
+Jobs and the Co. (sorry Sony, not you).
+
+Of course, unlike the music/movie markets where content ownership is
+highly consolidated into a few hands, book market is extremely
+fragmented with ownership all over the place. So it’ll be a much bigger
+challenge in terms of negotiations, logistics and operations. That’s
+another discussion for another day.
+
+## What We Can Do
+
+iPhone will be the ultimate all-in-one enabler of various applications
+that we can’t live without. Even with the meteorite rise of iPod,
+Apple’s value to consumer is still primarily on what contents consumer
+can GET. iPod is not designed to offer sophisticated interaction or
+contents creation. It just retrieves contents and presents them in a
+very efficient manner. With iPhone, Apple’s prowess in tightly
+integrated softwares will be fully unleashed. Now we can actually do
+many things, or,should I say, everything. Below are just a few low
+hanging fruits:
+
+### 1. Full PIM (personal information management) solution
+
+This will be the holy grail for many users, especially the business
+ones. It has three main elements: contacts, calendar and to-do list.
+Right now consumer often has 5 different places for them: PDA, cell
+phone, PC from work, PC/Mac from home, and web (gmail/yahoo). To sync
+all of them, in all directions while maintaining full interactivity on
+each device,  is an insurmountable task. The technical difficulty of
+synchronization increases exponentially with each additional device.
+iPhone can combine PDA + cell phone + home machine + web (gmail contacts
+potentially can have two-way sync with Apple’s Addressbook. Not easy
+though.).
+
+In addition, iPhone not only can reduce  the number of devices, but also
+may offer information aggregation from multiple angles. If you click on
+a contact’s profile, it’ll show all his emails, all his voice messages,
+all the chat scripts, all the photos, all the podcasts, all the meeting
+requests involving him, and all the to-do items assigned to him. That,
+my friend, is the future.
+
+### 2. Geocoding & Maping
+
+Web 2.0 applications such as flickr.com and maps.google.com have made
+geocoding/geotagging possible. The future vision is that you click on a
+place on the map, you can see all the photos, videos and related
+contents right there. The bottleneck seems to be logging the GPS
+figures. It’s still very expensive to get a GPS-embedded camera, or a
+portable GPS receiver with display. Like many other Mac fans, I’m
+guessing that iPhone will be GPS-enabled very soon. This is how it
+works: you use iPhone to take a photo; save that with GPS data into
+iPhoto; send the photo to Google Map/Flickr; then IM the link of the
+address to your buddies - all done on iPHone. I won’t go much further
+here. Once you have a smartphone + GPS + Map, you can virtually do a
+million different things, and I’ll just leave the rest to your
+imagination.
+
+### 3. Gaming
+
+What does iPhone look like? Nintendo DS and Sony PSP. Hah, now we’re
+talking. Paul thinks that Apple should just acquire Nintendo and I
+totally agree. Putting aside the trivial operational and cultural
+challenge (which is besides the point) and just for the pure of fun of
+intellectual debate, Apple and Nintendo is a match made in heaven. Both
+excel in home-grown, enclosed products and both handle hardware-software
+integration very well. Many of Nintendo’s DS games, which require
+touch-screen,  can be potentially adapted to the iPhone screen.
+
+There has long been a debate on whether Apple should position itself as
+a game machine. There are two trends that are clearly emerging. One,
+game consoles are morphing into multi-media entertainment centers; two,
+interactive on-line games are re-defining what is game, who plays them,
+and who will pay for them (just look at the phenomenal success of world
+of warcraft and second life, and their impact on the mainstream
+society).  AppleTV + iTunes + iPhone will be Apple’s response to the
+attack from Xbox 360 and PS3 on the first trend, and iPhone with wi-fi +
+Nintendo can provide Apple a leap frog into the highly lucrative
+online/casual gaming market. If my memory serves me right, gaming
+industry’s total revenue already surpassed that of Hollywood since 2005.
+For such an industry whose rapidly-expanding boundary keeps challenging
+people’s conventional wisdom and traditional expectations, Apple should
+really get a decent slice of that.
+
+### 4. Pushed Contents: RSS and Emails
+
+At the moment “push” technology is being used on some email services,
+like corporate emails for Blackberry and the coming-soon Yahoo email for
+iPhone. I envision one day it will also be deployed to RSS applications
+like Google Reader and Bloglines on a mobile device. In an age when
+people only care to watch the first 20 seconds of movies on youtube,
+RSS, along with Google Reader, has totally changed my way of reading
+Internet news. ’nuff said. Just fire up your iPhone and read your RSS
+feeds there. Plain and simple. Hold on. There is one more twist. Another
+blank spot on Apple’s strategy landscape is enterprise solutions.
+Blackberry is still very resilient because it can push Outlook emails to
+satisfy the needs for business users in large companies. However, what
+if Apple works with Google to push gmail to iPhone (I don’t have much
+faith in Yahoo’s ability to do anything exciting), and what if companies
+can migrate their group collaboration applications to Google Appls
+(already happening) and abandon Outlook? It’s a fairly long shot but a
+very possible scenario. iPhone, potentially can be Apple’s spring board
+to break into the enterprise customers.
+
+### 5. Instant Messaging and Skype
+
+Another fiercely-contested market where iPhone’s unique wi-fi capability
+can fully leverage Apple’s existing application that is well-designed
+but sparsely used. Yahoo Chat is already available on Blackberry. iChat
+is the best chatting client but few people, even among Mac users (Adium
+seems a more popular choice), are using it. It should get on iPhone
+while improving its jabbar protocal to better work with MSN, Yahoo and
+Gtalk users. It can be done today on a Mac but the cumbersome procedure
+is not for the average users. The hard part of the IM market is how you
+can milk money out of it. Skype could be a good source of additional
+revenue for Apple. There is already fully-fledged IP skype phone. Why
+not just use iPhone to call your skype buddies?
+
+Having said all these, iPhone’s main use is still to drive hardware
+sales for iMac/Macbook as mentioned earlier.  All the nice contents and
+fancy capabilities are right now just various parts of a seamless and
+holistic  user experience, but they do enable us to glimpse into how
+Apple can shape our life in future while making a killing commercially.
+That future is beautiful.
+
+By the way, you can also make phone calls with iPhone.
+
+So...whew, long story short, that’s my take on what Apple’s strategy can
+be.

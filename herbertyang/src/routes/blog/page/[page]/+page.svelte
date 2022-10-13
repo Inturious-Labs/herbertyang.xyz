@@ -11,6 +11,7 @@
 	$: upperBound = Math.min(page * postsPerPage, totalPosts)
 </script>
 
+
 <svelte:head>
 	<title>Blog - page {page}</title>
 	<meta data-key="description" name="description" content={siteDescription}>
@@ -19,7 +20,7 @@
 
 <!-- TODO: this is duplicated across multiple `+page.svelte` files -->
 {#if posts.length}
-	<h2>Posts {lowerBound}–{upperBound} of {totalPosts}</h2>
+	<h1>Posts {lowerBound}–{upperBound} of {totalPosts}</h1>
 	<Pagination currentPage={page} {totalPosts} />
 
 	<PostsList {posts} />
