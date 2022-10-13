@@ -19,7 +19,7 @@
 
 <!-- TODO: this is duplicated across multiple `+page.svelte` files -->
 {#if posts.length}
-	<h1>Posts {lowerBound}–{upperBound} of {totalPosts}</h1>
+	<h2>Posts {lowerBound}–{upperBound} of {totalPosts}</h2>
 	<Pagination currentPage={page} {totalPosts} />
 
 	<PostsList {posts} />

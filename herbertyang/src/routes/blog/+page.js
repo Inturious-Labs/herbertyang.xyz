@@ -1,3 +1,5 @@
+export const prerender = true
+
 export const load = async ({ url }) => {
     const postRes = await fetch(`${url.origin}/api-ic/posts.json`)
     const posts = await postRes.json()
