@@ -34,6 +34,7 @@ footer {
 
 header {
 	background: var(--lightAccent);
+	background: #FFEED6;
 	color: var(--darker);
 	display: flex;
 	justify-content: space-between;
@@ -161,7 +162,8 @@ header {
 
 footer {
 	background: var(--darker);
-	color: var(--paper);
+	background: #FFEED6;
+	color: var(--darker);
 	display: grid;
 	grid-template-columns: 100%;
 	align-items: stretch;
