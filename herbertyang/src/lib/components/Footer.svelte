@@ -17,5 +17,10 @@
 		</ul>
 	</nav>
 
-	<p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
+	<div>
+		&copy;{new Date().getFullYear()} {siteAuthor}
+	</div>
+
+	<img src="/img/100_on_chain-slim-bg_dark.png" alt="100% on IC">
+	
 </footer>

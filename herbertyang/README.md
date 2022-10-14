@@ -4,11 +4,7 @@
 <meta name="twitter:image" content="/img/wuhan_home_landscape.JPG">
 <meta name="twitter:description" content="a persistent digital temple for the curious mind">
 
-
 <img src="/img/wuhan_home_landscape.JPG" alt="digital temple" width="100%">
 
-## Web3 Evangelist
+**Web3 Evangelist | Community Builder | Serial Entreprenuer**
 
-## Community Builder
-
-## Serial Entreprenuer
