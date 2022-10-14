@@ -6,5 +6,8 @@
 
 <img src="/img/wuhan_home_landscape.JPG" alt="digital temple" width="100%">
 
-**Web3 Evangelist | Community Builder | Serial Entreprenuer**
+**Web3 Evangelist**
 
+**Community Builder**
+
+**Serial Entreprenuer**

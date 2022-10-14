@@ -57,4 +57,13 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
 			</ul>
 		</aside>
 	{/if}
+
+	<p>
+        Like this article? Give me a shout-out!
+    </p>
+    <p>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Great article! " data-via="herbertyang" data-lang="en" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        <a href="https://twitter.com/herbertyang?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-text="Great article! " data-via="herbertyang" data-lang="en" data-show-count="false">Follow @herbertyang</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
+	
 </article> 

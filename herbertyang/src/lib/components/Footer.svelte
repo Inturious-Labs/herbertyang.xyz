@@ -3,6 +3,7 @@
 	import { siteAuthor } from '$lib/config'
 </script>
 
+<center>-------------------------- &infin; -----------------------------</center>
 <footer>
 	<MainNav />
 
@@ -22,5 +23,5 @@
 	</div>
 
 	<img src="/img/100_on_chain-slim-bg_dark.png" alt="100% on IC">
-	
 </footer>
+
