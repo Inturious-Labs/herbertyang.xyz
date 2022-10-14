@@ -1,5 +1,5 @@
 ---
-title: 西行漫记EP05雨夜的浪漫
+title: 西行漫记 - EP05 - 雨夜的浪漫
 date: "2011/09/30"
 updated: ""
 categories:
