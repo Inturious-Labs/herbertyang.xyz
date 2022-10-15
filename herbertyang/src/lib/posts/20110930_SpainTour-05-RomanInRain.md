@@ -12,7 +12,7 @@ tw_card_desc: 在Sagrada Familia里沦陷了两三个小时后，我们饥肠辘
 tw_card_image: "/img/spain-romance.jpg"
 ---
 
-上篇：[EP04拍摄Sagrada Familia的推荐地点](20110928_SpainTour_04_Photo)
+上篇：[EP04拍摄Sagrada Familia的推荐地点](20110929_SpainTour-04-Photo)
 
 在Sagrada Familia里沦陷了两三个小时后，我们饥肠辘辘地去觅食了。据Rick Stevens说，有self-respect的当地餐馆要到9点以后才会供应食物，在那个点之前去的都是没有self-respect的游客。管他的，没有就没有，我想尝尝当地名闻遐迩的火腿了。乘地铁来到著名的老城区The Ramblas，却发现下起雨来。The Ramblas是一条极宽的马路，游客们像游行一样走在中间，路边布满各种餐馆，酒吧，花店，酒店。雨点越来越大，我们赶快从一个沿街小贩手里买了把雨伞，躲进了旁边看起来人气最旺的一家餐馆。
 
@@ -30,4 +30,4 @@ tw_card_image: "/img/spain-romance.jpg"
 
 <img src="/img/spain-romance.jpg" alt="雨夜的浪漫" width="100%" loading="lazy">
 
-下篇： [西行漫记EP06之马德里美食地图](20110930_SpainTour_06_Delicacy)
+下篇： [西行漫记EP06之马德里美食地图](20111001_SpainTour-06-Delicacy)

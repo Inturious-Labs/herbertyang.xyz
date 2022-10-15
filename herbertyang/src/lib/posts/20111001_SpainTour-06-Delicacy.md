@@ -12,7 +12,7 @@ tw_card_desc: 马德里好玩的地方全在市中心，只要住在Puerta del S
 tw_card_image: "/img/madrid_MercadodeSanMiguel.jpg"
 ---
 
-[上篇：西行漫记EP05之雨夜的浪漫](20111011_SpainTour_05_RomanInRain)
+[上篇：西行漫记EP05之雨夜的浪漫](20110930_SpainTour-05-RomanInRain)
 
 马德里好玩的地方全在市中心，只要住在Puerta del Sol地铁站附近（也就是Mayor Plaza），就可以玩遍主要景点。我们昨晚过足了海鲜饭的瘾后，今天的早餐午餐晚餐全部在当地小店解决。我们发现，这些小店里的特色美食完全不是那些正儿八经的餐馆可以比拟的。以下是我们亲身经历后推荐的四大当地著名小吃店。（我们的酒店Hotel Europa也在地图上标出了）
 

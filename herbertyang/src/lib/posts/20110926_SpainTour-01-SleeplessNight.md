@@ -29,4 +29,4 @@ tw_card_image: "/img/spain-roadmap.jpg"
 
 西班牙，我们来了！
 
-下篇：[EP02之破晓时分](20110928_SpainTour_02_BeforeDawn)
+下篇：[EP02之破晓时分](20110927_SpainTour-02-BeforeDawn)

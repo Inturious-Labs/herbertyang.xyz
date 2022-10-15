@@ -12,7 +12,7 @@ tw_card_desc: 国航从北京直飞马德里的航班上现在也有内容比较
 tw_card_image:
 ---
 
-上篇：[EP01之无心睡眠](20110926_SpainTour_01_SleeplessNight)
+上篇：[EP01之无心睡眠](20110926_SpainTour-01-SleeplessNight)
 
 国航从北京直飞马德里的航班上现在也有内容比较丰富的菜单式的影视节目了。排除一大堆当红猛片后，我毅然选择了冷门的A-Team，一个有点像RED的动作片，Liam Leeson和Bradley Cooper主演。Cooper的胸肌可真不是盖的，可以跟[乐嘉](http://baike.baidu.com/view/378600.htm)的比一比。A-Team火力十足，属于典型的Friday night guy's movie, 颇具娱乐性，应该在[XXX](http://en.wikipedia.org/wiki/XXX_(film))和[Fast Five](http://en.wikipedia.org/wiki/Fast_Five_(film))之间。话说回来，同样是从流行的电视剧系列改编成电影，它的票房命运比Mission Impossible差得太远了，看来Cooper的亲和力还是不如当年巅峰时期的Cruise呀。
 
@@ -20,4 +20,4 @@ tw_card_image:
 
 还有两个多小时才发车，先吃早餐再说。走进一家cafe，空荡的餐馆里稀稀落落地散着几桌人，几个身材臃肿的中年大妈有一搭没一搭地闲聊着，一对青年男女双眼布满血丝地喝咖啡，一个神色茫然的旅客把腿搁在拉杆箱上发呆，两个落拓中年男子在角落玩角子老虎机（后来发现这种机器充斥于巴塞罗那的餐馆），时不时发出大珠小珠落玉盘的叮叮当当乱响把大家的眼光吸引过去，柜台方向里传来Depeche Mode的Behind the Wheel。我想，真是回到欧洲了。
 
-下篇：[EP03之无人之境](20110929_SpainTour_03_NoManLand)
+下篇：[EP03之无人之境](20110928_SpainTour-03-NoManLand)

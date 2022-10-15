@@ -5,8 +5,8 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/ 
 
-export const siteTitle = "Herbert Yang's Digital Temple"
-export const siteDescription = "Herbert Yang's Digital Temple"
+export const siteTitle = "Herbert Yang's Digital Garden"
+export const siteDescription = "a digital garden growing on a decentralized blockchain that will persist into infinity and beyond "
 export const siteURL = 'herbertyang.xyz'
 export const siteLink = "https://github.com/zire/herbertyang.xyz"
 export const siteAuthor = "Herbert Yang"

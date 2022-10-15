@@ -27,3 +27,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+blockquote {
+	border-left: 10px solid #ccc;
+	margin: 1em;
+	padding-left: 1em;
+}

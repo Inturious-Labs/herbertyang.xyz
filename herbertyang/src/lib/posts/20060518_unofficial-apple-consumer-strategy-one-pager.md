@@ -11,8 +11,6 @@ tw_card_desc: "How I envisioned Apple's consumer strategy on a one-pager, in 200
 tw_card_image: "/img/unofficial-apples-consumer-strategy.jpg"
 ---
 
-<img src="../img/unofficial-apples-consumer-strategy.jpg" alt="apple strategy in 2006" width="100%" loading="lazy">
-
 I won’t do justice to the below chart that I drew up a few days ago in
 my attempt to summarize Apple’s consumer strategy if I don’t follow up
 with a more detailed elaboration. I’ll just use English given the
