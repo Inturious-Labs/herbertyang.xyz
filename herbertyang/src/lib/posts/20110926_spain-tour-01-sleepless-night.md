@@ -3,13 +3,11 @@ title: 西行漫记 - EP01 - 之无心睡眠
 date: "2011/09/26"
 updated: ""
 categories:
-    - "travel"
     - "chinese"
+    - "travel"
 excerpt: 在黑天鹅随时可能降临的时代，坚持及时行乐的总方针路线肯定是王道
 coverImage: "/img/spain-roadmap.jpg"
 tw_card_type: "summary_large_image"
-tw_card_desc: 在黑天鹅随时可能降临的时代，坚持及时行乐的总方针路线肯定是王道
-tw_card_image: "/img/spain-roadmap.jpg"
 ---
 
 我好像已经很多年没有连续休假两个礼拜了。在记忆中每次休假都是十天左右，往返路途上大概花掉三天时间，剩下七天时间在当地游玩。这次想开了-反正这些地方越来越乱，现在不去，以后去的机会只会更加渺茫。在黑天鹅随时可能降临的时代，坚持及时行乐的总方针路线肯定是王道。
@@ -29,4 +27,4 @@ tw_card_image: "/img/spain-roadmap.jpg"
 
 西班牙，我们来了！
 
-下篇：[EP02之破晓时分](20110927_SpainTour-02-BeforeDawn)
+下篇：[EP02之破晓时分](20110927_spain-tour-02-before-dawn)

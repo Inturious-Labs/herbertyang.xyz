@@ -12,7 +12,7 @@ tw_card_desc: 在Sagrada Familia里沦陷了两三个小时后，我们饥肠辘
 tw_card_image: "/img/spain-romance.jpg"
 ---
 
-上篇：[EP04拍摄Sagrada Familia的推荐地点](20110929_SpainTour-04-Photo)
+上篇：[EP04拍摄Sagrada Familia的推荐地点](20110929_spain-tour-04-photo)
 
 在Sagrada Familia里沦陷了两三个小时后，我们饥肠辘辘地去觅食了。据Rick Stevens说，有self-respect的当地餐馆要到9点以后才会供应食物，在那个点之前去的都是没有self-respect的游客。管他的，没有就没有，我想尝尝当地名闻遐迩的火腿了。乘地铁来到著名的老城区The Ramblas，却发现下起雨来。The Ramblas是一条极宽的马路，游客们像游行一样走在中间，路边布满各种餐馆，酒吧，花店，酒店。雨点越来越大，我们赶快从一个沿街小贩手里买了把雨伞，躲进了旁边看起来人气最旺的一家餐馆。
 
@@ -28,6 +28,6 @@ tw_card_image: "/img/spain-romance.jpg"
 
 我们离开餐馆时雨已经停了，The Ramblas的人又多了起来。我们随着人多的地方走，不经意间来到一个演唱会的现场，黑压压地都是人。上一个乐队刚刚撤场，台上的工作人员在为下一个乐队做准备。这个准备的时间好长，我们活活等了半个多小时。当年我们去看Guns 'N Roses的演唱会，Axl Rose一行在纽约喝多了，迟到了三个小时，给他们暖场的乐队换了N批，我也不记得那些乐队换场的时间有这么长。乐队千呼万唤始出来，我也不认识，应该是当地的。听了两首歌，我们就回家了。
 
-<img src="/img/spain-romance.jpg" alt="雨夜的浪漫" width="100%" loading="lazy">
+![雨夜的浪漫](/img/spain-romance.jpg)
 
-下篇： [西行漫记EP06之马德里美食地图](20111001_SpainTour-06-Delicacy)
+下篇： [西行漫记EP06之马德里美食地图](20111001_spain-tour-06-delicacy)

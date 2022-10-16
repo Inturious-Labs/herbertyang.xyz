@@ -8,11 +8,9 @@ categories:
 excerpt: 列车迎着初升的阳光向东驰往巴塞罗那，萧瑟的天底下，灰黄的田野，混着一丛丛的低矮小灌木，向身后疾奔而去，天色发青
 coverImage: "/img/spain-lamb-chop.jpg"
 tw_card_type: "summary_large_image"
-tw_card_desc: 列车迎着初升的阳光向东驰往巴塞罗那，萧瑟的天底下，灰黄的田野，混着一丛丛的低矮小灌木，向身后疾奔而去，天色发青
-tw_card_image: "/img/spain-lamb-chop.jpg"
 ---
 
-上篇：[EP02之破晓时分](20110927_SpainTour-02-BeforeDawn)
+上篇：[EP02之破晓时分](20110927_spain-tour-02-before-dawn)
 
 列车迎着初升的阳光向东驰往巴塞罗那，萧瑟的天底下，灰黄的田野，混着一丛丛的低矮小灌木，向身后疾奔而去。天色发青，田野的色彩似乎也没有[法国普罗旺斯](http://qing.weibo.com/1270520763/4bba9bbb32000018.html)那么浓郁。本来还想把Rick Steve的巴塞罗那guide book读一读，但在火车吭哧吭哧的催眠曲中，不知不觉就堕入了黑梦。我一进入motion中的车辆或者飞机就会产生浓浓睡意，几乎是条件反射。这个习惯是十年前在上海做项目的时候养成的。我跟马拉西亚同事Patrick住在徐家汇的Sheraton，每天一大早坐出租车去浦东的公司某分部的一个工厂去做审计，跑一趟单程几乎要花一个多小时。很快我俩就进入一种稳定的状态：一坐进出租车就各自开始甜蜜的小回笼，浑浑噩噩地坐到工厂然后开始审查那儿的防火安全措施。从那以后我在运动中的交通工具里就基本是废柴一个。
 
@@ -24,16 +22,16 @@ tw_card_image: "/img/spain-lamb-chop.jpg"
 
 填饱了肚子，我们顺着山坡一路走下去，穿过了一个又一个貌似老年退休公寓后，整个西班牙最著名的建筑，西班牙不世出的天才建筑巨匠高迪最让人目眩神驰的手笔，Sagrada Familia，就神一样地出现在我们面前。
 
-<img src="/img/spain-sagrada-familia.jpg" alt="Spain Sagrada Familia" width="100%" loading="lazy">
+![Spain Sagranda Familia](/img/spain-sagrada-familia.jpg)
 
 光排队就等了半个多小时，然后发现，通往顶部的电梯因为天气欠佳不开放。没关系，只要能进去就行。Sagrada Familia（圣家族大教堂）的专辑图片请见：
 
-<img src="/img/spain-whale.jpg" alt="Spain Whale Belly" width="100%" loading="lazy">
+![Spain Whale Belly](/img/spain-whale.jpg)
 
-或者国外的话，Picasaweb（点击下图），
+或者国外的话，
 
-<img src="/img/spain-top.jpg" alt="Spain Church Top" width="100%" loading="lazy">
+![Spain Church Top](/img/spain-top.jpg)
 
 我们在里面整整呆了两个多小时，太震撼了。在高迪无止境的想象力中，这座教堂是一片森林。
 
-要想拍摄到大教堂的全景不是件容易事，请见[西行漫记EP04之拍摄Sagrada Familia的推荐地点](20110929_SpainTour-04-Photo)
+要想拍摄到大教堂的全景不是件容易事，请见[西行漫记EP04之拍摄Sagrada Familia的推荐地点](20110929_spain-tour-04-photo)
