@@ -19,7 +19,8 @@
 <ul>
     {#each unique_type_json as category}
     <li>
-        {category}
+        <h3>{category}</h3>
+        <hr>
         <ul>
             {#each apps.apps as { 
                 appType, 
