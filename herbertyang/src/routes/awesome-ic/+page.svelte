@@ -1,9 +1,35 @@
 <script>
-    import { is_empty } from "svelte/internal"
     import teams from "/src/lib/ic/awesome_ic_teams.json"
     import apps from "/src/lib/ic/awesome_ic_apps.json"
+
+    /* 
+    // https://scottspence.com/posts/fetch-data-from-two-or-more-endpoints-in-svelte
+    // https://www.sitepoint.com/svelte-fetch-data/
+    // https://languageimperfect.com/2021/02/17/data-fetching-in-svelte.html
+    // https://www.reddit.com/r/sveltejs/comments/z2lxww/how_to_import_a_json_file_from_public_directory/
+
+    export async function load({ fetch }) {
+      const [appsReq, teamsReq] = await Promise.all([
+        fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json'),
+        fetch('https://github.com/zire/awesome-IC/blob/2023/ic/awesome_ic_teams.json'),
+      ])
+      if (appsReq.ok && teamsReq.ok) {
+        const { apps } = await appsReq.json()
+        const { teams } = await teamsReq.json()
+        return {
+          props: {
+            apps,
+            teams,
+          },
+        }
+      }
+    }
+    export apps, teams
+    */
+
     let unique_type_set = new Set(apps.apps.map(category=>category.appType))
     const unique_type_json = Array.from(unique_type_set)
+
 </script>
 
 <svelte:head>
