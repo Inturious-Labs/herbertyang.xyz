@@ -16,6 +16,8 @@
     // https://www.techiediaries.com/consume-json-rest-api-in-svelte-with-fetch-and-onmount/
     // https://reactgo.com/svelte-fetch-data-api/
     // https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+    // https://stackoverflow.com/questions/45018338/javascript-fetch-api-how-to-save-output-to-variable-as-an-object-not-the-prom
+    // https://stackoverflow.com/questions/50417982/js-fetch-api-access-return-value
 
     export async function load({ fetch }) {
       const [appsReq, teamsReq] = await Promise.all([
@@ -51,17 +53,15 @@
     console.log(apps);
     */
 
-    let apps = []
-    fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json')
-        .then((response) => {
-            return response.json();
-        })
-        .then((data) => {
-            let apps = data; 
-            // console.log(apps)
-        })
+    let apps = [];
+    async function getApps() {
+        const response = await fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json');
+        const apps = await response.json();
+    }
+    
+    getApps()
 
-    console.log("hellow")
+    console.log(apps)
 
     let teams = []
     fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_teams.json')
