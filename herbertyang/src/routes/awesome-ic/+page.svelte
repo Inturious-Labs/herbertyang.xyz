@@ -14,7 +14,11 @@
 </svelte:head>
 
 <h1>Awesome IC</h1>
-<i>Updated on Dec 03, 2022</i>
+<i>Updated on Feb 19, 2023</i>
+
+<p>
+    <b>Awesome IC</b> is a curated list of major DApps, tools, demos, developer studios, and communities for the <a href="https://wiki.internetcomputer.org/wiki/Internet_Computer_wiki">Internet Computer</a> ecosystem. It helps interested investors, developers, partners keep track of the hottest IC apps. It's a different cut from the 70+ DApps <a href="https://internetcomputer.org/ecosystem">IC Showcase</a> featured by the <a href="https://dfinity.org">DFINITY Foundation</a>, or <a href="https://n7ib3-4qaaa-aaaai-qagnq-cai.raw.ic0.app/#/">CYQL of 300+ IC Dapps</a> that's developed by <a href="https://twitter.com/cyqlio">cyql</a>.
+</p>
 
 <h2>DApps</h2>
 

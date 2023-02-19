@@ -23,6 +23,9 @@ export const navItems = [
 		title: 'Categories',
 		route: '/blog/category'
 	}, {
+		title: 'Awesome IC',
+		route: '/awesome-ic',
+	}, {
 		title: 'About',
 		route: '/about'
 	}, {
