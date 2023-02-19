@@ -1,83 +1,11 @@
 <script>
-	import { onMount } from "svelte";
-
-    // Use 'import' directly to load json files on the same server
-    // import teams from "/src/lib/ic/awesome_ic_teams.json"
-    // import apps from "/src/lib/ic/awesome_ic_apps.json"
-
-    /* 
-    // https://scottspence.com/posts/fetch-data-from-two-or-more-endpoints-in-svelte
-    // https://www.sitepoint.com/svelte-fetch-data/
-    // https://languageimperfect.com/2021/02/17/data-fetching-in-svelte.html
-    // https://www.reddit.com/r/sveltejs/comments/z2lxww/how_to_import_a_json_file_from_public_directory/
-    // https://betterprogramming.pub/how-to-fetch-files-from-github-in-javascript-e0ed2c72aeb4
-    // https://www.koderhq.com/tutorial/svelte/http-fetch/
-    // https://sveltesociety.dev/recipes/component-recipes/using-fetch-to-consume-apis
-    // https://www.techiediaries.com/consume-json-rest-api-in-svelte-with-fetch-and-onmount/
-    // https://reactgo.com/svelte-fetch-data-api/
-    // https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
-    // https://stackoverflow.com/questions/45018338/javascript-fetch-api-how-to-save-output-to-variable-as-an-object-not-the-prom
-    // https://stackoverflow.com/questions/50417982/js-fetch-api-access-return-value
-
-    export async function load({ fetch }) {
-      const [appsReq, teamsReq] = await Promise.all([
-        fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json'),
-        fetch('https://github.com/zire/awesome-IC/blob/2023/ic/awesome_ic_teams.json'),
-      ])
-      if (appsReq.ok && teamsReq.ok) {
-        const { apps } = await appsReq.json()
-        const { teams } = await teamsReq.json()
-        return {
-          props: {
-            apps,
-            teams,
-          },
-        }
-      }
-    }
-    export apps, teams
-    */
-
-    /*
-    let apps = []
-    let teams = []
-
-    async () => {
-        const appsReq = await fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json');
-        console.log(appsReq)
-        apps = await appsReq.json();
-        const teamsReq = await fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_teams.json');
-        teams = await teamsReq.json();
-    };
-
-    console.log(apps);
-    */
-
-    let apps = [];
-    async function getApps() {
-        const response = await fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json');
-        const apps = await response.json();
-        // console.log(apps)
-        let unique_type_set = new Set(apps.apps.map(category=>category.appType)); 
-        console.log(unique_type_set);
-        const unique_type_json = Array.from(unique_type_set);
-        // const unique_type_json = Array.from(unique_type_set);
-        console.log(unique_type_json);
-    }
-
-    getApps()
-
-    let teams = []
-    fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_teams.json')
-        .then((response) => {
-            return response.json();
-        })
-        .then((data) => {
-            let teams = data; 
-            // console.log(teams)
-        })
+    export let data
+    // console.log(data.apps)
+    // figure out the right way of using fetch from youtube tutorial: https://www.youtube.com/watch?v=g23Xz6Gm-yw
     
-    
+    let unique_type_set = new Set(data.apps.apps.map(category=>category.appType)); 
+    const unique_type_json = Array.from(unique_type_set);
+
 </script>
 
 <svelte:head>
@@ -96,7 +24,7 @@
         <h3>{category}</h3>
         <hr>
         <ul>
-            {#each apps.apps as { 
+            {#each data.apps.apps as { 
                 appType, 
                 appName, 
                 appSite,
@@ -126,7 +54,7 @@
 <h2>Developer Teams</h2>
 
 <ol>
-	{#each teams.teams as { 
+	{#each data.teams.teams as { 
         teamSite, 
         teamName, 
         teamCity, 
