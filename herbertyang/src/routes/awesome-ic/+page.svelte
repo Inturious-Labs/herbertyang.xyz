@@ -57,11 +57,15 @@
     async function getApps() {
         const response = await fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_apps.json');
         const apps = await response.json();
+        // console.log(apps)
+        let unique_type_set = new Set(apps.apps.map(category=>category.appType)); 
+        console.log(unique_type_set);
+        const unique_type_json = Array.from(unique_type_set);
+        // const unique_type_json = Array.from(unique_type_set);
+        console.log(unique_type_json);
     }
-    
-    getApps()
 
-    console.log(apps)
+    getApps()
 
     let teams = []
     fetch('https://raw.githubusercontent.com/zire/awesome-IC/2023/ic/awesome_ic_teams.json')
@@ -72,10 +76,8 @@
             let teams = data; 
             // console.log(teams)
         })
-
-    let unique_type_set = new Set(apps.apps.map(category=>category.appType));  
-    const unique_type_json = Array.from(unique_type_set);
-
+    
+    
 </script>
 
 <svelte:head>
