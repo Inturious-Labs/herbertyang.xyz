@@ -1,10 +1,12 @@
 {
   "version": 1,
-  "dfx": "0.9.2",
+  "dfx": "0.12.1",
   "canisters": {
     "hyxyz": {
       "type": "assets",
-      "source": ["herbertyang/build"]
+      "source": [
+        "herbertyang/build"
+      ]
     }
   },
   "defaults": {
