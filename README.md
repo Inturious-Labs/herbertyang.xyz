@@ -218,6 +218,57 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx deploy --network=ic --no-wallet
 	```
 
+7. Link to the wallet canister on a new machine
+
+	Running `dfx wallet --network=ic balance` on Machine B would not work yet as the principal associated with identity `kun` on Machine B is not linked to the wallet canister for `hbc6w-gqaaa-aaaag-aagdq-cai` yet. 
+
+	On **Machine A**, get the wallet id for the used identity
+
+	```
+	dfx identity get-wallet --network=ic
+	```
+
+	`iyr2m-aiaaa-aaaag-aaa2q-cai` is returned as the wallet id for identity `kun` on Machine A (assuming we always use identity `kun`).
+
+	Display controllers currently associated with the wallet `iyr2m-aiaaa-aaaag-aaa2q-cai`
+
+	```
+	dfx wallet controllers --network=ic
+	```
+
+	`yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae` is returned, which is the principal of the identity `kun` (Machine A).
+
+	Now let's add the principal `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe` for identity `kun` on Machine B to this wallet `iyr2m-aiaaa-aaaag-aaa2q-cai`. 
+
+	```
+	dfx wallet --network=ic add-controller lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe
+	```
+
+	Confirm that both principals are now controllers of the wallet
+
+	```
+	dfx wallet controllers --network=ic
+	yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae
+	lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe
+	```
+
+	On **Machine B**, connect the principal (which is now a controller to the wallet canister) to the wallet
+
+	```
+	dfx identity set-wallet iyr2m-aiaaa-aaaag-aaa2q-cai --network=ic
+	Checking availability of the canister on the network...
+	Setting wallet for identity 'kun' on network 'ic' to id 'iyr2m-aiaaa-aaaag-aaa2q-cai'
+	Wallet set successfully.
+	```
+
+	Find out the remaining balance of the canister
+
+	```
+	dfx wallet --network=ic balance
+	2.177 TC (trillion cycles).
+	```
+
+
 ## References
 
 - https://gotofritz.net/blog/blog-with-sveltekit-and-markdown
