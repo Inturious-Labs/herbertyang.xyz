@@ -162,6 +162,62 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
 	Check the wallet balance again and the balance should be updated to reflect the reclaimed cycles.
 
+6. Migrate to a new machine
+
+	Suppose the dfx code runs on Machine A under the identity `kun` originally and it will be run from Machine B going forward
+
+	On **Machine B**, create a new identity. For convenience, let's also call it `kun`
+
+	```bash
+	dfx identity new kun
+	```
+
+	Get the principal ID for identity `kun`
+
+	```bash
+	dfx identity get-principal
+	lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe
+	```
+
+	Find out the canister id on network ic
+
+	```bash
+	cat canister_ids.json
+	{
+  		"hyxyz": {
+    	"ic": "hbc6w-gqaaa-aaaag-aagdq-cai"
+  		}
+	}
+	```
+
+	Find out which controllers are linked to this canister
+
+	```bash
+	dfx canister --network=ic info hbc6w-gqaaa-aaaag-aagdq-cai
+	Controllers: iyr2m-aiaaa-aaaag-aaa2q-cai yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae
+	Module hash: 0xdb07e7e24f6f8ddf53c33a610713259a7c1eb71c270b819ebd311e2d223267f0
+	```
+
+	Principal `yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae` belongs to identity `kun` on Machine A. Now we need to the principal `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe` for identity `kun` on Machine B to canister `hbc6w-gqaaa-aaaag-aagdq-cai` on network `ic`.
+
+	On **Machine A**, do this
+
+	```bash
+	dfx canister --network=ic update-settings --add-controller lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe hbc6w-gqaaa-aaaag-aagdq-cai
+	```
+	
+	Then, authorize this new controller to make changes to the contents in canister `hbc6w-gqaaa-aaaag-aagdq-cai` (which can be executed on Machine B as well)
+
+	```bash
+	dfx canister --network=ic call hbc6w-gqaaa-aaaag-aagdq-cai authorize "(principal \"lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-ty2x-zqe\")"
+	```
+
+	Back to **Machine B**, run dfx
+
+	```bash
+	dfx deploy --network=ic --no-wallet
+	```
+
 ## References
 
 - https://gotofritz.net/blog/blog-with-sveltekit-and-markdown
