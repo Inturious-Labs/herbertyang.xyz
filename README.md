@@ -1,12 +1,14 @@
 # herbertyang.xyz
 
+## General Setup
+
 Canister URL:
 
-[https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app/)
+[https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app/)
 
 Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
-## Deployment Workflow
+## Deployment
 
 1. Make changes in `herbertyang/` folder. The contents of the site are in `herbertyang/src`. 
 
@@ -26,7 +28,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	npm run dev
 	```
 	
-	Check out the site on port 3000: [http://localhost:3000](http://localhost:3000/)
+	Check out the site on port 5173: [http://localhost:5173](http://localhost:5173/)
 
 	Build the final output files
 
@@ -72,7 +74,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx start --background
 	```
 	
-	The local site can be viewed on [http://localhost:8000](http://localhost:8000)
+	The local site can be viewed on http://localhost:52640/_/dashboard, but it doesn't display the contents of the site yet.
 
 	It will say `Could not find a canister id to forward to.`. 
 
@@ -82,9 +84,11 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx deploy
 	```
 
-	It will complete the local deployment and return a canister id `rrkah-fqaaa-aaaaa-aaaaq-cai`
+	It will complete the local deployment and return a canister id at the local network.
 
-	Visit this URL to preview the locally deployed site [http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:8000/](http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:8000/)
+	|  | MBP-Kunling | MacMini |
+	| --- | --- | --- |
+	| local canister | [be2us-64aaa-aaaaa-qaabq-cai](http://be2us-64aaa-aaaaa-qaabq-cai.localhost:4943/) | [rrkah-fqaaa-aaaaa-aaaaq-cai](http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:4943/) |
 
 	Deploy to `ic` network
 
@@ -99,7 +103,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	Deployed canisters.
 	```
 
-	The site has gone live on the ic network and can be viewed at [https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.raw.ic0.app/)
+	The site has gone live on the ic network and can be viewed at [https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app/)
 	
 4. Git push to Github repo
 
@@ -128,8 +132,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	
 	The private repo is here [https://github.com/zire/herbertyang.xyz](https://github.com/zire/herbertyang.xyz)
 
-
-5. Manage canisters and wallet on ic
+## Manage canisters and wallet
 
 	To view the principal
 
@@ -162,7 +165,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
 	Check the wallet balance again and the balance should be updated to reflect the reclaimed cycles.
 
-6. Migrate to a new machine
+### Migrate to a new machine
 
 	Suppose the dfx code runs on Machine A under the identity `kun` originally and it will be run from Machine B going forward
 
@@ -218,7 +221,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx deploy --network=ic --no-wallet
 	```
 
-7. Link to the wallet canister on a new machine
+### Link to the wallet canister on a new machine
 
 	Running `dfx wallet --network=ic balance` on Machine B would not work yet as the principal associated with identity `kun` on Machine B is not linked to the wallet canister for `hbc6w-gqaaa-aaaag-aagdq-cai` yet. 
 
@@ -267,7 +270,6 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx wallet --network=ic balance
 	2.177 TC (trillion cycles).
 	```
-
 
 ## References
 
