@@ -3,10 +3,10 @@
 ---
 ### Portrait
 
-<img src="/img/herbert_avatar.JPG" alt="Herbert Yang headshot" width="300" loading="lazy">
+<img src="/img/herbert_avatar.JPG" alt="Herbert Yang headshot" width="200" loading="lazy">
 
 <p>
-    I'm a technology evangelist and ecosystem builder. In my spare time, I ride with friends and family in Shanghai, and occasionally play Zelda and Minecraft with my son. I'm a big fan of Roam Research, Lululemon, Patogonia, and Brompton.
+    I'm a technology evangelist and ecosystem builder. In my spare time, I ride with friends and family in Shanghai, and occasionally play Zelda and Minecraft with my son. I'm a big fan of Obsidian, Lululemon, Patogonia, and Brompton.
 </p>
 
 ---
