@@ -5,6 +5,8 @@ tags: [tech, web3]
 image: "./img/big_island.jpg"
 ---
 
+![hitchiker's guide to web3](./img/big_island.jpg)
+
 So, you're new to crypto but have already heard about IC or DFINITY from some friends. You're curious to find out more and may even be interested in joining the DFINITY team or contributing to the IC community. How do you learn more about this industry, the DFINITY team, and the Internet Computer?
 
 Here's a guide that can help you get started to grasp some basic concepts and get your hands dirty in this exciting world of Web3, metaverse, blockchain, and some of the most advanced Internet technology innovations.
