@@ -88,9 +88,9 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docSidebar',
-            sidebarId: 'gallerySidebar',
+            sidebarId: 'portfolioSidebar',
             position: 'left',
-            label: 'Gallery',
+            label: 'Portfolio',
           },
           /**
           {
