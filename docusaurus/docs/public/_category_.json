@@ -1,0 +1,8 @@
+{
+  "label": "Public Talks",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "public talks"
+  }
+}

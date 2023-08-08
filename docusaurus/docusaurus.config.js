@@ -88,9 +88,33 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docSidebar',
-            sidebarId: 'portfolioSidebar',
+            sidebarId: 'gallerySidebar',
             position: 'left',
-            label: 'Portfolio',
+            label: 'Photo Gallery',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'hackerSidebar',
+            position: 'left',
+            label: 'Digital Sovereignty',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'recordingSidebar',
+            position: 'left',
+            label: 'Cover Songs',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'publicSidebar',
+            position: 'left',
+            label: 'Public Speech',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'aboutSidebar',
+            position: 'left',
+            label: 'About',
           },
           /**
           {

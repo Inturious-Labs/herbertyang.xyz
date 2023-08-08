@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # 四明山，2023/06
 
 ![四明山](./img/202306-simingshan-01.JPG)
