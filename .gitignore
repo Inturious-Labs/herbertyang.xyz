@@ -13,3 +13,6 @@
 # frontend code
 node_modules/
 dist/
+
+# un-used files for final build
+sample/
