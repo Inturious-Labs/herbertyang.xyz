@@ -1,7 +1,4 @@
----
-
----
-# 2023/07/19, Cheng Du
+# 2023/07/19, Chengdu, China
 
 ![Chengdu, China, ByDAO](./img/20230719-chentdu-bydao-01.JPG)
 

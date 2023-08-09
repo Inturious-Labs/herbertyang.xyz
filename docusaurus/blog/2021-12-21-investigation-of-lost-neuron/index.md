@@ -1,15 +1,15 @@
 ---
-title: Investigation of Lost Access to NNS
-date: "2021/12/21"
-updated: ""
-categories:
-    - "web3"
-excerpt: summary of my investigation of a user's complaint about lost access to NNS that created quite a stir on DFINITY's Dev Forum
-coverImage: "/img/investigation.png"
-tw_card_type: "summary_large_image"
-tw_card_desc: summary of my investigation of a user's complaint about lost access to NNS that created quite a stir on DFINITY's Dev Forum
-tw_card_image: "/img/investigation.png"
+slug: investigation-of-lost-neuron
+title: Investigation of an ICP User's Lost Access to His Neuron
+tags: [web3]
+image: "./img/investigation.png"
 ---
+
+Summary of my investigation of a user's complaint about lost access to NNS that created quite a stir on DFINITY's Developer Forum
+
+![investigation](./img/investigation.png)
+
+<!--truncate-->
 
 Hi @xiaobing ,
 
@@ -22,11 +22,11 @@ This memo follows up to the original post titled “My NNS has been stolen, Plea
 - This was not caused by any bug in the Internet Computer/ Network Nervous System
 - OP’s computer was most likely hacked and the hacker very likely had physical access to his laptop and Yubi-key
 
-## 1. The Stake
+## The Stake
 
 OP lost access to his Internet Identity (“II”) account 171674, which has staked 32,000 ICPs in one single neuron for 8 years on the NNS (as of Oct 2021 this was valued at roughly $1.5M). Based on third party explorer ic.rocks 1 and the principle ID OP still keeps, the ICPs are still intact in this neuron - so regardless who now takes control of this neuron, the ICPs locked up in the neuron have not and will not move in the next 7+ years. OP has currently no access to the neuron and it’s not clear who is the current owner.
 
-## 2. The History
+## The History
 
 OP registered this II account in July. He bought 2 Yubikeys, directly from yubico.com 1. Yubikey is not available in China, so OP had the Yubikeys shipped to Hong Kong and asked a friend to bring them into China. Both Yubikeys are of the same model (likely to be 5C Nano) that can be directly plugged into a laptop.
 
@@ -38,7 +38,7 @@ On a Friday in August (hereafter referred to as “Incident Day”), all of a su
 
 Initially the NNS could still recognize the II account 171674 and prompted him to use the Yubikey/seed phrase. At some point later, OP found that the error message on NNS had changed. NNS could no longer recognize this II account and would just say “Unknown Identity Anchor” without even prompting him for inserting Yubikey. It seems that whoever is now controlling this neuron has removed all the 4 devices that OP used and also changed the seed phrase.
 
-## 3. The Investigation
+## The Investigation
 
 `@Fulco` , Support Specialist from DFINITY, tried to help out OP on the forum and maintained a continuous dialogue to help him find recovery solutions. Fulco even created a custom-made script to help him verify the account details. Many other engineers and leaders in DFINITY’s R&D team have been involved behind the scene that led to the eventual conclusion of the investigation.
 

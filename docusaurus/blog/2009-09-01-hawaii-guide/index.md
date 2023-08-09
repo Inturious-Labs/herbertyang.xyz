@@ -1,6 +1,6 @@
 ---
 slug: hawaii-big-island-guide
-title: Tour Guide to The Big Island in Hawaii
+title: Travel Guide to The Big Island in Hawaii
 tags: [travel]
 image: "./img/hawaii_01_big_island.jpg"
 ---

@@ -1,16 +1,6 @@
----
-title: ICP Governance Community Discussion EP03
-date: "2022/10/11"
-updated: ""
-categories:
-    - "tech"
-    - "web3"
-excerpt: "Chinese community discussion on ICP governance on Oct 10, 2022"
-coverImage: "/img/ic_wg_ep03.png"
-tw_card_type: "summary_large_image"
-tw_card_desc: "Chinese community discussion on ICP governance on Oct 10, 2022"
-tw_card_image: "/img/ic_wg_ep03.png"
----
+# 2022/10/11, ICP开发者社区研讨会EP03
+
+![EP03](./img/ic_wg_ep03.png)
 
 Highlights from the two-hour Zoom call with the Chinese community on 2022/10/10 and the recorded video can be watched on Bilibili:
 

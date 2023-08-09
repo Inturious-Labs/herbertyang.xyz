@@ -1,14 +1,15 @@
 ---
+slug: reloaded-from-shanghai
 title: Reloaded from Shanghai
-date: "2021/08/07"
-updated: ""
-categories:
-    - "lifestyle"
-    - "journey"
-excerpt: starting to blog again but changing from Pelican to Ghost
-coverImage: "/img/reloaded-from-shanghai.jpg"
-tw_card_type: "summary_large_image"
+tags: [journey, tech]
+image: "./img/shanghai.jpg"
 ---
+
+Starting to blog again but changing from Pelican to Ghost
+
+![shanghai](./img/shanghai.jpg)
+
+<!--truncate-->
 
 You must be surprised why you're getting this email and ... what a blast from the past!
 
