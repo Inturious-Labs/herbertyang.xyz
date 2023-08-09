@@ -99,4 +99,4 @@ Last but not the least, read the original writing from the creators.
 - [Vitalk Buterin's website](https://vitalik.ca/)
 - [Dominic Williams on DFINITY and The Internet Computer](https://dominic-w.medium.com/)
 
-This should be enough to get one started in crypto and blockchain, a journey that is full of creativity, audacity and excitement. If you have found other helpful information sources, feel free to share by leaving a comment below (you can do that anonymously) or [get in touch with me](../contact).
+This should be enough to get one started in crypto and blockchain, a journey that is full of creativity, audacity and excitement.

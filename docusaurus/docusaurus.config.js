@@ -57,7 +57,8 @@ const config = {
           },
           blogTitle: "Herbert Yang's blog",
           blogDescription: 'the good, the bad, the curious',
-          postsPerPage: 10
+          postsPerPage: 10,
+          blogSidebarCount: 10
         },
         docs: { 
           sidebarPath: require.resolve('./sidebars.js'),
