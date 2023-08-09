@@ -1,9 +1,13 @@
 ---
 slug: poem-beijing
 title: 沁园春 - 北京
-tags: [poetry, leisure]
+tags: [poetry]
 image: "./img/beijing_winter.jpg"
 ---
+
+在北京的冬天，北三环边上有感
+
+<!--truncate-->
 
 ![北京寒冬](./img/beijing_winter.jpg)
 

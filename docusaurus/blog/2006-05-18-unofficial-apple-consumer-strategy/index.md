@@ -5,6 +5,10 @@ tags: [tech]
 image: "./img/unofficial-apples-consumer-strategy.jpg"
 ---
 
+How I conceptualize Apple's unofficial consumer strategy on one-pager
+
+<!--truncate-->
+
 ![apple strategy](./img/unofficial-apples-consumer-strategy.jpg)
 
 I won’t do justice to the below chart that I drew up a few days ago in

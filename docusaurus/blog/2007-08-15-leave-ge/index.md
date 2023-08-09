@@ -5,6 +5,10 @@ tags: [journey]
 image: "./img/goodbye.jpg"
 ---
 
+My farewell note to colleagues on my last day in General Electric
+
+<!--truncate-->
+
 ![last day in GE](./img/goodbye.jpg)
 
 Today is my last day in GE. I've decided to veer away from the beaten

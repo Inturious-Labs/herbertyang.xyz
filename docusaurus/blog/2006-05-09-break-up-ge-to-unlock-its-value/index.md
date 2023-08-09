@@ -5,6 +5,10 @@ tags: [business]
 image: "./img/breakup_ge.png"
 ---
 
+Why GE should consider breaking up itself to unlock its full value
+
+<!--truncate-->
+
 ![break up ge](./img/breakup_ge.png)
 
 GE’s stock has been in a *5-year slump* since 2001. Immelt’s got a tough job. He’s been relentlessly doing everything humanely possible to make the same GE sales pitch to analysts, major shareholders, the board, customers, employees, Dave Calhoun and himself. Fortune’s November issue runs a cover story on him and the photo displays his now completely-turned-silver hair. I recall his hair was mostly black when I saw him in Tokyo in mid–2001. Despite the best efforts from one of the best CEOs working today, investors are through buying it. GE stock is still going nowhere.
