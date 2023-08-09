@@ -1,17 +1,15 @@
 ---
+slug: poem-freak
 title: 沁园春 - 异种
-date: "2011/07/27"
-updated: ""
-categories:
-    - "chinese"
-    - "poetry"
-    - "leisure"
-excerpt: 看到《创业家》杂志《异种》文章后有感
-coverImage: "/img/snow.jpeg"
-tw_card_type: "summary_large_image"
-tw_card_desc: 看到《创业家》杂志《异种》文章后有感
-tw_card_image: "/img/snow.jpeg"
+tags: [poetry]
+image: "./img/snow.jpg"
 ---
+
+看到《创业家》杂志《异种》文章后有感
+
+![freak](./img/snow.jpg)
+
+<!--truncate-->
 
 异种[^1]疯狂，千里冰封，万里血飘[^2]
 

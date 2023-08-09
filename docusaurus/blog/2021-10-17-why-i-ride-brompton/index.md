@@ -7,9 +7,9 @@ image: "./img/brompton_01_bridge.jpg"
 
 我为什么喜欢骑小布以及回答了无数遍的关于小布的问题
 
-<!--truncate-->
-
 ![brompton](./img/brompton_01_bridge.jpg)
+
+<!--truncate-->
 
 在疫情蔓延的2020年，小布彻底地改变了我的生活。
 

@@ -7,6 +7,8 @@ image: "./img/lijiang.jpg"
 
 在丽江古城过过春节
 
+![lijiang](./img/lijiang.jpg)
+
 <!--truncate-->
 
 南国风光，千堆云端，万仞雪山

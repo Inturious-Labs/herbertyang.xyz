@@ -7,9 +7,9 @@ image: "./img/unofficial-apples-consumer-strategy.jpg"
 
 How I conceptualize Apple's unofficial consumer strategy on one-pager
 
-<!--truncate-->
-
 ![apple strategy](./img/unofficial-apples-consumer-strategy.jpg)
+
+<!--truncate-->
 
 I won’t do justice to the below chart that I drew up a few days ago in
 my attempt to summarize Apple’s consumer strategy if I don’t follow up

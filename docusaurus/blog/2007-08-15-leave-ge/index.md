@@ -7,9 +7,9 @@ image: "./img/goodbye.jpg"
 
 My farewell note to colleagues on my last day in General Electric
 
-<!--truncate-->
-
 ![last day in GE](./img/goodbye.jpg)
+
+<!--truncate-->
 
 Today is my last day in GE. I've decided to veer away from the beaten
 path and indulge myself in some of my long-term passion and interests.

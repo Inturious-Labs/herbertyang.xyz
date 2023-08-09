@@ -1,16 +1,15 @@
 ---
+slug: career-choice
 title: 职业选择的考虑
-date: "2011/10/21"
-updated: ""
-categories:
-    - "chinese"
-    - "framework"
-excerpt: 在考虑换工作或者职业发展的下一步时，通常有这么几大因素需要考虑：老板，行业，地点，公司，职位，工作
-coverImage: "/img/path.jpeg"
-tw_card_type: "summary_large_image"
-tw_card_desc: 在考虑换工作或者职业发展的下一步时，通常有这么几大因素需要考虑：老板，行业，地点，公司，职位，工作
-tw_card_image: "/img/path.jpeg"
+tags: [framework]
+image: "./img/path.jpg"
 ---
+
+在考虑换工作或者职业发展的下一步时，通常有这么几大因素需要考虑：老板，行业，地点，公司，职位，工作
+
+![career](./img/path.jpg)
+
+<!--truncate-->
 
 以为自己N年前就写过这篇文章了，在网站上遍寻不获，为方便转发，只好重新码字。
 

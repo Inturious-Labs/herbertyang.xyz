@@ -1,34 +1,33 @@
 ---
+slug: key-qualities-of-a-leader
 title: 跟你干革命，凭什么？
-date: "2011/10/10"
-updated: ""
-categories:
-    - "chinese"
-    - "framework"
-excerpt: 作为老板（或者领导），你凭什么让人跟你干革命？我总结了一下，大概有七种方式，简称PLORHIM（普罗西姆）
-coverImage: "/img/lordofthering.jpeg"
-tw_card_type: "summary_large_image"
-tw_card_desc: 作为老板（或者领导），你凭什么让人跟你干革命？我总结了一下，大概有七种方式，简称**PLORHIM**（普罗西姆）
-tw_card_image: "/img/lordofthering.jpeg"
+tags: [framework]
+image: "./img/lordofthering.jpg"
 ---
+
+作为老板（或者领导），你凭什么让人跟你干革命？我总结了一下，大概有七种方式，简称**PLORHIM**（普罗西姆）
+
+![leader](./img/lordofthering.jpg)
+
+<!--truncate-->
 
 在江湖浮沉数载，从外企到国企到民企，历经各种叱咤风云的领袖人物，常考虑一个问题，作为老板（或者领导），你凭什么让人跟你干革命？
 
 我总结了一下，大概有七种方式，简称**PLORHIM**（普罗西姆）
 
-**P**. 下属跟着你，觉得前途无量（*Prospect*）
+**P**. 下属跟着你，觉得前途无量（`Prospect`）
 
-**L**: 下属跟着你，学（*Learn*）到了东西（技能，经验，见识）
+**L**: 下属跟着你，学（`Learn`）到了东西（技能，经验，见识）
 
-**O**: 下属跟着你，得到很多权力和尝试的机会（*Opportunity*）
+**O**: 下属跟着你，得到很多权力和尝试的机会（`Opportunity`）
 
-**R**: 下属跟着你，觉得自己的价值得到了体现和认可（*Recognition*）
+**R**: 下属跟着你，觉得自己的价值得到了体现和认可（`Recognition`）
 
-**H**. 下属跟着你，觉得很开心（*Happiness*）
+**H**. 下属跟着你，觉得很开心（`Happiness`）
 
-**I**: 下属跟着你，觉得从事了一项有意义的伟大事业（*Inspiration*）
+**I**: 下属跟着你，觉得从事了一项有意义的伟大事业（`Inspiration`）
 
-**M**: 下属跟着你，挣到了钱（*Money*）
+**M**: 下属跟着你，挣到了钱（`Money`）
 
 老板们很难做到在七个方面都出类拔萃，而且也没有这个必要，但每个老板都有自己特别擅长的地方。GE的领袖们很难在*M*（只是略高于market rate而已），*I*（每个人都只是一架大机器里的螺丝钉，而这个大机器看起来性感程度有限），或者*H*（苦多乐少，工作强度太大了）上满足野心勃勃的年轻人，所以他们在*P*，*L*，*O*上特别花功夫。GE的FMP（Financial Management Program）和CAS（Corporate Audit Staff）作为全世界最优秀的企业领袖培训项目在新人们刚加入公司时就赋予他们巨大的责任和环游全球的机会，是P，L，O的集中体现。至于R，那是GE的领袖们信手拈来的（could you get me a Starbucks? wow, you are the Man!）。公司用各种360 review, CEO lunch, Crotonville
 classes，让年轻人时时热血沸腾，保持着超级赛亚人3的鸡血状态，*GLOR*的完美结合是GE这家百年老店还能保持旺盛的战斗力和创新精神的根本来源。

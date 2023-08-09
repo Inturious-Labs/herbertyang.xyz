@@ -7,6 +7,8 @@ image: "./img/hawaii_01_big_island.jpg"
 
 Memorable moments from Big Island, Hawaii
 
+![big island](./img/hawaii_02_guide-to-the-big-island.png)
+
 <!--truncate-->
 
 Hawaii is a place worth of repeated visits. It is not meant to be consumed in only one trip. I've been to Hawaii twice. The first trip was on the The Big Island. In my view this is the best of Hawaii, for its live volcano, otherworldly terrain, hidden valley, and awe-inspiring fjords. 

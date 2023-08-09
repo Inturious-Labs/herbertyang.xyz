@@ -7,9 +7,9 @@ image: "./img/microphone.jpg"
 
 歌坛人生七大境界以及歌厅里的七大注意事项
 
-<!--truncate-->
-
 ![singer](./img/microphone.jpg)
+
+<!--truncate-->
 
 混迹歌坛多年，总结出歌坛人士的七大境界：
 

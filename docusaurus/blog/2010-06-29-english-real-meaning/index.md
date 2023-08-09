@@ -7,11 +7,11 @@ image: "./img/billmurray.png"
 
 英文里皮里阳秋的说法
 
+![bill murray](./img/billmurray.png)
+
 <!--truncate-->
 
 这方面的书已经是汗牛充栋了，我也来凑凑热闹。以下是一些个人在公司里的感受。
-
-![bill murray](./img/billmurray.png)
 
 That's a very good point
 

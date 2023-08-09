@@ -7,9 +7,9 @@ image: "./img/gnr_boston.jpg"
 
 An arresting concert with Guns'n Roses in Boston
 
-<!--truncate-->
-
 ![guns and roses](./img/gnr_boston.jpg)
+
+<!--truncate-->
 
 终于一了夙愿，现场来到了枪炮与玫瑰的演唱会。记得小时候应城的堂哥带我去买他们的第一盘专辑磁带－Appetite for Destruction。堂哥描述这个乐队几乎“无恶不作“，追求“走调般的高音唱法“，但是“特别酷“。1988–1993, 一个摇滚史上再也不会重现的辉煌（Nirvana固然璀璨，但Cobain生前在演唱会上的成就和影响不能和Rose/Slash相比），枪炮与玫瑰成为glam rock最后的一个old school的传奇乐团。从那以后，美国本土被Nirvana的grunge和Smashing Pumpkins的alternative rock所占据，同时Oasis开始带领British Pop的侵略。新世纪伊始，乐坛则完全陷落在hip-hop的靡靡之音里。转眼十四年匆匆而过，和我一个时代的同龄人好多都根本没有听说过枪炮和玫瑰，让人不免唏嘘。
 

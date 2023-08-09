@@ -1,18 +1,19 @@
 ---
+slug: 7-ways-to-learn-crypto
 title: 7 Ways to Learn Crypto and Blockchain
-date: "2021/05/24"
-updated: ""
-categories:
-    - "tech"
-    - "web3"
-excerpt: how to start learning crypto and blockchain in 7 effective ways
-coverImage: "/img/1082-0524-learn-crypto.jpg"
-tw_card_type: "summary_large_image"
+tags: [tech, web3]
+image: "./img/learn_crypto.jpg"
 ---
+
+How to start learning crypto and blockchain in 7 effective way
+
+![crypto](./img/learn_crypto.jpg)
+
+<!--truncate-->
 
 Increasingly more friends are getting interested in crypto and would like to learn more about it. In this part of the world, there is not a lot of publicly available information on this subject. What is easily available on social media is often associated with scams that target "chives" (韭菜 in Chinese or noobs who don't know any better). Information abounds, but good quality content is hard to find. So I compiled a list of content sources where you can start learning about it and stay up to date in this fast changing space.
 
-## 1. News sites
+## News sites
 
 To get into the flow and receive relevant news from reputable sources, these three Wechat public accounts (微信公共号) are the best so far:
 
@@ -22,7 +23,7 @@ To get into the flow and receive relevant news from reputable sources, these thr
 
 There are many other Wechat public accounts that try to feed into the insatiable curiosity and interest from general public on Bitcoin, Ethereum, Defi, etc. I find that these three accounts collectively provide solid breadth and depth on crypto industry with consistently quality updates and analytics that are sufficient for beginners and practitioners. It would not be a bad idea to read all the articles from them in recent six months.
 
-## 2. Social Media
+## Social Media
 
 Follow some influencers on Twitter and Weibo. Don't waste time on Wechat Moments (朋友圈). It's an echo chamber that adds very little new information. On Weibo,
 
@@ -32,7 +33,7 @@ Follow some influencers on Twitter and Weibo. Don't waste time on Wechat Moments
 
 ... are good jump-off points that can lead to discovery of other interesting KOLs in China. Twitter is the basecamp of all things crypto and blockchain. This is where things are happening in real-time and dialogues are taking place that shape the future of ... the society. 
 
-## 3. Newsletters
+## Newsletters
 
 Subscribe to newsletters. Traditional centralized media is increasingly giving way to decentralized, independent media that is often in the form of newsletters written up by KOLs in the know.
 
@@ -42,7 +43,7 @@ Subscribe to newsletters. Traditional centralized media is increasingly giving w
 - [1729](https://1729.com/)
 - [The Daily Gwei](https://thedailygwei.substack.com/)
 
-## 4. Podcasts
+## Podcasts
 
 Listen to podcasts. The best long-form interviews are usually only available in podcast. My favorite podcast app is [Castbox](https://castbox.fm/) instead of Apple's default one. Tim Ferriss' podcast is not exclusively about blockchain/crypto, but his three below episodes with legendary Nick Szabo, Vitalik/Naval, and Balaji are required listens for everyone in this industry.  They are intellectually stimulating and thought-provoking, spectacularly.
 
@@ -54,7 +55,7 @@ Listen to podcasts. The best long-form interviews are usually only available in 
 - [The Tim Ferriss Show | #504: Vitalik Interviewed by Naval](https://tim.blog/2021/03/08/vitalik-buterin-naval-ravikant/)
 - [The Tim Ferriss Show | #244: The Quiet Master of Cryptocurrency - Nick Szabo](https://tim.blog/2017/06/04/nick-szabo/)
 
-## 5. Follow L0/L1 Protocols
+## Follow L0/L1 Protocols
 
 Follow the social media of top 20 cryptos. Every noteworthy platform has its own token now and everyone is trying to grow its social media presence on Twitter, Telegram and Discord, besides its own newsletter subscriber base. The best way to get unfiltered news is to start from the source. Here's the cohort of top 20 by market cap as of May 24, 2021 according to [coinmarketcap.com](https://coinmarketcap.com/).  Protocols outside of top 20 would have a hard time gaining critical mass adoption.
 
@@ -81,7 +82,7 @@ Follow the social media of top 20 cryptos. Every noteworthy platform has its own
 |19	|[Wrapped Bitcoin](https://wbtc.network/)	|6.4
 |20	|[Ethereum Classic](https://ethereumclassic.org/)	|6.1
 
-## 6. Read Books
+## Read Books
 
 Generally books may not be the best medium to go deep into crypto as the industry is evolving too fast for writers to keep up with, but a few books have been holding up pretty well and are still very relevant in 2021.
 
@@ -90,7 +91,7 @@ Generally books may not be the best medium to go deep into crypto as the industr
 - [Mastering Ethereum](https://www.amazon.com/Mastering-Ethereum-Building-Smart-Contracts-ebook-dp-B07KGLNL76/dp/B07KGLNL76/ref=mt_other?_encoding=UTF8&me=&qid=1621818519): Building Smart Contracts and DApps by Andreas M. Antonopoulos and Gavin Wood
 - [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4/ref=sr_1_1?dchild=1&keywords=Mastering+Bitcoin&qid=1621818541&s=digital-text&sr=1-1): Programming the Open Blockchain (2nd Edition) by Andreas M. Antonopoulos
 
-## 7. Whitepapers
+## Whitepapers
 
 Last but not the least, read the original writing from the creators.
 

@@ -7,9 +7,9 @@ image: "./img/laughing_monkey.jpg"
 
 2010年多灾多难，反三俗甚嚣尘上的炎炎夏日中在Google Buzz上一个有趣的moment
 
-<!--truncate-->
-
 ![laughing monkey](./img/laughing_monkey.jpg)
+
+<!--truncate-->
 
 [Herbert Yang](http://www.google.com/profiles/herbert.yang#buzz)
 

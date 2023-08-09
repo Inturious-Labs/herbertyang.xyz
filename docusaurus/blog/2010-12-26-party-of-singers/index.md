@@ -1,16 +1,15 @@
 ---
+slug: party-of-singers
 title: “彼时彼刻恰如此时此刻”歌会
-date: "2010/12/26"
-updated: ""
-categories:
-    - "chinese"
-    - "leisure"
-excerpt: 一次歌友们在录音棚里的盛会
-coverImage: "/img/ktv.jpeg"
-tw_card_type: "summary_large_image"
-tw_card_desc: 一次歌友们在录音棚里的盛会
-tw_card_image: "/img/ktv.jpeg"
+tags: [leisure]
+image: "./img/ktv.jpg"
 ---
+
+在录音棚里跟朋友们一起录歌，不亦快哉！
+
+![ktv](./img/ktv.jpg)
+
+<!--truncate-->
 
 *歌曲的下载地址：*
 
@@ -18,7 +17,7 @@ tw_card_image: "/img/ktv.jpeg"
 
 页面编码应该选用（UTF-8）
 
-*歌友的介绍:*
+歌友介绍
 
 ... 孟老师忙完了清华百年大业不要忘了享受老百姓的幸福生活
 

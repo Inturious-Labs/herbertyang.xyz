@@ -7,9 +7,9 @@ image: "./img/beijing_winter.jpg"
 
 在北京的冬天，北三环边上有感
 
-<!--truncate-->
-
 ![北京寒冬](./img/beijing_winter.jpg)
+
+<!--truncate-->
 
 独立寒冬
 

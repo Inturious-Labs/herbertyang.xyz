@@ -1,16 +1,15 @@
 ---
+slug: introduce-sina-weibo
 title: 新浪微博入门2011版
-date: "2011/05/20"
-updated: ""
-categories:
-    - "chinese"
-    - "tech"
-excerpt: 继Apple, Google之后，新浪很快崛起，成为下一家必须送我股票的公司
-coverImage: "/img/weibo.jpeg"
-tw_card_type: "summary_large_image"
-tw_card_desc: 作为一个超重的孤独的领跑者，和一个微胖的黝黑的小桔灯，我衷心希望每个博友都可以用正确的眼光来看待，来使用新浪微博。那些对微博嗤之以鼻的朋友，对微博的浅见主要集中在这么几点
-tw_card_image: "/img/weibo.jpeg"
+tags: [tech]
+image: "./img/weibo.jpg"
 ---
+
+作为一个超重的孤独的领跑者，和一个微胖的黝黑的小桔灯，我衷心希望每个博友都可以用正确的眼光来看待，来使用新浪微博
+
+![Weibo](./img/weibo.jpg)
+
+<!--truncate-->
 
 继Apple, Google之后，新浪很快崛起，成为下一家必须送我股票的公司 - 我给它们带来了如此多智商情商都令人发指的高端用户，它们不给我股票就实在说不过去了。作为一个超重的孤独的领跑者，和一个微胖的黝黑的小桔灯，我衷心希望每个博友都可以用正确的眼光来看待，来使用新浪微博。那些对微博嗤之以鼻的朋友，对微博的浅见主要集中在这么几点：
 

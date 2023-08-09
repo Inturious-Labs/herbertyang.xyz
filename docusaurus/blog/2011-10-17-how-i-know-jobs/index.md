@@ -1,16 +1,15 @@
 ---
+slug: how-i-know-steve-jobs
 title: 意淫乔布斯的十种境界
-date: "2011/10/17"
-updated: ""
-categories:
-    - "chinese"
-    - "leisure"
-excerpt: 乔布斯在中国成了根钢管，大家都沉浸在自我陶醉中趁机狂舞了一把。以下从低到高总结了意淫乔布斯的十种境界
-coverImage: "/img/jobs.jpeg"
-tw_card_type: "summary_large_image"
-tw_card_desc: 乔布斯在中国成了根钢管，大家都沉浸在自我陶醉中趁机狂舞了一把。以下从低到高总结了意淫乔布斯的十种境界
-tw_card_image: "/img/jobs.jpeg"
+tags: [leisure]
+image: "./img/jobs.jpg"
 ---
+
+乔布斯在中国成了根钢管，大家都沉浸在自我陶醉中趁机狂舞了一把。以下从低到高总结了意淫乔布斯的十种境界
+
+![steve jobs](./img/jobs.jpg)
+
+<!--truncate-->
 
 如[GoldenDaffodils所说](http://weibo.com/1996962605/xsQfg8194)，乔布斯在中国成了根钢管，大家都沉浸在自我陶醉中趁机狂舞了一把。以下从低到高总结了意淫乔布斯的十种境界：
 

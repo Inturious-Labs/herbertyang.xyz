@@ -1,14 +1,15 @@
 ---
-title: From Pelican to Ghost
-date: "2021/05/07"
-updated: ""
-categories:
-    - "tech"
-    - "journey"
-excerpt: starting to blog again but changing from Pelican to Ghost
-coverImage: "/img/1082-to-ghost.jpg"
-tw_card_type: "summary_large_image"
+slug: move-blog-from-pelican-to-ghost
+title: Migrating Blog From Pelican To Ghost
+tags: [tech, journey]
+image: "./img/1082_to_ghost.jpg"
 ---
+
+Starting to blog again but changing from Pelican to Ghost
+
+![writing](./img/1082_to_ghost.jpg)
+
+<!--truncate-->
 
 I've been blogging for about 15 years since the early days of blogger.com and mySpace. For the hours I spent in content creation, probably 80% went into the actual writing and at least 20% went into finding a good tool and fine-tuning it. While writing and sharing comes to me more or less naturally, it's been a continuous challenge and sometimes struggle to find the best blogging platform.
 
