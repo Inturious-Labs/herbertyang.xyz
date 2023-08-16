@@ -37,6 +37,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: `G-XKPZ7NCGQN`,
+          anonymizeIP: true,
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
