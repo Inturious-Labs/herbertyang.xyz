@@ -111,6 +111,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'cookbookSidebar',
+            position: 'left',
+            label: 'Cook Book',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'publicSidebar',
             position: 'left',
             label: 'Public Speech',
