@@ -1,21 +1,9 @@
-# 香港太平山顶
+# 夜行香港太平山顶
 
-2023年7月，在香港
+import '@site/src/css/slider.css';
+import ImageSlider from './ImageSlider';
+import { SliderData } from './SliderData';
 
-![香港太平山顶](./img/202307-thepeak-01.JPG)
-
-![香港太平山顶](./img/202307-thepeak-02.JPG)
-
-![香港太平山顶](./img/202307-thepeak-03.JPG)
-
-![香港太平山顶](./img/202307-thepeak-04.JPG)
-
-![香港太平山顶](./img/202307-thepeak-05.JPG)
-
-![香港太平山顶](./img/202307-thepeak-06.JPG)
-
-![香港太平山顶](./img/202307-thepeak-07.JPG)
-
-![香港太平山顶](./img/202307-thepeak-08.JPG)
-
-![香港太平山顶](./img/202307-thepeak-09.JPG)
+export default function App() {
+  return <ImageSlider slides={SliderData} />;
+}
