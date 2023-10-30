@@ -8,50 +8,49 @@ Canister URL:
 
 Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
-## Deployment
+## Editing
 
-1. Make changes in `herbertyang/` folder. The contents of the site are in `herbertyang/src`. 
+1. In the root `git` directory for `herbertyang.xyz`, enter into `docusaurus/` folder
 
-2. Testing, deploy and build on Svelte server (run by vite)
-
-	In `herbertyang/` folder, run
-
-	Preview on local machine
-	
-	```bash
-	npm run preview
-	```
-
-	or
+2. From the default `main` branch, create a new branch for new edits and check out this new branch `new-edit` from `main`.
 
 	```bash
-	npm run dev
+	git checkout -b new-edit
 	```
-	
-	Check out the site on port 5173: [http://localhost:5173](http://localhost:5173/)
 
-	Build the final output files
+3. Make edits in `new-edit` branch and commit the changes
+
+	```bash
+	git status
+	git add .
+	git commit -m "Write a nice headline for the edit"
+	```
+
+4. In the `docusaurus` folder, start up the npm server at http://localhost:3000/, to check for real-time effect while making code changes
+
+	```bash
+	npm run start
+	```
+
+5. Sometimes, the changes may not be effective without creating a new build
 
 	```bash
 	npm run build
 	```
 
-	It will return
-	
+6. When satisfied with the changes, push the changes to the remote git server on Github. For the first-time run, run the below command to create the same branch `new-edit` on the remote server.
+
 	```bash
-	> Using @sveltejs/adapter-static
-  	Wrote site to "build"
-  	✔ done
-	```
+	git push --set-upstream origin new-edit
+	``` 
+
+	For subsequent `git push`, just running `git push` will do. 
 	
-	The static files for the site have been updated in `frontend/build` folder. 
-	
+## Deploy
 
-3. Testing and deploy on dfx server
+7. Return to the `dfx` or `git` root directory (one level up from `docusaurus`)
 
-	Return to the `dfx` project folder
-
-	Make sure dfx is using the correct identity
+8. Make sure dfx is using the correct identity.
 	
 	```bash
 	dfx identity whoami
@@ -63,13 +62,14 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx identity use kun
 	```
 
-	Start dfx server on local machine
+9. Start `dfx` server on local machine
 
 	```bash
 	dfx start --clean
 	```
 
 	or run this in the background
+
 	```bash
 	dfx start --background
 	```
@@ -90,7 +90,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	| --- | --- | --- |
 	| local canister | [be2us-64aaa-aaaaa-qaabq-cai](http://be2us-64aaa-aaaaa-qaabq-cai.localhost:4943/) | [rrkah-fqaaa-aaaaa-aaaaq-cai](http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:4943/) |
 
-	Deploy to `ic` network
+10. Deploy to `ic` network when all the changes have been committed to branch `new-edit` and testing is successful on local machine.
 
 	```bash
 	dfx deploy --network=ic --no-wallet
@@ -105,29 +105,21 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
 	The site has gone live on the ic network and can be viewed at [https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app/)
 	
-4. Git push to Github repo
+11. Finalize
 
-	Still in the dfx project folder (which shall also be the folder for git repo), 
-	
-	Check what's been changed
-	
+	At the website version of Github.com, manually merge branch `new-edit` into `main`. The current setting will automatically delete branch `new-edit` on the remote server.
+
+	Pull the changes from `main` branch from remote server to local machine, after checking out to `main` branch from `new-edit` on local machine.
+
 	```bash
-	git status
+	git checkout main
+	git pull
 	```
-	Stage the changes for commit
-	
-	```bash
-	git add .
+
+	Delete the local branch `new-edit` on local machine when `main` has been brought up to date with remote server.
+
 	```
-	Commit to git
-	
-	```bash
-	git commit -m "some meaningful commit message"
-	```
-	Push up to the git server
-	
-	```bash
-	git push
+	git branch -d new-edit
 	```
 	
 	The private repo is here [https://github.com/zire/herbertyang.xyz](https://github.com/zire/herbertyang.xyz)
