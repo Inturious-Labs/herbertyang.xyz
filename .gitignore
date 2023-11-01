@@ -16,3 +16,10 @@ dist/
 
 # un-used files for final build
 sample/
+
+# previous front-end framework
+svelte/
+
+# assets and materials from pelican archive
+pelican_*/
+
