@@ -21,5 +21,7 @@ sample/
 svelte/
 
 # assets and materials from pelican archive
-pelican_*/
+pelican_convert/
+pelican_images/
+pelican_posts/
 
