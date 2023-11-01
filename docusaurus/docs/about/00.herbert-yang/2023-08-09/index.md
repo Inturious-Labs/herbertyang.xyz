@@ -1,7 +1,7 @@
 ---
 title: DFINITY joins Blockchain Security Alliance in Singapore
 description: Swiss-based DFINITY Foundation, the primary developer behind L1 blockchain ecosystem the Internet Computer Protocol ("ICP"), joins the Blockchain Security Alliance
-keywords: [DFINITY, ICP, IC, 互联网计算机, Beosin, Herbert Yang, security, BSA, Singapore, decentralization]
+keywords: [DFINITY, ICP, IC, 互联网计算机, Beosin, Herbert Yang, security, BSA, Singapore, decentralization, SUSS]
 ---
 
 
@@ -37,4 +37,4 @@ The DFINITY Foundation is a not-for-profit organization comprised of leading cry
 
 ## Source Link
 
-https://finance.yahoo.com/news/dfinity-foundation-joins-blockchain-security-010000692.html
+https://blockchain.news/news/dfinity-foundation-icp-joins-blockchain-security-alliance
