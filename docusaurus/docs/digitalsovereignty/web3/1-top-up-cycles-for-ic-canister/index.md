@@ -1,3 +1,10 @@
+---
+title: Top up cycles for canister smart contracts on ICP
+description: How to add more cycles to power canister smart contract running on Internet Computer when the balance is running low
+image: './img/dont-panic.jpg'
+keywords: [IC, Internet Computer, DFINITY, 互联网计算机, canister, smart contract, cycles, top-up]
+---
+
 # Top Up Cycles for Canister on IC
 
 Cycles is the native stablecoin for Internet Computer Protocol ("ICP") that measures the usage of computation resources in a canister smart contract including data storage and update calls (query calls are currently free). To ensure your website/Dapp can keep up and running, you need to top up cycles into the canister that hosts the website/Dapp regularly, in the same fashion that you would need to pay the bill to AWS/Digital Ocean every month in the Web2 era. 
