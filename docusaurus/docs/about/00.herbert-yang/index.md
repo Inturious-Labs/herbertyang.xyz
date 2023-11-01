@@ -1,3 +1,10 @@
+---
+title: About Herbert Yang
+description: introduction, bio, resume and latest news of Herbert Yang
+image: './img/herbert_avatar.jpg'
+keywords: [web3, crypto, blockchain, DFINITY, IC, ICP, 互联网计算机, ecosystem, startup, tech executive, leader, entrepreneur, founder, media, investment, innovation, transformation, AWS, Amazon Web Services, China, Yunfeng Capital, 云锋基金, 张艺谋, GE, GE Capital, Linkqlo, Stanford, GSB, Sloan Fellow, NUS, Asia GM, CFO, 吴作人国际美术基金会, Wu Zuoren, Singapore]
+---
+
 # Herbert Yang (杨昆)
 
 <img src='/img/herbert_avatar.jpg' alt="Herbert Yang headshot" width="200" />
