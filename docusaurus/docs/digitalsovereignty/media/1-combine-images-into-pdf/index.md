@@ -1,3 +1,10 @@
+---
+title: Combine multiple image files (PNG or JPG) into one single PDF file
+description: Use ImageMagick command-line tool to combine multiple images into one single PDF file for ease of use and sharing
+image: './img/ImageMagick.jpg'
+keywords: [image, ImageMagick, PDF, PNG, JPG]
+---
+
 # Convert Multiple Images Into One Single PDF
 
 A lot of manga series found online are in image format, like JPG or PNG and it's one image for one page. Mac's Preview app can read them if needed, but that's not very convenient. It would be nice to convert them into one single PDF file so that it can be read in any device and easily shared with others. This can be accomplished with a command-line tool ImageMagick on Mac.

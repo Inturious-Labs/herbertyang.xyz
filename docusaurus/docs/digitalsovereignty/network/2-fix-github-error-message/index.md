@@ -1,3 +1,10 @@
+---
+title: Fix Github's error message for change of RSA keys
+description: How to fix Github's error message "remote host identification has changed" with a simple re-generation of RSA keys
+image: './img/github-error.jpg'
+keywords: [github, RSA, keys]
+---
+
 # Fix Github's Error Message "Remote Host Identification Has Changed"
 
 I tried to do git pull and git push on a repo this morning and found this intimidating warning message, on multiple devices.

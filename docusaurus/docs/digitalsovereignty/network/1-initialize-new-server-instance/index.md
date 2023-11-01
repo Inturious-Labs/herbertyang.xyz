@@ -1,3 +1,10 @@
+---
+title: Initialize a new server instance
+description: How to create and configure a new Linux server instance
+image: './img/genesis.jpg'
+keywords: [server, instance, virtual machine, linux, ubuntu, ssh, rsa]
+---
+
 # Initialize A New Server Instance
 
 Upon creating a new server on a remote machine by a VPS provider such as Linode or Digital Ocean, perform the following steps to initialize the server environment properly with the right admin access. 
