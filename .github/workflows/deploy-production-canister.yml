@@ -1,7 +1,13 @@
 name: Deploy to Production Canister
 
 on: 
-  workflow_dispatch:
+  # Use workflow_dispatch to manually trigger the action
+  # workflow_dispatch:
+
+  # trigger the workflow when a PR is merged or when a commit is made directly to the main branch
+  push:
+    branches:
+      - main
 
 jobs:
   build:
