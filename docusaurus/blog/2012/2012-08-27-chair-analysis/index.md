@@ -1,7 +1,7 @@
 ---
 slug: sloan-class-officer-strategy-ep05
 title: Sloan Class Officer Analysis
-tags: [Stanford, msx-chronicle, 2012]
+tags: [stanford, msx-chronicle, 2012]
 ---
 
 In the beginning of every quarter, Sloans will elect various class officers. For these Sloans who are willing to sacrifice their study hours and step up for the greater good of the class, the below analysis might be helpful in their consideration. If I could make a 3D chart I would add one more dimension for the variance, but we'll start with a simple one for now.
