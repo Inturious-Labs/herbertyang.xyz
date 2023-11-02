@@ -1,7 +1,7 @@
 ---
 slug: survival-guide-for-first-3-days-in-stanford-ep01
 title: Survival Guide for the First Three Days in Stanford
-tags: [Stanford, msx-chronicle, 2012]
+tags: [stanford, msx-chronicle, 2012]
 ---
 
 Congratulations! You've arrived in Stanford, GSB, Sloan Fellow Program, one of the best degree programs for experienced professionals looking for career transformation. What do you do now to survive for the first three days on the GSB campus?
