@@ -39,7 +39,7 @@ journey up to today. Hence, here it is:
 
 8. Phil Libin Talk (CEO of Evernote)
 
-9. Stanford MBA vs Stanford Sloan Fellow
+9. [Stanford MBA vs Stanford Sloan Fellow](stanford-mba-vs-sloan-fellow)
 
 10. Set Up Home Network in EV
 
@@ -57,11 +57,11 @@ journey up to today. Hence, here it is:
 
 17. ETL Seminar_Oct 3
 
-18. 10 Reflections of a CFO
+18. [10 Reflections of a CFO](10-reflections-cfo)
 
 19. Powerpoint & Business Plan
 
-20. Dance of My Life
+20. [Dance of My Life](dance-of-my-life)
 
 21. Demystify Board of Directors
 
@@ -69,9 +69,9 @@ journey up to today. Hence, here it is:
 
 23. Geoff Yang’s Winning Entrepreneurs
 
-24. Evaluate Courses with CIDRAE
+24. [Evaluate Courses with CIDRAE](evaluate-stanford-course)
 
-25. Summer Quarter Course Evaluation
+25. [Summer Quarter Course Evaluation](summer-quarter-course-evaluation)
 
 26. Fall Quarter Course Evaluation (Interim)
 
@@ -81,15 +81,15 @@ journey up to today. Hence, here it is:
 
 29. Usefulness of Learning Various Accounting Concepts in B-School
 
-30. View from California
+30. [View from California](view-from-california)
 
 31. A Dummy’s Guide to Business Plan
 
-32. GSB Reporter – Bubbles & Flash Mob
+32. [GSB Reporter – Bubbles & Flash Mob](bubbles-and-flash-mob)
 
 33. A Fictional Debate
 
-34. Application to dMedia
+34. [Application to d.School](apply-to-stanford-dschool)
 
 Special: Gangnam Style Goes to Stanford NCAA Half-Time Show
 

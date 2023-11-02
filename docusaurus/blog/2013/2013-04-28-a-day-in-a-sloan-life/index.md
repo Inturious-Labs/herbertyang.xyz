@@ -10,6 +10,8 @@ My presentation to the incoming Class of 2014 at the Stanfor Sloan Orientation.
 
 *[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP63*
 
+---
+
 I have done a lot of presentations in my life, from participating in an
 English speech contest for high-school students broadcast live on
 China's national television (CCTV) at age 15, to delivering a company
