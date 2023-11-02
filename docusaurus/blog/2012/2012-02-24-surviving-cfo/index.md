@@ -5,7 +5,7 @@ tags: [framework, 2012]
 image: "./img/ipo_tree.jpg"
 ---
 
-Can you make it to the IPO?
+A decision tree to help you figure out if you can survive the CFO journey
 
 ![ipo](./img/ipo_tree.jpg)
 

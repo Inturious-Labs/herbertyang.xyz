@@ -1,5 +1,5 @@
 ---
-slug: survival-guide-for-first-3-days-in-stanford-ep01
+slug: first-3-days-in-stanford
 title: Survival Guide for the First Three Days in Stanford
 tags: [stanford, msx-chronicle, 2012]
 ---
@@ -8,23 +8,25 @@ Congratulations! You've arrived in Stanford, GSB, Sloan Fellow Program, one of t
 
 <!--truncate-->
 
+*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP01*
+
 For all the incoming Sloan Fellows of 2012-2013, the following items are
 listed in descending order of pressing urgency.
 
-1. 	Pick up your *apartment keys* from EV/Munger front desk
+1. Pick up your *apartment keys* from EV/Munger front desk
 
-2.	Pick up your *student ID* from either Knight Management Center or
+2. Pick up your *student ID* from either Knight Management Center or
 Student's Union, which is the main hub for all sorts of student
 activities, close to Stanford Bookstore.
 
-3.	Pick up your *textbooks* (five) from Sally at Knight Management
+3. Pick up your *textbooks* (five) from Sally at Knight Management
 Center and say Hi to her.
 
-4.	*Check into your apartment,* make sure keys, electricity, phone
+4. Check into your apartment, make sure keys, electricity, phone
 and water work fine, and start writing down a list of what-to-buy for
 the next few days.
 
-5.	Get a *local 650 phone number*. Go to University Ave in Palo Alto
+5. Get a local `650` phone number. Go to University Ave in Palo Alto
 (this is like The Village in Beijing), as you can find both AT&T and
 Verizon stores here within walking distance. I think you can apply
 Stanford's student discount only on a two-year contract so be careful of

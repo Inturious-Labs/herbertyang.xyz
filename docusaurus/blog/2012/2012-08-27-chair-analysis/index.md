@@ -1,5 +1,5 @@
 ---
-slug: sloan-class-officer-strategy-ep05
+slug: sloan-class-officer-strategy
 title: Sloan Class Officer Analysis
 tags: [stanford, msx-chronicle, 2012]
 ---
@@ -9,6 +9,8 @@ In the beginning of every quarter, Sloans will elect various class officers. For
 ![sloan officers](./img/sloan-officer-analysis.jpg)
 
 <!--truncate-->
+
+*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP05*
 
 ## Treasury
 
