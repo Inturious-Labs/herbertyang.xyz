@@ -12,6 +12,8 @@ In the beginning of every quarter, Sloans will elect various class officers. For
 
 *[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP05*
 
+---
+
 ## Treasury
 
 Usually collect money from Sloans (not the other one) ...

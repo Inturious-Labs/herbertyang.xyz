@@ -13,6 +13,8 @@ Life in Stanford comes to us like a bullet train. Before we know it's already tw
 
 *[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP06*
 
+---
+
 ## Study Group
 
 - The least we can do is to make a few friends we can always fall back to in the 5-person study group
