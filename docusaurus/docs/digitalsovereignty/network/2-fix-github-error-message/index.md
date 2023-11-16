@@ -1,5 +1,5 @@
 ---
-title: Fix Github's error message for change of RSA keys
+title: Fix Github's error message
 description: How to fix Github's error message "remote host identification has changed" with a simple re-generation of RSA keys
 image: './img/github-error.jpg'
 keywords: [github, RSA, keys]

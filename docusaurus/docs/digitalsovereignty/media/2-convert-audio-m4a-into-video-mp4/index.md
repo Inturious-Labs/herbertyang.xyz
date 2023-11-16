@@ -1,5 +1,5 @@
 ---
-title: Convert audio files into video files
+title: Convert audio into video
 description: Use Swiss-Army knife FFmpeg command-line tool to transform any audio files such as m4a into video files such as mp4 
 image: './img/ffmpeg-logo.png'
 keywords: [m4a, mp4, ffmpeg, audio, video]

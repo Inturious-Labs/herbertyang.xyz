@@ -1,5 +1,5 @@
 ---
-title: Top up cycles for canister smart contracts on ICP
+title: Top up cycles for ic canisters
 description: How to add more cycles to power canister smart contract running on Internet Computer when the balance is running low
 image: './img/dont-panic.jpg'
 keywords: [IC, Internet Computer, DFINITY, 互联网计算机, canister, smart contract, cycles, top-up]
