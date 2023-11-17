@@ -1,5 +1,5 @@
 ---
-title: Download Twitter Spaces audio recording
+title: Download Twitter Spaces audio
 description: Use Python script to download Twitter Spaces m4a audio files
 image: './img/download-twitter.jpg'
 keywords: [Twitter, download, Twitter Spaces, audio, m4a, Python]

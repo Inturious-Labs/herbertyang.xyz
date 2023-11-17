@@ -1,5 +1,5 @@
 ---
-title: Cast your vote on proposals on NNS on ICP in command-line
+title: Voting on NNS in command-line
 description: Use command-line scripts to follow neurons on ICP's Network Nervous System DAO and vote on proposals, without using a web interface
 image: './img/matrixscreen.jpg'
 keywords: [NNS, IC, ICP, Internet Computer, 互联网计算机, Network Nervous System, voting, liquid democracy, neuron]

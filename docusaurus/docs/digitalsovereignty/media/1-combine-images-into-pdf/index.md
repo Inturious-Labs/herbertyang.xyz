@@ -1,5 +1,5 @@
 ---
-title: Combine multiple image files (PNG or JPG) into one single PDF file
+title: Combine images into one PDF
 description: Use ImageMagick command-line tool to combine multiple images into one single PDF file for ease of use and sharing
 image: './img/ImageMagick.jpg'
 keywords: [image, ImageMagick, PDF, PNG, JPG]
