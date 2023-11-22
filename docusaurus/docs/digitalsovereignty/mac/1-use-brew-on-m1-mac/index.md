@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # Use brew on Apple M1 Pro
 
 ![Apple M1 chip Pro](./img/m1-pro.jpg)
@@ -17,3 +19,5 @@ That will fix the issue.
 ## Reference
 
 - https://github.com/orgs/Homebrew/discussions/4397
+
+<Donation />

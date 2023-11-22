@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 中山公园的舞者
 
 ## 跳绳游戏
@@ -43,3 +45,5 @@
 ## 二人转
 
 ![park dancers 11](./img/Park-Dancers-11.jpg)
+
+<Donation />

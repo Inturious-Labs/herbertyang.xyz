@@ -5,6 +5,8 @@ image: './img/github-error.jpg'
 keywords: [github, RSA, keys]
 ---
 
+import Donation from '../../../donation.md';
+
 # Fix Github's Error Message "Remote Host Identification Has Changed"
 
 I tried to do git pull and git push on a repo this morning and found this intimidating warning message, on multiple devices.
@@ -31,3 +33,5 @@ SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU (Ed25519)
 ```
 
 That's it. Git operation is now back to normal.
+
+<Donation />

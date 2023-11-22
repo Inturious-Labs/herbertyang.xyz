@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 等待
 
 时间仿佛静止
@@ -31,3 +33,5 @@ Beijing, China, 2012, iPhone 4s
 Lijiang, China, 2009, Nikon D-70
 
 ![waiting-5](./img/wait-5.jpg)
+
+<Donation />

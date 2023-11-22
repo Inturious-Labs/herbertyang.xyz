@@ -5,6 +5,8 @@ image: './img/dont-panic.jpg'
 keywords: [IC, Internet Computer, DFINITY, 互联网计算机, canister, smart contract, cycles, top-up]
 ---
 
+import Donation from '../../../donation.md';
+
 # Top Up Cycles for Canister on IC
 
 Cycles is the native stablecoin for Internet Computer Protocol ("ICP") that measures the usage of computation resources in a canister smart contract including data storage and update calls (query calls are currently free). To ensure your website/Dapp can keep up and running, you need to top up cycles into the canister that hosts the website/Dapp regularly, in the same fashion that you would need to pay the bill to AWS/Digital Ocean every month in the Web2 era. 
@@ -113,3 +115,5 @@ Module hash: 0x98863747bb8b1366ae5e3c5721bfe08ce6b7480fe4c3864d4fec3d9827255480
 Other methods can be found in [DFINITY team's documentation on topping up canister](https://internetcomputer.org/docs/current/developer-docs/production/topping-up-canister/#topping-up-a-canister-with-dfx).
 
 Also [ninegua](https://www.thev.net/PaulLiu/) has created a [Canister Tip Jar DApp](https://k25co-pqaaa-aaaab-aaakq-cai.ic0.app/) (tipjar.rocks) where anyone can donate cycles to a third-party canister if that canister has a blackhole controller. It's pretty neat.
+
+<Donation />

@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 纯真年代
 
 Kids in their age of innocence around the world
@@ -31,3 +33,5 @@ Hong Village, Mt. Huang, China, 2010, Nikon D-70
 Pismo Beach, Pacific Highway 1, California, USA, 2012, iPhone 4s
 
 ![kid at wave](./img/Kids-5.jpg)
+
+<Donation />

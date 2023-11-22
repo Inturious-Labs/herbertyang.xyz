@@ -5,6 +5,8 @@ image: './img/gps.jpg'
 keywords: [gps, gpx, garmin, cycling, strava]
 ---
 
+import Donation from '../../../donation.md';
+
 # Merge Multiple GPS Activities
 
 ## Problem
@@ -42,3 +44,5 @@ While Garmin cannot fix this issue (or even consider this as an issue), third pa
 6. Import this new GPX file back to your Garmin Connect account on the website. It will then be automatically sync-ed to the devices and eventually Strava. 
 
 7. The initial two GPX files can now be deleted.
+
+<Donation />

@@ -5,6 +5,8 @@ image: './img/download-twitter.jpg'
 keywords: [Twitter, download, Twitter Spaces, audio, m4a, Python]
 ---
 
+import Donation from '../../../donation.md';
+
 # Download Twitter Spaces Audio Recording
 
 A lot of great discussions for crypto and Web3 are taking place on Twitter Spaces nowadays. It would be helpful to save a copy of those recorded audio files for replay, sharing with others, or just future reference. 
@@ -68,3 +70,5 @@ INFO: Finished downloading
 ```
 
 You'll find an `m4a` file in the folder. Now you can use the Swiss-Army knife `FFMpeg` to convert it into other formats for storage and publishing. Check out this guide, [Convert Audio m4a Into Video mp4](http://herbertyang.xyz/docs/digitalsovereignty/media/convert-audio-m4a-into-video-mp4/). 
+
+<Donation />

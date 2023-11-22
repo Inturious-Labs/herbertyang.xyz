@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # Here's Looking At You
 
 Here's looking at you, Humphrey Bogart says to Ingrid Bergman in "Casablanca" (1942). Since then this famous and confusing line has been subject to multiple interpretations by fans all over the world. Here's my take, in a visual way.
@@ -31,3 +33,5 @@ Hebei, China, 2008, Nikon D-70
 Hawaii, USA, 2009, Nikon D-70
 
 ![look 5](./img/look-5.jpg)
+
+<Donation />

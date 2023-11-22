@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 武汉东湖
 
 杭州有西湖，武汉有东湖。比起喧嚣的西湖，东湖其实更有侘寂之美，因为她的湖面更加开阔，视野更加空旷。
@@ -15,3 +17,5 @@
 ![east lake 3](./img/east_lake_03.jpg)
 
 ![east lake 4](./img/east_lake_04.jpg)
+
+<Donation />

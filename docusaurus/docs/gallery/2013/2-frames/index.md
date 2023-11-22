@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 进念二十面体
 
 Abstract images of frames with colors and structures
@@ -31,3 +33,5 @@ Stanford, CA, 2012, iPhone 4s
 Stanford, CA, 2012, iPhone 5
 
 ![frame 5](./img/frame-5.jpg)
+
+<Donation />

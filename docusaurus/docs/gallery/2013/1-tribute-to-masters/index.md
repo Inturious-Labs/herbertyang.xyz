@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 向大师们的致敬
 
 Tribute to famous artworks by masters such as Claude Monet, Vincent van Gogh, 吴冠中, 刘海粟 and Andreas Gursky
@@ -31,3 +33,5 @@ shot in 2010, Summer Palace, Beijing, China
 shot in 2009, Qinghua University, Beijing, China
 
 ![Rhein II  by Andreas Gursky](./img/Tribute-5.jpg)
+
+<Donation />
