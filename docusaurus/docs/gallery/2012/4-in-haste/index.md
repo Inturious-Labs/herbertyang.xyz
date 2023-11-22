@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 匆匆 In Haste
 
 People in the street walking by in haste
@@ -32,4 +34,4 @@ Mt. Huang, China, 2010, Nikon D-70
 
 ![haste 5](./img/haste-5.jpg)
 
-
+<Donation />

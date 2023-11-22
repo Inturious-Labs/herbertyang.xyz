@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 诸神的黄昏
 
 Dawn at different parts of the world
@@ -31,3 +33,5 @@ The Big Island, Hawaii, USA, 2009, Nikon D-70
 Maine, USA, 2007, Leica D-Lux 3
 
 ![Twilight 5](./img/twilight-5.jpg)
+
+<Donation />

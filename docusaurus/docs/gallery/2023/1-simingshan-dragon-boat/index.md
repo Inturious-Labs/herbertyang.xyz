@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 四明山
 
 2023年6月底的端午节，携家人在四明山民宿`柿子红了`度过一个长周末
@@ -25,3 +27,5 @@
 ![四明山](./img/202306-simingshan-11.JPG)
 
 ![四明山](./img/202306-simingshan-12.JPG)
+
+<Donation />

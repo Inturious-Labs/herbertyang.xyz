@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # San Francisco
 
 ## China Town
@@ -25,3 +27,5 @@ A walk in good old Chinatown in San Francisco on a winter night. All shot in iPh
 ![SF Cow Hollow 4](./img/SF-Cow-Hollow-4-1024x1024.jpg)
 
 ![SF Cow Hollow 5](./img/SF-Cow-Hollow-5-1024x1024.jpg)
+
+<Donation />

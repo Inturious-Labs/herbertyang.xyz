@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # Stanford Dish
 
 Dish Foothill Park is a hidden gem in Stanford, a favorite spot for Stanford people to walk and jog. It's a 4-mile loop, with a paranormal view of the entire Stanford campus and the west bay area. 
@@ -23,3 +25,5 @@ Dish Foothill Park is a hidden gem in Stanford, a favorite spot for Stanford peo
 ## Company 伴侣
 
 ![Stanford Dish 1](./img/Stanford-Dish-in-Sunset-1.jpg)
+
+<Donation />

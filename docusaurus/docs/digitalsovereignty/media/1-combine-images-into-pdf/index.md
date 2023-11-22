@@ -5,6 +5,8 @@ image: './img/ImageMagick.jpg'
 keywords: [image, ImageMagick, PDF, PNG, JPG]
 ---
 
+import Donation from '../../../donation.md';
+
 # Convert Multiple Images Into One Single PDF
 
 A lot of manga series found online are in image format, like JPG or PNG and it's one image for one page. Mac's Preview app can read them if needed, but that's not very convenient. It would be nice to convert them into one single PDF file so that it can be read in any device and easily shared with others. This can be accomplished with a command-line tool ImageMagick on Mac.
@@ -55,3 +57,5 @@ Here you go. Hello, demo.pdf!
 ## References
 
 - Stack Overflow: [How can I convert a series of images to a PDF from the command line on Linux?](https://stackoverflow.com/questions/8955425/how-can-i-convert-a-series-of-images-to-a-pdf-from-the-command-line-on-linux)
+
+<Donation />

@@ -5,6 +5,8 @@ image: './img/genesis.jpg'
 keywords: [server, instance, virtual machine, linux, ubuntu, ssh, rsa]
 ---
 
+import Donation from '../../../donation.md';
+
 # Initialize A New Server Instance
 
 Upon creating a new server on a remote machine by a VPS provider such as Linode or Digital Ocean, perform the following steps to initialize the server environment properly with the right admin access. 
@@ -193,3 +195,5 @@ source .bashrc
 ```
 
 These are some of the most basic steps to initialize a new server instance for ease of use. Rock on!
+
+<Donation />

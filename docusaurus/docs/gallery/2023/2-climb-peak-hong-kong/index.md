@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # 夜行香港太平山顶
 
 import '@site/src/css/slider.css';
@@ -7,3 +9,5 @@ import { SliderData } from './SliderData';
 export default function App() {
   return <ImageSlider slides={SliderData} />;
 }
+
+<Donation />

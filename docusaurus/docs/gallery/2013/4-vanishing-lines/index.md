@@ -1,3 +1,5 @@
+import Donation from '../../../donation.md';
+
 # Vanishing Lines
 
 Perspectives to look into the void through vanishing line at various spots, usually at train station or airport
@@ -32,3 +34,4 @@ Spain, December 2011, iPhone 4s
 
 ![vanishing line 5](./img/Vanishing-Line-5.jpg)
 
+<Donation />

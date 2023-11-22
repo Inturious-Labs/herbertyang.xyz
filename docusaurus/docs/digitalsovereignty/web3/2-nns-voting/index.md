@@ -5,6 +5,8 @@ image: './img/matrixscreen.jpg'
 keywords: [NNS, IC, ICP, Internet Computer, 互联网计算机, Network Nervous System, voting, liquid democracy, neuron]
 ---
 
+import Donation from '../../../donation.md';
+
 # Vote on NNS Proposals with Command-Line
 
 ![matrix](./img/matrixscreen.jpg)
@@ -639,3 +641,5 @@ This command-line based workflow can be iterated in a few directions:
 - [Introducing Quill, a Ledger and Governance Toolkit for the Internet Computer](https://medium.com/dfinity/introducing-quill-a-ledger-and-governance-toolkit-for-the-internet-computer-1df086ce5642) by [DFINITY](https://twitter.com/dfinity)
 - [NNS API](https://raw.githubusercontent.com/dfinity/ic/master/rs/nns/governance/canister/governance.did) by [DFINITY](https://twitter.com/dfinity)
 - [NNS API Governance Parameters](https://github.com/dfinity/ic/blob/master/rs/nns/governance/proto/ic_nns_governance/pb/v1/governance.proto) by [DFINITY](https://twitter.com/dfinity)
+
+<Donation />

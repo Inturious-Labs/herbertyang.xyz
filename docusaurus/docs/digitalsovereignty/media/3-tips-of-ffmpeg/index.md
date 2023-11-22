@@ -5,6 +5,8 @@ image: './img/audio.jpg'
 keywords: [m4a, mp4, ffmpeg, audio]
 ---
 
+import Donation from '../../../donation.md';
+
 # Use FFmpeg to handle audio files
 
 ## Install FFMmpeg
@@ -54,3 +56,5 @@ ffmpeg -ss 25 -i input.mp3 -af "afade=type=in:start_time=0:duration=5" -c:a libm
 
 - https://superuser.com/questions/1215824/ffmpeg-command-for-concatenate-two-mp3-files
 - https://stackoverflow.com/questions/71114148/ffmpeg-to-cut-beginning-and-fade-in-audio
+
+<Donation />
