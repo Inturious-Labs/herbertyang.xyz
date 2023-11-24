@@ -1,5 +1,5 @@
 ---
-title: 《区块链快速入门到开发实战》宣讲会
+title: 2023/11/20,《区块链快速入门到开发实战》宣讲会
 image: './img/tintin.jpg'
 description: ICP技术特点，生态发展汇报，DFINITY提供的资源扶持，Web3创业建议，开发者如何参与ICP生态建设
 keywords: [DFINITY, ICP, IC, 互联网计算机, Tintinland, Herbert Yang, Motoko, Rust, developer, Web3, startup]
