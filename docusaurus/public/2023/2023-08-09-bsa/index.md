@@ -1,13 +1,12 @@
 ---
-title: 2023/08/09, DFINITY joins Blockchain Security Alliance in Singapore
+slug: dfinity-joins-blockchain-security-alliance-singapore
+title: DFINITY joins Blockchain Security Alliance in Singapore
 description: Swiss-based DFINITY Foundation, the primary developer behind L1 blockchain ecosystem the Internet Computer Protocol ("ICP"), joins the Blockchain Security Alliance
 keywords: [DFINITY, ICP, IC, 互联网计算机, Beosin, Herbert Yang, security, BSA, Singapore, decentralization, SUSS]
 ---
 
 
 # The DFINITY Foundation Joins the Blockchain Security Alliance for Enhanced Ecosystem Security
-
-*Date: August 09, 2023*
 
 ## SINGAPORE, Aug. 9, 2023 PR Newswire
 

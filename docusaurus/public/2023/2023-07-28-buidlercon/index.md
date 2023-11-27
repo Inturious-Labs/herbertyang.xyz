@@ -1,4 +1,9 @@
-# 2023/07/28, Hong Kong
+---
+slug: buidlercon-ac-capital-hong-kong-2023
+title: BuidlerCon Hong Kong 2023
+image: './img/20230728-hk-01.JPG'
+keywords: [DFINITY, ICP, IC, 互联网计算机, AC Capital, Hong Kong, BuidlerCon]
+---
 
 ![Hong Kong AC Capital BuidlerCon](./img/20230728-hk-01.JPG)
 
