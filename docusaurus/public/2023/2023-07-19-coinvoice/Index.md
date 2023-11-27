@@ -1,5 +1,6 @@
 ---
-title: 2023/07/19, 专访 ICP ：回应质疑、进驻香港、ICP生态起航
+slug: interview-icp-on-hong-kong-and-ecosystem
+title: 专访 ICP ：回应质疑、进驻香港、ICP生态起航
 description: DFINITY 基金会 Asia GM Herbert Yang 接受 CoinVoice 的专访，回应关于 ICP 的若干业界关心的问题
 image: './img/herbert-coinvoice.jpg'
 keywords: [DFINITY, ICP, IC, Herbert Yang, Dominic Williams, 互联网计算机, Hong Kong, Cyberport, ICP亚太联盟, FTX, developer, 开发者, 以太坊, Ethereum, crypto, Web3, blockchain, Motoko, EVM]
