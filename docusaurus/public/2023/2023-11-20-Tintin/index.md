@@ -1,5 +1,6 @@
 ---
-title: 2023/11/20,《区块链快速入门到开发实战》宣讲会
+slug: tintin-motoko-class-kickoff-2023
+title: 《区块链快速入门到开发实战》宣讲会
 image: './img/tintin.jpg'
 description: ICP技术特点，生态发展汇报，DFINITY提供的资源扶持，Web3创业建议，开发者如何参与ICP生态建设
 keywords: [DFINITY, ICP, IC, 互联网计算机, Tintinland, Herbert Yang, Motoko, Rust, developer, Web3, startup]
@@ -10,13 +11,9 @@ import TabItem from '@theme/TabItem';
 
 # 互联网计算机 ICP 生态发展介绍
 
-## 日期
-
-[2023年11月20日，20:00 UTC+8](https://twitter.com/OurTinTinLand/status/1725453867041562970)
-
 ## 宣传
 
-![Tintinland](./img/tintin.jpg)
+[![Tintinland](./img/tintin.jpg)](https://twitter.com/OurTinTinLand/status/1725453867041562970)
 
 🌐 The first official @dfinity practical guide is here! 
 

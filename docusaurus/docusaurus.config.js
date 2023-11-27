@@ -70,6 +70,7 @@ const config = {
           postsPerPage: 10,
           blogSidebarCount: 10
         },
+
         docs: { 
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -97,6 +98,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/public', label: 'Public', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'gallerySidebar',
@@ -120,12 +122,6 @@ const config = {
             sidebarId: 'cookbookSidebar',
             position: 'left',
             label: 'Cook Book',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'publicSidebar',
-            position: 'left',
-            label: 'Public Speech',
           },
           {
             type: 'docSidebar',
@@ -209,6 +205,19 @@ const config = {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'public',
+        routeBasePath: 'public',
+        path: './public',
+        postsPerPage: 10,
+        blogSidebarCount: 10
+      },
+    ],
+  ],
 
 };
 
