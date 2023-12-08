@@ -38,7 +38,19 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	npm run build
 	```
 
-6. When satisfied with the changes, push the changes to the remote git server on Github. For the first-time run, run the below command to create the same branch `new-edit` on the remote server.
+6. Running multiple npm server instances may create port conflict. To kill the existing instance on port `3000`
+
+	```bash
+	lsof -i :3000
+	```
+
+	Once the process ID is found, kill the npm instance to free up the port
+
+	```bash
+	kill -9 process_id
+	```
+
+7. When satisfied with the changes, push the changes to the remote git server on Github. For the first-time run, run the below command to create the same branch `new-edit` on the remote server.
 
 	```bash
 	git push --set-upstream origin new-edit
@@ -48,9 +60,9 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	
 ## Deploy
 
-7. Return to the `dfx` or `git` root directory (one level up from `docusaurus`)
+8. Return to the `dfx` or `git` root directory (one level up from `docusaurus`)
 
-8. Make sure dfx is using the correct identity.
+9. Make sure dfx is using the correct identity.
 	
 	```bash
 	dfx identity whoami
@@ -62,7 +74,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx identity use kun
 	```
 
-9. Start `dfx` server on local machine
+10. Start `dfx` server on local machine
 
 	```bash
 	dfx start --clean
@@ -90,7 +102,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	| --- | --- | --- |
 	| local canister | [be2us-64aaa-aaaaa-qaabq-cai](http://be2us-64aaa-aaaaa-qaabq-cai.localhost:4943/) | [rrkah-fqaaa-aaaaa-aaaaq-cai](http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:4943/) |
 
-10. Deploy to `ic` network when all the changes have been committed to branch `new-edit` and testing is successful on local machine.
+11. Deploy to `ic` network when all the changes have been committed to branch `new-edit` and testing is successful on local machine.
 
 	```bash
 	dfx deploy --network=ic --no-wallet
@@ -105,7 +117,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 
 	The site has gone live on the ic network and can be viewed at [https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app](https://hbc6w-gqaaa-aaaag-aagdq-cai.ic0.app/)
 	
-11. Finalize
+12. Finalize
 
 	At the website version of Github.com, manually merge branch `new-edit` into `main`. The current setting will automatically delete branch `new-edit` on the remote server.
 

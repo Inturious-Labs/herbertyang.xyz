@@ -1,11 +1,10 @@
 ---
-title: 2022/02/01, Huobi Incubator announces strategic partnership with DFINITY to boost Web3 development
-description: The partnership will give rise to jointly-organized global hackathons, and see Huobi Incubator take an active role in the entire lifecycle of Internet Computer-based Web3 dapps, DeFi, Games, NFTs, Social Media, and Metaverse projects.
+slug: huobi-incubator-dfinity-partnership-for-web3
+title: Huobi Announces Strategic Partnership with DFINITY
+description: Huobi Incubator, the project incubation arm of Huobi Global, today announced a strategic partnership with the DFINITY Foundation, a major contributor to the Internet Computer, the most powerful general-purpose blockchain to build infinitely scalable Web3 dapps.
 image: './img/huobi-dfinity.png'
-keywords: [DFINITY, IC, ICP, 互联网计算机, Huobi, incubator, Web3, Herbert Yang, DeFi, NFT, metaverse, SNZ Capital, Beacon Fund, Supernova ]
+keywords: [DFINITY, IC, ICP, 互联网计算机, Huobi, incubator, Web3, Herbert Yang, DeFi, NFT, metaverse, SNZ Capital, Beacon Fund, Supernova]
 ---
-
-# Huobi Incubator announces groundbreaking strategic partnership with DFINITY to boost Web3 development to new heights using the Internet Computer
 
 *Date: Feb 01, 2022*
 

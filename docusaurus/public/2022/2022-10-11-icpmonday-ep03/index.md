@@ -1,4 +1,12 @@
-# 2022/10/11, ICP开发者社区研讨会EP03
+---
+slug: icp-monday-ep03
+title: ICP开发者社区研讨会EP03
+image: './img/ic_wg_ep03.png'
+description: Episode 3 for ICP Monday / 互联网计算机开发者研讨会
+keywords: [DFINITY, ICP, IC, 互联网计算机, ICP Monday, neuron, NNS, tokenomics]
+---
+
+# ICP开发者社区研讨会EP03
 
 ![EP03](./img/ic_wg_ep03.png)
 

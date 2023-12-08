@@ -1,10 +1,18 @@
-# 2010/12/29, 基金会是用来避税的？
+---
+slug: interview-herbert-yang-wifa
+title: 如何运营一家艺术基金会
+image: './img/wifa-logo.jpg'
+description: 《当代艺术与投资》采访吴作人国际美术基金会副秘书长 Herbert Yang，探讨艺术基金会的运营经验
+keywords: [杨昆, Herbert Yang, Art, 艺术, WIFA, 吴作人, 吴作人国际美术基金会, foundation]
+---
 
 作者:王昱臣
 
 来源:《当代艺术与投资》
 
 日期：2010年12月29日
+
+![吴作人](./img/wifa-logo.jpg)
 
 ## 在局者言：运营艺术基金会需要的资本哪里来？
 
