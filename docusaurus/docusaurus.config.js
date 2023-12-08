@@ -214,7 +214,7 @@ const config = {
         routeBasePath: 'public',
         path: './public',
         postsPerPage: 10,
-        blogSidebarCount: 10
+        blogSidebarCount: 20
       },
     ],
   ],
