@@ -1,5 +1,5 @@
 ---
-title: Tips of using FFmpeg to handle media files
+title: Tips of using FFmpeg
 description: Tips of using FFmpeg to merge audio files, trim audio files, create fade-in/out effects and split up files
 image: './img/swissknife.jpg'
 keywords: [m4a, mp4, ffmpeg, audio, video]
@@ -7,7 +7,7 @@ keywords: [m4a, mp4, ffmpeg, audio, video]
 
 import Donation from '../../../donation.md';
 
-# Use FFmpeg to handle audio files
+# Use FFmpeg to handle media files
 
 ## Install FFMmpeg
 
@@ -68,6 +68,24 @@ ffmpeg -i input_big.mp4 -acodec copy -f segment -segment_time 3600 -vcodec copy 
 - `-reset_timestamps 1` resets timestamps for each segment and creates segments with continuous timestamps
 - `-map 0` maps all the streams from input to the output
 - `output_time_%d.mp4` defines the naming pattern for the output files, where `%d` in the naming pattern is a placeholder for a numeric index
+
+## Add overlay background picture
+
+To add a background image to create an overlay effect (ie. the video is on top of the bigger image that is beneath the video) like this, 
+
+![overlay](./img/overlay.png)
+
+Use overlay filter from FFmpeg
+
+```bash
+ffmpeg -loop 1 -i image.jpg -i input_video.mp4 -filter_complex "overlay=(W-w)/2:(H-h)/2:shortest=1,format=yuv420p" -c:a copy output_video.mp4
+```
+
+This command will take a moment to run as it needs to render a new video file with the new `image.jpg` added to every frame. 
+
+:::info
+The width of the background image must be an **EVEN** integar that can be divided by 2. For example, 720 would work but 721 would cause an error message.
+:::
 
 ## References
 
