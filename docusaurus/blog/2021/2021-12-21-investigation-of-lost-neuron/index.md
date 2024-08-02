@@ -3,6 +3,7 @@ slug: investigation-of-lost-neuron
 title: Investigation of an ICP User's Lost Access to His Neuron
 tags: [web3, 2021]
 image: "./img/investigation.png"
+comments: true
 ---
 
 Summary of my investigation of a user's complaint about lost access to NNS that created quite a stir on DFINITY's Developer Forum
