@@ -10,6 +10,7 @@ keywords: [杨寿山, 杨明忠, 陈宏薇, 杨昆, 杨青, 陈焕章, 陈树三
 
 G-2:
 - 杨寿山
+- 杨焕英
 
 G-1:
 - 彭荣生
@@ -18,18 +19,18 @@ G-1:
 - 杨鸿运
 
 G0:
-- 杨*Q
+- 杨青(Steve)
 - 杨昆(Herbert)
 
 G+1:
-- 杨*Z
+- 杨*Z(Brandon)
 
 ```mermaid
 flowchart LR
 
 %% Generation -2 %%
 G-2-M1(杨寿山) --> G-2(G-2)
-G-2-F0((刘氏)) --- G-2
+G-2-F0((杨焕英)) --- G-2
 
 %% Generation -2 %%
 G-2 --> G-1-M1(彭荣生) --> G-1A(G-1A)
