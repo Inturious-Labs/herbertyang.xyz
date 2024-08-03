@@ -3,6 +3,7 @@ slug: hitchhiker-guide-to-web3
 title: Hitchhiker's Guide to Web3, Blockchain, the Internet Computer, and DFINITY Foundation
 tags: [tech, web3, 2022]
 image: "./img/big_island.jpg"
+comments: true
 ---
 
 So, you're new to crypto but have already heard about IC or DFINITY from some friends. You're curious to find out more and may even be interested in joining the DFINITY team or contributing to the IC community. How do you learn more about this industry, the DFINITY team, and the Internet Computer?
