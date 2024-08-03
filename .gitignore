@@ -25,3 +25,5 @@ pelican_convert/
 pelican_images/
 pelican_posts/
 
+# environment variables
+.env
