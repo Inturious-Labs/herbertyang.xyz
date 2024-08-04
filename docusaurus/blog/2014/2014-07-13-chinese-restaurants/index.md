@@ -6,7 +6,11 @@ image: "./img/stanford.png"
 comments: true
 ---
 
+住在湾区斯坦福大学周围时经常去的中餐馆
+
 ![Stanford University](./img/stanford.png)
+
+<!--truncate-->
 
 在湾区呆了两年，我常去的中餐馆（不在这个名单上的餐馆，要么离Palo Alto太远，要么我很少去）。其他亚洲口味（马来，印度，越南，韩国，日本，泰国，Asian fusion）中值得推荐的餐馆改日另荐。
 
