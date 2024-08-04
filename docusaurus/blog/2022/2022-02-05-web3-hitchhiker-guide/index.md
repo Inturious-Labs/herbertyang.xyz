@@ -138,7 +138,7 @@ It's a long read but hopefully a solid rope to help you get started. This websit
 
 ICP is the first and so far the only blockchain protocol in the world that can host the front-end of a web application (so that users like you can interact with the smart contract behind), enable smart contract (every web application/site is created as a smart contract) and provide distributed storage and compute power (like a decentralized AWS).
 
-This, is the future of Web3.
+This is the future of Web3.
 
 ## Stay In Touch
 
