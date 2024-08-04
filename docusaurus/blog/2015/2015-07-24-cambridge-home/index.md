@@ -1,9 +1,11 @@
-Title: 家·康桥镇
-Date: 2015-07-24 08:00
-Tags:
-Category: Photography
-Slug: home-in-cambridge
-Summary:房子是个很奇妙的东西，往往第一眼就让人一见钟情。我们在康桥镇住过的这套公寓是由工厂厂房改建而成的loft。阳光从顶层天窗里跨越金戈铁马的层层横梁洒入空寂的大厅，四周廊灯微泛黄光，森然而略有凉意。
+---
+slug: home-in-cambridge-ma
+title: 家·康桥镇
+tags: [journey, 2015]
+image: "./img/kendallsquare.jpg"
+---
+
+![Kendall Square](./img/kendallsquare.jpg)
 
 房子是个很奇妙的东西，往往第一眼就让人一见钟情。我们在康桥镇住过的这套公寓是由工厂厂房改建而成的loft。阳光从顶层天窗里跨越金戈铁马的层层横梁洒入空寂的大厅，四周廊灯微泛黄光，森然而略有凉意。
 
