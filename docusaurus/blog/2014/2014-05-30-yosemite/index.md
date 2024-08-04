@@ -1,15 +1,22 @@
-Title: Herbert's Guide to Yosemite National Park
-Date: 2014-05-30 08:00
-Tags: 
-Category: Travel
-Slug: herbert-guide-yosemite
-Summary: Yosemite is one of the most popular national parks in the world, and justifiably so. The park is within 4-5 hours of driving from the Bay Area and many awe-inspiring attractions are within walking distance down the valley. It's got something for everyone, whether you are a rock climber, or a hiker, or a camper, or just hanging out with kids and elderly. It's worth repeated visits in different seasons to fully appreciate the changing face of the nature.
+---
+slug: guide-to-yosemite-national-park
+title: Herbert's Guide to Yosemite National Park
+tags: [travel, 2014]
+image: "./img/Yosemite-Guide-El-Capitan.jpg"
+comments: true
+---
+
+How we did the first trip to Yosemite National Park
+
+![Yosemite](./img/Yosemite-Guide-El-Capitan.jpg)
+
+<!--truncate-->
 
 Yosemite is one of the most popular national parks in the world, and justifiably so. The park is within 4-5 hours of driving from the Bay Area and many awe-inspiring attractions are within walking distance down the valley. It's got something for everyone, whether you are a rock climber, or a hiker, or a camper, or just hanging out with kids and elderly. It's worth repeated visits in different seasons to fully appreciate the changing face of the nature.
 
 Time of visit: September 2012
 
-*Where are the top attractions?*
+## Direction
 
 Driving can be a bit of hassle if not planned carefully in advance. There are three main routes for Yosemite attractions.
 
@@ -25,66 +32,66 @@ To make it an even bigger challenge for you, there are three ways to enter Yosem
 
 You might want to research the map really, really carefully before planning your Yosemite trip. Where you stay for the night will significantly impact how much you can get out of Yosemite in a typical 3-day trip. 
 
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Map.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Map.jpg)
 
-*What are the top attractions?*
+## Top Attractions
 
-## Tunnel View
+### Tunnel View
 
 The best spot for sunset-viewing
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Tunnel-View.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Tunnel-View.jpg)
 
-## El Capitan
+### El Capitan
 
 One of the most famous rock-climbing spots in the world
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-El-Capitan.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-El-Capitan.jpg)
 
-## Half Dome
+### Half Dome
 	
 The somewhat romantic Half Dome
 
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Half-Dome.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Half-Dome.jpg)
 
-## Glacier Point
+### Glacier Point
 
 The awe-inspiring vista lookout to view Half Dome from afar
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Glacier-Point.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Glacier-Point.jpg)
 	
-## Tenaya Lake
+### Tenaya Lake
 
 The perfect fusion of mountain, lake, meadow, woods, sky and clouds
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Tenaya-Lake.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Tenaya-Lake.jpg)
 	
-## Olmsted Point
+### Olmsted Point
 
 A popular stop-over spot for out-of-nowhere rocks
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Olmsted-Point.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Olmsted-Point.jpg)
 	
-## Lembert Dome
+### Lembert Dome
 	
 An easily accessible 3-hour round-trip hiking trail with breathtaking panorama view
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Lembert-Dome.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Lembert-Dome.jpg)
 
-## Tuolumne Meadows
+### Tuolumne Meadows
 	
 Paradise on top of Yosemite
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Tuolumne-Meadows.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Tuolumne-Meadows.jpg)
 
-## Valley View from Merced River
+### Valley View from Merced River
 	
 The postcard-spot for Yosemite Valley
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Merced-River.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Merced-River.jpg)
 
-## The Ahwahnee Hotel
+### The Ahwahnee Hotel
 	
 A historical hotel with an uber-luxury dining hall in Hogwarts style
 	
-![Herbert's Yosemite Guide](../images/Yosemite-Guide-Ahwahnee-Hotel.jpg)
+![Herbert's Yosemite Guide](./img/Yosemite-Guide-Ahwahnee-Hotel.jpg)
