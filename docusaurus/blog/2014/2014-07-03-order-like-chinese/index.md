@@ -1,9 +1,12 @@
-Title: How to Order Like a Native Chinese in a Chinese Restaurant
-Date: 2014-07-03 08:00
-Tags: 
-Category: Framework
-Slug: order-like-native-Chinese-in-Chinese-restaurant
-Summary: If you are a native Chinese, please skip. If you think General Tao chicken is really delicious, please skip. If you are not a native Chinese but aspire for good Chinese food once in a while, read on. When you walk in a Chinese restaurant, whether in the Bay Area, New York, Los Angeles or Hawaii, you might fancy ordering like a native Chinese and get something really authentic, not invented-in-America kind of Chinese food (such as General Tao chicken). The challenge is, it's very difficult to navigate through a Chinese restaurant's menu as no one really understands the English portion of it. Chinese would just go straight to the last two pages that are written entirely in Chinese (so called "Chef's Recommendations") to order. If you don't read Chinese, this option is not available to you. Well, unless you read on ...
+---
+slug: order-like-a-chinese
+title: How to Order Like a Chinese in a Chinese Restaurant
+tags: [lifestyle, 2014]
+image: "./img/chinese-restaurant.jpg"
+comments: true
+---
+
+![Chinese Restaurant](./img/chinese-restaurant.jpg)
 
 If you are a native Chinese, please skip.
 
@@ -23,7 +26,7 @@ The numbers in brackets are the corresponding IDs from Da Sichuan, if you don't 
 
 It goes without saying that they are ALL very delicious. This guide is not meant to cover 100% of what's available out there, but what I'd like to recommend to my non-Chinese friends who might have been deprived of the real joy of tasting quintessential Chinese delicacies. If you can order any of the below dishes, you'll win instant respect and admiration from the waiter/waitress with a look, "well this Lao Wai knows what he/she is doing".
 
-# Appetizers
+## Appetizers
 
 - 红油抄手, meat dumplings, spicy (306)
 - 口水鸡, chicken, salty (101)
@@ -31,33 +34,33 @@ It goes without saying that they are ALL very delicious. This guide is not meant
 - 蒜泥白肉, pork, spciy (109)
 - 川北凉粉, bean jelly, spicy (111)
 
-# Fish
+## Fish
 
 - 水煮鱼片, fish, spicy (F510)
 - 醋溜鱼片, fish, non-spicy (F512)
 
-# Pork
+## Pork
 
 - 干煸肥肠, pig intestine, spicy (P109)
 - 鱼香肉丝, shredded pork, spicy (P102)
 - 回锅肉, sliced pork, spicy (P104)
 
-# Beef
+## Beef
 
 - 水煮牛肉, beef, spicy (B112)
 - 葱爆牛肉, beef, non-spicy (B102)
 
-# Chicken
+## Chicken
 
 - 重庆辣子鸡, chicken, spicy (625)
 - 三杯鸡, chicken, non-spicy (available in Taiwanese restaurant)
 
-# Lamb
+## Lamb
 
 - 孜然羊肉, lamb, spicy (P705)
 - 葱爆羊肉, lamb, non-spicy (P701)
 
-# Vegetables
+## Vegetables
 
 - 虎皮青椒, green pepper, spicy (V117)
 - 干煸四季豆, green beans, non-spicy (V110)
@@ -67,7 +70,7 @@ It goes without saying that they are ALL very delicious. This guide is not meant
 - 青椒土豆丝, shredded potato, spicy （V116）
 - 清炒空心菜，water spinach, non-spicy 
 
-# Rice & Noodle
+## Rice & Noodle
 
 - 担担面, narrow noodle, dry (N108)
 - 牛肉炒河粉, wide noodle (with beef), dry (N403)
@@ -75,7 +78,7 @@ It goes without saying that they are ALL very delicious. This guide is not meant
 - 炸酱面, Beijing noodle, dry (N116)
 - 扬州炒饭, fried rice
 
-# Drink & Beverages
+## Drink & Beverages
 
 - 青岛啤酒, Qingdao beer
 - 王老吉, non-alcohol
