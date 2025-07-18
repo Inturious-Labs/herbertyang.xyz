@@ -1,48 +1,70 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Technology Evangelist',
+    title: 'Digital Sovereignty Chronicle',
     background: '#96EAD7',
-    /* Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, */
     description: (
       <>
-        Discover paradigm-shifting frontier technologies and drive their mindshare
+        A newsletter on crypto, web3 tech, decentralization, and various data hacks
       </>
     ),
+    link: 'https://digitalsovereignty.herbertyang.xyz/',
+    linkText: 'Follow Chronicle',
   },
   {
-    title: 'Community Builder',
+    title: 'Remnants of Globalization',
     background: '#B8D3D9',
-    /* Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default, */
     description: (
       <>
-        Build communities of early adopters, opinion leaders & ecosystem stakeholders
+        An anthology of stories of people born in the 60s-80s who basked in the glory of globalization, but are now navigating through the choppy waters of a bygone era
       </>
     ),
+    link: 'https://remnantsofglobalization.herbertyang.xyz/',
+    linkText: 'Explore Stories',
   },
   {
-    title: 'Serial Entreprenuer',
-    background: '#F2CEE2',
-    /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
+    title: 'Y3 Labs',
+    background: '#C8E6C9',
     description: (
       <>
-        Pursue product-market fit and design sustainable business models
+        A game development studio that makes interesting online games for kids
       </>
     ),
+    link: 'https://y3labs.herbertyang.xyz/',
+    linkText: 'Play Games',
+  },
+  {
+    title: 'Blogs',
+    background: '#E6D7F3',
+    description: (
+      <>
+        Other blissful joys and serendipitous discoveries in life
+      </>
+    ),
+    link: '/blog',
+    linkText: 'Enjoy Life',
   },
 ];
 
-function Feature({Svg, background, title, description}) {
+function Feature({Svg, background, title, description, link, linkText}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-      </div>
-      <div className="text--center padding-horiz--md" style={{background: background, padding: 20}}>
-        <h3>{title}</h3>
-        <p>{description}</p>
+    <div className={clsx('col col--6')}>
+      <div className={clsx(styles.featureBox)} style={{background: background}}>
+        <h3 className={styles.featureTitle}>{title}</h3>
+        <div className={styles.featureDescription}>
+          <p>{description}</p>
+        </div>
+        <div className={styles.featureButton}>
+          <Link
+            className="button button--primary button--sm"
+            to={link}>
+            {linkText}
+          </Link>
+        </div>
       </div>
     </div>
   );

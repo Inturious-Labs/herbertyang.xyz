@@ -9,3 +9,41 @@
   height: 200px;
   width: 200px;
 }
+
+.featureBox {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.featureTitle {
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.featureDescription {
+  flex-grow: 1;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.featureDescription p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.featureButton {
+  flex-shrink: 0;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}

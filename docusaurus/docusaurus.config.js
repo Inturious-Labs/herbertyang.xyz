@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Herbert Yang Digital Public Archive',
-  tagline: 'A digital garden of forking paths',
+  title: 'Welcome to Herbert Yang\'s Digital Nexus!',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -109,14 +109,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'hackerSidebar',
             position: 'left',
-            label: 'Digital Sovereignty',
+            label: 'Data Hacks',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'recordingSidebar',
-            position: 'left',
-            label: 'Cover Songs',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'recordingSidebar',
+          //   position: 'left',
+          //   label: 'Cover Songs',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'cookbookSidebar',
