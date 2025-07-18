@@ -1,13 +1,18 @@
 name: Deploy to Production Canister
 
-on: 
-  # Use workflow_dispatch to manually trigger the action
-  # workflow_dispatch:
-
-  # trigger the workflow when a PR is merged or when a commit is made directly to the main branch
+on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '**/*.md'
+  pull_request:
+    branches: [ main ]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '**/*.md'
 
 jobs:
   build:
