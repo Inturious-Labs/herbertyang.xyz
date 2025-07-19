@@ -109,7 +109,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'hackerSidebar',
             position: 'left',
-            label: 'Data Hacks',
+            label: 'Digital Sovereignty',
           },
           // {
           //   type: 'docSidebar',
@@ -217,6 +217,14 @@ const config = {
         blogSidebarCount: 20
       },
     ],
+  ],
+
+  // Add custom scripts to handle gtag errors
+  scripts: [
+    {
+      src: '/js/gtag-fix.js',
+      async: true,
+    },
   ],
 
 };
