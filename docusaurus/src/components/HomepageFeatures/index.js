@@ -12,8 +12,8 @@ const FeatureList = [
         A newsletter on crypto, web3 tech, decentralization, and various data hacks
       </>
     ),
-    link: 'https://digitalsovereignty.herbertyang.xyz/',
-    linkText: 'Follow Chronicle',
+    link: '/docs/digitalsovereignty/newsletter/',
+    linkText: 'Explore Chronicle',
   },
   {
     title: 'Remnants of Globalization',
