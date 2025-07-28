@@ -97,7 +97,7 @@ const config = {
           src: 'img/herbert_avatar.jpg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/index', label: 'Blog', position: 'left'},
           {to: '/public', label: 'Public', position: 'left'},
           {
             type: 'docSidebar',
