@@ -73,14 +73,6 @@ jobs:
         mv identity.pem ~/.config/dfx/identity/default/identity.pem
         dfx identity list
 
-    - name: Deploy to IC
-      run: |
-        # Create canister_ids.json
-        echo '{ "hyxyz": { "ic": "${{ vars.PRODUCTION_CANISTER_ID }}" } }' > canister_ids.json
-        
-        # Deploy directly to IC without starting local replica
-        $HOME/.local/share/dfx/versions/0.24.3/dfx deploy hyxyz --network=ic --yes
-
     - name: Install dependencies
       run: |
         cd docusaurus
@@ -92,6 +84,14 @@ jobs:
         cd docusaurus
         npm run build
         cd ..
+
+    - name: Deploy to IC
+      run: |
+        # Create canister_ids.json
+        echo '{ "hyxyz": { "ic": "${{ vars.PRODUCTION_CANISTER_ID }}" } }' > canister_ids.json
+        
+        # Deploy directly to IC without starting local replica
+        $HOME/.local/share/dfx/versions/0.24.3/dfx deploy hyxyz --network=ic --yes
 
     - name: Summarize
       run: echo 'https://${{ vars.PRODUCTION_CANISTER_ID }}.icp0.io' >> $GITHUB_STEP_SUMMARY
