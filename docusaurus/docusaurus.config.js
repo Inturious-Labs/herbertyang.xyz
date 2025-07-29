@@ -53,22 +53,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Herbert Yang`,
-            createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
-              return defaultCreateFeedItems({
-                // keep only the 10 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 10),
-                ...rest,
-              });
-            },
-          },
+
           blogTitle: "Herbert Yang's blog",
           blogDescription: 'the good, the bad, the curious',
           postsPerPage: 10,
-          blogSidebarCount: 10
+          blogSidebarCount: 0
         },
 
         docs: { 
@@ -152,10 +141,6 @@ const config = {
                 label: 'Tags',
                 to: '/blog/tags',
               },
-              {
-                label: 'RSS',
-                to: '/blog/rss.xml',
-              },
             ],
           },
           {
@@ -206,18 +191,18 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'public',
-        routeBasePath: 'public',
-        path: './public',
-        postsPerPage: 10,
-        blogSidebarCount: 20
-      },
-    ],
-  ],
+        plugins: [
+        [
+          '@docusaurus/plugin-content-blog',
+          {
+            id: 'public',
+            routeBasePath: 'public',
+            path: './public',
+            postsPerPage: 10,
+            blogSidebarCount: 5
+          },
+        ],
+      ],
 
   // Add custom scripts to handle gtag errors
   scripts: [

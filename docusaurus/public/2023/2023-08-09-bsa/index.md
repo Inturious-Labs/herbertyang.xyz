@@ -9,6 +9,8 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Beosin, Herbert Yang, security,
 
 On August 9, the DFINITY Foundation, a key contributor to the Internet Computer blockchain, recently announced its participation in the Blockchain Security Alliance, a collaborative initiative launched by Beosin and SUSS NiFT. The Blockchain Security Alliance is composed of various units with diverse industry backgrounds, including university institutions, blockchain security companies, industry associations, and fintech service providers. The Blockchain Security Alliance welcomes DFINITY into its ranks alongside Beosin, SUSS NiFT, NUS AIDF, BAS, FOMO Pay, Onchain Custodian, Semisand, Coinhako, ParityBit, and Huawei Cloud as its first batch of board members.
 
+<!-- truncate -->
+
 The Internet Computer blockchain, introduces autonomous serverless cloud functionality to the public internet. This groundbreaking advancement empowers developers to construct almost any system or service entirely on a decentralized network using "canister software," an evolution of smart contracts.
 
 By joining the Blockchain Security Alliance, DFINITY endorses the importance of collaboration and mutual cooperation among members to enhance security across the global blockchain ecosystem. Herbert Yang, DFINITY GM of Asia, emphasized that "Security has always been one of DFINITY's top concerns as a decentralized internet computing platform. With 42 members at present, the Alliance stands as a united front committed to safeguarding the integrity and security of the blockchain industry". The Alliance extends an open invitation to other blockchain-related entities to join forces and collectively defend the security of the entire ecosystem.

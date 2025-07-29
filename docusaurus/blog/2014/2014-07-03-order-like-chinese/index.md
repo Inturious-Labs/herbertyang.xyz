@@ -14,6 +14,8 @@ If you are a fan of General Tso Chicken, please skip.
 
 If you are not a native Chinese but aspire for good Chinese food once in a while, read on.
 
+<!-- truncate -->
+
 When you walk in a Chinese restaurant, whether in the Bay Area, New York, Los Angeles or Hawaii, you might fancy ordering like a native Chinese and get something really authentic, not invented-in-America kind of Chinese food (such as General Tso chicken or Beef & Broccoli). The challenge is, it's very difficult to navigate through a Chinese restaurant's menu as no one really understands the English portion of it. Chinese would just go straight to the last two pages that are written entirely in Chinese (so called "Chef's Recommendations") to order (and speak in Chinese to the waiter/waitress). If you don't read Chinese, this option is not available to you.
 
 Well, unless you read on ...

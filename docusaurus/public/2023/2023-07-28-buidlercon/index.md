@@ -7,6 +7,8 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, AC Capital, Hong Kong, BuidlerC
 
 ![Hong Kong AC Capital BuidlerCon](./img/20230728-hk-01.JPG)
 
+<!-- truncate -->
+
 ![Hong Kong AC Capital BuidlerCon](./img/20230728-hk-02.JPG)
 
 ![Hong Kong AC Capital BuidlerCon](./img/20230728-hk-03.JPG)

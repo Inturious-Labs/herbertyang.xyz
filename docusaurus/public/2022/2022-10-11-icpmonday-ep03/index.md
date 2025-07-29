@@ -10,6 +10,8 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, ICP Monday, neuron, NNS, tokeno
 
 ![EP03](./img/ic_wg_ep03.png)
 
+<!-- truncate -->
+
 Highlights from the two-hour Zoom call with the Chinese community on 2022/10/10 and the recorded video can be watched on Bilibili:
 
 <iframe src="//player.bilibili.com/player.html?aid=473942566&bvid=BV1LT411N7UA&cid=858356333&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" title="ICP Community Discussion EP03"> </iframe>

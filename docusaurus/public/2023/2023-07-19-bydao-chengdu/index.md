@@ -7,6 +7,8 @@ keywords: [DFINITY, ICP, IC, Herbert Yang, 互联网计算机, developer, 开发
 
 ![Chengdu, China, ByDAO](./img/20230719-chengdu-bydao-01.jpg)
 
+<!-- truncate -->
+
 ![Chengdu, China, ByDAO](./img/20230719-chengdu-bydao-02.jpg)
 
 ![Chengdu, China, ByDAO](./img/20230719-chengdu-bydao-03.jpg)

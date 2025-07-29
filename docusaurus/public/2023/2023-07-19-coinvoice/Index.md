@@ -10,6 +10,8 @@ keywords: [DFINITY, ICP, IC, Herbert Yang, Dominic Williams, 互联网计算机,
 
 ![poster for coinvoice](./img/herbert-coinvoice.jpg)
 
+<!-- truncate -->
+
 ## CoinVoice：多个知名公链代币被SEC认定为证券，ICP也在列，对此你们有什么回应？
 
 Herbert：我们有篇Medium的文章《DFINITY Thoughts on the SEC’s 6 June Complaint Against Coinbase》专门回应这个话题。
