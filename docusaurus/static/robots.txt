@@ -1,0 +1,35 @@
+# Allow all crawlers including Google bots
+User-agent: *
+Allow: /
+
+# Specific rules for Google bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://herbertyang.xyz/sitemap.xml
+
+# Explicitly allow main content areas
+Allow: /blog/
+Allow: /blog/tags/
+Allow: /docs/
+Allow: /public/
+Allow: /gallery/
+Allow: /digitalsovereignty/
+Allow: /cookbook/
+Allow: /about/
+
+# Disallow any potential admin or private areas (if they exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/ 
