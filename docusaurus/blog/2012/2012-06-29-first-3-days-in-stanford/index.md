@@ -71,7 +71,7 @@ permit through September (the end of current academic year) for \$75. In
 August they'll start selling \$300/year parking permit for the new
 academic year. Our parking permit is of type RS (for residents).
 
-10. *Get online*. Go to <http://rescomp.stanford.edu/> to register
+10. *Get online*. Go to [rescomp.stanford.edu](http://rescomp.stanford.edu/) to register
 all your devices that need to have Internet connection, including
 desktop/laptop/iPad/phone/AppleTV/PS3/Xbox. You'll get on the wi-fi
 network "Stanford Residence". It's fast and reliable, good enough to

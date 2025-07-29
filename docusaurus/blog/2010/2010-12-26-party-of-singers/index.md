@@ -13,7 +13,7 @@ image: "./img/ktv.jpg"
 
 *歌曲的下载地址：*
 
-<http://www.guizishanren.com/download/XmasParty/>
+[下载地址](http://www.guizishanren.com/download/XmasParty/)
 
 页面编码应该选用（UTF-8）
 
