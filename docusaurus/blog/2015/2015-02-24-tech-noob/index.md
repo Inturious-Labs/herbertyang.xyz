@@ -10,6 +10,8 @@ comments: true
 
 The six habits of a highly likely technology noob:
 
+<!-- truncate -->
+
 1. Your have more than **ONE** personal email addresses and your friends are always confused which one to use and spend countless hours verifying and re-verifying if you have received that missing email.
 
 2. You use work email address for personal emails.

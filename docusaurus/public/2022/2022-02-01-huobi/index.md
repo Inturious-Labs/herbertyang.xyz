@@ -10,6 +10,8 @@ keywords: [DFINITY, IC, ICP, 互联网计算机, Huobi, incubator, Web3, Herbert
 
 Huobi Incubator, the project incubation arm of Huobi Global, today announced a strategic partnership with the DFINITY Foundation, a major contributor to the Internet Computer, the most powerful general-purpose blockchain to build infinitely scalable Web3 dapps.
 
+<!-- truncate -->
+
 The partnership will see Huobi Incubator provide end-to-end support for Internet Computer-based Web3 dapps, DeFi, Games, NFTs, Social Media, and Metaverse projects — including seed round investment, technology guidance, marketing and community engagement, and more. Huobi Incubator will also assist with the Internet Computer’s native asset transfer and multi-chain deployments for Web3 projects that require it.
 
 This partnership also reflects Huobi Incubator’s confidence in the Internet Computer’s rapidly growing ecosystem since Genesis launch last May. According to the Electric Capital Developer Report, the Internet Computer is one of the fastest-growing developer ecosystems in 2021 — growing 368%. As of February 2022, evidenced by over 30,000 canister smart contracts deployed on the network, over a thousand developers are hard at work building on the Internet Computer, encompassing DeFi, play-to-earn and GameFi, NFTs and marketplaces, instant message and social media dapps, enterprise software, as well as infrastructure and metaverse projects.
