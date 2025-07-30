@@ -1,0 +1,51 @@
+export const vintagecarPhotos = [
+    {
+      src: require('./img/vintage-car-1.jpg').default,
+      width: 1600,
+      height: 2133,
+      alt: 'San Francisco China Beach Vintage Car Show',
+      caption: "Car Show 1",
+      thumb: require('./img/thumbs/vintage-car-1.jpg').default,
+    },
+    {
+      src: require('./img/vintage-car-2.jpg').default,
+      width: 1600,
+      height: 2133,
+      alt: 'San Francisco China Beach Vintage Car Show',
+      caption: "Car Show 2",
+      thumb: require('./img/thumbs/vintage-car-2.jpg').default,
+    }, 
+    {
+        src: require('./img/vintage-car-3.jpg').default,
+        width: 1600,
+        height: 2133,
+        alt: 'San Francisco China Beach Vintage Car Show',
+        caption: 'San Francisco China Beach Vintage Car Show 3',
+        thumb: require('./img/thumbs/vintage-car-3.jpg').default,
+    },  
+    {
+        src: require('./img/vintage-car-4.jpg').default,
+        width: 1600,
+        height: 2133,
+        alt: 'San Francisco China Beach Vintage Car Show',
+        caption: 'San Francisco China Beach Vintage Car Show 4',
+        thumb: require('./img/thumbs/vintage-car-4.jpg').default,
+    },  
+    {
+        src: require('./img/vintage-car-5.jpg').default,
+        width: 1600,
+        height: 2133,
+        alt: 'San Francisco China Beach Vintage Car Show',
+        caption: 'San Francisco China Beach Vintage Car Show 5',
+        thumb: require('./img/thumbs/vintage-car-5.jpg').default,
+    },  
+    {
+        src: require('./img/vintage-car-6.jpg').default,
+        width: 1600,
+        height: 2133,
+        alt: 'San Francisco China Beach Vintage Car Show',
+        caption: 'San Francisco China Beach Vintage Car Show 6',
+        thumb: require('./img/thumbs/vintage-car-6.jpg').default,
+    },  
+  ];
+  
