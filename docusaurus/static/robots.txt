@@ -15,6 +15,12 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
 # Sitemap location
 Sitemap: https://herbertyang.xyz/sitemap.xml
 
