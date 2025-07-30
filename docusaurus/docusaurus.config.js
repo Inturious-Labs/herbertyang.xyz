@@ -79,6 +79,12 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/wuhan_moshan_social.jpg',
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: 'Herbert Yang',
         logo: {
@@ -89,8 +95,7 @@ const config = {
           {to: '/blog/index', label: 'Blog', position: 'left'},
           {to: '/public', label: 'Public', position: 'left'},
           {
-            type: 'docSidebar',
-            sidebarId: 'gallerySidebar',
+            to: '/docs/gallery',
             position: 'left',
             label: 'Photo Gallery',
           },
