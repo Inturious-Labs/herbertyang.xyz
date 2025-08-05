@@ -86,7 +86,7 @@ Domain hosted on: Google Domain Service under `clayton@1082.xyz`
 	dfx identity whoami
 	```
 	
-	Switch to dfx identity `kun`
+	Switch to dfx identity `default`
 	
 	```bash
 	dfx identity use kun
@@ -324,53 +324,6 @@ import PhotoGallery from '@site/src/components/PhotoGallery';
   ]}
 />
 ```
-
-### Features:
-
-- **Grid Layout**: Images are displayed in a responsive grid with thumbnails
-- **Hover Effects**: Images scale slightly on hover for better UX
-- **Lightbox Slideshow**: Click any image to open a full-screen slideshow
-- **Navigation**: Use arrow keys or click buttons to navigate between images
-- **Image Titles**: Titles appear as overlays on thumbnails and in the lightbox
-- **Responsive**: Works on all screen sizes
-
-### Example conversion:
-
-**Before:**
-```md
-## Image 1
-![Description](./img/image1.jpg)
-
-## Image 2  
-![Description](./img/image2.jpg)
-```
-
-**After:**
-```md
-<PhotoGallery
-  title="My Photo Collection"
-  description="A collection of my favorite photos"
-  images={[
-    {
-      src: './img/image1.jpg',
-      alt: 'Description',
-      title: 'Image 1'
-    },
-    {
-      src: './img/image2.jpg', 
-      alt: 'Description',
-      title: 'Image 2'
-    }
-  ]}
-/>
-```
-
-### Tips:
-
-- The `title` property is optional - if not provided, the `alt` text will be used
-- Images are automatically resized to thumbnails in the grid
-- The lightbox shows full-size images
-- You can customize the grid layout by modifying the CSS in the PhotoGallery component
 
 ## References
 
