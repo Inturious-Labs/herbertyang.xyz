@@ -24,6 +24,9 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  // Ensure trailing slashes for Google Search Console
+  trailingSlash: true,
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -75,7 +78,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/types').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/wuhan_moshan_social.jpg',
@@ -196,18 +199,19 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-        plugins: [
-        [
-          '@docusaurus/plugin-content-blog',
-          {
-            id: 'public',
-            routeBasePath: 'public',
-            path: './public',
-            postsPerPage: 10,
-            blogSidebarCount: 5
-          },
-        ],
-      ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'public',
+        routeBasePath: 'public',
+        path: './public',
+        postsPerPage: 10,
+        blogSidebarCount: 0,
+        // Disable sidebar generation for blog plugin
+      },
+    ],
+  ],
 
   // Add custom scripts to handle gtag errors
   scripts: [
