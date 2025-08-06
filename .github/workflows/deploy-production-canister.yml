@@ -81,6 +81,27 @@ jobs:
       run: |
         cd docusaurus
         npm run build
+        
+        # Create IC assets configuration for proper XML handling
+        cat > build/.ic-assets.json5 << 'EOF'
+        [
+          {
+            "match": "sitemap.xml",
+            "headers": {
+              "Content-Type": "application/xml; charset=utf-8",
+              "Cache-Control": "public, max-age=3600"
+            },
+            "ignore": false
+          },
+          {
+            "match": "**/*",
+            "headers": {
+              "Cache-Control": "public, max-age=31536000, immutable"
+            }
+          }
+        ]
+        EOF
+        
         cd ..
 
     - name: Deploy to IC
