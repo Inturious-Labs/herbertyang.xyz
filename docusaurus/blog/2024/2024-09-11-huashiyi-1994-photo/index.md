@@ -1,7 +1,7 @@
 ---
 slug: huashiyi-1994-graduation-photo
 title: 武汉华师一附中1994届全家福
-tags: [2024, journey, 华师一附中]
+tags: [2024, journey, huashiyi]
 image: "./img/qian-jia-jie.png"
 keywords: [武汉, 华师一附中, 华中师大一附中, huashiyi, Wuhan, 毕业照, 千家街]
 draft: false
