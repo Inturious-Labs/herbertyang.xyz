@@ -11,7 +11,7 @@ I created a model "CIDRAE" to evaluate various courses from Stanford Graduate Sc
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP24*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP24*
 
 ---
 
@@ -53,4 +53,4 @@ RAE Index = Sum (R + A + E) / 3
 CIDRAE Index = CID Index / RAE Index
 ```
 
-... to be continued in [Summer Qtr Course Evaluation](summer-quarter-course-evaluation)
+... to be continued in [Summer Qtr Course Evaluation](/blog/summer-quarter-course-evaluation/)

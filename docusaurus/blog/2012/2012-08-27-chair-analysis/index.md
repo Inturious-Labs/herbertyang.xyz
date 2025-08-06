@@ -10,7 +10,7 @@ In the beginning of every quarter, Sloans will elect various class officers. For
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP05*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP05*
 
 ---
 

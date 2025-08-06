@@ -8,7 +8,7 @@ My presentation to the incoming Class of 2014 at the Stanfor Sloan Orientation.
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP63*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP63*
 
 ---
 

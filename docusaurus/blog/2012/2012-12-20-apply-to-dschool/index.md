@@ -9,7 +9,7 @@ image: "./img/dschool.png"
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP34*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP34*
 
 ---
 
@@ -23,10 +23,10 @@ So I've laid out my answer in this page - why I think I can make a meaningful co
     
     ![zheli-com](./img/zheli.com.png)
 
-2. **I have always been a visionary and evangelist** when it comes to the smartphone revolution. I drew this chart in 2007, right after buying my first iPhone (Generation 1), and [made bold predictions about Apple's entire consumer strategy](unofficial-apple-consumer-strategy) in the future. Most of my predictions have come into reality five years after.
+2. **I have always been a visionary and evangelist** when it comes to the smartphone revolution. I drew this chart in 2007, right after buying my first iPhone (Generation 1), and [made bold predictions about Apple's entire consumer strategy](/blog/unofficial-apple-consumer-strategy/) in the future. Most of my predictions have come into reality five years after.
 
-3. **I'm very experienced in creating enthralling entertainment contents** for mass distribution. On Oct 12, 2012, I directed and produced the [wildly successful Stanford GSB Flash Mob](dance-of-my-life) that took place in Stanford Knight Management Center on Oct 12, and made it into a viral hit on Youtube. On Nov 12, I led a team of 26 Sloans to perform [Gangnam Style during the half-time show of Stanford Men's Basketball Game](gangnam-style-goes-to-ncaa-game) in Maples Pavilion.
+3. **I'm very experienced in creating enthralling entertainment contents** for mass distribution. On Oct 12, 2012, I directed and produced the [wildly successful Stanford GSB Flash Mob](/blog/dance-of-my-life/) that took place in Stanford Knight Management Center on Oct 12, and made it into a viral hit on Youtube. On Nov 12, I led a team of 26 Sloans to perform [Gangnam Style during the half-time show of Stanford Men's Basketball Game](/blog/gangnam-style-goes-to-ncaa-game/) in Maples Pavilion.
 
-4. **I'm a hard-core user on most of the prevailing SNS platforms**, such as Facebook, Linkedin, Instagram, Weibo (China). I have [12,892 followers on Weibo](http://www.weibo.com/zire), China's largest social network (similar to Twitter), and [2,400 followers on Instagram](http://instagram.com/zire). I know very well how SNS have evolved over the last few years. My guides/walkthroughs on using [Weibo](http://guizishanren.com/how-i-learned-to-stop-worrying-and-love-the-weibo/) and [Instagram](introduce-instagram) have been widely quoted in China.
+4. **I'm a hard-core user on most of the prevailing SNS platforms**, such as Facebook, Linkedin, Instagram, Weibo (China). I have [12,892 followers on Weibo](http://www.weibo.com/zire), China's largest social network (similar to Twitter), and [2,400 followers on Instagram](http://instagram.com/zire). I know very well how SNS have evolved over the last few years. My guides/walkthroughs on using [Weibo](http://guizishanren.com/how-i-learned-to-stop-worrying-and-love-the-weibo/) and [Instagram](/blog/introduce-instagram/) have been widely quoted in China.
 
 With that, I hope I have convinced you that I will be a valuable addition to your class. Thank you.

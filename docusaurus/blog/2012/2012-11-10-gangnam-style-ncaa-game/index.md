@@ -11,14 +11,14 @@ The dance "Gangnam Style“ was performed by 26 Sloan Students from Stanford Uni
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) Special Episode*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) Special Episode*
 
 ---
 
 None of us expected this to happen when we applied for [Stanford
 University's GSB Sloan Program](http://www.gsb.stanford.edu/programs/msx).
 
-After our [highly successful flash mob on Oct 12 in GSB Town & Square](bubbles-and-flash-mob), I was exhausted and thought that was it, I would hear [Psy's Gangnam Style](http://youtu.be/9bZkp7q19f0) no more. Then an invitation came, asking us to perform the same dance/song for Stanford University's varsity teams, such as Men's Basketball, Women's Basketball, and Women's Volleyball. We thought, wow, we're becoming cheerleaders for Stanford in televised NCAA games! As a movie junkie who has soaked up too much Hollywood trash over the past two decades, I was keenly aware how competitive it was to become a cheerleader in a top university like Stanford. This would triumph all other accomplishments we could possibly amass in the Sloan program; this would mark the pinnacle of our
+After our [highly successful flash mob on Oct 12 in GSB Town & Square](/blog/bubbles-and-flash-mob/), I was exhausted and thought that was it, I would hear [Psy's Gangnam Style](http://youtu.be/9bZkp7q19f0) no more. Then an invitation came, asking us to perform the same dance/song for Stanford University's varsity teams, such as Men's Basketball, Women's Basketball, and Women's Volleyball. We thought, wow, we're becoming cheerleaders for Stanford in televised NCAA games! As a movie junkie who has soaked up too much Hollywood trash over the past two decades, I was keenly aware how competitive it was to become a cheerleader in a top university like Stanford. This would triumph all other accomplishments we could possibly amass in the Sloan program; this would mark the pinnacle of our
 alternative career track in entertainment; this was an offer we could not refuse; and the rest, was history.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hR_uJFkDIGU?si=5DIjxZVF-IO47Tij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

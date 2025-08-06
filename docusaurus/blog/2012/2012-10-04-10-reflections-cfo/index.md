@@ -11,7 +11,7 @@ I was a CFO in my past life. Some reflections stroke me after Mark Leslie's clas
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP18*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP18*
 
 ---
 
