@@ -11,7 +11,7 @@ Congratulations! You've arrived in Stanford, GSB, Sloan Fellow Program, one of t
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP01*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP01*
 
 ---
 

@@ -23,7 +23,7 @@ during the Sloan year, I'm yet to unveil my most satisfactory and ambitious proj
 Having said that, everybody can use an index to navigate through this
 journey up to today. Hence, here it is:
 
-1. [Survival Guide for the First Three Days](first-3-days-in-stanford)
+1. [Survival Guide for the First Three Days](/blog/first-3-days-in-stanford/)
 
 2. How to Set Up Stanford Email on OSX Mail
 
@@ -31,15 +31,15 @@ journey up to today. Hence, here it is:
 
 4. Let’s Get It On
 
-5. [Sloan Officer Analysis](sloan-class-officer-strategy)
+5. [Sloan Officer Analysis](/blog/sloan-class-officer-strategy/)
 
-6. [Live Stanford Life to the Fullest](live-stanford-life-to-the-fullest)
+6. [Live Stanford Life to the Fullest](/blog/live-stanford-life-to-the-fullest/)
 
 7. Difficult Communication, A Revisit
 
 8. Phil Libin Talk (CEO of Evernote)
 
-9. [Stanford MBA vs Stanford Sloan Fellow](stanford-mba-vs-sloan-fellow)
+9. [Stanford MBA vs Stanford Sloan Fellow](/blog/stanford-mba-vs-sloan-fellow/)
 
 10. Set Up Home Network in EV
 
@@ -57,11 +57,11 @@ journey up to today. Hence, here it is:
 
 17. ETL Seminar_Oct 3
 
-18. [10 Reflections of a CFO](10-reflections-cfo)
+18. [10 Reflections of a CFO](/blog/10-reflections-cfo/)
 
 19. Powerpoint & Business Plan
 
-20. [Dance of My Life](dance-of-my-life)
+20. [Dance of My Life](/blog/dance-of-my-life/)
 
 21. Demystify Board of Directors
 
@@ -69,9 +69,9 @@ journey up to today. Hence, here it is:
 
 23. Geoff Yang’s Winning Entrepreneurs
 
-24. [Evaluate Courses with CIDRAE](evaluate-stanford-course)
+24. [Evaluate Courses with CIDRAE](/blog/evaluate-stanford-course/)
 
-25. [Summer Quarter Course Evaluation](summer-quarter-course-evaluation)
+25. [Summer Quarter Course Evaluation](/blog/summer-quarter-course-evaluation/)
 
 26. Fall Quarter Course Evaluation (Interim)
 
@@ -81,15 +81,15 @@ journey up to today. Hence, here it is:
 
 29. Usefulness of Learning Various Accounting Concepts in B-School
 
-30. [View from California](view-from-california)
+30. [View from California](/blog/view-from-california/)
 
 31. A Dummy’s Guide to Business Plan
 
-32. [GSB Reporter – Bubbles & Flash Mob](bubbles-and-flash-mob)
+32. [GSB Reporter – Bubbles & Flash Mob](/blog/bubbles-and-flash-mob/)
 
 33. A Fictional Debate
 
-34. [Application to d.School](apply-to-stanford-dschool)
+34. [Application to d.School](/blog/apply-to-stanford-dschool/)
 
 Special: Gangnam Style Goes to Stanford NCAA Half-Time Show
 
@@ -149,4 +149,4 @@ Special: Gangnam Style Goes to Stanford NCAA Half-Time Show
 
 62. GCBC Talk Herbert Introduction
 
-63. [A Day In A Sloan’s Life](a-day-in-a-sloans-life)
+63. [A Day In A Sloan’s Life](/blog/a-day-in-a-sloans-life/)

@@ -11,7 +11,7 @@ Tonight's speakers for "Election 2012"'s talk "The View from California": Stan
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP30*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP30*
 
 ---
 

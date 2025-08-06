@@ -11,7 +11,7 @@ Life in Stanford comes to us like a bullet train. Before we know it's already tw
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP06*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP06*
 
 ---
 

@@ -11,17 +11,15 @@ Feature story from Stanford Business Magazine for our flash mob
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP32*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP32*
 
 ---
 
-The Stanford Business Reporter is Stanford Business School's quarterly
-newspaper. It has no online presence and is distributed for free around
+The Stanford Business Reporter is Stanford Business School's quarterly newspaper. It has no online presence and is distributed for free around
 GSB's Knight Management Center. In this issue, our Sloan Class of 2013
 contributed two articles, [Sten](http://sten.tamkivi.com/)'s "The
 Stanford Bubbles", and my "Recounting the Flash Mob". Our flash mob
-videos can be found here, "[Dance of My
-Life"](dance-of-my-life).
+videos can be found here, [Dance of My Life"](/blog/dance-of-my-life/).
 
 ![Stanford GSB Reporter](./img/gsb-report.jpg)
 

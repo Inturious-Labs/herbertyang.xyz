@@ -11,7 +11,7 @@ After 5 years in Beijing, why am I moving back to the states?
 
 <!--truncate-->
 
-I guess I owe an explanation to many of my friends who have watched and followed me with curiosity through all these years and numerous avant garden social networks.  I've moved back to the States since June and I haven't got the chance to call up many friends (actually, most) in the States yet to let them know of this news, which is very uncharacteristic of me. On the other side of the ocean, many of my friends in China are wondering why I suddenly disappeared in Beijing's social scene. The questions I've got a lot lately are: 
+I guess I owe an explanation to many of my friends who have watched and followed me with curiosity through all these years and numerous avant garden social networks.  I've moved back to the States since June and I haven't got the chance to call up many friends (actually, most) in the States yet to let them know of this news, which is very uncharacteristic of me. On the other side of the ocean, many of my friends in China are wondering why I suddenly disappeared in Beijing's social scene. The questions I've got a lot lately are: 
 
 - Why are you here in Stanford? 
 - Why are you back to the States?
@@ -20,7 +20,7 @@ I guess I owe an explanation to many of my friends who have watched and followed
 Admittedly I was a bit jaded explaining my recent endeavor to my friends, who constitute a fairly substantial group across the Pacific. Our annual newsletter at the end of the year still serves as an effective way to keep all our cared ones updated - a tradition we have been practicing since 2004 when living in Boston. However I stopped writing the English version of the newsletter two years ago because a Chinese version alone already exhausted all my creativity and
 inspiration (I don't think any English newsletter can beat my Chinese [newsletter of 2010](http://www.guizishanren.com/?p=549) and 2011. They're not as good as Umberto Eco's, but they are decent and pride attempts in that direction). The problem with the newsletter is that we've moving our lives too fast for the newsletter to catch up.
 
-My feeble attempt on Sina Weibo also got buried in the sea of tweets quickly. I wrote this[《出师表·2012》](leaving-beijing) in May 22, but Sina Weibo already started its irreversible decline and much fewer users are still active. Nothing of much substance can really leave a trail on twitter-esque Sina Weibo.
+My feeble attempt on Sina Weibo also got buried in the sea of tweets quickly. I wrote this[《出师表·2012》](/blog/leaving-beijing/) in May 22, but Sina Weibo already started its irreversible decline and much fewer users are still active. Nothing of much substance can really leave a trail on twitter-esque Sina Weibo.
 
 So here's my latest update and why everything leads to right here, right now.
 
@@ -48,7 +48,7 @@ Nonetheless:
     
 - At the very least, US' tax laws are well developed and there are many vehicles you can explore to bring down your effective tax laws. China's tax laws are far behind in sophistication. Some people might roll their eyes now and say I can get a lot of "gray" income in China through cash. Yes that's true. If that's your cup of tea or if you work in government departments/agencies, by all means stay where you are. Good for you.
     
-- There are actually benefits associated with paying high tax rate in US - you get the best protection of your personal assets. At a certain point in our lives,  tax rate is really not the top concern. Easy come, easy go.
+- There are actually benefits associated with paying high tax rate in US - you get the best protection of your personal assets. At a certain point in our lives,  tax rate is really not the top concern. Easy come, easy go.
 
 After making up our mind to move over, we thought West Coast would be a better choice as it's closer to Beijing/Shanghai with non-stop flight. The weather is also much nicer on the west. Most importantly Silicon Valley is here, where I can start from scratch to continue/pursue my entrepreneurial ideas.
 
@@ -58,14 +58,14 @@ On the last day in Palo Alto during our Jan 2012 California trip, we drove to Sa
 
 So...just like that, an idea naturally stroke us, why not go to Stanford, which is right here in the heart of Silicon Valley with the best alumni network there is?
 
-I already knew about [Stanford's Sloan Fellow](https://www.gsb.stanford.edu/programs/msx) program from a good friend who graduated there in 2010. I  just never pictured myself in this program because until very recently  I was very much immersed in the crazy and non-stop business and social life in Beijing. Now all of a sudden, coming to Stanford seems to make all the senses of the world. I
+I already knew about [Stanford's Sloan Fellow](https://www.gsb.stanford.edu/programs/msx) program from a good friend who graduated there in 2010. I  just never pictured myself in this program because until very recently  I was very much immersed in the crazy and non-stop business and social life in Beijing. Now all of a sudden, coming to Stanford seems to make all the senses of the world. I
 would not want to be anywhere but Silicon Valley and which university would serve as a better platform to usher me into the startup and investment circles of the valley?
 
 Once this seed had been planted, the rest of the execution was fairly easy. The past four years in Beijing saw tremendous professional and personal growth for me. I've been through a lot. Maybe I'm yet to figure out what works best, but at least I've known enough what does not work.
 
-So here I am, in Stanford Graduate Business School's Sloan Fellow program. My decision on Stanford was straightforward because it was significantly [location-based](http://www.guizishanren.com/?p=871), which was by the way in sharp contrast to my friend [Sten's highly methodological and scientific
+So here I am, in Stanford Graduate Business School's Sloan Fellow program. My decision on Stanford was straightforward because it was significantly [location-based](http://www.guizishanren.com/?p=871), which was by the way in sharp contrast to my friend [Sten's highly methodological and scientific
 approach](http://sten.tamkivi.com/2012/02/why-and-how-i-became-a-stanford-student/).
 
 Many friends would ask me, so ... is this move going to be permanent?
 
-I don't know, my friend. I really don't know. When we lived in Cambridge, MA, we loved Charles River, Cambridge and Boston, and never thought about leaving there. When we moved to Beijing and bought a house there, we thought Beijing was the best place for us. We seem to have a blast everywhere and tend to live our lives to the fullest in general, regardless of where we are.  When we moved here ... I no longer want to make any speculation and I no longer have any concept of "permanent" or "temporary". We live our lives, day by day. Carpe diem in Stanford!
+I don't know, my friend. I really don't know. When we lived in Cambridge, MA, we loved Charles River, Cambridge and Boston, and never thought about leaving there. When we moved to Beijing and bought a house there, we thought Beijing was the best place for us. We seem to have a blast everywhere and tend to live our lives to the fullest in general, regardless of where we are.  When we moved here ... I no longer want to make any speculation and I no longer have any concept of "permanent" or "temporary". We live our lives, day by day. Carpe diem in Stanford!

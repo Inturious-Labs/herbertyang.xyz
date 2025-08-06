@@ -11,7 +11,7 @@ How does Sloan Fellow ("MSX") compare to MBA in Stanford Graduate School of Busi
 
 <!--truncate-->
 
-*[Confession of a Stanford Sloan Fellow Series](stanford-sloan-chronicle-summary) EP09*
+*[Confession of a Stanford Sloan Fellow Series](/blog/stanford-sloan-chronicle-summary/) EP09*
 
 ---
 
