@@ -1,7 +1,7 @@
 ---
 slug: huashiyi-class-1994-30-year-reunion
 title: 武汉华师一附中94届三十周年返校庆典聚会召集令
-tags: [2024, journey, 华师一附中]
+tags: [2024, journey, huashiyi]
 image: "./img/group.jpg"
 keywords: [武汉, 华师一附中, 华中师大一附中, huashiyi, Wuhan, 毕业照, 高中聚会]
 draft: false
