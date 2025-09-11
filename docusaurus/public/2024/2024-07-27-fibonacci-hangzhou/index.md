@@ -3,7 +3,7 @@ slug: web3-summer-blockchain-in-hangzhou
 title: Web3 Summer 杭州区块链大会
 image: "./img/fibonacci-invite.jpg"
 tags: [fibonacci, budao]
-keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Hangzhou, 杭州, Herbert Yang]
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Hangzhou, 杭州, Herbert Yang, fibonacci, hangzhou]
 draft: false
 ---
 

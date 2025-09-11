@@ -15,8 +15,6 @@ ICP 一直以来高度重视和关注 AI 技术的发展，并致力于将其与
 
 ## 宣发
 
-
-
 日期：2024年8月1日
 
 地点：上海静安区聚能湾创业中心A座1楼
@@ -25,6 +23,4 @@ ICP 一直以来高度重视和关注 AI 技术的发展，并致力于将其与
 
 ![agenda](./img/bydao-agenda.jpg)
 
-宣发: https://x.com/bydao_cn/status/1816690183338684712
-
-
+宣发: [https://x.com/bydao_cn/status/1816690183338684712](https://x.com/bydao_cn/status/1816690183338684712)

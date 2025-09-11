@@ -23,7 +23,7 @@ draft: false
 
 ![agenda](./img/agenda.jpg)
 
-宣发: https://x.com/herbertyang/status/1808398538956554527
+宣发: [https://x.com/herbertyang/status/1808398538956554527](https://x.com/herbertyang/status/1808398538956554527)
 
 ## 现场
 
