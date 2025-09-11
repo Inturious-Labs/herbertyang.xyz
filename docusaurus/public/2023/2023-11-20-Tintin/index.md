@@ -9,6 +9,8 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Tintinland, Herbert Yang, Motok
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+![poster](./img/tintin.jpg)
+
 <!-- truncate -->
 
 ## 宣传
