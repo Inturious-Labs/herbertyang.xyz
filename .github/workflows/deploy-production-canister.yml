@@ -109,8 +109,8 @@ jobs:
         # Create canister_ids.json
         echo '{ "hyxyz": { "ic": "${{ vars.PRODUCTION_CANISTER_ID }}" } }' > canister_ids.json
         
-        # Deploy directly to IC without starting local replica
-        $HOME/.local/share/dfx/versions/0.24.3/dfx deploy hyxyz --network=ic --yes
+        # Deploy directly to IC without starting local replica with upgrade-unchanged flag
+        $HOME/.local/share/dfx/versions/0.24.3/dfx deploy hyxyz --network=ic --upgrade-unchanged --yes
 
     - name: Summarize
       run: echo 'https://${{ vars.PRODUCTION_CANISTER_ID }}.icp0.io' >> $GITHUB_STEP_SUMMARY
