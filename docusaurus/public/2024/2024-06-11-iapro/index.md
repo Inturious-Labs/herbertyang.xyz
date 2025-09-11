@@ -7,13 +7,15 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Com
 draft: false
 ---
 
- The Perfect Fusion of Technology & Culture, a Twitter Spaces hosted by iAPro
+The Perfect Fusion of Technology & Culture, a Twitter Spaces hosted by iAPro
+ 
+![poster](./img/poster-iapro.jpg)
 
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-iapro.jpg)
+
 
 日期：6月11日
 

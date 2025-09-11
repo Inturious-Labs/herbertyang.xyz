@@ -9,11 +9,11 @@ draft: false
 
 为了庆祝 ICP 主网上线三周年，Yuku 联合 DFINITY Asia 举办了 ICP 生态规模最大的一次华语社区嘉年华活动，邀请了 20 多位资深的生态开发者和顶级投资人，一起讨论 ICP 的过去，现在，和将来。
 
+![poster](./img/poster-yuku.jpg)
+
 <!--truncate-->
 
 ## 宣发
-
-![poster](./img/poster-yuku.jpg)
 
 日期：5月22日
 

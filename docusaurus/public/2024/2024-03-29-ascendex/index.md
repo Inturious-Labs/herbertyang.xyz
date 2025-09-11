@@ -9,11 +9,13 @@ draft: false
 
 How will AI and Web3 drive this bull market together?
 
+![poster](./img/poster-ascendEX.jpg)
+
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-ascendEX.jpg)
+
 
 日期：3月29日
 

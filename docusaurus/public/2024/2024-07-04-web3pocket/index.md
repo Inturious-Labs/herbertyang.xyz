@@ -9,11 +9,11 @@ draft: false
 
 一个融合了 Web3 和 Web2 两大阵营里的开发者的讨论会。数字化的未来是大家的共同目标。
 
+![poster](./img/poster-web3pocket.jpg)
+
 <!--truncate-->
 
 ## 宣发
-
-![poster](./img/poster-web3pocket.jpg)
 
 日期：2024年7月4日
 

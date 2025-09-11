@@ -10,11 +10,13 @@ draft: false
 
 杭州新崛起的新科技媒体外部山采访 Herbert Yang，讨论从 Web2 到 Web3 的职业转变
 
+![poster](./img/poster-datan.png)
+
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-datan.png)
+
 
 日期：2023年11月29日
 

@@ -5,14 +5,9 @@ image: "./img/bydao-poster.jpg"
 tags: [chengdu, meetup, bydao]
 ---
 
-<head>
-    <meta property="twitter:domain" content="ic123.xyz" />
-    <meta property="twitter:url" content="https://ic123.xyz" />
-    <meta name="twitter:title" content="DFINITY 联合 BY DAO 成都区块峰会" />
-    <meta name="twitter:description" content="DFINITY官方团队第一次在成都跟当地社区 By DAO 一起举办 ICP 开发者活动" />
-</head>
-
 DFINITY官方团队第一次在成都跟当地社区 By DAO 一起举办 ICP 开发者活动。
+
+![herbert 2](./img/bydao-herbert-2.jpg)
 
 <!--truncate-->
 
@@ -41,8 +36,6 @@ DFINITY官方团队第一次在成都跟当地社区 By DAO 一起举办 ICP 开
 ![herbert 1](./img/bydao-herbert-1.jpg)
 
 Herbert分享了ICP（Internet Computer Protocol）如何通过建立去中心化的全球计算网络，实现了互联网的重塑，让开发者能够无需管理传统服务器，直接在区块链上部署应用程序，促进了更多的创新和发展，为下一代互联网带来了巨大的潜力和机遇。
-
-![herbert 2](./img/bydao-herbert-2.jpg)
 
 接下来，主持人邀请OpenOs研究人员Pan进行演讲，演讲主题为：《重新定义WEB3数据的所有权》。
 

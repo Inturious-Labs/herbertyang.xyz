@@ -9,11 +9,13 @@ draft: false
 
 As developers are flocking into the recently reinvigorated BTC ecosystem, how are the east and the west influencing this historical surge in their own ways? Competition or collaboration?
 
+![poster](./img/poster-scalebit.jpg)
+
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-scalebit.jpg)
+
 
 日期：5月11日
 

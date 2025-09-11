@@ -6,13 +6,13 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Com
 draft: true
 ---
 
-xxx
+![poster](./img/poster.jpg)
 
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster.jpg)
+
 
 日期：1月31日
 

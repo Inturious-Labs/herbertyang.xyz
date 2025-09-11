@@ -9,11 +9,13 @@ draft: false
 
 QA Metaverse 在香港 Web3 Festival 期间采访 DFINITY 基金会亚太区负责人 Herbert
 
+![poster](./img/poster-qametaverse.png)
+
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-qametaverse.png)
+
 
 日期：4月6日
 

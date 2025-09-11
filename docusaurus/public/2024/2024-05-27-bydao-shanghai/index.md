@@ -9,11 +9,13 @@ draft: false
 
 在这场专注于DePIN技术的夏季盛会中，我们将展示如何利用区块链技术增强个人隐私保护和安全性
 
+![poster](./img/poster-bydao-shanghai.jpg)
+
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-bydao-shanghai.jpg)
+
 
 日期：5月27日
 

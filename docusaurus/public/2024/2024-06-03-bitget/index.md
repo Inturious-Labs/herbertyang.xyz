@@ -9,11 +9,13 @@ draft: false
 
 When DePin Summer？六月专辑, by Bitget 和 Node Lab
 
+![poster](./img/poster-bitget.jpg)
+
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-bitget.jpg)
+
 
 日期：6月03日
 

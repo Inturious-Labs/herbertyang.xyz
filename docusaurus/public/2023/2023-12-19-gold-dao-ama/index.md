@@ -8,11 +8,13 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Com
 
 Gold DAO 项目方邀请了多位 ICP 生态里的社区领袖来讨论即将完成 SNS 公售的 Gold DAO 和它对 ICP 生态带来的意义
 
+![Gold DAO](./img/golddao.jpg)
+
 <!--truncate-->
 
 ## 海报
 
-![Gold DAO](./img/golddao.jpg)
+
 
 ## Twitter 链接
 

@@ -6,13 +6,15 @@ tags: [hibit, chainkeyx, icpex, Twitter Spaces]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Hibit, ICPex, ChainKeyx, DeFi, PMM, Orderbook,  Dex, Staking]
 ---
 
-A thriving #DeFi ecosystem is mission critical for a L1 blockchain. What’s the outlook for #DeFi on #ICP in 2024? Who are the new players that would join the foray and make a splash?
+A thriving #DeFi ecosystem is mission-critical for an L1 blockchain. What’s the outlook for #DeFi on #ICP in 2024? Who are the new players that would join the foray and make a splash?
+
+![poster](./img/poster.jpg)
 
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster.jpg)
+
 
 https://twitter.com/herbertyang/status/1749729770726936676
 

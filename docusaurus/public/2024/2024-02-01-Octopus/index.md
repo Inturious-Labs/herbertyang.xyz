@@ -9,11 +9,11 @@ draft: false
 
 ICP 生态的跨链新人王 Octopus Network 邀请 DFINITY 基金会和 Hashkey 的专家一起来讨论模块化区块链的现状
 
+![poster](./img/poster-octopus.jpg)
+
 <!--truncate-->
 
 ## 宣发
-
-![poster](./img/poster-octopus.jpg)
 
 日期：2月1日
 

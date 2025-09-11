@@ -8,9 +8,11 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Com
 
 多位 ICP 生态 OG 将分享 ICP 的今天，明天，和生态第一龙头铭文项目 Mora 的背后故事。他们是如何做到上万人同时在线 zero-gas 公平拿到空投的？
 
+![Mora](./img/mora.png)
+
 <!--truncate-->
 
-![Mora](./img/mora.png)
+
 
 ## Twitter 链接
 
