@@ -1,10 +1,16 @@
 ---
 title: 富士山脚下环湖骑行50公里
 date: 2025-03-02
-tags: ["富士山", "Mount Fuji", "Brompton", "小布", "cycling", "骑行", "新干线", "Arakurayama Sengen Park", "新仓山浅间公园", "富士吉田市", "Fujiyoshida", "天梯小镇", "忍野八海"]
-draft: true
+keywords: ["富士山", "Mount Fuji", "Brompton", "小布", "cycling", "骑行", "新干线", "Arakurayama Sengen Park", "新仓山浅间公园", "富士吉田市", "Fujiyoshida", "天梯小镇", "忍野八海"]
+draft: false
 description: 骑折叠车小布在富士山脚下绕河口湖西湖
 ---
+
+骑折叠车小布在富士山脚下绕河口湖西湖50公里，在天梯小镇完美看日落
+
+![Mt Fuji](./img/mt-fuji.JPG)
+
+<!-- truncate -->
 
 1. 小布带上新干线完全没问题。
 
