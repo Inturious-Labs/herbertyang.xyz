@@ -12,7 +12,7 @@ const FeatureList = [
         A newsletter on crypto, web3 tech, decentralization, and various data hacks
       </>
     ),
-    link: '/docs/digitalsovereignty/newsletter/',
+    link: 'https://digitalsovereignty.herbertyang.xyz/',
     linkText: 'Explore Chronicle',
   },
   {

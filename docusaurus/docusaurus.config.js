@@ -95,7 +95,7 @@ const config = {
           src: 'img/herbert_avatar.jpg',
         },
         items: [
-          {to: '/blog/index', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/public', label: 'Public', position: 'left'},
           {
             to: '/docs/gallery',
