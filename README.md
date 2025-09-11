@@ -293,37 +293,140 @@ dfx wallet --network=ic balance
 2.177 TC (trillion cycles).
 ```
 
-## Gallery Template
+## Photo Gallery Guide - Modern Lightbox Format
 
-This is a template for converting existing gallery pages to use the PhotoGallery component with lightbox functionality.
+This guide will help you create new photo albums in the `docs/gallery` folder using the modern Lightbox gallery with `react-photo-album` + `yet-another-react-lightbox`.
 
-### How to convert an existing gallery:
+### Gallery Structure Overview
 
-1. **Import the PhotoGallery component:**
-```md
+The gallery is organized by year, with each album using the modern Lightbox format that provides:
+- Masonry grid layout
+- Lightbox with zoom, fullscreen, slideshow, and thumbnails
+- Caption support
+- Mobile-responsive design
+
+### Creating a New Photo Album
+
+#### Step 1: Create the Album Directory Structure
+
+```bash
+cd /Users/zire/matrix/github_zire/herbertyang.xyz/docusaurus/docs/gallery/2025
+mkdir your-album-name
+cd your-album-name
+mkdir img
+mkdir img/thumbs
+```
+
+#### Step 2: Prepare Your Images
+
+1. **Full-size images**: Place your high-quality images in the `img/` directory
+2. **Thumbnails**: Create smaller versions (recommended: 300-400px width) and place them in `img/thumbs/`
+3. **Naming convention**: Use descriptive names like `your-album-1.jpg`, `your-album-2.jpg`, etc.
+
+#### Step 3: Create the Album Files
+
+**Create `index.mdx`:**
+
+```mdx
+---
+title: "Your Album Title"
+description: "Brief description of your photo album"
+keywords: [keyword1, keyword2, keyword3]
+image: /img/gallery/2025/your-album-name/img/your-album-1.jpg
+---
+
 import PhotoGallery from '@site/src/components/PhotoGallery';
+import { yourAlbumPhotos } from './album';
+
+# Your Album Title
+
+Your album description here
+
+<PhotoGallery images={yourAlbumPhotos} />
 ```
 
-2. **Replace your existing images with the PhotoGallery component:**
-```md
-<PhotoGallery
-  title="Your Gallery Title"
-  description="Optional description of the gallery"
-  images={[
+**Create `album.ts`:**
+
+```typescript
+export const yourAlbumPhotos = [
     {
-      src: './img/your-image-1.jpg',
-      alt: 'Image description',
-      title: 'Image title (optional)'
+      src: require('./img/your-album-1.jpg').default,
+      width: 1600,  // Actual image width
+      height: 1200, // Actual image height
+      alt: 'Your album description',
+      caption: "Photo 1 caption",
+      thumb: require('./img/thumbs/your-album-1.jpg').default,
     },
     {
-      src: './img/your-image-2.jpg',
-      alt: 'Image description',
-      title: 'Image title (optional)'
+      src: require('./img/your-album-2.jpg').default,
+      width: 1600,
+      height: 1200,
+      alt: 'Your album description',
+      caption: "Photo 2 caption",
+      thumb: require('./img/thumbs/your-album-2.jpg').default,
     },
-    // ... more images
-  ]}
-/>
+    // Add more photos...
+];
 ```
+
+#### Step 4: Update Year Category (if needed)
+
+If you're creating the first album for a new year, create a `_category_.json` file:
+
+```json
+{
+  "label": "2025",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "photo albums around the world in 2025"
+  }
+}
+```
+
+### Example Album Structure
+
+```
+docs/gallery/2025/your-album-name/
+├── index.mdx          # Main album page
+├── album.ts           # Photo data
+├── img/               # Full-size images
+│   ├── your-album-1.jpg
+│   ├── your-album-2.jpg
+│   └── ...
+└── img/thumbs/        # Thumbnail images
+    ├── your-album-1.jpg
+    ├── your-album-2.jpg
+    └── ...
+```
+
+### Lightbox Features
+
+- **Masonry Layout**: Photos arrange in a Pinterest-style grid
+- **Lightbox**: Click any photo to open full-screen view
+- **Zoom**: Pinch or scroll to zoom in/out
+- **Slideshow**: Auto-play through photos
+- **Thumbnails**: Bottom thumbnail strip for navigation
+- **Captions**: Display photo descriptions
+- **Fullscreen**: Full-screen viewing mode
+- **Mobile Responsive**: Works great on all devices
+
+### Image Optimization Tips
+
+1. **Full-size images**: Use high quality (1600px+ width recommended)
+2. **Thumbnails**: Create 300-400px width versions for faster loading
+3. **Format**: Use JPG for photos, WebP for better compression
+4. **File naming**: Use lowercase with hyphens (e.g., `my-photo-1.jpg`)
+
+### Converting Old Image Slider Albums
+
+When converting existing Image Slider albums to the modern format:
+
+1. Replace `index.md` with `index.mdx`
+2. Create `album.ts` with the photo data
+3. Remove `ImageSlider.js` and `SliderData.js`
+4. Update image paths to use the new structure
+5. Add thumbnail versions of images
 
 ## References
 
