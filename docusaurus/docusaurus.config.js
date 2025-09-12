@@ -98,7 +98,8 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/public', label: 'Public', position: 'left'},
           {
-            to: '/docs/gallery',
+            type: 'docSidebar',
+            sidebarId: 'gallerySidebar',
             position: 'left',
             label: 'Photo Gallery',
           },

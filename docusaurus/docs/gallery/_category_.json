@@ -1,4 +1,8 @@
 {
-  "label": "Image Gallery",
-  "position": 1
+  "label": "Gallery",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Photo albums from travels and adventures around the world"
+  }
 }
