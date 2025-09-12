@@ -1,0 +1,238 @@
+/* Gallery Index Styles */
+
+.galleryIndex {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+/* Hide sidebar for gallery page */
+:global(.hidden) {
+  display: none !important;
+}
+
+/* Force full width layout */
+.fullWidthContainer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Override Docusaurus docs layout */
+:global(.docs-wrapper .docRoot_UBD9) {
+  max-width: none !important;
+}
+
+:global(.docs-wrapper .docSidebarContainer_YfHR) {
+  display: none !important;
+}
+
+:global(.docs-wrapper .docMainContainer_TBSr) {
+  max-width: none !important;
+  margin-left: 0 !important;
+}
+
+.galleryIntro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.galleryDescription {
+  font-size: 1.2rem;
+  color: var(--ifm-color-secondary-dark);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Year Section */
+.yearSection {
+  margin-bottom: 2.5rem;
+}
+
+.yearTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+
+.yearTitle::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--ifm-color-primary);
+  margin: 0.3rem auto;
+}
+
+/* Albums Grid */
+.albumsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .albumsGrid {
+    grid-template-columns: repeat(auto-fit, 180px);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .albumsGrid {
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 0.8rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .albumsGrid {
+    grid-template-columns: repeat(auto-fit, 130px);
+    gap: 0.6rem;
+    justify-content: center;
+  }
+}
+
+/* Album Card */
+.albumCard {
+  display: block;
+  text-decoration: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.albumCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.albumImageWrapper {
+  position: relative;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.albumImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.albumCard:hover .albumImage {
+  transform: scale(1.05);
+}
+
+/* Album Overlay */
+.albumOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.85)
+  );
+  color: white;
+  padding: 1.2rem 0.8rem 0.8rem;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.albumCard:hover .albumOverlay {
+  transform: translateY(-2px);
+}
+
+.albumTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.albumDescription {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .galleryDescription {
+  color: var(--ifm-color-secondary-light);
+}
+
+[data-theme='dark'] .albumCard {
+  background: var(--ifm-color-emphasis-200);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .albumCard:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .yearTitle {
+    font-size: 2.2rem;
+  }
+  
+  .galleryDescription {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .galleryIndex {
+    padding: 0 0.75rem;
+  }
+  
+  .yearTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .galleryDescription {
+    font-size: 1rem;
+  }
+  
+  .albumTitle {
+    font-size: 1.2rem;
+  }
+  
+  .albumDescription {
+    font-size: 0.85rem;
+  }
+  
+  .albumOverlay {
+    padding: 1.5rem 1.2rem 1.2rem;
+  }
+}

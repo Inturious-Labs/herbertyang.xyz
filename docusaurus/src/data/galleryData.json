@@ -1,0 +1,167 @@
+{
+  "2012": [
+    {
+      "slug": "1-stanford-dish",
+      "title": "Stanford Dish",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/1-stanford-dish/img/Stanford-Dish-in-Sunset-5.jpg",
+      "path": "/docs/gallery/2012/1-stanford-dish/"
+    },
+    {
+      "slug": "2-park-dancers",
+      "title": "中山公园的舞者",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/2-park-dancers/img/Park-Dancers-1.jpg",
+      "path": "/docs/gallery/2012/2-park-dancers/"
+    },
+    {
+      "slug": "3-age-of-innocence",
+      "title": "纯真年代",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/3-age-of-innocence/img/Kids-1.jpg",
+      "path": "/docs/gallery/2012/3-age-of-innocence/"
+    },
+    {
+      "slug": "4-in-haste",
+      "title": "匆匆 In Haste",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/4-in-haste/img/haste-1.jpg",
+      "path": "/docs/gallery/2012/4-in-haste/"
+    },
+    {
+      "slug": "5-ragnorak",
+      "title": "诸神的黄昏",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/5-ragnorak/img/twilight-1.jpg",
+      "path": "/docs/gallery/2012/5-ragnorak/"
+    },
+    {
+      "slug": "6-waiting",
+      "title": "等待",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/6-waiting/img/wait-1.jpg",
+      "path": "/docs/gallery/2012/6-waiting/"
+    },
+    {
+      "slug": "7-heres-looking-at-you",
+      "title": "Here's Looking At You",
+      "description": "",
+      "coverImage": "/docs/gallery/2012/7-heres-looking-at-you/img/look-1.jpg",
+      "path": "/docs/gallery/2012/7-heres-looking-at-you/"
+    }
+  ],
+  "2013": [
+    {
+      "slug": "1-tribute-to-masters",
+      "title": "向大师们的致敬",
+      "description": "",
+      "coverImage": "/docs/gallery/2013/1-tribute-to-masters/img/Tribute-1.jpg",
+      "path": "/docs/gallery/2013/1-tribute-to-masters/"
+    },
+    {
+      "slug": "2-frames",
+      "title": "进念二十面体",
+      "description": "",
+      "coverImage": "/docs/gallery/2013/2-frames/img/frame-1.jpg",
+      "path": "/docs/gallery/2013/2-frames/"
+    },
+    {
+      "slug": "3-east-lake-wuhan",
+      "title": "武汉东湖",
+      "description": "",
+      "coverImage": "/docs/gallery/2013/3-east-lake-wuhan/img/east_lake_01.jpg",
+      "path": "/docs/gallery/2013/3-east-lake-wuhan/"
+    },
+    {
+      "slug": "4-vanishing-lines",
+      "title": "Vanishing Lines",
+      "description": "",
+      "coverImage": "/docs/gallery/2013/4-vanishing-lines/img/Vanishing-Line-1.jpg",
+      "path": "/docs/gallery/2013/4-vanishing-lines/"
+    },
+    {
+      "slug": "5-san-francisco",
+      "title": "San Francisco",
+      "description": "",
+      "coverImage": "/docs/gallery/2013/5-san-francisco/img/SF-Chinatown-1-1024x1024.jpg",
+      "path": "/docs/gallery/2013/5-san-francisco/"
+    }
+  ],
+  "2014": [
+    {
+      "slug": "1-japanese-tea-garden",
+      "title": "Cherry Blossom at Japanese Tea Garden",
+      "description": "",
+      "coverImage": "/docs/gallery/2014/1-japanese-tea-garden/img/teagarden-1.jpg",
+      "path": "/docs/gallery/2014/1-japanese-tea-garden/"
+    },
+    {
+      "slug": "2-deyoung-museum",
+      "title": "de Young Museum in Golden Gate Park",
+      "description": "",
+      "coverImage": "/docs/gallery/2014/2-deyoung-museum/img/deYoung-stairway.jpg",
+      "path": "/docs/gallery/2014/2-deyoung-museum/"
+    },
+    {
+      "slug": "3-lives-under-sea",
+      "title": "Lives Under the Sea",
+      "description": "",
+      "coverImage": "/docs/gallery/2014/3-lives-under-sea/img/Monterey-Aquarium-1.jpg",
+      "path": "/docs/gallery/2014/3-lives-under-sea/"
+    },
+    {
+      "slug": "4-kabukicho",
+      "title": "歌舞伎町的刘建一",
+      "description": "",
+      "coverImage": "/docs/gallery/2014/4-kabukicho/img/kabukicho-1.jpg",
+      "path": "/docs/gallery/2014/4-kabukicho/"
+    },
+    {
+      "slug": "5-bottle-glass",
+      "title": "Bottles and Glasses",
+      "description": "",
+      "coverImage": "/docs/gallery/2014/5-bottle-glass/img/glass-1.jpg",
+      "path": "/docs/gallery/2014/5-bottle-glass/"
+    },
+    {
+      "slug": "6-flying-punks",
+      "title": "飞扬的骚年",
+      "description": "",
+      "coverImage": "/docs/gallery/2014/6-flying-punks/img/punks-02-flying-angel.jpg",
+      "path": "/docs/gallery/2014/6-flying-punks/"
+    }
+  ],
+  "2022": [],
+  "2023": [
+    {
+      "slug": "1-simingshan-dragon-boat",
+      "title": "四明山",
+      "description": "",
+      "coverImage": "/docs/gallery/2023/1-simingshan-dragon-boat/img/202306-simingshan-01.JPG",
+      "path": "/docs/gallery/2023/1-simingshan-dragon-boat/"
+    },
+    {
+      "slug": "2-climb-peak-hong-kong",
+      "title": "夜行香港太平山顶",
+      "description": "",
+      "coverImage": null,
+      "path": "/docs/gallery/2023/2-climb-peak-hong-kong/"
+    }
+  ],
+  "2025": [
+    {
+      "slug": "mt-fuji-cycling-loop",
+      "title": "Mt. Fuji Cycling Loop of 50km",
+      "description": "cycling around Mt. Fuji on a Brompton bike",
+      "coverImage": "/docs/gallery/2025/mt-fuji-cycling-loop/img/mt-fuji-cycling-loop-Anime-Bus.JPG",
+      "path": "/docs/gallery/2025/mt-fuji-cycling-loop/"
+    },
+    {
+      "slug": "vintage-car-show",
+      "title": "San Francisco China Beach Vintage Car Show",
+      "description": "Photos from our 2025 family trip to San Francisco via China Beach.",
+      "coverImage": "/docs/gallery/2025/vintage-car-show/img/vintage-car-1.jpg",
+      "path": "/docs/gallery/2025/vintage-car-show/"
+    }
+  ]
+}
