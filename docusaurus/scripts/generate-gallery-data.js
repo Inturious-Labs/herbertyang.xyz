@@ -116,12 +116,15 @@ function scanGalleryFolder() {
           }
         }
 
+        // Remove number prefix from albumSlug for the path (Docusaurus removes them)
+        const pathSlug = albumSlug.replace(/^\d+-/, '');
+
         albumsData[year].push({
           slug: albumSlug,
           title,
           description,
           coverImage,
-          path: `/docs/gallery/${year}/${albumSlug}/`
+          path: `/docs/gallery/${year}/${pathSlug}/`
         });
 
       } catch (error) {

@@ -12,7 +12,9 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "generate-gallery": "node scripts/generate-gallery-data.js"
+    "generate-gallery": "node scripts/generate-gallery-data.js",
+    "migrate-galleries": "node ../scripts/migrate-old-galleries.js",
+    "cleanup-migration": "node ../scripts/cleanup-migration.js"
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
