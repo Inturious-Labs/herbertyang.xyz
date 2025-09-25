@@ -550,130 +550,41 @@ node scripts/gallery-processor.js --web-max 1600 --thumb-size 400 gallery/
 node scripts/gallery-processor.js --dry-run gallery/
 ```
 
-## Dual-Remote Git Workflow for Photo Management
+## Photo Management System
 
 ### Overview
 
-This repository uses a dual-remote Git workflow to manage photo storage efficiently:
-- **GitHub (public)**: Code and web-optimized images only (excludes `originals/`)
-- **GitLab (private)**: Complete backup including original photos
-
-### Automatic .gitignore Switching
-
-The repository includes a pre-push hook that automatically switches `.gitignore` files based on the destination remote:
-
-- **When pushing to GitHub**: Uses `.gitignore.github` (excludes `**/originals/`, `**/original/`, `**/*-original.*`)
-- **When pushing to GitLab**: Uses `.gitignore.gitlab` (includes originals for backup)
-
-### Setup Instructions
-
-#### 1. Remote Configuration
-
-Configure both remotes with SSH authentication:
-
-```bash
-# Add GitHub remote (if not already configured)
-git remote add origin git@github-zire:zire/herbertyang.xyz.git
-
-# Add GitLab remote
-git remote add gitlab git@gitlab-nas:zire/herbertyang.xyz.git
-
-# Verify remotes
-git remote -v
-```
-
-#### 2. SSH Configuration
-
-Ensure your `~/.ssh/config` includes entries for both hosts:
-
-```ssh
-Host github-zire
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/your_key
-
-Host gitlab-nas
-    HostName your-gitlab-server-ip
-    User git
-    IdentityFile ~/.ssh/your_key
-```
-
-#### 3. Pre-push Hook
-
-The pre-push hook (`.git/hooks/pre-push`) automatically handles .gitignore switching. Ensure it's executable:
-
-```bash
-chmod +x .git/hooks/pre-push
-```
-
-### Usage Workflow
-
-#### Regular Development (GitHub)
-
-```bash
-# Create feature branch
-git checkout -b feature/your-feature
-
-# Make changes and commit
-git add .
-git commit -m "Your feature description"
-
-# Push to GitHub (automatically uses GitHub .gitignore)
-git push -u origin feature/your-feature
-```
-
-#### Backup with Originals (GitLab)
-
-```bash
-# Push to GitLab to backup originals
-git push gitlab main
-
-# Or push specific branch
-git push gitlab feature/your-feature
-```
+This repository uses a simple, efficient photo management system:
+- **Original images**: Stored locally in `originals/` directories (excluded from GitHub)
+- **Web images**: Optimized versions with watermarks for display
+- **Thumbnails**: Small versions for fast gallery grid loading
+- **GitHub storage**: Clean repository without large original files
+- **Backup strategy**: Separate backup process for complete local directory
 
 ### Photo Organization Strategy
 
 #### Directory Structure
 ```
 gallery/2025/album-name/
-├── originals/          # Full resolution originals (GitLab only)
-├── web/               # Web-optimized with watermarks (both remotes)
-├── thumbs/            # Thumbnails for grid display (both remotes)
-└── index.mdx          # Album configuration (both remotes)
+├── originals/          # Full resolution originals (local only, excluded from GitHub)
+├── web/               # Web-optimized with watermarks (included in GitHub)
+├── thumbs/            # Thumbnails for grid display (included in GitHub)
+└── index.mdx          # Album configuration (included in GitHub)
 ```
 
 #### Storage Strategy
-- **Originals**: Stored locally and synced to GitLab for backup
-- **Web images**: Optimized versions shared on both GitHub and GitLab
+- **Originals**: Stored locally, excluded by `.gitignore` to save GitHub storage
+- **Web images**: Processed versions shared on GitHub for website display
 - **Thumbnails**: Small versions for fast gallery browsing
+- **Co-location**: All image versions remain together for easy management
 
 ### Benefits
 
-1. **Public Repository**: Clean GitHub repository without large original files
-2. **Complete Backup**: GitLab maintains full archive including originals
-3. **Automatic Management**: Pre-push hook handles file inclusion/exclusion
-4. **Co-location**: Originals remain alongside processed versions locally
-5. **Consistent Authentication**: SSH for both remotes
-
-### Troubleshooting
-
-#### Check Current .gitignore
-```bash
-# See which .gitignore is active
-head -1 .gitignore
-
-# Manually switch if needed
-cp .gitignore.github .gitignore  # For GitHub
-cp .gitignore.gitlab .gitignore  # For GitLab
-```
-
-#### Verify Remote Detection
-```bash
-# Test pre-push hook detection
-git remote get-url origin    # Should show github URL
-git remote get-url gitlab    # Should show gitlab URL
-```
+1. **Clean GitHub Repository**: No large original files taking up storage quota
+2. **Co-located Files**: Originals stay with processed versions for easy regeneration
+3. **Simple Workflow**: Standard Git workflow, no complex hooks or dual remotes
+4. **Team Friendly**: Anyone can clone and work with standard Git commands
+5. **Flexible Backup**: Use any backup solution for complete directory backup
 
 ## References
 
