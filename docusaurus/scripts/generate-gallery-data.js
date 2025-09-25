@@ -76,16 +76,35 @@ function scanGalleryFolder() {
         // Get cover image from frontmatter or first image in content
         if (frontmatter.image) {
           let imagePath = frontmatter.image;
-          
+
           // Fix common typos
           if (imagePath.endsWith('.jpt')) {
             imagePath = imagePath.replace('.jpt', '.jpg');
           }
-          
+
           // Handle different path formats
           if (imagePath.startsWith('/docs/gallery/')) {
-            // Already absolute docs path - use as is
-            coverImage = imagePath;
+            // Check if this is an old path that needs updating to web directory
+            const filename = path.basename(imagePath);
+
+            // Try watermarked version first
+            let webImagePath = `/docs/gallery/${year}/${albumSlug}/img/web/watermarked_${filename}`;
+            let webImageFullPath = path.join(__dirname, '..', webImagePath.replace('/docs/', 'docs/'));
+
+            if (fs.existsSync(webImageFullPath)) {
+              coverImage = webImagePath;
+            } else {
+              // Try non-watermarked version in web directory
+              webImagePath = `/docs/gallery/${year}/${albumSlug}/img/web/${filename}`;
+              webImageFullPath = path.join(__dirname, '..', webImagePath.replace('/docs/', 'docs/'));
+
+              if (fs.existsSync(webImageFullPath)) {
+                coverImage = webImagePath;
+              } else {
+                // Fallback to original path
+                coverImage = imagePath;
+              }
+            }
           } else if (imagePath.startsWith('/img/gallery/')) {
             // Malformed absolute path - extract just the relative part
             const pathParts = imagePath.split('/');
@@ -104,14 +123,33 @@ function scanGalleryFolder() {
 
         // Fallback: scan img directory for first image
         if (!coverImage) {
-          const imgDir = path.join(albumPath, 'img');
-          if (fs.existsSync(imgDir)) {
-            const images = fs.readdirSync(imgDir)
+          // First try the web directory (three-tier structure)
+          const webDir = path.join(albumPath, 'img', 'web');
+          if (fs.existsSync(webDir)) {
+            const images = fs.readdirSync(webDir)
               .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
               .sort();
-            
+
             if (images.length > 0) {
-              coverImage = `/docs/gallery/${year}/${albumSlug}/img/${images[0]}`;
+              // Prefer watermarked images if available
+              const watermarkedImage = images.find(img => img.startsWith('watermarked_'));
+              const selectedImage = watermarkedImage || images[0];
+              coverImage = `/docs/gallery/${year}/${albumSlug}/img/web/${selectedImage}`;
+            }
+          }
+
+          // Only use old img directory structure if no web directory found
+          if (!coverImage) {
+            const imgDir = path.join(albumPath, 'img');
+            if (fs.existsSync(imgDir)) {
+              const images = fs.readdirSync(imgDir)
+                .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
+                .filter(file => !file.startsWith('.')) // Exclude hidden files
+                .sort();
+
+              if (images.length > 0) {
+                coverImage = `/docs/gallery/${year}/${albumSlug}/img/${images[0]}`;
+              }
             }
           }
         }
