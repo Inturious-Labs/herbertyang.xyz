@@ -550,41 +550,14 @@ node scripts/gallery-processor.js --web-max 1600 --thumb-size 400 gallery/
 node scripts/gallery-processor.js --dry-run gallery/
 ```
 
-## Photo Management System
 
-### Overview
-
-This repository uses a simple, efficient photo management system:
-- **Original images**: Stored locally in `originals/` directories (excluded from GitHub)
-- **Web images**: Optimized versions with watermarks for display
-- **Thumbnails**: Small versions for fast gallery grid loading
-- **GitHub storage**: Clean repository without large original files
-- **Backup strategy**: Separate backup process for complete local directory
 
 ### Photo Organization Strategy
 
 #### Directory Structure
 ```
 gallery/2025/album-name/
-├── originals/          # Full resolution originals (local only, excluded from GitHub)
-├── web/               # Web-optimized with watermarks (included in GitHub)
-├── thumbs/            # Thumbnails for grid display (included in GitHub)
-└── index.mdx          # Album configuration (included in GitHub)
-```
 
-#### Storage Strategy
-- **Originals**: Stored locally, excluded by `.gitignore` to save GitHub storage
-- **Web images**: Processed versions shared on GitHub for website display
-- **Thumbnails**: Small versions for fast gallery browsing
-- **Co-location**: All image versions remain together for easy management
-
-### Benefits
-
-1. **Clean GitHub Repository**: No large original files taking up storage quota
-2. **Co-located Files**: Originals stay with processed versions for easy regeneration
-3. **Simple Workflow**: Standard Git workflow, no complex hooks or dual remotes
-4. **Team Friendly**: Anyone can clone and work with standard Git commands
-5. **Flexible Backup**: Use any backup solution for complete directory backup
 
 ## References
 

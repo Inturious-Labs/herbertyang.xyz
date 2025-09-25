@@ -1,4 +1,4 @@
-# GitHub .gitignore - Excludes originals for public repo
+# GitLab .gitignore - Includes originals for private backup
 
 # Various IDEs and Editors
 .vscode/
@@ -34,7 +34,4 @@ pelican_posts/
 # environment variables
 .env
 
-# ORIGINAL PHOTOS - Exclude from GitHub (too large)
-**/originals/
-**/original/
-**/*-original.*
+# NOTE: originals/ are NOT ignored - they sync to GitLab for backup
