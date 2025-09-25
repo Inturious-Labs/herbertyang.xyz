@@ -103,7 +103,7 @@ function scanGalleryFolder() {
           title,
           description,
           coverImage,
-          path: `/docs/gallery/${year}/${albumSlug}/`
+          path: `/docs/gallery/${year}/${albumSlug.replace(/^\d+-/, '')}/`
         });
 
       } catch (error) {
