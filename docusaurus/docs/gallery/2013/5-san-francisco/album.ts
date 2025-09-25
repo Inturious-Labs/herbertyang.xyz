@@ -1,6 +1,6 @@
 export const san_franciscoPhotos = [
     {
-      src: require('./img/5-san-francisco-SF_Chinatown_1_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Chinatown_1_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -8,7 +8,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Chinatown_1_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Chinatown_2_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Chinatown_2_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -16,7 +16,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Chinatown_2_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Chinatown_3_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Chinatown_3_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -24,7 +24,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Chinatown_3_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Chinatown_4_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Chinatown_4_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -32,7 +32,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Chinatown_4_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Chinatown_5_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Chinatown_5_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -40,7 +40,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Chinatown_5_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Cow_Hollow_1_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Cow_Hollow_1_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -48,7 +48,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Cow_Hollow_1_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Cow_Hollow_2_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Cow_Hollow_2_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -56,7 +56,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Cow_Hollow_2_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Cow_Hollow_3_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Cow_Hollow_3_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -64,7 +64,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Cow_Hollow_3_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Cow_Hollow_4_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Cow_Hollow_4_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',
@@ -72,7 +72,7 @@ export const san_franciscoPhotos = [
       thumb: require('./img/thumbs/thumb-5-san-francisco-SF_Cow_Hollow_4_1024x1024.jpg').default,
     },
     {
-      src: require('./img/5-san-francisco-SF_Cow_Hollow_5_1024x1024.jpg').default,
+      src: require('./img/web/5-san-francisco-SF_Cow_Hollow_5_1024x1024.jpg').default,
       width: 900,
       height: 1200,
       alt: '5-san-francisco',

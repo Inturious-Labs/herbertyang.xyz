@@ -1,6 +1,6 @@
 export const lives_under_seaPhotos = [
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_1.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_1.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -8,7 +8,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_1.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_2.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_2.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -16,7 +16,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_2.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_3.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_3.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -24,7 +24,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_3.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_4.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_4.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -32,7 +32,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_4.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_5.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_5.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -40,7 +40,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_5.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_6.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_6.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -48,7 +48,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_6.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_7.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_7.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -56,7 +56,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_7.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_8.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_8.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -64,7 +64,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_8.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_9.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_9.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -72,7 +72,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_9.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_10.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_10.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -80,7 +80,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_10.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_11.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_11.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -88,7 +88,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_11.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_12.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_12.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -96,7 +96,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_12.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_13.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_13.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -104,7 +104,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_13.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_1.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_1.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -112,7 +112,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_1.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_2.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_2.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -120,7 +120,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_2.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_3.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_3.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -128,7 +128,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_3.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_4.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_4.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -136,7 +136,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_4.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_5.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_5.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -144,7 +144,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_5.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_6.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_6.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -152,7 +152,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_6.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_7.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_7.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -160,7 +160,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_7.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_8.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_8.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',
@@ -168,7 +168,7 @@ export const lives_under_seaPhotos = [
       thumb: require('./img/thumbs/thumb-3-lives-under-sea-Monterey_Aquarium_jelly_8.jpg').default,
     },
     {
-      src: require('./img/3-lives-under-sea-Monterey_Aquarium_jelly_9.jpg').default,
+      src: require('./img/web/3-lives-under-sea-Monterey_Aquarium_jelly_9.jpg').default,
       width: 900,
       height: 1200,
       alt: '3-lives-under-sea',

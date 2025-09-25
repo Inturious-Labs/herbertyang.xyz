@@ -1,6 +1,6 @@
 export const tribute_to_mastersPhotos = [
     {
-      src: require('./img/1-tribute-to-masters-Tribute_1.jpg').default,
+      src: require('./img/web/1-tribute-to-masters-Tribute_1.jpg').default,
       width: 900,
       height: 1200,
       alt: '1-tribute-to-masters',
@@ -8,7 +8,7 @@ export const tribute_to_mastersPhotos = [
       thumb: require('./img/thumbs/thumb-1-tribute-to-masters-Tribute_1.jpg').default,
     },
     {
-      src: require('./img/1-tribute-to-masters-Tribute_2.jpg').default,
+      src: require('./img/web/1-tribute-to-masters-Tribute_2.jpg').default,
       width: 900,
       height: 1200,
       alt: '1-tribute-to-masters',
@@ -16,7 +16,7 @@ export const tribute_to_mastersPhotos = [
       thumb: require('./img/thumbs/thumb-1-tribute-to-masters-Tribute_2.jpg').default,
     },
     {
-      src: require('./img/1-tribute-to-masters-Tribute_3.jpg').default,
+      src: require('./img/web/1-tribute-to-masters-Tribute_3.jpg').default,
       width: 900,
       height: 1200,
       alt: '1-tribute-to-masters',
@@ -24,7 +24,7 @@ export const tribute_to_mastersPhotos = [
       thumb: require('./img/thumbs/thumb-1-tribute-to-masters-Tribute_3.jpg').default,
     },
     {
-      src: require('./img/1-tribute-to-masters-Tribute_4.jpg').default,
+      src: require('./img/web/1-tribute-to-masters-Tribute_4.jpg').default,
       width: 900,
       height: 1200,
       alt: '1-tribute-to-masters',
@@ -32,7 +32,7 @@ export const tribute_to_mastersPhotos = [
       thumb: require('./img/thumbs/thumb-1-tribute-to-masters-Tribute_4.jpg').default,
     },
     {
-      src: require('./img/1-tribute-to-masters-Tribute_5.jpg').default,
+      src: require('./img/web/1-tribute-to-masters-Tribute_5.jpg').default,
       width: 900,
       height: 1200,
       alt: '1-tribute-to-masters',

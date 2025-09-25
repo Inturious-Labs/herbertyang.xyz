@@ -1,6 +1,6 @@
 export const vanishing_linesPhotos = [
     {
-      src: require('./img/4-vanishing-lines-Vanishing_Line_1.jpg').default,
+      src: require('./img/web/4-vanishing-lines-Vanishing_Line_1.jpg').default,
       width: 900,
       height: 1200,
       alt: '4-vanishing-lines',
@@ -8,7 +8,7 @@ export const vanishing_linesPhotos = [
       thumb: require('./img/thumbs/thumb-4-vanishing-lines-Vanishing_Line_1.jpg').default,
     },
     {
-      src: require('./img/4-vanishing-lines-Vanishing_Line_2.jpg').default,
+      src: require('./img/web/4-vanishing-lines-Vanishing_Line_2.jpg').default,
       width: 900,
       height: 1200,
       alt: '4-vanishing-lines',
@@ -16,7 +16,7 @@ export const vanishing_linesPhotos = [
       thumb: require('./img/thumbs/thumb-4-vanishing-lines-Vanishing_Line_2.jpg').default,
     },
     {
-      src: require('./img/4-vanishing-lines-Vanishing_Line_3.jpg').default,
+      src: require('./img/web/4-vanishing-lines-Vanishing_Line_3.jpg').default,
       width: 900,
       height: 1200,
       alt: '4-vanishing-lines',
@@ -24,7 +24,7 @@ export const vanishing_linesPhotos = [
       thumb: require('./img/thumbs/thumb-4-vanishing-lines-Vanishing_Line_3.jpg').default,
     },
     {
-      src: require('./img/4-vanishing-lines-Vanishing_Line_4.jpg').default,
+      src: require('./img/web/4-vanishing-lines-Vanishing_Line_4.jpg').default,
       width: 900,
       height: 1200,
       alt: '4-vanishing-lines',
@@ -32,7 +32,7 @@ export const vanishing_linesPhotos = [
       thumb: require('./img/thumbs/thumb-4-vanishing-lines-Vanishing_Line_4.jpg').default,
     },
     {
-      src: require('./img/4-vanishing-lines-Vanishing_Line_5.jpg').default,
+      src: require('./img/web/4-vanishing-lines-Vanishing_Line_5.jpg').default,
       width: 900,
       height: 1200,
       alt: '4-vanishing-lines',

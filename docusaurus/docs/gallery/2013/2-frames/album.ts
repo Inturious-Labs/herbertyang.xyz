@@ -1,6 +1,6 @@
 export const framesPhotos = [
     {
-      src: require('./img/2-frames-frame_1.jpg').default,
+      src: require('./img/web/2-frames-frame_1.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-frames',
@@ -8,7 +8,7 @@ export const framesPhotos = [
       thumb: require('./img/thumbs/thumb-2-frames-frame_1.jpg').default,
     },
     {
-      src: require('./img/2-frames-frame_2.jpg').default,
+      src: require('./img/web/2-frames-frame_2.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-frames',
@@ -16,7 +16,7 @@ export const framesPhotos = [
       thumb: require('./img/thumbs/thumb-2-frames-frame_2.jpg').default,
     },
     {
-      src: require('./img/2-frames-frame_3.jpg').default,
+      src: require('./img/web/2-frames-frame_3.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-frames',
@@ -24,7 +24,7 @@ export const framesPhotos = [
       thumb: require('./img/thumbs/thumb-2-frames-frame_3.jpg').default,
     },
     {
-      src: require('./img/2-frames-frame_4.jpg').default,
+      src: require('./img/web/2-frames-frame_4.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-frames',
@@ -32,7 +32,7 @@ export const framesPhotos = [
       thumb: require('./img/thumbs/thumb-2-frames-frame_4.jpg').default,
     },
     {
-      src: require('./img/2-frames-frame_5.jpg').default,
+      src: require('./img/web/2-frames-frame_5.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-frames',

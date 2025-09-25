@@ -1,6 +1,6 @@
 export const deyoung_museumPhotos = [
     {
-      src: require('./img/2-deyoung-museum-deYoung_stairway.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_stairway.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -8,7 +8,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_stairway.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_waiting.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_waiting.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -16,7 +16,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_waiting.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_whisper.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_whisper.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -24,7 +24,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_whisper.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_perplexed.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_perplexed.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -32,7 +32,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_perplexed.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_chaos.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_chaos.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -40,7 +40,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_chaos.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_climb.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_climb.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -48,7 +48,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_climb.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_division.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_division.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -56,7 +56,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_division.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_fallen_angel.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_fallen_angel.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',
@@ -64,7 +64,7 @@ export const deyoung_museumPhotos = [
       thumb: require('./img/thumbs/thumb-2-deyoung-museum-deYoung_fallen_angel.jpg').default,
     },
     {
-      src: require('./img/2-deyoung-museum-deYoung_fountain.jpg').default,
+      src: require('./img/web/2-deyoung-museum-deYoung_fountain.jpg').default,
       width: 900,
       height: 1200,
       alt: '2-deyoung-museum',

@@ -456,6 +456,100 @@ When converting existing Image Slider albums to the modern format:
 4. Update image paths to use the new structure
 5. Add thumbnail versions of images
 
+## Three-Tier Photo Management System with Lazy Loading
+
+### Overview
+
+This system implements a professional photo management workflow with lazy loading for optimal performance and organization.
+
+### Three-Tier Structure
+
+#### 🗂️ Set A: `originals/`
+**Master Archive (Full Resolution, No Processing)**
+- Original camera files with no modifications
+- Highest quality for future processing
+- Stored in private repositories as backup
+- Never used directly in web display
+
+#### 🌐 Set B: `web/`
+**Web-Optimized Display Images**
+- Resized to ≤1200px for optimal web viewing
+- Watermarked with Herbert Yang Photography branding
+- High quality (85% JPEG) for crisp display
+- Used in lightbox full-screen view
+
+#### 🖼️ Set C: `thumbs/`
+**Grid Thumbnails (Lazy Loading)**
+- Small thumbnails (300px) for fast grid display
+- Optimized for quick browsing (80% JPEG quality)
+- Used in gallery grid with native lazy loading
+- Enable instant gallery navigation
+
+### Gallery Structure Example
+
+```
+docs/gallery/2025/vintage-car-show/
+├── index.mdx                    # Gallery page
+├── album.ts                     # Photo configuration
+├── originals/                   # Set A: Master archive
+│   ├── vintage-car-1.jpg        # Original camera file
+│   └── vintage-car-2.jpg
+├── web/                         # Set B: Web display (watermarked, ≤1200px)
+│   ├── vintage-car-1.jpg        # Processed for web
+│   └── vintage-car-2.jpg
+└── thumbs/                      # Set C: Grid thumbnails (300px)
+    ├── thumb_vintage-car-1.jpg  # Fast loading thumbnail
+    └── thumb_vintage-car-2.jpg
+```
+
+### Lazy Loading Implementation
+
+**PhotoGallery Component Strategy:**
+1. **Instant Grid Display**: Shows Set C thumbnails immediately
+2. **On-Demand Full Images**: Loads Set B images only when lightbox opens
+3. **Native Browser Lazy Loading**: Images outside viewport load as needed
+4. **Optimal User Experience**: Fast browsing + high quality viewing
+
+**Performance Benefits:**
+- **Grid loads in ~500ms**: Small thumbnails display instantly
+- **Reduced bandwidth**: Only load full images when needed
+- **Better UX**: Users can browse quickly without waiting
+- **Scalable**: Works with hundreds of photos
+
+### Album Configuration
+
+Update your `album.ts` files to reference the new structure:
+
+```typescript
+export const vintageCarShowPhotos = [
+  {
+    src: require('./web/vintage-car-1.jpg').default,           // Set B: Full web image
+    thumb: require('./thumbs/thumb_vintage-car-1.jpg').default, // Set C: Thumbnail
+    width: 800,
+    height: 600,
+    alt: 'vintage-car-show',
+    caption: "Classic car detail",
+  },
+  // ... more photos
+];
+```
+
+### Image Processing Pipeline
+
+**Automated Processing Script:**
+Use `scripts/gallery-processor.js` to convert galleries:
+
+```bash
+# Process single gallery
+node scripts/gallery-processor.js docusaurus/docs/gallery/2025/vintage-car-show
+
+# Process with custom settings
+node scripts/gallery-processor.js --web-max 1600 --thumb-size 400 gallery/
+
+# Dry run to preview changes
+node scripts/gallery-processor.js --dry-run gallery/
+```
+
 ## References
 
 - https://gotofritz.net/blog/blog-with-sveltekit-and-markdown
