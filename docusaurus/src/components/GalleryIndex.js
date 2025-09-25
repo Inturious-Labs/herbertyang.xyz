@@ -22,7 +22,7 @@ function AlbumCard({ album, year }) {
 
   // Handle null coverImage - use fallback for Hong Kong album
   if (!album.coverImage && album.slug === '2-climb-peak-hong-kong') {
-    coverImageSrc = '/img/202307-thepeak-01.jpg';
+    coverImageSrc = '/img/gallery/2023/2-climb-peak-hong-kong/img/web/watermarked_2-climb-peak-hong-kong-thepeak-01.jpg';
   }
   // Try to find the cover image from imported images
   else if (album.coverImage && album.coverImage.startsWith('/docs/gallery')) {
