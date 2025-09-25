@@ -30,7 +30,8 @@
     "yet-another-react-lightbox": "^3.25.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.3"
+    "@docusaurus/module-type-aliases": "^2.4.3",
+    "canvas": "^3.2.0"
   },
   "browserslist": {
     "production": [

@@ -1,6 +1,6 @@
 export const simingshan_dragon_boatPhotos = [
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_01.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_01.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -8,7 +8,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_01.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_02.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_02.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -16,7 +16,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_02.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_03.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_03.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -24,7 +24,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_03.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_04.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_04.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -32,7 +32,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_04.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_05.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_05.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -40,7 +40,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_05.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_06.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_06.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -48,7 +48,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_06.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_07.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_07.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -56,7 +56,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_07.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_08.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_08.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -64,7 +64,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_08.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_09.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_09.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -72,7 +72,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_09.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_10.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_10.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -80,7 +80,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_10.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_11.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_11.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',
@@ -88,7 +88,7 @@ export const simingshan_dragon_boatPhotos = [
       thumb: require('./img/thumbs/thumb-1-simingshan-dragon-boat-img_202306_simingshan_11.JPG').default,
     },
     {
-      src: require('./img/1-simingshan-dragon-boat-img_202306_simingshan_12.JPG').default,
+      src: require('./img/watermarked_1-simingshan-dragon-boat-img_202306_simingshan_12.JPG').default,
       width: 900,
       height: 1200,
       alt: '1-simingshan-dragon-boat',

@@ -1,6 +1,6 @@
 export const flying_punksPhotos = [
     {
-      src: require('./img/6-flying-punks-punks_02_flying_angel.jpg').default,
+      src: require('./img/watermarked_6-flying-punks-punks_02_flying_angel.jpg').default,
       width: 900,
       height: 1200,
       alt: '6-flying-punks',
@@ -8,7 +8,7 @@ export const flying_punksPhotos = [
       thumb: require('./img/thumbs/thumb-6-flying-punks-punks_02_flying_angel.jpg').default,
     },
     {
-      src: require('./img/6-flying-punks-punks_03_i_fly_so_i_am.jpg').default,
+      src: require('./img/watermarked_6-flying-punks-punks_03_i_fly_so_i_am.jpg').default,
       width: 900,
       height: 1200,
       alt: '6-flying-punks',
@@ -16,7 +16,7 @@ export const flying_punksPhotos = [
       thumb: require('./img/thumbs/thumb-6-flying-punks-punks_03_i_fly_so_i_am.jpg').default,
     },
     {
-      src: require('./img/6-flying-punks-punks_05_flying_dragons.jpg').default,
+      src: require('./img/watermarked_6-flying-punks-punks_05_flying_dragons.jpg').default,
       width: 900,
       height: 1200,
       alt: '6-flying-punks',
@@ -24,7 +24,7 @@ export const flying_punksPhotos = [
       thumb: require('./img/thumbs/thumb-6-flying-punks-punks_05_flying_dragons.jpg').default,
     },
     {
-      src: require('./img/6-flying-punks-punks_01_YMCA.jpg').default,
+      src: require('./img/watermarked_6-flying-punks-punks_01_YMCA.jpg').default,
       width: 900,
       height: 1200,
       alt: '6-flying-punks',
@@ -32,7 +32,7 @@ export const flying_punksPhotos = [
       thumb: require('./img/thumbs/thumb-6-flying-punks-punks_01_YMCA.jpg').default,
     },
     {
-      src: require('./img/6-flying-punks-punks_04_the_group.jpg').default,
+      src: require('./img/watermarked_6-flying-punks-punks_04_the_group.jpg').default,
       width: 900,
       height: 1200,
       alt: '6-flying-punks',
