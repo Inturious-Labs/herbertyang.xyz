@@ -1,6 +1,6 @@
 export const vintagecarPhotos = [
     {
-      src: require('./img/vintage-car-1.jpg').default,
+      src: require('./img/watermarked_vintage-car-1.jpg').default,
       width: 1600,
       height: 2133,
       alt: 'San Francisco China Beach Vintage Car Show',
@@ -8,7 +8,7 @@ export const vintagecarPhotos = [
       thumb: require('./img/thumbs/vintage-car-1.jpg').default,
     },
     {
-      src: require('./img/vintage-car-2.jpg').default,
+      src: require('./img/watermarked_vintage-car-2.jpg').default,
       width: 1600,
       height: 2133,
       alt: 'San Francisco China Beach Vintage Car Show',
@@ -16,7 +16,7 @@ export const vintagecarPhotos = [
       thumb: require('./img/thumbs/vintage-car-2.jpg').default,
     }, 
     {
-        src: require('./img/vintage-car-3.jpg').default,
+        src: require('./img/watermarked_vintage-car-3.jpg').default,
         width: 1600,
         height: 2133,
         alt: 'San Francisco China Beach Vintage Car Show',
@@ -24,7 +24,7 @@ export const vintagecarPhotos = [
         thumb: require('./img/thumbs/vintage-car-3.jpg').default,
     },  
     {
-        src: require('./img/vintage-car-4.jpg').default,
+        src: require('./img/watermarked_vintage-car-4.jpg').default,
         width: 1600,
         height: 2133,
         alt: 'San Francisco China Beach Vintage Car Show',
@@ -32,7 +32,7 @@ export const vintagecarPhotos = [
         thumb: require('./img/thumbs/vintage-car-4.jpg').default,
     },  
     {
-        src: require('./img/vintage-car-5.jpg').default,
+        src: require('./img/watermarked_vintage-car-5.jpg').default,
         width: 1600,
         height: 2133,
         alt: 'San Francisco China Beach Vintage Car Show',
@@ -40,7 +40,7 @@ export const vintagecarPhotos = [
         thumb: require('./img/thumbs/vintage-car-5.jpg').default,
     },  
     {
-        src: require('./img/vintage-car-6.jpg').default,
+        src: require('./img/watermarked_vintage-car-6.jpg').default,
         width: 1600,
         height: 2133,
         alt: 'San Francisco China Beach Vintage Car Show',

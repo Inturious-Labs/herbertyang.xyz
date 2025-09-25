@@ -1,6 +1,6 @@
 export const climb_peak_hong_kongPhotos = [
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-01.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-01.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 1',
@@ -8,7 +8,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-01.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-02.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-02.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 2',
@@ -16,7 +16,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-02.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-03.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-03.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 3',
@@ -24,7 +24,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-03.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-04.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-04.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 4',
@@ -32,7 +32,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-04.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-05.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-05.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 5',
@@ -40,7 +40,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-05.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-06.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-06.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 6',
@@ -48,7 +48,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-06.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-07.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-07.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 7',
@@ -56,7 +56,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-07.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-08.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-08.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 8',
@@ -64,7 +64,7 @@ export const climb_peak_hong_kongPhotos = [
     thumb: require('./img/thumbs/thumb-2-climb-peak-hong-kong-thepeak-08.jpg').default,
   },
   {
-    src: require('./img/2-climb-peak-hong-kong-thepeak-09.jpg').default,
+    src: require('./img/watermarked_2-climb-peak-hong-kong-thepeak-09.jpg').default,
     width: 900,
     height: 1200,
     alt: 'Hong Kong Peak 9',

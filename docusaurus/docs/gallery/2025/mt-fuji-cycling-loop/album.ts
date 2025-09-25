@@ -1,6 +1,6 @@
 export const mt_fuji_cycling_loopPhotos = [
     {
-      src: require('./img/mt-fuji-cycling-loop-Anime-Bus.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Anime-Bus.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -9,7 +9,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Brompton-by-Lake.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Brompton-by-Lake.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -18,7 +18,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Arakura-Fuji-Sengen-Shrine.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Arakura-Fuji-Sengen-Shrine.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -27,7 +27,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-IMG_3311.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-IMG_3311.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -36,7 +36,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Mt-Fuji-Lake-Kawaguchi.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Mt-Fuji-Lake-Kawaguchi.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -45,7 +45,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-浅间神社.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-浅间神社.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -54,7 +54,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Mt-Fuji-Shinkansen.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Mt-Fuji-Shinkansen.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -63,7 +63,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Mt-Fuji-Lakeside.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Mt-Fuji-Lakeside.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -72,7 +72,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Kifune-Shrine.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Kifune-Shrine.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -81,7 +81,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Fujikawaguchiko-Station.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Fujikawaguchiko-Station.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -90,7 +90,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Fujiyoshida.jpg').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Fujiyoshida.jpg').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -99,7 +99,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Saiko-Rest-House.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Saiko-Rest-House.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -108,7 +108,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Brompton-by-Creek.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Brompton-by-Creek.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -117,7 +117,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Lakeside.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Lakeside.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
@@ -126,7 +126,7 @@ export const mt_fuji_cycling_loopPhotos = [
     }
 ,
     {
-      src: require('./img/mt-fuji-cycling-loop-Yagizaki-Park.JPG').default,
+      src: require('./img/watermarked_mt-fuji-cycling-loop-Yagizaki-Park.JPG').default,
       width: 900,
       height: 1200,
       alt: 'mt-fuji-cycling-loop',
