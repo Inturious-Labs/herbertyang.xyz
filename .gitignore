@@ -1,3 +1,5 @@
+# GitHub .gitignore - Excludes originals for public repo
+
 # Various IDEs and Editors
 .vscode/
 .idea/
@@ -14,6 +16,10 @@
 node_modules/
 dist/
 
+# Docusaurus build output
+docusaurus/build/
+docusaurus/.docusaurus/
+
 # un-used files for final build
 sample/
 
@@ -27,3 +33,8 @@ pelican_posts/
 
 # environment variables
 .env
+
+# ORIGINAL PHOTOS - Exclude from GitHub (too large)
+**/originals/
+**/original/
+**/*-original.*
