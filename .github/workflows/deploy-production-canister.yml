@@ -28,62 +28,37 @@ jobs:
         cache: 'npm'
         cache-dependency-path: docusaurus/package-lock.json
 
-    - name: Cache dfx installation
+    - name: Cache dfx
       uses: actions/cache@v4
       with:
-        path: |
-          ~/.cache/dfinity
-          ~/.local/share/dfx
-        key: dfx-full-${{ runner.os }}-${{ hashFiles('**/dfx.json') }}-v1
+        path: ~/.cache/dfinity
+        key: dfx-cache-${{ runner.os }}-${{ hashFiles('**/dfx.json') }}
         restore-keys: |
-          dfx-full-${{ runner.os }}-
-
-    - name: Cache Node.js build
-      uses: actions/cache@v4
-      with:
-        path: |
-          docusaurus/build
-          docusaurus/.docusaurus
-          docusaurus/node_modules/.cache
-        key: docusaurus-build-${{ runner.os }}-${{ hashFiles('docusaurus/package-lock.json', 'docusaurus/docusaurus.config.js', 'docusaurus/src/**', 'docusaurus/blog/**', 'docusaurus/docs/**', 'static/**') }}
-        restore-keys: |
-          docusaurus-build-${{ runner.os }}-
+          dfx-cache-${{ runner.os }}-
 
     - name: Setup DFX
       run: |
+        # Download and install dfxvm directly
         DFXVM_VERSION="1.0.1"
         DFXVM_DIR="$HOME/.local/share/dfx"
+        mkdir -p "$DFXVM_DIR/bin"
 
-        # Check if dfxvm is already cached
-        if [ ! -f "$DFXVM_DIR/bin/dfxvm" ]; then
-          echo "Installing dfxvm..."
-          mkdir -p "$DFXVM_DIR/bin"
+        # Download dfxvm for Linux
+        curl -L "https://github.com/dfinity/dfxvm/releases/download/v${DFXVM_VERSION}/dfxvm-x86_64-unknown-linux-gnu.tar.gz" -o dfxvm.tar.gz
 
-          # Download dfxvm for Linux
-          curl -L "https://github.com/dfinity/dfxvm/releases/download/v${DFXVM_VERSION}/dfxvm-x86_64-unknown-linux-gnu.tar.gz" -o dfxvm.tar.gz
-
-          # Extract dfxvm
-          tar -xzf dfxvm.tar.gz
-          mv dfxvm-x86_64-unknown-linux-gnu/dfxvm "$DFXVM_DIR/bin/"
-          chmod +x "$DFXVM_DIR/bin/dfxvm"
-        else
-          echo "Using cached dfxvm installation"
-        fi
+        # Extract dfxvm
+        tar -xzf dfxvm.tar.gz
+        mv dfxvm-x86_64-unknown-linux-gnu/dfxvm "$DFXVM_DIR/bin/"
+        chmod +x "$DFXVM_DIR/bin/dfxvm"
 
         # Add to PATH and export for current session
         echo "$DFXVM_DIR/bin" >> $GITHUB_PATH
         export PATH="$DFXVM_DIR/bin:$PATH"
 
-        # Check if DFX is already installed
-        if [ ! -f "$HOME/.local/share/dfx/versions/0.24.3/dfx" ]; then
-          echo "Installing DFX 0.24.3..."
-          dfxvm default 0.24.3
-        else
-          echo "Using cached DFX installation"
-        fi
+        # Install and set DFX 0.24.3 as default
+        dfxvm default 0.24.3
 
         # Add dfx to PATH
-        echo "$HOME/.local/share/dfx/versions/0.24.3" >> $GITHUB_PATH
         export PATH="$HOME/.local/share/dfx/versions/0.24.3:$PATH"
 
         # Verify installation
@@ -99,19 +74,12 @@ jobs:
     - name: Install dependencies
       run: |
         cd docusaurus
-        npm ci --prefer-offline --no-audit --silent
+        npm ci --prefer-offline --no-audit
         cd ..
 
     - name: Build
       run: |
         cd docusaurus
-
-        # Check if we can use cached build
-        if [ -d "build" ] && [ -f "build/index.html" ]; then
-          echo "Found existing build, checking if rebuild needed..."
-          # Force rebuild for now, but cache will still speed up webpack/docusaurus internal processes
-        fi
-
         npm run build
 
         # Create IC assets configuration for proper XML handling
