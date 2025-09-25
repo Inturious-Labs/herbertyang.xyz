@@ -27,17 +27,21 @@ type Image = {
 export default function PhotoGallery({ images }: { images: Image[] }) {
   const [index, setIndex] = useState<number>(-1);
 
-  // Prepare thumbnails for grid and full-size slides for lightbox
+  // Prepare thumbnails for grid (fast loading, lazy by default)
   const gridPhotos = images.map(({ thumb, width, height, alt }) => ({
     src: thumb,
     width,
     height,
     alt,
+    loading: 'lazy' as const, // Explicit lazy loading for thumbnails
   }));
+
+  // Prepare full-resolution slides for lightbox (load on demand)
   const slides = images.map(({ src, alt, caption }) => ({
-    src, 
-    alt, 
-    description: caption, 
+    src,
+    alt,
+    description: caption,
+    loading: 'lazy' as const, // Explicit lazy loading for full images
   }));
 
   return (
