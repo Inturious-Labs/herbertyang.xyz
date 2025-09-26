@@ -150,8 +150,8 @@
   "2025": [
     {
       "slug": "kennedy-space-center",
-      "title": "Kennedy Space Center",
-      "description": "Kennedy Space Center photo gallery",
+      "title": "Kennedy Space Center - Photography by Herbert Yang",
+      "description": "Kennedy Space Center photo gallery featuring 22 stunning images from NASA's Kennedy Space Center, including Space Shuttle Atlantis, rocket gardens, and space exploration exhibits.",
       "coverImage": "/docs/gallery/2025/kennedy-space-center/img/web/01_rocket_garden.jpg",
       "path": "/docs/gallery/2025/kennedy-space-center/"
     },
@@ -166,7 +166,7 @@
       "slug": "vintage-car-show",
       "title": "San Francisco China Beach Vintage Car Show",
       "description": "Photos from our 2025 family trip to San Francisco via China Beach.",
-      "coverImage": "/docs/gallery/2025/vintage-car-show/img/web/watermarked_vintage-car-1.jpg",
+      "coverImage": "/docs/gallery/2025/vintage-car-show/img/web/vintage-car-1.jpg",
       "path": "/docs/gallery/2025/vintage-car-show/"
     }
   ]
