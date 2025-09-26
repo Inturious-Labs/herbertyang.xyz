@@ -19,10 +19,17 @@ try {
   ({ createCanvas, loadImage } = require('canvas'));
 } catch (error) {
   try {
-    ({ createCanvas, loadImage } = require('./docusaurus/node_modules/canvas'));
+    // Try different relative paths based on where script might be run from
+    const scriptDir = path.dirname(__filename);
+    const docusaurusPath = path.join(scriptDir, '../docusaurus/node_modules/canvas');
+    ({ createCanvas, loadImage } = require(docusaurusPath));
   } catch (error2) {
-    console.error('❌ Canvas module not found. Please install with:');
-    console.error('   cd docusaurus && npm install canvas --save-dev');
+    try {
+      ({ createCanvas, loadImage } = require('./docusaurus/node_modules/canvas'));
+    } catch (error3) {
+      console.error('❌ Canvas module not found. Please install with:');
+      console.error('   cd docusaurus && npm install canvas --save-dev');
+    }
   }
 }
 
