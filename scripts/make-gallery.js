@@ -105,7 +105,7 @@ class GalleryProcessor {
     }
 
     ctx.putImageData(imageData, 0, 0);
-    return canvas.toBuffer('image/png');
+    return canvas;
   }
 
   async loadWatermark() {
@@ -128,35 +128,35 @@ class GalleryProcessor {
 
   calculateWatermarkPosition(imageWidth, imageHeight, watermarkWidth, watermarkHeight) {
     const { watermarkPosition, watermarkMargin } = this.options;
-    let left, top;
+    let x, y;
 
     switch (watermarkPosition) {
       case 'bottom-right':
-        left = imageWidth - watermarkWidth - watermarkMargin;
-        top = imageHeight - watermarkHeight - watermarkMargin;
+        x = imageWidth - watermarkWidth - watermarkMargin;
+        y = imageHeight - watermarkHeight - watermarkMargin;
         break;
       case 'bottom-left':
-        left = watermarkMargin;
-        top = imageHeight - watermarkHeight - watermarkMargin;
+        x = watermarkMargin;
+        y = imageHeight - watermarkHeight - watermarkMargin;
         break;
       case 'top-right':
-        left = imageWidth - watermarkWidth - watermarkMargin;
-        top = watermarkMargin;
+        x = imageWidth - watermarkWidth - watermarkMargin;
+        y = watermarkMargin;
         break;
       case 'top-left':
-        left = watermarkMargin;
-        top = watermarkMargin;
+        x = watermarkMargin;
+        y = watermarkMargin;
         break;
       case 'center':
-        left = (imageWidth - watermarkWidth) / 2;
-        top = (imageHeight - watermarkHeight) / 2;
+        x = (imageWidth - watermarkWidth) / 2;
+        y = (imageHeight - watermarkHeight) / 2;
         break;
       default:
-        left = imageWidth - watermarkWidth - watermarkMargin;
-        top = imageHeight - watermarkHeight - watermarkMargin;
+        x = imageWidth - watermarkWidth - watermarkMargin;
+        y = imageHeight - watermarkHeight - watermarkMargin;
     }
 
-    return { left: Math.max(0, left), top: Math.max(0, top) };
+    return { x: Math.max(0, x), y: Math.max(0, y) };
   }
 
   async processToWeb(inputPath, outputPath, watermark = null) {
@@ -164,44 +164,79 @@ class GalleryProcessor {
 
     console.log(`🌐 Processing for web: ${path.basename(inputPath)}`);
 
-    let pipeline = sharp(inputPath)
-      .rotate() // Auto-rotate based on EXIF orientation
-      .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
-        fit: 'inside',
-        withoutEnlargement: true
-      })
-      .jpeg({ quality: this.options.webQuality });
-
-    // Add watermark if provided
-    if (watermark) {
-      try {
-        const metadata = await pipeline.metadata();
-        const watermarkWidth = Math.floor(metadata.width * this.options.watermarkScale);
-
-        const resizedWatermark = await sharp(watermark)
-          .resize(watermarkWidth)
-          .png()
-          .toBuffer();
-
-        const watermarkMetadata = await sharp(resizedWatermark).metadata();
-        const position = this.calculateWatermarkPosition(
-          metadata.width,
-          metadata.height,
-          watermarkMetadata.width,
-          watermarkMetadata.height
-        );
-
-        pipeline = pipeline.composite([{
-          input: resizedWatermark,
-          left: Math.round(position.left),
-          top: Math.round(position.top)
-        }]);
-      } catch (error) {
-        console.warn(`⚠️  Could not apply watermark to ${path.basename(inputPath)}:`, error.message);
-      }
+    if (!watermark) {
+      // No watermark - use Sharp for simple resize
+      await sharp(inputPath)
+        .rotate() // Auto-rotate based on EXIF orientation
+        .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
+          fit: 'inside',
+          withoutEnlargement: true
+        })
+        .jpeg({ quality: this.options.webQuality })
+        .toFile(outputPath);
+      return;
     }
 
-    await pipeline.toFile(outputPath);
+    // Watermark needed - use Canvas approach (proven working method)
+    try {
+      // First resize with Sharp to get optimal size
+      const tempBuffer = await sharp(inputPath)
+        .rotate() // Auto-rotate based on EXIF orientation
+        .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
+          fit: 'inside',
+          withoutEnlargement: true
+        })
+        .jpeg({ quality: this.options.webQuality })
+        .toBuffer();
+
+      // Load resized image and watermark with Canvas
+      const resizedImage = await loadImage(tempBuffer);
+
+      // Calculate watermark dimensions
+      const watermarkScale = this.options.watermarkScale;
+      const watermarkWidth = Math.floor(resizedImage.width * watermarkScale);
+
+      // Calculate watermark dimensions from Canvas object
+      const watermarkHeight = Math.floor(watermark.height * (watermarkWidth / watermark.width));
+
+      // Create canvas with resized image dimensions
+      const canvas = createCanvas(resizedImage.width, resizedImage.height);
+      const ctx = canvas.getContext('2d');
+
+      // Draw resized photo
+      ctx.drawImage(resizedImage, 0, 0);
+
+      // Calculate watermark position
+      const position = this.calculateWatermarkPosition(
+        resizedImage.width,
+        resizedImage.height,
+        watermarkWidth,
+        watermarkHeight
+      );
+
+      // Set opacity and draw watermark
+      ctx.globalAlpha = this.options.watermarkOpacity;
+      ctx.drawImage(watermark, position.x, position.y, watermarkWidth, watermarkHeight);
+      ctx.globalAlpha = 1.0; // Reset opacity
+
+      // Save the watermarked image
+      const buffer = canvas.toBuffer('image/jpeg', { quality: this.options.webQuality / 100 });
+      fs.writeFileSync(outputPath, buffer);
+
+    } catch (error) {
+      console.warn(`⚠️  Could not apply watermark to ${path.basename(inputPath)}:`, error.message);
+      console.warn(`⚠️  Falling back to non-watermarked version`);
+
+      // Fallback to non-watermarked version
+      await sharp(inputPath)
+        .rotate()
+        .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
+          fit: 'inside',
+          withoutEnlargement: true
+        })
+        .jpeg({ quality: this.options.webQuality })
+        .toFile(outputPath);
+    }
   }
 
   async processToThumb(inputPath, outputPath) {
@@ -257,6 +292,8 @@ class GalleryProcessor {
     const watermark = await this.loadWatermark();
     if (watermark) {
       console.log('✅ Watermark loaded successfully');
+    } else {
+      console.log('⚠️  No watermark found - images will be processed without watermarks');
     }
 
     let processed = 0;
@@ -279,12 +316,7 @@ class GalleryProcessor {
         continue;
       }
 
-      // Skip if files exist and not forcing
-      if (!force && fs.existsSync(webFile) && fs.existsSync(thumbFile)) {
-        console.log(`⏭️  Skipped: ${filename} (already processed)`);
-        skipped++;
-        continue;
-      }
+      // Always regenerate web/ and thumbs/ to ensure latest watermarks and settings
 
       try {
 
@@ -759,7 +791,10 @@ Examples:
   }
 
   // Parse arguments
-  let watermarkPath = 'docusaurus/static/img/herbert_watermark_no_bg.png';
+  // Find project root and construct absolute watermark path
+  const scriptDir = path.dirname(__filename);
+  const projectRoot = path.resolve(scriptDir, '..');
+  let watermarkPath = path.join(projectRoot, 'docusaurus/static/img/herbert_watermark_no_bg.png');
   let galleryPath = null;
   let dryRun = false;
   let force = false;
