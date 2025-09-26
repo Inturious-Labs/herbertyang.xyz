@@ -429,14 +429,16 @@ class GalleryProcessor {
     }
 
     const indexContent = `---
-title: "${title}"
-description: "${title} photo gallery"
-keywords: [${title.split(' ').join(', ')}]
-image: ${coverImage}
+title: "${title} - Photography by Herbert Yang"
+description: "${title} photo gallery featuring ${webFiles.length} stunning images captured by Herbert Yang."
+keywords: [${title.split(' ').join(', ')}, photography, gallery, Herbert Yang]
+image: "${coverImage}"
 ---
 
 import PhotoGallery from '@site/src/components/PhotoGallery';
 import { ${albumName} } from './album';
+
+# ${title}
 
 <PhotoGallery images={${albumName}} />
 `;

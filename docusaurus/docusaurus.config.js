@@ -82,6 +82,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/wuhan_moshan_social.jpg',
+      metadata: [
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:creator', content: '@herbertyang'},
+        {name: 'twitter:site', content: '@herbertyang'},
+      ],
       docs: {
         sidebar: {
           hideable: true,
