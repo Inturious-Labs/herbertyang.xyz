@@ -3,23 +3,48 @@
 /**
  * Three-Tier Gallery Processor for Herbert Yang Photography
  *
- * Processes photos into:
- * Set A: originals/     - Master archive (full res, no processing)
- * Set B: web/          - Web-optimized (≤1200px, watermarked)
- * Set C: thumbs/       - Grid thumbnails (300px, for lazy loading)
+ * UNIFIED WORKFLOW TOOL: Converts photographer's edited originals into a complete gallery
+ *
+ * PURPOSE & WORKFLOW INTEGRATION:
+ * - Integrates with photography workflow: shoot → edit → serialize → process → publish
+ * - Bridges the gap between photo editing and web publishing
+ * - Automates tedious manual processing while preserving creative control
+ *
+ * THREE-TIER ARCHITECTURE:
+ * Set A: originals/     - Master archive (full resolution, photographer's final edits)
+ * Set B: web/          - Web-optimized display (≤1200px, watermarked, 85% quality)
+ * Set C: thumbs/       - Grid thumbnails (300px, 80% quality, instant loading)
+ *
+ * KEY FEATURES:
+ * - Smart Sync: Preserves custom captions when adding/removing photos
+ * - Watermark Integration: Applies consistent branding to web images
+ * - TypeScript Generation: Creates album.ts with actual image dimensions
+ * - SEO Optimization: Generates index.mdx with metadata and structured data
+ * - EXIF Handling: Auto-rotates images based on camera orientation data
+ *
+ * TECHNOLOGY STACK:
+ * - Sharp: High-performance image resizing and EXIF processing
+ * - Canvas: Pixel-level watermark compositing and color manipulation
+ * - Hybrid approach: Sharp for speed, Canvas for precise watermark control
  */
 
 const fs = require('fs');
 const path = require('path');
 
-// Try to require dependencies
+/**
+ * Dependency Loading with Graceful Fallback
+ *
+ * WHY COMPLEX LOADING: Script runs from different contexts (gallery dir, project root)
+ * WHY CANVAS SEPARATE: Watermarking requires pixel-level control unavailable in Sharp
+ * WHY SHARP SEPARATE: High-performance resizing and EXIF handling
+ */
 let sharp, createCanvas, loadImage;
 
 try {
   ({ createCanvas, loadImage } = require('canvas'));
 } catch (error) {
   try {
-    // Try different relative paths based on where script might be run from
+    // Multi-context path resolution: script can run from gallery dir or project root
     const scriptDir = path.dirname(__filename);
     const docusaurusPath = path.join(scriptDir, '../docusaurus/node_modules/canvas');
     ({ createCanvas, loadImage } = require(docusaurusPath));
@@ -33,32 +58,50 @@ try {
   }
 }
 
+/**
+ * Gallery Processing Engine
+ *
+ * DESIGN PHILOSOPHY:
+ * - Configuration over convention: Flexible options for different gallery types
+ * - Performance optimization: Efficient processing of large photo collections
+ * - Quality preservation: Maintain image fidelity while optimizing for web
+ * - Brand consistency: Uniform watermarking across all galleries
+ */
 class GalleryProcessor {
   constructor(watermarkPath, options = {}) {
     this.watermarkPath = watermarkPath;
+
+    // Production-tested settings optimized for web performance and quality
     this.options = {
-      webMaxWidth: 1200,
-      webMaxHeight: 1200,
-      webQuality: 85,
-      thumbSize: 300,
-      thumbQuality: 80,
-      watermarkOpacity: 1.0,
-      watermarkScale: 0.28,
-      watermarkPosition: 'bottom-right',
-      watermarkMargin: 20,
-      ...options
+      webMaxWidth: 1200,        // Sweet spot: high quality without excessive file size
+      webMaxHeight: 1200,       // Maintains aspect ratio while constraining dimensions
+      webQuality: 85,           // JPEG quality: balances sharpness with file size
+      thumbSize: 300,           // Grid thumbnail size: fast loading for masonry layout
+      thumbQuality: 80,         // Thumbnail quality: acceptable for grid preview
+      watermarkOpacity: 1.0,    // Full opacity for brand visibility
+      watermarkScale: 0.28,     // 28% of image width: visible but not intrusive
+      watermarkPosition: 'bottom-right',  // Standard branding placement
+      watermarkMargin: 20,      // Pixel margin from edges
+      ...options                // Allow override for special cases
     };
   }
 
+  /**
+   * Dynamic Sharp Module Loading
+   *
+   * WHY DYNAMIC LOADING: Sharp is a native module with specific installation requirements
+   * WHY MULTIPLE PATHS: Script executed from different working directories (gallery vs project root)
+   * WHY ESSENTIAL: Sharp provides the fastest, highest-quality image processing available in Node.js
+   */
   async ensureSharp() {
     if (!sharp) {
       try {
-        // Try different possible paths for Sharp
+        // Path priority: global → project context → gallery context → absolute fallback
         const possiblePaths = [
-          'sharp', // If available globally or in current node_modules
-          './docusaurus/node_modules/sharp',
-          '../../../../../docusaurus/node_modules/sharp', // From gallery directory
-          path.join(__dirname, '../docusaurus/node_modules/sharp')
+          'sharp',                                         // Global or local node_modules
+          './docusaurus/node_modules/sharp',               // From project root
+          '../../../../../docusaurus/node_modules/sharp',  // From deep gallery directory
+          path.join(__dirname, '../docusaurus/node_modules/sharp')  // Absolute path
         ];
 
         for (const sharpPath of possiblePaths) {
@@ -67,7 +110,7 @@ class GalleryProcessor {
             console.log(`✅ Found Sharp at: ${sharpPath}`);
             break;
           } catch (e) {
-            // Continue trying
+            // Silent failure: continue to next path
           }
         }
 
@@ -81,6 +124,14 @@ class GalleryProcessor {
     }
   }
 
+  /**
+   * Watermark Color Conversion for Maximum Visibility
+   *
+   * BUSINESS NEED: Brand protection requires watermarks to be visible on all backgrounds
+   * TECHNICAL SOLUTION: Convert black logo to white while preserving transparency
+   * WHY PIXEL-LEVEL: Canvas provides precise color control unavailable in image libraries
+   * ALGORITHM: Iterate through RGBA pixels, convert non-transparent pixels to white
+   */
   async convertWatermarkToWhite(watermarkImage) {
     if (!createCanvas || !loadImage) {
       throw new Error('Canvas not available for watermark processing');
@@ -89,25 +140,36 @@ class GalleryProcessor {
     const canvas = createCanvas(watermarkImage.width, watermarkImage.height);
     const ctx = canvas.getContext('2d');
 
+    // Draw original watermark onto canvas for pixel manipulation
     ctx.drawImage(watermarkImage, 0, 0);
 
+    // Get pixel data for color manipulation
     const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     const data = imageData.data;
 
-    // Convert to white while preserving alpha
+    // Convert to white while preserving alpha transparency
+    // RGBA format: [R, G, B, A, R, G, B, A, ...]
     for (let i = 0; i < data.length; i += 4) {
       const alpha = data[i + 3];
-      if (alpha > 0) {
-        data[i] = 255;     // Red
-        data[i + 1] = 255; // Green
-        data[i + 2] = 255; // Blue
+      if (alpha > 0) {              // Only modify non-transparent pixels
+        data[i] = 255;              // Red channel: full intensity
+        data[i + 1] = 255;          // Green channel: full intensity
+        data[i + 2] = 255;          // Blue channel: full intensity
+        // Alpha channel (i + 3) preserved as-is for proper transparency
       }
     }
 
     ctx.putImageData(imageData, 0, 0);
-    return canvas;
+    return canvas;  // Return Canvas object (NOT Buffer) for watermark compositing
   }
 
+  /**
+   * Watermark Asset Loading and Preparation
+   *
+   * GRACEFUL DEGRADATION: Photos process without watermarks if loading fails
+   * COLOR OPTIMIZATION: Converts logo to white for visibility on dark photos
+   * ERROR HANDLING: Non-blocking failures ensure gallery processing continues
+   */
   async loadWatermark() {
     if (!this.watermarkPath || !fs.existsSync(this.watermarkPath)) {
       return null;
@@ -115,23 +177,35 @@ class GalleryProcessor {
 
     try {
       if (createCanvas && loadImage) {
+        // Load and convert to white for maximum visibility across all photo types
         const originalWatermark = await loadImage(this.watermarkPath);
         const whiteWatermark = await this.convertWatermarkToWhite(originalWatermark);
         return whiteWatermark;
       }
+      // Fallback: return raw buffer if Canvas unavailable
       return fs.readFileSync(this.watermarkPath);
     } catch (error) {
+      // Non-fatal: continue processing without watermarks
       console.warn('⚠️  Could not load watermark:', error.message);
       return null;
     }
   }
 
+  /**
+   * Watermark Positioning Calculator
+   *
+   * BRAND CONSISTENCY: Standardized placement across all galleries
+   * FLEXIBILITY: Multiple position options for different composition types
+   * BOUNDARY SAFETY: Ensures watermark stays within image bounds
+   */
   calculateWatermarkPosition(imageWidth, imageHeight, watermarkWidth, watermarkHeight) {
     const { watermarkPosition, watermarkMargin } = this.options;
     let x, y;
 
+    // Position calculation based on standard branding guidelines
     switch (watermarkPosition) {
       case 'bottom-right':
+        // Default: unobtrusive placement that doesn't interfere with composition
         x = imageWidth - watermarkWidth - watermarkMargin;
         y = imageHeight - watermarkHeight - watermarkMargin;
         break;
@@ -148,40 +222,54 @@ class GalleryProcessor {
         y = watermarkMargin;
         break;
       case 'center':
+        // Rarely used: for special branding requirements
         x = (imageWidth - watermarkWidth) / 2;
         y = (imageHeight - watermarkHeight) / 2;
         break;
       default:
+        // Fallback to bottom-right for consistency
         x = imageWidth - watermarkWidth - watermarkMargin;
         y = imageHeight - watermarkHeight - watermarkMargin;
     }
 
+    // Boundary protection: prevent watermark from going outside image bounds
     return { x: Math.max(0, x), y: Math.max(0, y) };
   }
 
+  /**
+   * Web Image Processing with Integrated Watermarking
+   *
+   * DUAL STRATEGY APPROACH:
+   * - Path A: Sharp-only for non-watermarked (fastest)
+   * - Path B: Sharp + Canvas hybrid for watermarked (highest quality)
+   *
+   * WHY HYBRID APPROACH: Sharp excels at resizing, Canvas excels at compositing
+   * WHY FALLBACK: Ensures processing continues even if watermarking fails
+   * QUALITY PRIORITY: Maintains photographer's artistic intent while optimizing for web
+   */
   async processToWeb(inputPath, outputPath, watermark = null) {
     await this.ensureSharp();
 
     console.log(`🌐 Processing for web: ${path.basename(inputPath)}`);
 
     if (!watermark) {
-      // No watermark - use Sharp for simple resize
+      // Fast path: Sharp-only processing for maximum performance
       await sharp(inputPath)
-        .rotate() // Auto-rotate based on EXIF orientation
+        .rotate()                    // Auto-rotate based on EXIF orientation
         .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
-          fit: 'inside',
-          withoutEnlargement: true
+          fit: 'inside',             // Maintain aspect ratio
+          withoutEnlargement: true   // Never upscale small images
         })
         .jpeg({ quality: this.options.webQuality })
         .toFile(outputPath);
       return;
     }
 
-    // Watermark needed - use Canvas approach (proven working method)
+    // Complex path: Sharp + Canvas for watermark compositing
     try {
-      // First resize with Sharp to get optimal size
+      // Step 1: Optimize image with Sharp (EXIF handling + resizing)
       const tempBuffer = await sharp(inputPath)
-        .rotate() // Auto-rotate based on EXIF orientation
+        .rotate()                    // Critical: fixes camera orientation issues
         .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
           fit: 'inside',
           withoutEnlargement: true
@@ -189,24 +277,24 @@ class GalleryProcessor {
         .jpeg({ quality: this.options.webQuality })
         .toBuffer();
 
-      // Load resized image and watermark with Canvas
+      // Step 2: Load optimized image into Canvas for watermark compositing
       const resizedImage = await loadImage(tempBuffer);
 
-      // Calculate watermark dimensions
+      // Step 3: Calculate proportional watermark sizing
       const watermarkScale = this.options.watermarkScale;
       const watermarkWidth = Math.floor(resizedImage.width * watermarkScale);
 
-      // Calculate watermark dimensions from Canvas object
+      // Maintain watermark aspect ratio
       const watermarkHeight = Math.floor(watermark.height * (watermarkWidth / watermark.width));
 
-      // Create canvas with resized image dimensions
+      // Step 4: Create composite canvas
       const canvas = createCanvas(resizedImage.width, resizedImage.height);
       const ctx = canvas.getContext('2d');
 
-      // Draw resized photo
-      ctx.drawImage(resizedImage, 0, 0);
+      // Step 5: Composite image + watermark
+      ctx.drawImage(resizedImage, 0, 0);  // Base layer: optimized photo
 
-      // Calculate watermark position
+      // Calculate brand-consistent positioning
       const position = this.calculateWatermarkPosition(
         resizedImage.width,
         resizedImage.height,
@@ -214,20 +302,21 @@ class GalleryProcessor {
         watermarkHeight
       );
 
-      // Set opacity and draw watermark
+      // Apply watermark with transparency control
       ctx.globalAlpha = this.options.watermarkOpacity;
       ctx.drawImage(watermark, position.x, position.y, watermarkWidth, watermarkHeight);
-      ctx.globalAlpha = 1.0; // Reset opacity
+      ctx.globalAlpha = 1.0;              // Reset for future operations
 
-      // Save the watermarked image
+      // Step 6: Export final watermarked image
       const buffer = canvas.toBuffer('image/jpeg', { quality: this.options.webQuality / 100 });
       fs.writeFileSync(outputPath, buffer);
 
     } catch (error) {
+      // Graceful degradation: continue without watermark rather than fail completely
       console.warn(`⚠️  Could not apply watermark to ${path.basename(inputPath)}:`, error.message);
       console.warn(`⚠️  Falling back to non-watermarked version`);
 
-      // Fallback to non-watermarked version
+      // Fallback to fast path processing
       await sharp(inputPath)
         .rotate()
         .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
@@ -239,41 +328,59 @@ class GalleryProcessor {
     }
   }
 
+  /**
+   * Thumbnail Generation for Grid Display
+   *
+   * PERFORMANCE OPTIMIZATION: Small thumbnails enable instant gallery browsing
+   * LAZY LOADING STRATEGY: Thumbnails load first, full images on-demand
+   * QUALITY BALANCE: Lower quality acceptable for grid preview
+   * WHY NO WATERMARKS: Thumbnails too small for effective brand visibility
+   */
   async processToThumb(inputPath, outputPath) {
     await this.ensureSharp();
 
     console.log(`🖼️  Generating thumbnail: ${path.basename(inputPath)}`);
 
     await sharp(inputPath)
-      .rotate() // Auto-rotate based on EXIF orientation
+      .rotate()                      // Auto-rotate based on EXIF orientation
       .resize(this.options.thumbSize, this.options.thumbSize, {
-        fit: 'inside',
-        withoutEnlargement: true
+        fit: 'inside',               // Maintain aspect ratio within bounds
+        withoutEnlargement: true     // Never upscale small images
       })
-      .jpeg({ quality: this.options.thumbQuality })
+      .jpeg({ quality: this.options.thumbQuality })  // Lower quality for faster loading
       .toFile(outputPath);
   }
 
+  /**
+   * Gallery Processing Orchestrator
+   *
+   * CORE WORKFLOW: originals/ → web/ + thumbs/ → album.ts + index.mdx
+   * BATCH PROCESSING: Efficiently handles entire photo collections
+   * ALWAYS REGENERATE: Ensures latest watermarks and quality settings applied
+   * ERROR ISOLATION: Individual photo failures don't stop batch processing
+   */
   async processGallery(galleryPath, options = {}) {
     const { dryRun = false, force = false } = options;
 
     console.log(`\n🎨 Processing gallery: ${galleryPath}`);
 
-    // Check if gallery exists
+    // Validate gallery structure
     if (!fs.existsSync(galleryPath)) {
       throw new Error(`Gallery not found: ${galleryPath}`);
     }
 
-    // Find source images in img/originals/ directory
+    // Locate photographer's edited originals (input source)
     const imgOriginalsPath = path.join(galleryPath, 'img/originals');
 
     if (!fs.existsSync(imgOriginalsPath)) {
       throw new Error(`Source images directory not found: ${imgOriginalsPath}`);
     }
 
+    // Discover all processable images, excluding generated files
     const sourceImages = fs.readdirSync(imgOriginalsPath)
-      .filter(file => /\.(jpg|jpeg|png)$/i.test(file))
-      .filter(file => !file.startsWith('watermarked_') && !file.startsWith('thumb'))
+      .filter(file => /\.(jpg|jpeg|png)$/i.test(file))           // Standard photo formats
+      .filter(file => !file.startsWith('watermarked_'))           // Exclude generated files
+      .filter(file => !file.startsWith('thumb'))                  // Exclude thumbnails
       .map(file => path.join(imgOriginalsPath, file));
 
     if (sourceImages.length === 0) {
@@ -283,12 +390,12 @@ class GalleryProcessor {
 
     console.log(`📸 Found ${sourceImages.length} source images`);
 
-    // Define output directories (assume they already exist)
+    // Define three-tier output structure
     const imgDir = path.join(galleryPath, 'img');
     const webDir = path.join(imgDir, 'web');
     const thumbsDir = path.join(imgDir, 'thumbs');
 
-    // Load watermark
+    // Load brand watermark for web images
     const watermark = await this.loadWatermark();
     if (watermark) {
       console.log('✅ Watermark loaded successfully');
@@ -299,12 +406,13 @@ class GalleryProcessor {
     let processed = 0;
     let skipped = 0;
 
+    // Process each original image into optimized web + thumbnail versions
     for (const sourcePath of sourceImages) {
       const filename = path.basename(sourcePath);
       const nameWithoutExt = path.parse(filename).name;
       const ext = path.parse(filename).ext.toLowerCase();
 
-      // Generate output filenames
+      // Generate standardized output filenames
       const webFile = path.join(webDir, `${nameWithoutExt}.jpg`);
       const thumbFile = path.join(thumbsDir, `thumb_${nameWithoutExt}.jpg`);
 
@@ -316,18 +424,19 @@ class GalleryProcessor {
         continue;
       }
 
-      // Always regenerate web/ and thumbs/ to ensure latest watermarks and settings
+      // ALWAYS REGENERATE: Ensures latest watermarks and quality settings
+      // (No file existence checks - force fresh processing)
 
       try {
-
-        // Process to web version
+        // Generate web-optimized version with watermark
         await this.processToWeb(sourcePath, webFile, watermark);
 
-        // Generate thumbnail
+        // Generate fast-loading thumbnail for grid
         await this.processToThumb(sourcePath, thumbFile);
 
         processed++;
       } catch (error) {
+        // Individual failures don't stop batch processing
         console.error(`❌ Error processing ${filename}:`, error.message);
       }
     }
@@ -434,6 +543,14 @@ class GalleryProcessor {
     return true;
   }
 
+  /**
+   * Smart Sync for Album Configuration
+   *
+   * INTELLIGENT UPDATES: Preserves user customizations while syncing new images
+   * CAPTION PRESERVATION: Maintains photographer's custom captions
+   * BACKUP SAFETY: Creates backups before modifying existing files
+   * CHANGE DETECTION: Reports exactly what was added/removed/preserved
+   */
   async smartSyncAlbumTs(galleryPath, options = {}) {
     const { dryRun = false } = options;
     const albumPath = path.join(galleryPath, 'album.ts');
