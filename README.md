@@ -293,112 +293,147 @@ dfx wallet --network=ic balance
 2.177 TC (trillion cycles).
 ```
 
-## Photo Gallery Guide - Modern Lightbox Format
+## Photo Gallery Guide - Automated Workflow
 
-This guide will help you create new photo albums in the `docs/gallery` folder using the modern Lightbox gallery with `react-photo-album` + `yet-another-react-lightbox`.
+This guide will help you create new photo albums using the fully automated gallery workflow with Smart Sync functionality.
 
 ### Gallery Structure Overview
 
-The gallery is organized by year, with each album using the modern Lightbox format that provides:
-- **Masonry grid layout** (recommended for this site)
+The gallery uses a modern masonry grid layout with lightbox features:
+- **Masonry grid layout** optimized for mobile viewing
 - Lightbox with zoom, fullscreen, slideshow, and thumbnails
-- Caption support
+- Caption support with preservation of custom captions
 - Mobile-responsive design
+- Smart Sync for handling photo additions/removals
 
-**Why Masonry Layout?** This layout is optimized for mobile viewing and provides the best user experience for photo galleries on this site. It automatically arranges photos to fill available space efficiently and handles mixed aspect ratios naturally.
+### Creating a New Photo Album - Step by Step
 
-### Creating a New Photo Album
+#### Step 1: Setup Branch and Directories
 
-#### Step 1: Create the Album Directory Structure
+1. **Select photos and upload them to MBP**
+   - Choose your photos and transfer to local machine
 
-```bash
-cd /Users/zire/matrix/github_zire/herbertyang.xyz/docusaurus/docs/gallery/2025
-mkdir your-album-name
-cd your-album-name
-mkdir original
-mkdir img
-mkdir img/thumbs
-```
+2. **Create a new branch off main branch**
+   ```bash
+   git checkout main
+   git pull
+   git checkout -b new-gallery-name
+   ```
+
+3. **Create a gallery folder in docusaurus/docs/gallery/YYYY/ folder**
+   ```bash
+   cd docusaurus/docs/gallery/2025  # Use current year
+   mkdir your-album-name
+   cd your-album-name
+   ```
+
+4. **Create directory structure**
+   ```bash
+   mkdir img/originals
+   mkdir img/thumbs
+   mkdir img/web
+   ```
 
 #### Step 2: Prepare Your Images
 
-1. **Create original directory**: Create an `original/` folder in your album directory
-2. **Drop original images**: Place your high-quality original images in the `original/` directory
-3. **⚠️ IMPORTANT: Fix photo orientation and rename**: In the `original/` folder, manually:
-   - **Fix orientation**: Use Preview (Mac), Photos app, or any image editor to rotate photos to correct orientation
-   - **Rename images**: Use descriptive names like `sunset-mountain.jpg`, `family-beach.jpg`
-   - **Why this matters**: The script processes from `original/` → `img/`, so get everything right in `original/` first
-4. **Run the processing script**: Navigate to your album directory and run the script
+5. **Move the photos into img/originals**
+   - Place all your photos in the `img/originals/` directory
+
+6. **Edit photos in img/originals** (CRITICAL STEP):
+   - **Rotate and get the right orientation** - Use Preview, Photos app, or image editor
+   - **Crop and other UI edits** - Make any compositional adjustments
+   - **Serialize photos and name them as 01_xxx.jpg, 02_xxx.jpg, 03_xxx.jpg**
+     - Use `xxx` to describe what's in the photo
+     - DO NOT include the gallery name in individual filenames
+     - Example: `01_rocket_garden.jpg`, `02_atlantis_front.jpg`
+   - **Do not resize the photos** - Keep original resolution
+   - **Serialize based on presentation order** - Number them in the order you want them displayed
+   - **Designate the first photo "01_xxx.jpg" as the cover image** - This becomes the gallery cover for SEO/social media
+
+#### Step 3: Run Automated Processing
+
+7. **Run the gallery processor**
    ```bash
-   # Navigate to your album directory
-   cd /Users/zire/matrix/github_zire/herbertyang.xyz/docusaurus/docs/gallery/2025/your-album-name
-   
-   # Run the script (it will prompt for gallery name)
-   ../../../../../scripts/process_album.sh
-   
-   # Or provide gallery name directly
-   ../../../../../scripts/process_album.sh "your-album-name"
+   # From within your gallery directory
+   gallery-processor
    ```
-   **Important**: Run the script from the album root directory (where `original/` folder is located).
-5. **Script output**: The script will automatically:
-   - Process images from `original/` → `img/` (resized to 1200px width)
-   - Generate thumbnails in `img/thumbs/` (400px width)
-   - Add album prefix to filenames: `your-album-name-sunset-mountain.jpg`
-   - **Generate `album.ts`** with all photo data and dimensions
 
-#### Step 3: Create the Album Files
+The automated script will:
+- ✅ Process images from `img/originals/` to `img/web/` (optimized for web display)
+- 🖼️ Generate thumbnails in `img/thumbs/` (optimized for grid display)
+- 📝 Create `album.ts` with photo data and actual dimensions
+- 📄 Generate `index.mdx` with SEO-optimized frontmatter
+- 🎯 Use the first photo (`01_xxx.jpg`) as the gallery cover image
+- 📊 Show processing statistics
 
-**The script automatically generates `album.ts`** with all photo data and dimensions. You only need to create `index.mdx`:
+#### Step 4: Generated Files
 
+The script automatically creates:
+
+**`album.ts`** - Photo configuration with actual dimensions:
+```typescript
+export const galleryNamePhotos = [
+  {
+    src: require('./img/web/01_rocket_garden.jpg').default,
+    width: 1200, // Actual thumbnail dimensions
+    height: 900,
+    alt: 'gallery-name',
+    caption: "rocket garden",
+    thumb: require('./img/thumbs/thumb_01_rocket_garden.jpg').default,
+  },
+  // ... more photos
+];
+```
+
+**`index.mdx`** - Gallery page with SEO metadata:
 ```mdx
 ---
-title: "Your Album Title"
-description: "Brief description of your photo album"
-keywords: [keyword1, keyword2, keyword3]
-image: /img/gallery/2025/your-album-name/img/your-album-1.jpg
+title: "Gallery Name - Photography by Herbert Yang"
+description: "Gallery description with photo count and key subjects"
+keywords: [relevant, keywords, for, seo]
+image: "img/web/01_rocket_garden.jpg"
 ---
 
 import PhotoGallery from '@site/src/components/PhotoGallery';
-import { yourAlbumPhotos } from './album';
+import { galleryNamePhotos } from './album';
 
-Your album description here
+# Gallery Name
 
-<PhotoGallery images={yourAlbumPhotos} />
+<PhotoGallery images={galleryNamePhotos} />
 ```
 
-#### Step 4: Update Year Category (if needed)
+### Adding Photos to Existing Galleries
 
-If you're creating the first album for a new year, create a `_category_.json` file:
+For existing galleries, the Smart Sync functionality automatically:
+- ✅ **Preserves** all existing custom captions
+- ➕ **Adds** entries for new photos with auto-generated captions
+- ➖ **Removes** entries for deleted photos
+- 💾 **Creates backup** of album.ts before updating
 
-```json
-{
-  "label": "2025",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "photo albums around the world in 2025"
-  }
-}
-```
+**Process:**
+1. Add new photos to `img/originals/` following the naming convention
+2. Run `gallery-processor` from the gallery directory
+3. Script shows statistics of preserved/added/removed entries
 
-### Example Album Structure
+### Final Directory Structure
 
 ```
 docs/gallery/2025/your-album-name/
-├── index.mdx          # Main album page
-├── album.ts           # Photo data (generated by script)
-├── original/          # Your original images (renamed/rotated)
-│   ├── sunset-mountain.jpg
-│   ├── family-beach.jpg
-│   └── ...
-├── img/               # Resized full-size images (generated by script)
-│   ├── your-album-sunset-mountain.jpg
-│   ├── your-album-family-beach.jpg
-│   └── ...
-└── img/thumbs/        # Thumbnail images (generated by script)
-    ├── thumb-your-album-sunset-mountain.jpg
-    ├── thumb-your-album-family-beach.jpg
-    └── ...
+├── index.mdx                    # Gallery page (auto-generated)
+├── album.ts                     # Photo data (auto-generated)
+├── img/
+│   ├── originals/               # Your edited originals (01_xxx.jpg format)
+│   │   ├── 01_rocket_garden.jpg
+│   │   ├── 02_atlantis_front.jpg
+│   │   └── ...
+│   ├── web/                     # Web-optimized images (auto-generated)
+│   │   ├── 01_rocket_garden.jpg
+│   │   ├── 02_atlantis_front.jpg
+│   │   └── ...
+│   └── thumbs/                  # Thumbnails (auto-generated)
+│       ├── thumb_01_rocket_garden.jpg
+│       ├── thumb_02_atlantis_front.jpg
+│       └── ...
 ```
 
 ### Lightbox Features
@@ -412,39 +447,20 @@ docs/gallery/2025/your-album-name/
 - **Fullscreen**: Full-screen viewing mode
 - **Mobile Responsive**: Works great on all devices
 
-### Image Optimization with ImageMagick
+### Advanced Features
 
-For optimal mobile performance, use ImageMagick to resize your photos before adding them to albums.
+#### Smart Sync Technology
+- **Caption Preservation**: Maintains all your custom captions when adding new photos
+- **Backup Creation**: Automatically creates backups before modifying album.ts
+- **Statistics Reporting**: Shows exactly what was preserved/added/removed
+- **Edge Case Handling**: Gracefully handles missing directories and empty galleries
 
-#### Batch Processing Script
-
-Use the provided `process_album.sh` script to automatically process all your photos:
-
-**What the script does:**
-- Processes all images to 1200px width (full-size)
-- Generates 400px thumbnails
-- Renames files to `album-name-1.jpg`, `album-name-2.jpg`, etc.
-- Organizes output in `img/` and `img/thumbs/` directories
-
-**Usage:**
-```bash
-# Navigate to your album directory (where img/ folder is located)
-cd /path/to/your/album-directory
-
-# Run the script (interactive mode - will prompt for gallery name)
-../../../../../scripts/process_album.sh
-
-# Or provide gallery name directly
-../../../../../scripts/process_album.sh "your-album-name"
-```
-
-#### Image Optimization Tips
-
-1. **Full-size images**: 1200px width, 85% quality (200-500KB per image)
-2. **Thumbnails**: 400px width, 80% quality (20-50KB per image)
-3. **Format**: Use JPG for photos, WebP for better compression
-4. **File naming**: Use lowercase with hyphens (e.g., `my-album-1.jpg`)
-5. **Batch processing**: Use the provided scripts for efficiency
+#### Image Optimization
+The automated script handles all optimization:
+- **Web images**: Resized with aspect ratio preservation, EXIF orientation correction
+- **Thumbnails**: Optimized for fast grid loading with `fit: 'inside'` to prevent distortion
+- **Format**: High-quality JPEG with metadata stripping for privacy
+- **Performance**: Lazy loading with native browser support
 
 ### Converting Old Image Slider Albums
 
@@ -516,39 +532,30 @@ docs/gallery/2025/vintage-car-show/
 - **Better UX**: Users can browse quickly without waiting
 - **Scalable**: Works with hundreds of photos
 
-### Album Configuration
-
-Update your `album.ts` files to reference the new structure:
-
-```typescript
-export const vintageCarShowPhotos = [
-  {
-    src: require('./web/vintage-car-1.jpg').default,           // Set B: Full web image
-    thumb: require('./thumbs/thumb_vintage-car-1.jpg').default, // Set C: Thumbnail
-    width: 800,
-    height: 600,
-    alt: 'vintage-car-show',
-    caption: "Classic car detail",
-  },
-  // ... more photos
-];
-```
-
 ### Image Processing Pipeline
 
 **Automated Processing Script:**
-Use `scripts/gallery-processor.js` to convert galleries:
+Use the global `gallery-processor` command for all gallery operations:
 
 ```bash
-# Process single gallery
-node scripts/gallery-processor.js docusaurus/docs/gallery/2025/vintage-car-show
+# Process current gallery (run from gallery directory)
+gallery-processor
 
-# Process with custom settings
-node scripts/gallery-processor.js --web-max 1600 --thumb-size 400 gallery/
+# Dry run to preview changes without making them
+gallery-processor --dry-run
 
-# Dry run to preview changes
-node scripts/gallery-processor.js --dry-run gallery/
+# Force reprocessing of all images (bypasses existing file checks)
+gallery-processor --force
 ```
+
+**The script automatically:**
+- Detects image source in `img/originals/`
+- Reads actual image dimensions for proper aspect ratios
+- Handles EXIF orientation correction
+- Creates optimized web and thumbnail versions
+- Generates TypeScript album configuration with real dimensions
+- Creates SEO-optimized MDX gallery pages
+- Uses Smart Sync to preserve custom captions on updates
 
 
 
