@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { MasonryPhotoAlbum } from "react-photo-album";
+import { RowsPhotoAlbum } from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 
 // Plugins
@@ -13,7 +13,7 @@ import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/captions.css";
-import "react-photo-album/masonry.css";
+import "react-photo-album/rows.css";
 import styles from "./PhotoGallery.module.css";
 
 type Image = {
@@ -39,6 +39,12 @@ const FADE_CONFIG = {
 export default function PhotoGallery({ images }: { images: Image[] }) {
   const [index, setIndex] = useState<number>(-1);
   const [loadedImages, setLoadedImages] = useState<Set<string>>(new Set());
+
+  // Safety check: ensure images prop is provided
+  if (!images || !Array.isArray(images)) {
+    console.error('PhotoGallery: images prop is required and must be an array', images);
+    return <div>Error: No images provided to gallery</div>;
+  }
 
   // Handle image load events for fade-in effect
   const handleImageLoad = (src: string) => {
@@ -101,9 +107,10 @@ export default function PhotoGallery({ images }: { images: Image[] }) {
   return (
     <div className={styles.photoGalleryRoot}>
       {/* Thumbnail grid */}
-      <MasonryPhotoAlbum
+      <RowsPhotoAlbum
         photos={gridPhotos}
         onClick={({ index }) => setIndex(index)}
+        targetRowHeight={200}
       />
 
       {/* Lightbox with plugins */}
