@@ -205,8 +205,8 @@ class GalleryProcessor {
     await sharp(inputPath)
       .rotate() // Auto-rotate based on EXIF orientation
       .resize(this.options.thumbSize, this.options.thumbSize, {
-        fit: 'cover',
-        position: 'center'
+        fit: 'inside',
+        withoutEnlargement: true
       })
       .jpeg({ quality: this.options.thumbQuality })
       .toFile(outputPath);
@@ -369,12 +369,12 @@ class GalleryProcessor {
         // Extract caption from filename (remove number prefix)
         const caption = nameWithoutExt.replace(/^\d+_/, '').replace(/_/g, ' ');
 
-        // Get actual dimensions from the web image
+        // Get actual dimensions from the thumbnail image (used for grid display)
         await this.ensureSharp();
-        const webImagePath = path.join(webDir, webFile);
-        const metadata = await sharp(webImagePath).metadata();
-        const width = metadata.width || 900;
-        const height = metadata.height || 1200;
+        const thumbImagePath = path.join(thumbsDir, thumbFile);
+        const metadata = await sharp(thumbImagePath).metadata();
+        const width = metadata.width || 300;
+        const height = metadata.height || 300;
 
         albumContent += `  {\n`;
         albumContent += `    src: require('./img/web/${webFile}').default,\n`;
