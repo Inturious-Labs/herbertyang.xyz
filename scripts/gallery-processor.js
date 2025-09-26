@@ -367,10 +367,17 @@ class GalleryProcessor {
         // Extract caption from filename (remove number prefix)
         const caption = nameWithoutExt.replace(/^\d+_/, '').replace(/_/g, ' ');
 
+        // Get actual dimensions from the web image
+        await this.ensureSharp();
+        const webImagePath = path.join(webDir, webFile);
+        const metadata = await sharp(webImagePath).metadata();
+        const width = metadata.width || 900;
+        const height = metadata.height || 1200;
+
         albumContent += `  {\n`;
         albumContent += `    src: require('./img/web/${webFile}').default,\n`;
-        albumContent += `    width: 900,\n`;
-        albumContent += `    height: 1200,\n`;
+        albumContent += `    width: ${width},\n`;
+        albumContent += `    height: ${height},\n`;
         const folderName = galleryPath === '.' ? path.basename(path.resolve(galleryPath)) : path.basename(galleryPath);
         albumContent += `    alt: '${folderName}',\n`;
         albumContent += `    caption: "${caption}",\n`;
