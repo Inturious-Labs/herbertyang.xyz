@@ -293,6 +293,37 @@ dfx wallet --network=ic balance
 2.177 TC (trillion cycles).
 ```
 
+## Scripts Directory Architecture
+
+### Why Two Scripts Directories?
+
+This project intentionally maintains two `scripts/` directories that serve different purposes:
+
+1. **`/scripts/` (Project Root Level)**
+   - Contains **unified workflow tools** for content creators
+   - Example: `make-gallery.js` - The main gallery processing script
+   - **Usage Context**: Run directly by users from gallery directories
+   - **Purpose**: Cross-project utilities and manual processing tools
+
+2. **`/docusaurus/scripts/` (Docusaurus Level)**
+   - Contains **build-time automation scripts** for the Docusaurus static site
+   - Example: `generate-gallery-data.js` - Auto-generates gallery index data
+   - **Usage Context**: Called automatically by npm start/build commands
+   - **Purpose**: Integration with Docusaurus build pipeline
+
+### Design Rationale
+
+**Why not consolidate into a single `/scripts/` directory?**
+
+While having one scripts directory follows typical conventions, this project requires the separation because:
+
+- **Docusaurus Integration**: Scripts in `/docusaurus/scripts/` have direct access to Docusaurus context and can use relative paths for the build system
+- **Clean Path Resolution**: Build-time scripts avoid complex relative path gymnastics (`../../../`) that would be required if placed at project root
+- **Separation of Concerns**: Manual workflow tools vs. automated build tools serve different audiences and execution contexts
+- **Package.json Integration**: Docusaurus package.json can cleanly reference `scripts/filename.js` instead of `../scripts/filename.js`
+
+This architecture ensures that each script operates in its optimal context while maintaining clear separation between manual workflow tools and automated build processes.
+
 ## Photo Gallery Guide - Automated Workflow
 
 This guide will help you create new photo albums using the fully automated gallery workflow with Smart Sync functionality.
