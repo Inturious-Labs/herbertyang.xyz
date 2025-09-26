@@ -40,6 +40,12 @@ export default function PhotoGallery({ images }: { images: Image[] }) {
   const [index, setIndex] = useState<number>(-1);
   const [loadedImages, setLoadedImages] = useState<Set<string>>(new Set());
 
+  // Safety check: ensure images prop is provided
+  if (!images || !Array.isArray(images)) {
+    console.error('PhotoGallery: images prop is required and must be an array', images);
+    return <div>Error: No images provided to gallery</div>;
+  }
+
   // Handle image load events for fade-in effect
   const handleImageLoad = (src: string) => {
     setLoadedImages(prev => new Set(prev).add(src));

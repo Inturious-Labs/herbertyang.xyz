@@ -508,14 +508,96 @@ class GalleryProcessor {
     return true;
   }
 
-  async generateIndexMdx(galleryPath, options = {}) {
+  async smartSyncIndexMdx(galleryPath, options = {}) {
     const { dryRun = false } = options;
     const indexPath = path.join(galleryPath, 'index.mdx');
 
-    // Never overwrite existing index.mdx (user may have added content)
-    if (fs.existsSync(indexPath)) {
-      console.log('⏭️  index.mdx exists - skipping to preserve user edits');
+    if (!fs.existsSync(indexPath)) {
+      // Create new index.mdx if it doesn't exist
+      return await this.generateIndexMdx(galleryPath, options);
+    }
+
+    const albumName = this.generateAlbumName(galleryPath);
+
+    // Read existing index.mdx
+    const indexContent = fs.readFileSync(indexPath, 'utf8');
+
+    // Check what needs updating
+    const importRegex = /import\s+{\s*([^}]+)\s*}\s+from\s+['"]\.\/album['"];?/;
+    const imagesPropRegex = /<PhotoGallery\s+images=\{([^}]+)\}/;
+    const imageFieldRegex = /^image:\s*["']?([^"'\n]+)["']?/m;
+
+    const importMatch = indexContent.match(importRegex);
+    const imagesMatch = indexContent.match(imagesPropRegex);
+    const imageFieldMatch = indexContent.match(imageFieldRegex);
+
+    let needsUpdate = false;
+    let updatedContent = indexContent;
+
+    // Check import statement
+    if (importMatch && imagesMatch) {
+      const currentImportName = importMatch[1].trim();
+      const currentImagesName = imagesMatch[1].trim();
+
+      if (currentImportName !== albumName || currentImagesName !== albumName) {
+        needsUpdate = true;
+        console.log(`🔄 Syncing index.mdx import: ${currentImportName} → ${albumName}`);
+
+        // Update both import and usage
+        updatedContent = updatedContent.replace(importRegex, `import { ${albumName} } from './album';`);
+        updatedContent = updatedContent.replace(imagesPropRegex, `<PhotoGallery images={${albumName}}`);
+      }
+    }
+
+    // Check cover image path
+    if (imageFieldMatch) {
+      const currentImagePath = imageFieldMatch[1].trim();
+
+      // Find first web image as cover
+      const webDir = path.join(galleryPath, 'img/web');
+      if (fs.existsSync(webDir)) {
+        const webFiles = fs.readdirSync(webDir)
+          .filter(file => /\.(jpg|jpeg)$/i.test(file))
+          .sort();
+
+        if (webFiles.length > 0) {
+          const expectedCoverPath = `img/web/${webFiles[0]}`;
+          if (currentImagePath !== expectedCoverPath) {
+            needsUpdate = true;
+            console.log(`🔄 Syncing cover image: ${currentImagePath} → ${expectedCoverPath}`);
+            updatedContent = updatedContent.replace(imageFieldRegex, `image: "${expectedCoverPath}"`);
+          }
+        }
+      }
+    }
+
+    if (!needsUpdate) {
+      console.log('✅ index.mdx is already in sync');
       return false;
+    }
+
+    if (dryRun) {
+      console.log('📋 Would update index.mdx');
+      return true;
+    }
+
+    fs.writeFileSync(indexPath, updatedContent);
+    console.log('✅ Updated index.mdx');
+    return true;
+  }
+
+  async generateIndexMdx(galleryPath, options = {}) {
+    const { dryRun = false, force = false } = options;
+    const indexPath = path.join(galleryPath, 'index.mdx');
+
+    // Check if should overwrite existing index.mdx
+    if (fs.existsSync(indexPath) && !force) {
+      console.log('⏭️  index.mdx exists - skipping to preserve user edits (use --force to regenerate)');
+      return false;
+    }
+
+    if (fs.existsSync(indexPath) && force) {
+      console.log('🔄 Regenerating index.mdx due to --force flag');
     }
 
     const title = this.generateTitle(galleryPath);
@@ -736,7 +818,7 @@ Examples:
     // Generate/sync documentation files (album.ts and index.mdx)
     console.log(`\n📝 Generating documentation files...`);
     await processor.smartSyncAlbumTs(galleryPath, { dryRun });
-    await processor.generateIndexMdx(galleryPath, { dryRun });
+    await processor.smartSyncIndexMdx(galleryPath, { dryRun });
 
     // Update album config if requested (legacy support)
     if (updateAlbum) {
