@@ -158,6 +158,7 @@ class GalleryProcessor {
     console.log(`🌐 Processing for web: ${path.basename(inputPath)}`);
 
     let pipeline = sharp(inputPath)
+      .rotate() // Auto-rotate based on EXIF orientation
       .resize(this.options.webMaxWidth, this.options.webMaxHeight, {
         fit: 'inside',
         withoutEnlargement: true
@@ -202,6 +203,7 @@ class GalleryProcessor {
     console.log(`🖼️  Generating thumbnail: ${path.basename(inputPath)}`);
 
     await sharp(inputPath)
+      .rotate() // Auto-rotate based on EXIF orientation
       .resize(this.options.thumbSize, this.options.thumbSize, {
         fit: 'cover',
         position: 'center'
