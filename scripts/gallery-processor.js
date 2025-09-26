@@ -395,6 +395,119 @@ class GalleryProcessor {
     return true;
   }
 
+  async smartSyncAlbumTs(galleryPath, options = {}) {
+    const { dryRun = false } = options;
+    const albumPath = path.join(galleryPath, 'album.ts');
+
+    if (!fs.existsSync(albumPath)) {
+      console.log('📄 No existing album.ts found - creating new one');
+      return await this.generateAlbumTs(galleryPath, options);
+    }
+
+    console.log('🔄 Smart syncing album.ts with current images...');
+
+    const webDir = path.join(galleryPath, 'img/web');
+    const thumbsDir = path.join(galleryPath, 'img/thumbs');
+
+    if (!fs.existsSync(webDir) || !fs.existsSync(thumbsDir)) {
+      console.log('⚠️  Web or thumbs directory not found - run image processing first');
+      return false;
+    }
+
+    // Get current images from filesystem
+    const webFiles = fs.readdirSync(webDir)
+      .filter(file => /\.(jpg|jpeg)$/i.test(file))
+      .sort();
+
+    if (webFiles.length === 0) {
+      console.log('⚠️  No web images found');
+      return false;
+    }
+
+    // Parse existing album.ts to preserve user customizations
+    const albumContent = fs.readFileSync(albumPath, 'utf8');
+    const existingEntries = new Map();
+
+    // Extract existing entries with regex to preserve user captions
+    const entryRegex = /{\s*src:\s*require\(['"]\.\/img\/web\/([^'"]+)['"]\)[^}]*caption:\s*["']([^"']*)['"]/g;
+    let match;
+    while ((match = entryRegex.exec(albumContent)) !== null) {
+      const filename = match[1];
+      const caption = match[2];
+      existingEntries.set(filename, caption);
+    }
+
+    const albumName = this.generateAlbumName(galleryPath);
+    let newAlbumContent = `export const ${albumName} = [\n`;
+
+    await this.ensureSharp();
+    let addedCount = 0;
+    let preservedCount = 0;
+
+    for (const webFile of webFiles) {
+      const nameWithoutExt = path.parse(webFile).name;
+      const thumbFile = `thumb_${nameWithoutExt}.jpg`;
+
+      if (fs.existsSync(path.join(thumbsDir, thumbFile))) {
+        // Get dimensions from thumbnail
+        const thumbImagePath = path.join(thumbsDir, thumbFile);
+        const metadata = await sharp(thumbImagePath).metadata();
+        const width = metadata.width || 300;
+        const height = metadata.height || 300;
+
+        // Use existing caption if available, otherwise generate new one
+        let caption;
+        if (existingEntries.has(webFile)) {
+          caption = existingEntries.get(webFile);
+          preservedCount++;
+        } else {
+          caption = nameWithoutExt.replace(/^\d+_/, '').replace(/_/g, ' ');
+          addedCount++;
+        }
+
+        const folderName = galleryPath === '.' ? path.basename(path.resolve(galleryPath)) : path.basename(galleryPath);
+
+        newAlbumContent += `  {\n`;
+        newAlbumContent += `    src: require('./img/web/${webFile}').default,\n`;
+        newAlbumContent += `    width: ${width},\n`;
+        newAlbumContent += `    height: ${height},\n`;
+        newAlbumContent += `    alt: '${folderName}',\n`;
+        newAlbumContent += `    caption: "${caption}",\n`;
+        newAlbumContent += `    thumb: require('./img/thumbs/${thumbFile}').default,\n`;
+        newAlbumContent += `  },\n`;
+      }
+    }
+
+    newAlbumContent += `];\n`;
+
+    // Calculate removed count
+    const removedCount = existingEntries.size - preservedCount;
+
+    if (dryRun) {
+      console.log('📋 Smart sync would update album.ts:');
+      console.log(`   ✅ Preserved: ${preservedCount} existing entries`);
+      console.log(`   ➕ Added: ${addedCount} new entries`);
+      console.log(`   ➖ Removed: ${removedCount} deleted entries`);
+      return true;
+    }
+
+    // Create backup before updating
+    const backupPath = `${albumPath}.backup`;
+    if (!fs.existsSync(backupPath)) {
+      fs.copyFileSync(albumPath, backupPath);
+      console.log('💾 Created backup: album.ts.backup');
+    }
+
+    fs.writeFileSync(albumPath, newAlbumContent);
+    console.log(`🔄 Smart synced album.ts:`);
+    console.log(`   ✅ Preserved: ${preservedCount} existing entries with custom captions`);
+    console.log(`   ➕ Added: ${addedCount} new entries`);
+    console.log(`   ➖ Removed: ${removedCount} deleted entries`);
+    console.log(`   📸 Total: ${webFiles.length} images`);
+
+    return true;
+  }
+
   async generateIndexMdx(galleryPath, options = {}) {
     const { dryRun = false } = options;
     const indexPath = path.join(galleryPath, 'index.mdx');
@@ -620,9 +733,9 @@ Examples:
     // Process images
     const result = await processor.processGallery(galleryPath, { dryRun, force });
 
-    // Generate documentation files (album.ts and index.mdx)
+    // Generate/sync documentation files (album.ts and index.mdx)
     console.log(`\n📝 Generating documentation files...`);
-    await processor.generateAlbumTs(galleryPath, { dryRun });
+    await processor.smartSyncAlbumTs(galleryPath, { dryRun });
     await processor.generateIndexMdx(galleryPath, { dryRun });
 
     // Update album config if requested (legacy support)
