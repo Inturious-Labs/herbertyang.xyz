@@ -355,7 +355,12 @@ The gallery uses a modern masonry grid layout with lightbox features:
 7. **Run the gallery processor**
    ```bash
    # From within your gallery directory
-   gallery-processor
+   make-gallery
+   ```
+
+   **Setup**: Add this alias to your `~/.bash_profile`:
+   ```bash
+   alias make-gallery='node ../../../../../scripts/gallery-processor.js .'
    ```
 
 The automated script will:
@@ -412,7 +417,7 @@ For existing galleries, the Smart Sync functionality automatically:
 
 **Process:**
 1. Add new photos to `img/originals/` following the naming convention
-2. Run `gallery-processor` from the gallery directory
+2. Run `make-gallery` from the gallery directory
 3. Script shows statistics of preserved/added/removed entries
 
 ### Final Directory Structure
@@ -535,17 +540,17 @@ docs/gallery/2025/vintage-car-show/
 ### Image Processing Pipeline
 
 **Automated Processing Script:**
-Use the global `gallery-processor` command for all gallery operations:
+Use the `make-gallery` alias for all gallery operations:
 
 ```bash
 # Process current gallery (run from gallery directory)
-gallery-processor
+make-gallery
 
 # Dry run to preview changes without making them
-gallery-processor --dry-run
+make-gallery --dry-run
 
 # Force reprocessing of all images (bypasses existing file checks)
-gallery-processor --force
+make-gallery --force
 ```
 
 **The script automatically:**
