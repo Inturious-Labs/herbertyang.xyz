@@ -324,100 +324,221 @@ While having one scripts directory follows typical conventions, this project req
 
 This architecture ensures that each script operates in its optimal context while maintaining clear separation between manual workflow tools and automated build processes.
 
-## Photo Gallery Guide - Automated Workflow
+## Photo Gallery Workflow - Standard Operating Procedures
 
-This guide will help you create new photo albums using the fully automated gallery workflow with Smart Sync functionality.
+This section provides your standard routines for managing the gallery system. Follow these procedures for consistent, professional results.
 
-### Gallery Structure Overview
+### System Overview
 
-The gallery uses a modern masonry grid layout with lightbox features:
+**Unified Workflow**: One command (`make-gallery`) handles everything from raw photos to published gallery
+**Three-Tier Architecture**: originals/ → web/ + thumbs/ → album.ts + index.mdx
+**Smart Sync**: Preserves your custom captions when adding/removing photos
+**Automatic Integration**: Gallery index updates automatically during npm start/build
+
+### Gallery Features
 - **Masonry grid layout** optimized for mobile viewing
 - Lightbox with zoom, fullscreen, slideshow, and thumbnails
 - Caption support with preservation of custom captions
 - Mobile-responsive design
 - Smart Sync for handling photo additions/removals
 
-### Creating a New Photo Album - Step by Step
+## Standard Workflow Routines
 
-#### Step 1: Setup Branch and Directories
+### ROUTINE 1: Creating a New Gallery
 
-1. **Select photos and upload them to MBP**
-   - Choose your photos and transfer to local machine
+#### Phase 1: Preparation and Setup
 
-2. **Create a new branch off main branch**
+1. **Select and transfer photos**
+   - Choose your best shots and transfer to MBP
+
+2. **Create feature branch**
    ```bash
    git checkout main
    git pull
    git checkout -b new-gallery-name
    ```
 
-3. **Create a gallery folder in docusaurus/docs/gallery/YYYY/ folder**
+3. **Setup gallery directory structure**
    ```bash
    cd docusaurus/docs/gallery/2025  # Use current year
    mkdir your-album-name
    cd your-album-name
+   mkdir img/originals img/thumbs img/web
    ```
 
-4. **Create directory structure**
-   ```bash
-   mkdir img/originals
-   mkdir img/thumbs
-   mkdir img/web
-   ```
+#### Phase 2: Photo Preparation (CRITICAL STEP)
 
-#### Step 2: Prepare Your Images
+4. **Move photos to img/originals/**
+   - Transfer all selected photos to the `img/originals/` directory
 
-5. **Move the photos into img/originals**
-   - Place all your photos in the `img/originals/` directory
-
-6. **Edit photos in img/originals** (CRITICAL STEP):
-   - **Rotate and get the right orientation** - Use Preview, Photos app, or image editor
-   - **Crop and other UI edits** - Make any compositional adjustments
-   - **Serialize photos and name them as 01_xxx.jpg, 02_xxx.jpg, 03_xxx.jpg**
+5. **Edit and serialize photos in img/originals/**
+   - **Rotate and correct orientation** - Use Preview, Photos app, or image editor
+   - **Crop and apply compositional edits** - Make any final adjustments
+   - **Serialize and rename photos**: `01_xxx.jpg`, `02_xxx.jpg`, `03_xxx.jpg`
      - Use `xxx` to describe what's in the photo
-     - DO NOT include the gallery name in individual filenames
+     - Do NOT include the gallery name in individual filenames
      - Example: `01_rocket_garden.jpg`, `02_atlantis_front.jpg`
-   - **Do not resize the photos** - Keep original resolution
-   - **Serialize based on presentation order** - Number them in the order you want them displayed
-   - **Designate the first photo "01_xxx.jpg" as the cover image** - This becomes the gallery cover for SEO/social media
+   - **Keep original resolution** - Do not resize the photos
+   - **Order by presentation sequence** - Number them in display order
+   - **Designate cover image** - First photo `01_xxx.jpg` becomes gallery cover for SEO/social media
 
-#### Step 3: Run Automated Processing
+#### Phase 3: Automated Processing
 
-7. **Run the gallery processor**
+6. **Run the unified gallery processor**
    ```bash
    # From within your gallery directory
    make-gallery
    ```
 
-   **Setup**: Add this alias to your `~/.bash_profile`:
+   **First-time setup**: Ensure this alias exists in your `~/.bash_profile`:
    ```bash
-   alias make-gallery='node ../../../../../scripts/gallery-processor.js .'
+   alias make-gallery='node /Users/zire/matrix/github_zire/herbertyang.xyz/scripts/make-gallery.js .'
    ```
 
-The automated script will:
-- ✅ Process images from `img/originals/` to `img/web/` (optimized for web display)
-- 🖼️ Generate thumbnails in `img/thumbs/` (optimized for grid display)
+**The automated script handles everything:**
+- ✅ Process images from `img/originals/` to `img/web/` (watermarked, web-optimized)
+- 🖼️ Generate thumbnails in `img/thumbs/` (fast-loading grid display)
 - 📝 Create `album.ts` with photo data and actual dimensions
 - 📄 Generate `index.mdx` with SEO-optimized frontmatter
-- 🎯 Use the first photo (`01_xxx.jpg`) as the gallery cover image
-- 📊 Show processing statistics
+- 🎯 Use first photo (`01_xxx.jpg`) as gallery cover image
+- 📊 Display processing statistics
 
-#### Step 4: Generated Files
+#### Phase 4: Review and Publish
 
-The script automatically creates:
+7. **Test locally**
+   ```bash
+   cd docusaurus
+   npm run start
+   # Visit http://localhost:3000 to review gallery
+   ```
+
+8. **Customize captions and metadata** (Optional)
+   - Edit `album.ts` to refine photo captions
+   - Edit `index.mdx` to improve title, description, and keywords
+
+9. **Commit and deploy**
+   ```bash
+   git add .
+   git commit -m "Add [gallery-name] photo gallery"
+   git push --set-upstream origin new-gallery-name
+   # Create PR on GitHub, merge to main, then deploy
+   ```
+
+### ROUTINE 2: Adding Photos to Existing Gallery
+
+1. **Create feature branch**
+   ```bash
+   git checkout main && git pull
+   git checkout -b add-photos-to-[gallery-name]
+   ```
+
+2. **Add new photos to img/originals/**
+   - Follow same serialization format: `XX_description.jpg`
+   - Use next available numbers in sequence
+   - Edit for orientation and cropping as needed
+
+3. **Run Smart Sync processing**
+   ```bash
+   cd docusaurus/docs/gallery/YYYY/gallery-name
+   make-gallery
+   ```
+
+   **Smart Sync automatically:**
+   - ✅ Preserves all existing custom captions
+   - ➕ Adds entries for new photos with auto-generated captions
+   - 📊 Reports what was preserved/added
+
+4. **Test, customize, and deploy** (same as Phase 4 above)
+
+### ROUTINE 3: Removing Photos from Existing Gallery
+
+1. **Create feature branch**
+   ```bash
+   git checkout main && git pull
+   git checkout -b remove-photos-from-[gallery-name]
+   ```
+
+2. **Remove photos from img/originals/**
+   - Delete unwanted photo files
+   - Optionally renumber remaining photos for clean sequence
+
+3. **Run Smart Sync processing**
+   ```bash
+   cd docusaurus/docs/gallery/YYYY/gallery-name
+   make-gallery
+   ```
+
+   **Smart Sync automatically:**
+   - ✅ Preserves captions for remaining photos
+   - ➖ Removes entries for deleted photos
+   - 🧹 Cleans up orphaned web/ and thumbs/ files
+
+4. **Test, customize, and deploy** (same as Phase 4 above)
+
+### ROUTINE 4: Updating Gallery Metadata
+
+1. **Create feature branch for metadata updates**
+
+2. **Edit gallery files directly**
+   - **For SEO/title changes**: Edit `index.mdx` frontmatter
+   - **For caption refinements**: Edit `album.ts` caption fields
+   - **For description updates**: Edit `index.mdx` content
+
+3. **Optional: Regenerate if major changes needed**
+   ```bash
+   cd docusaurus/docs/gallery/YYYY/gallery-name
+   make-gallery  # Smart Sync preserves your custom edits
+   ```
+
+4. **Test and deploy** (same as Phase 4 above)
+
+---
+
+## Quick Reference
+
+### Essential Commands
+```bash
+# Setup alias (one-time)
+alias make-gallery='node /Users/zire/matrix/github_zire/herbertyang.xyz/scripts/make-gallery.js .'
+
+# Process any gallery (run from gallery directory)
+make-gallery
+
+# Test gallery system
+cd docusaurus && npm run start
+
+# Standard git workflow
+git checkout main && git pull
+git checkout -b feature-branch-name
+# ... make changes ...
+git add . && git commit -m "Description"
+git push --set-upstream origin feature-branch-name
+```
+
+### File Structure Reference
+```
+docs/gallery/2025/gallery-name/
+├── img/
+│   ├── originals/          # Your edited photos (01_xxx.jpg format)
+│   ├── web/               # Auto-generated: watermarked, web-optimized
+│   └── thumbs/            # Auto-generated: fast-loading thumbnails
+├── album.ts               # Auto-generated: photo data with dimensions
+└── index.mdx              # Auto-generated: SEO-optimized gallery page
+```
+
+### Generated Files Reference
 
 **`album.ts`** - Photo configuration with actual dimensions:
 ```typescript
 export const galleryNamePhotos = [
   {
     src: require('./img/web/01_rocket_garden.jpg').default,
-    width: 1200, // Actual thumbnail dimensions
+    width: 1200, // Actual dimensions
     height: 900,
     alt: 'gallery-name',
-    caption: "rocket garden",
+    caption: "rocket garden",  // Editable
     thumb: require('./img/thumbs/thumb_01_rocket_garden.jpg').default,
   },
-  // ... more photos
 ];
 ```
 
@@ -426,7 +547,7 @@ export const galleryNamePhotos = [
 ---
 title: "Gallery Name - Photography by Herbert Yang"
 description: "Gallery description with photo count and key subjects"
-keywords: [relevant, keywords, for, seo]
+keywords: [relevant, keywords, for, seo]  # Editable
 image: "img/web/01_rocket_garden.jpg"
 ---
 
@@ -438,52 +559,16 @@ import { galleryNamePhotos } from './album';
 <PhotoGallery images={galleryNamePhotos} />
 ```
 
-### Adding Photos to Existing Galleries
+### Technical Features
 
-For existing galleries, the Smart Sync functionality automatically:
-- ✅ **Preserves** all existing custom captions
-- ➕ **Adds** entries for new photos with auto-generated captions
-- ➖ **Removes** entries for deleted photos
-- 💾 **Creates backup** of album.ts before updating
-
-**Process:**
-1. Add new photos to `img/originals/` following the naming convention
-2. Run `make-gallery` from the gallery directory
-3. Script shows statistics of preserved/added/removed entries
-
-### Final Directory Structure
-
-```
-docs/gallery/2025/your-album-name/
-├── index.mdx                    # Gallery page (auto-generated)
-├── album.ts                     # Photo data (auto-generated)
-├── img/
-│   ├── originals/               # Your edited originals (01_xxx.jpg format)
-│   │   ├── 01_rocket_garden.jpg
-│   │   ├── 02_atlantis_front.jpg
-│   │   └── ...
-│   ├── web/                     # Web-optimized images (auto-generated)
-│   │   ├── 01_rocket_garden.jpg
-│   │   ├── 02_atlantis_front.jpg
-│   │   └── ...
-│   └── thumbs/                  # Thumbnails (auto-generated)
-│       ├── thumb_01_rocket_garden.jpg
-│       ├── thumb_02_atlantis_front.jpg
-│       └── ...
-```
-
-### Lightbox Features
-
+**Gallery System Capabilities:**
 - **Masonry Layout**: Photos arrange in a Pinterest-style grid
-- **Lightbox**: Click any photo to open full-screen view
-- **Zoom**: Pinch or scroll to zoom in/out
-- **Slideshow**: Auto-play through photos
-- **Thumbnails**: Bottom thumbnail strip for navigation
-- **Captions**: Display photo descriptions
-- **Fullscreen**: Full-screen viewing mode
-- **Mobile Responsive**: Works great on all devices
+- **Lightbox**: Click any photo to open full-screen view with zoom, slideshow, and navigation
+- **Mobile Responsive**: Optimized for all devices with touch controls
+- **SEO Optimized**: Structured data and meta tags for search engines
+- **Performance Optimized**: Lazy loading thumbnails with on-demand full images
 
-### Advanced Features
+**Smart Sync Technology:**
 
 #### Smart Sync Technology
 - **Caption Preservation**: Maintains all your custom captions when adding new photos
