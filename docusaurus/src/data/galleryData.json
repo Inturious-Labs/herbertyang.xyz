@@ -149,6 +149,13 @@
   ],
   "2025": [
     {
+      "slug": "kennedy-space-center",
+      "title": "Kennedy Space Center",
+      "description": "Kennedy Space Center photo gallery",
+      "coverImage": "/docs/gallery/2025/kennedy-space-center/img/web/01_rocket_garden.jpg",
+      "path": "/docs/gallery/2025/kennedy-space-center/"
+    },
+    {
       "slug": "mt-fuji-cycling-loop",
       "title": "Mt. Fuji Cycling Loop of 50km",
       "description": "cycling around Mt. Fuji on a Brompton bike",

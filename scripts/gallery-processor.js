@@ -46,19 +46,30 @@ class GalleryProcessor {
   async ensureSharp() {
     if (!sharp) {
       try {
-        sharp = require('./docusaurus/node_modules/sharp');
-        console.log('✅ Found Sharp in docusaurus/node_modules');
-      } catch (error) {
-        console.log('📦 Installing Sharp for image processing...');
-        const { execSync } = require('child_process');
-        try {
-          execSync('cd docusaurus && npm install sharp --save-dev', { stdio: 'inherit' });
-          sharp = require('./docusaurus/node_modules/sharp');
-          console.log('✅ Sharp installed successfully');
-        } catch (error2) {
-          console.error('❌ Failed to install Sharp:', error2.message);
-          throw new Error('Sharp is required for image processing');
+        // Try different possible paths for Sharp
+        const possiblePaths = [
+          'sharp', // If available globally or in current node_modules
+          './docusaurus/node_modules/sharp',
+          '../../../../../docusaurus/node_modules/sharp', // From gallery directory
+          path.join(__dirname, '../docusaurus/node_modules/sharp')
+        ];
+
+        for (const sharpPath of possiblePaths) {
+          try {
+            sharp = require(sharpPath);
+            console.log(`✅ Found Sharp at: ${sharpPath}`);
+            break;
+          } catch (e) {
+            // Continue trying
+          }
         }
+
+        if (!sharp) {
+          throw new Error('Sharp module not found in any expected location');
+        }
+      } catch (error) {
+        console.error('❌ Sharp not found:', error.message);
+        throw new Error('Sharp is required for image processing. Please ensure it is installed in docusaurus/node_modules');
       }
     }
   }
@@ -209,21 +220,17 @@ class GalleryProcessor {
       throw new Error(`Gallery not found: ${galleryPath}`);
     }
 
-    // Find current images (look for img folder or files in root)
-    const imgPath = path.join(galleryPath, 'img');
-    const hasImgFolder = fs.existsSync(imgPath);
+    // Find source images in img/originals/ directory
+    const imgOriginalsPath = path.join(galleryPath, 'img/originals');
 
-    let sourceImages = [];
-    if (hasImgFolder) {
-      sourceImages = fs.readdirSync(imgPath)
-        .filter(file => /\.(jpg|jpeg|png)$/i.test(file))
-        .filter(file => !file.startsWith('watermarked_') && !file.startsWith('thumb'))
-        .map(file => path.join(imgPath, file));
-    } else {
-      sourceImages = fs.readdirSync(galleryPath)
-        .filter(file => /\.(jpg|jpeg|png)$/i.test(file))
-        .map(file => path.join(galleryPath, file));
+    if (!fs.existsSync(imgOriginalsPath)) {
+      throw new Error(`Source images directory not found: ${imgOriginalsPath}`);
     }
+
+    const sourceImages = fs.readdirSync(imgOriginalsPath)
+      .filter(file => /\.(jpg|jpeg|png)$/i.test(file))
+      .filter(file => !file.startsWith('watermarked_') && !file.startsWith('thumb'))
+      .map(file => path.join(imgOriginalsPath, file));
 
     if (sourceImages.length === 0) {
       console.log('⚠️  No source images found');
@@ -232,18 +239,10 @@ class GalleryProcessor {
 
     console.log(`📸 Found ${sourceImages.length} source images`);
 
-    // Create directory structure
-    const originalsDir = path.join(galleryPath, 'originals');
-    const webDir = path.join(galleryPath, 'web');
-    const thumbsDir = path.join(galleryPath, 'thumbs');
-
-    if (!dryRun) {
-      [originalsDir, webDir, thumbsDir].forEach(dir => {
-        if (!fs.existsSync(dir)) {
-          fs.mkdirSync(dir, { recursive: true });
-        }
-      });
-    }
+    // Define output directories (assume they already exist)
+    const imgDir = path.join(galleryPath, 'img');
+    const webDir = path.join(imgDir, 'web');
+    const thumbsDir = path.join(imgDir, 'thumbs');
 
     // Load watermark
     const watermark = await this.loadWatermark();
@@ -259,14 +258,12 @@ class GalleryProcessor {
       const nameWithoutExt = path.parse(filename).name;
       const ext = path.parse(filename).ext.toLowerCase();
 
-      // Generate clean filenames
-      const originalFile = path.join(originalsDir, `${nameWithoutExt}${ext}`);
+      // Generate output filenames
       const webFile = path.join(webDir, `${nameWithoutExt}.jpg`);
       const thumbFile = path.join(thumbsDir, `thumb_${nameWithoutExt}.jpg`);
 
       if (dryRun) {
         console.log(`📋 Would process: ${filename}`);
-        console.log(`   → ${path.relative(galleryPath, originalFile)}`);
         console.log(`   → ${path.relative(galleryPath, webFile)}`);
         console.log(`   → ${path.relative(galleryPath, thumbFile)}`);
         processed++;
@@ -281,10 +278,6 @@ class GalleryProcessor {
       }
 
       try {
-        // Copy to originals (archive)
-        if (!fs.existsSync(originalFile)) {
-          fs.copyFileSync(sourcePath, originalFile);
-        }
 
         // Process to web version
         await this.processToWeb(sourcePath, webFile, watermark);
@@ -304,6 +297,144 @@ class GalleryProcessor {
     console.log(`   📁 Structure: originals/ | web/ | thumbs/`);
 
     return { processed, skipped, total: sourceImages.length };
+  }
+
+  generateAlbumName(galleryPath) {
+    let folderName = path.basename(galleryPath);
+    // If running from current directory, get the actual folder name
+    if (folderName === '.') {
+      folderName = path.basename(path.resolve(galleryPath));
+    }
+    // Convert folder name to camelCase for variable name
+    return folderName.replace(/-([a-z])/g, (match, letter) => letter.toUpperCase()) + 'Photos';
+  }
+
+  generateTitle(galleryPath) {
+    let folderName = path.basename(galleryPath);
+    // If running from current directory, get the actual folder name
+    if (folderName === '.') {
+      folderName = path.basename(path.resolve(galleryPath));
+    }
+    // Convert kebab-case to Title Case
+    return folderName.split('-').map(word =>
+      word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ');
+  }
+
+  async generateAlbumTs(galleryPath, options = {}) {
+    const { dryRun = false } = options;
+    const albumPath = path.join(galleryPath, 'album.ts');
+
+    // Never overwrite existing album.ts (user may have added captions)
+    if (fs.existsSync(albumPath)) {
+      console.log('⏭️  album.ts exists - skipping to preserve user edits');
+      return false;
+    }
+
+    const webDir = path.join(galleryPath, 'img/web');
+    const thumbsDir = path.join(galleryPath, 'img/thumbs');
+
+    if (!fs.existsSync(webDir) || !fs.existsSync(thumbsDir)) {
+      console.log('⚠️  Web or thumbs directory not found - run image processing first');
+      return false;
+    }
+
+    const webFiles = fs.readdirSync(webDir)
+      .filter(file => /\.(jpg|jpeg)$/i.test(file))
+      .sort();
+
+    if (webFiles.length === 0) {
+      console.log('⚠️  No web images found');
+      return false;
+    }
+
+    const albumName = this.generateAlbumName(galleryPath);
+
+    if (dryRun) {
+      console.log('📋 Would create album.ts with:');
+      console.log(`   Variable name: ${albumName}`);
+      console.log(`   Images: ${webFiles.length} entries`);
+      return true;
+    }
+
+    let albumContent = `export const ${albumName} = [\n`;
+
+    for (const webFile of webFiles) {
+      const nameWithoutExt = path.parse(webFile).name;
+      const thumbFile = `thumb_${nameWithoutExt}.jpg`;
+
+      if (fs.existsSync(path.join(thumbsDir, thumbFile))) {
+        // Extract caption from filename (remove number prefix)
+        const caption = nameWithoutExt.replace(/^\d+_/, '').replace(/_/g, ' ');
+
+        albumContent += `  {\n`;
+        albumContent += `    src: require('./img/web/${webFile}').default,\n`;
+        albumContent += `    width: 900,\n`;
+        albumContent += `    height: 1200,\n`;
+        const folderName = galleryPath === '.' ? path.basename(path.resolve(galleryPath)) : path.basename(galleryPath);
+        albumContent += `    alt: '${folderName}',\n`;
+        albumContent += `    caption: "${caption}",\n`;
+        albumContent += `    thumb: require('./img/thumbs/${thumbFile}').default,\n`;
+        albumContent += `  },\n`;
+      }
+    }
+
+    albumContent += `];\n`;
+
+    fs.writeFileSync(albumPath, albumContent);
+    console.log(`✅ Created album.ts with ${webFiles.length} images`);
+    return true;
+  }
+
+  async generateIndexMdx(galleryPath, options = {}) {
+    const { dryRun = false } = options;
+    const indexPath = path.join(galleryPath, 'index.mdx');
+
+    // Never overwrite existing index.mdx (user may have added content)
+    if (fs.existsSync(indexPath)) {
+      console.log('⏭️  index.mdx exists - skipping to preserve user edits');
+      return false;
+    }
+
+    const title = this.generateTitle(galleryPath);
+    const albumName = this.generateAlbumName(galleryPath);
+
+    // Use first image as cover
+    const webDir = path.join(galleryPath, 'img/web');
+    if (!fs.existsSync(webDir)) {
+      console.log('⚠️  Web directory not found - run image processing first');
+      return false;
+    }
+
+    const webFiles = fs.readdirSync(webDir)
+      .filter(file => /\.(jpg|jpeg)$/i.test(file))
+      .sort();
+
+    const coverImage = webFiles.length > 0 ? `img/web/${webFiles[0]}` : '';
+
+    if (dryRun) {
+      console.log('📋 Would create index.mdx with:');
+      console.log(`   Title: ${title}`);
+      console.log(`   Cover image: ${coverImage}`);
+      return true;
+    }
+
+    const indexContent = `---
+title: "${title}"
+description: "${title} photo gallery"
+keywords: [${title.split(' ').join(', ')}]
+image: ${coverImage}
+---
+
+import PhotoGallery from '@site/src/components/PhotoGallery';
+import { ${albumName} } from './album';
+
+<PhotoGallery images={${albumName}} />
+`;
+
+    fs.writeFileSync(indexPath, indexContent);
+    console.log(`✅ Created index.mdx: "${title}"`);
+    return true;
   }
 
   async updateAlbumConfig(galleryPath, options = {}) {
@@ -415,7 +546,7 @@ Examples:
   }
 
   // Parse arguments
-  let watermarkPath = 'docusaurus/static/img/herbert_watermark_no_bg.png'; // default
+  let watermarkPath = 'docusaurus/static/img/herbert_watermark_no_bg.png';
   let galleryPath = null;
   let dryRun = false;
   let force = false;
@@ -478,20 +609,27 @@ Examples:
     // Process images
     const result = await processor.processGallery(galleryPath, { dryRun, force });
 
-    // Update album config if requested
+    // Generate documentation files (album.ts and index.mdx)
+    console.log(`\n📝 Generating documentation files...`);
+    await processor.generateAlbumTs(galleryPath, { dryRun });
+    await processor.generateIndexMdx(galleryPath, { dryRun });
+
+    // Update album config if requested (legacy support)
     if (updateAlbum) {
       await processor.updateAlbumConfig(galleryPath, { dryRun });
     }
 
-    if (!dryRun && result.processed > 0) {
-      console.log(`\n✨ Processing complete! Your gallery now has:`);
-      console.log(`   📂 originals/  - Master archive files`);
-      console.log(`   🌐 web/        - Optimized & watermarked for display`);
-      console.log(`   🖼️  thumbs/     - Fast-loading grid thumbnails`);
+    if (!dryRun) {
+      console.log(`\n✨ Gallery setup complete! Your gallery now has:`);
+      console.log(`   📂 img/originals/  - Master archive files`);
+      console.log(`   🌐 img/web/        - Optimized & watermarked for display`);
+      console.log(`   🖼️  img/thumbs/     - Fast-loading grid thumbnails`);
+      console.log(`   📄 album.ts        - Image data for React components`);
+      console.log(`   📄 index.mdx       - Gallery page with metadata`);
       console.log(`\n💡 Next steps:`);
-      console.log(`   1. Update album.ts to use new web/ and thumbs/ structure`);
-      console.log(`   2. Test the gallery in your development server`);
-      console.log(`   3. Remove old img/ files after verification`);
+      console.log(`   1. Edit index.mdx to add keywords, description, or content`);
+      console.log(`   2. Edit album.ts to customize image captions`);
+      console.log(`   3. Test the gallery in your development server`);
     }
 
   } catch (error) {
