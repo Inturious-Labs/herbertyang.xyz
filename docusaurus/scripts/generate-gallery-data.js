@@ -163,7 +163,9 @@ function scanGalleryFolder() {
             coverImage = `/docs/gallery/${year}/${albumSlug}${imagePath}`;
           } else {
             // Relative path - convert to absolute gallery path
-            coverImage = `/docs/gallery/${year}/${albumSlug}/${imagePath}`;
+            // Handle both "./img/path" and "img/path" formats
+            const cleanPath = imagePath.startsWith('./') ? imagePath.substring(2) : imagePath;
+            coverImage = `/docs/gallery/${year}/${albumSlug}/${cleanPath}`;
           }
         } else {
           // Step 8c: No frontmatter image specified - extract from content
