@@ -717,7 +717,7 @@ class GalleryProcessor {
           .sort();
 
         if (webFiles.length > 0) {
-          const expectedCoverPath = `img/web/${webFiles[0]}`;
+          const expectedCoverPath = `./img/web/${webFiles[0]}`;
           if (currentImagePath !== expectedCoverPath) {
             needsUpdate = true;
             console.log(`🔄 Syncing cover image: ${currentImagePath} → ${expectedCoverPath}`);
@@ -770,7 +770,7 @@ class GalleryProcessor {
       .filter(file => /\.(jpg|jpeg)$/i.test(file))
       .sort();
 
-    const coverImage = webFiles.length > 0 ? `img/web/${webFiles[0]}` : '';
+    const coverImage = webFiles.length > 0 ? `./img/web/${webFiles[0]}` : '';
 
     if (dryRun) {
       console.log('📋 Would create index.mdx with:');
