@@ -168,6 +168,13 @@
       "description": "Photos from our 2025 family trip to San Francisco via China Beach.",
       "coverImage": "/docs/gallery/2025/vintage-car-show/img/web/vintage-car-1.jpg",
       "path": "/docs/gallery/2025/vintage-car-show/"
+    },
+    {
+      "slug": "xinjiang-day-1",
+      "title": "Xinjiang Day 1 - Photography by Herbert Yang",
+      "description": "Xinjiang Day 1 photo gallery featuring 13 stunning images captured by Herbert Yang.",
+      "coverImage": "/docs/gallery/2025/xinjiang-day-1/img/web/01_street_pattern.jpg",
+      "path": "/docs/gallery/2025/xinjiang-day-1/"
     }
   ]
 }
