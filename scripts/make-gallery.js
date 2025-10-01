@@ -456,7 +456,7 @@ class GalleryProcessor {
       folderName = path.basename(path.resolve(galleryPath));
     }
     // Convert folder name to camelCase for variable name
-    return folderName.replace(/-([a-z])/g, (match, letter) => letter.toUpperCase()) + 'Photos';
+    return folderName.replace(/-([a-z0-9])/g, (match, letter) => letter.toUpperCase()) + 'Photos';
   }
 
   generateTitle(galleryPath) {
