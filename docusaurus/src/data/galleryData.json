@@ -179,9 +179,16 @@
     {
       "slug": "xinjiang-day-2",
       "title": "金秋喀什 - 阿克苏",
-      "description": "Xinjiang Day 2 photo gallery featuring 18 stunning images captured by Herbert Yang.",
+      "description": "金秋喀什之行的第二站，阿克苏之路，途径天山神秘大峡谷和克弥尔千佛洞",
       "coverImage": "/docs/gallery/2025/xinjiang-day-2/img/web/01_canyon_walk.jpg",
       "path": "/docs/gallery/2025/xinjiang-day-2/"
+    },
+    {
+      "slug": "xinjiang-day-3",
+      "title": "金秋喀什 - 沙漠营地",
+      "description": "Xinjiang Day 3 photo gallery featuring 19 stunning images captured by Herbert Yang.",
+      "coverImage": "/docs/gallery/2025/xinjiang-day-3/img/web/01_TRON.jpg",
+      "path": "/docs/gallery/2025/xinjiang-day-3/"
     }
   ]
 }
