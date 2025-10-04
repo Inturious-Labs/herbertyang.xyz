@@ -171,10 +171,17 @@
     },
     {
       "slug": "xinjiang-day-1",
-      "title": "Xinjiang Day 1 - Photography by Herbert Yang",
-      "description": "Xinjiang Day 1 photo gallery featuring 13 stunning images captured by Herbert Yang.",
+      "title": "金秋喀什 - 库车",
+      "description": "般马旅行团组织的金秋喀什之行的第一站库车（古称龟兹）",
       "coverImage": "/docs/gallery/2025/xinjiang-day-1/img/web/01_street_pattern.jpg",
       "path": "/docs/gallery/2025/xinjiang-day-1/"
+    },
+    {
+      "slug": "xinjiang-day-2",
+      "title": "金秋喀什 - 阿克苏",
+      "description": "Xinjiang Day 2 photo gallery featuring 18 stunning images captured by Herbert Yang.",
+      "coverImage": "/docs/gallery/2025/xinjiang-day-2/img/web/01_canyon_walk.jpg",
+      "path": "/docs/gallery/2025/xinjiang-day-2/"
     }
   ]
 }
