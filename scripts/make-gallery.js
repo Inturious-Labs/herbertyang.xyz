@@ -776,6 +776,7 @@ class GalleryProcessor {
       console.log('📋 Would create index.mdx with:');
       console.log(`   Title: ${title}`);
       console.log(`   Cover image: ${coverImage}`);
+      console.log(`   Rapport: enabled`);
       return true;
     }
 
@@ -792,10 +793,26 @@ import { ${albumName} } from './album';
 # ${title}
 
 <PhotoGallery images={${albumName}} />
+
+## Comments
+
+<div id="rapport"></div>
+
+<script src="https://ic0.app/agent.js" async></script>
+<script src="https://ic0.app/widget.js" async></script>
+<script dangerouslySetInnerHTML={{__html: \`
+  window.addEventListener('load', function() {
+    if (window.Rapport) {
+      Rapport.init({
+        canisterId: 'kedx2-liaaa-aaaai-q34ga-cai'
+      });
+    }
+  });
+\`}} />
 `;
 
     fs.writeFileSync(indexPath, indexContent);
-    console.log(`✅ Created index.mdx: "${title}"`);
+    console.log(`✅ Created index.mdx: "${title}" (with Rapport comments)`);
     return true;
   }
 
@@ -890,6 +907,8 @@ Options:
   --force               Overwrite existing processed images
   --update-album        Update album.ts configuration
   --help, -h            Show this help
+
+Note: All generated galleries include Rapport comments by default.
 
 Examples:
   # Process single gallery with default settings
