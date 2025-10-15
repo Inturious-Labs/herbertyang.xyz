@@ -796,17 +796,13 @@ import { ${albumName} } from './album';
 
 ## Comments
 
+<script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent-bundle.js"></script>
+<script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent.js"></script>
+<script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/widget.js?v=1.0.0"></script>
 <div id="rapport"></div>
-
-<script src="https://ic0.app/agent.js" async></script>
-<script src="https://ic0.app/widget.js" async></script>
 <script dangerouslySetInnerHTML={{__html: \`
-  window.addEventListener('load', function() {
-    if (window.Rapport) {
-      Rapport.init({
-        canisterId: 'kedx2-liaaa-aaaai-q34ga-cai'
-      });
-    }
+  Rapport.init({
+    canisterId: 'kedx2-liaaa-aaaai-q34ga-cai'
   });
 \`}} />
 `;
