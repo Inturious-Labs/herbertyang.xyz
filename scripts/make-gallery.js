@@ -794,8 +794,6 @@ import { ${albumName} } from './album';
 
 <PhotoGallery images={${albumName}} />
 
-## Comments
-
 <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent-bundle.js"></script>
 <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent.js"></script>
 <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/widget.js?v=1.0.0"></script>
