@@ -4,15 +4,13 @@ date: 2025-10-27
 tags: ["personal"]
 keywords: ["temp"]
 draft: false
-image: "./img/taihu-lake.jpg"
+image: "./img/huatingjian.JPG"
 enable_rapport: true
 ---
 
-Team Chirus is on the road again
-
 自从 Team Chirus（藏羚羊队）成功完成了千岛湖环湖 140 公里骑行后，我们的信心和野心都在膨胀，一直在寻找机会完成国内骑行圈的下一个目标 - 环太湖 300 公里。今年江浙沪区域的夏天实在太热，高温天气持续了4-5个月的时间。好不容易等到十月中旬，温度终于下降到 15-25度区间。我们准备用三天时间，逆时针环太湖，每天 100 公里，完成夙愿。
 
-![Taihu Lake](./img/taihu-lake.jpg)
+![Taihu Lake](./img/huatingjian.JPG)
 
 <!-- truncate -->
 
