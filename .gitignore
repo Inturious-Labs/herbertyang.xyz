@@ -38,3 +38,6 @@ pelican_posts/
 **/originals/
 **/original/
 **/*-original.*
+
+# Gallery script backup files
+**/*.backup
