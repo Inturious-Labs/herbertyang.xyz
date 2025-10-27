@@ -4,6 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+// Enable draft mode when running npm run start
+const isDraftMode = process.env.DOCUSAURUS_DRAFT_MODE === 'true';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Welcome to Herbert Yang\'s Digital Nexus!',
@@ -60,7 +63,14 @@ const config = {
           blogTitle: "Herbert Yang's blog",
           blogDescription: 'the good, the bad, the curious',
           postsPerPage: 10,
-          blogSidebarCount: 0
+          blogSidebarCount: 0,
+          // Include drafts when running npm run start
+          include: isDraftMode
+            ? ['**/*.{md,mdx}']  // Include all posts including drafts in dev mode
+            : ['**/*.{md,mdx}'], // Default behavior in production
+          exclude: isDraftMode
+            ? ['**/_*.{js,jsx,ts,tsx,md,mdx}', '**/_*/**'] // Exclude only underscore files in dev mode
+            : ['**/_*.{js,jsx,ts,tsx,md,mdx}', '**/_*/**', '**/draft:true/**'], // Exclude drafts in production
         },
 
         docs: { 
