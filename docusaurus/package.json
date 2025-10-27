@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "node scripts/generate-gallery-data.js && docusaurus start",
+    "start": "DOCUSAURUS_DRAFT_MODE=true node scripts/generate-gallery-data.js && docusaurus start",
     "build": "node scripts/generate-gallery-data.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
