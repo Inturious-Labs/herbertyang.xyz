@@ -104,6 +104,9 @@ jobs:
 
         cd ..
 
+    - name: Sync system clock
+      run: sudo sntp -sS time.google.com || sudo ntpdate -u time.google.com || sudo timedatectl set-ntp true
+
     - name: Deploy to IC
       run: |
         # Create canister_ids.json
