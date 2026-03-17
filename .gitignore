@@ -1,46 +1,32 @@
-# GitHub .gitignore - Excludes originals for public repo
+# Build output
+/build
+.docusaurus
+.cache-loader
 
-# Various IDEs and Editors
+# Dependencies
+node_modules/
+
+# IDE
 .vscode/
 .idea/
 **/*~
 
-# Mac OSX temporary files
+# OS
 .DS_Store
 **/.DS_Store
 
-# dfx temporary files
-.dfx/
-
-# frontend code
-node_modules/
-dist/
-
-# Docusaurus build output
-docusaurus/build/
-docusaurus/.docusaurus/
-
-# un-used files for final build
-sample/
-
-# previous front-end framework
-svelte/
-
-# assets and materials from pelican archive
-pelican_convert/
-pelican_images/
-pelican_posts/
-
-# environment variables
+# Environment
 .env
 
-# ORIGINAL PHOTOS - Exclude from GitHub (too large)
+# Photography originals (too large for git)
 **/originals/
 **/original/
 **/*-original.*
-
-# Gallery script backup files
 **/*.backup
+
+# Legacy (local only)
+.dfx/
+_pelican_archive/
 
 # Claude Code
 .claude/
