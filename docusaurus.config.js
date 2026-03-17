@@ -63,7 +63,8 @@ const config = {
           blogTitle: "Herbert Yang's blog",
           blogDescription: 'the good, the bad, the curious',
           postsPerPage: 10,
-          blogSidebarCount: 0,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All Posts',
           // Include drafts when running npm run start
           include: isDraftMode
             ? ['**/*.{md,mdx}']  // Include all posts including drafts in dev mode
@@ -216,8 +217,8 @@ const config = {
         routeBasePath: 'public',
         path: './public',
         postsPerPage: 10,
-        blogSidebarCount: 0,
-        // Disable sidebar generation for blog plugin
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: 'All Events',
       },
     ],
   ],
