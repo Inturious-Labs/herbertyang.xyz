@@ -63,7 +63,8 @@ const config = {
           blogTitle: "Herbert Yang's blog",
           blogDescription: 'the good, the bad, the curious',
           postsPerPage: 10,
-          blogSidebarCount: 0,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All Posts',
           // Include drafts when running npm run start
           include: isDraftMode
             ? ['**/*.{md,mdx}']  // Include all posts including drafts in dev mode
