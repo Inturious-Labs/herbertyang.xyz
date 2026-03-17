@@ -30,3 +30,4 @@ _pelican_archive/
 
 # Claude Code
 .claude/
+.vercel
