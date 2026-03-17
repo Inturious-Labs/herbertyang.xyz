@@ -195,7 +195,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Herbert Yang Digital Public Archive, Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} <a href="https://inturious.com" style="color: inherit; text-decoration: none;">Inturious Labs</a>`,
       },
       prism: {
         theme: lightCodeTheme,
