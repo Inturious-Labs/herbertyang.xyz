@@ -117,12 +117,6 @@ const config = {
             position: 'left',
             label: 'Photo Gallery',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'hackerSidebar',
-            position: 'left',
-            label: 'Digital Sovereignty',
-          },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'recordingSidebar',
