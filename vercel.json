@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "cd docusaurus && npm run build",
-  "outputDirectory": "docusaurus/build",
-  "installCommand": "cd docusaurus && npm install"
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install"
 }

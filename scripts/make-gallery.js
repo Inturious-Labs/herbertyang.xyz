@@ -46,14 +46,14 @@ try {
   try {
     // Multi-context path resolution: script can run from gallery dir or project root
     const scriptDir = path.dirname(__filename);
-    const docusaurusPath = path.join(scriptDir, '../docusaurus/node_modules/canvas');
+    const docusaurusPath = path.join(scriptDir, '../node_modules/canvas');
     ({ createCanvas, loadImage } = require(docusaurusPath));
   } catch (error2) {
     try {
-      ({ createCanvas, loadImage } = require('./docusaurus/node_modules/canvas'));
+      ({ createCanvas, loadImage } = require('./node_modules/canvas'));
     } catch (error3) {
       console.error('❌ Canvas module not found. Please install with:');
-      console.error('   cd docusaurus && npm install canvas --save-dev');
+      console.error('   npm install canvas --save-dev');
     }
   }
 }
@@ -99,9 +99,9 @@ class GalleryProcessor {
         // Path priority: global → project context → gallery context → absolute fallback
         const possiblePaths = [
           'sharp',                                         // Global or local node_modules
-          './docusaurus/node_modules/sharp',               // From project root
-          '../../../../../docusaurus/node_modules/sharp',  // From deep gallery directory
-          path.join(__dirname, '../docusaurus/node_modules/sharp')  // Absolute path
+          './node_modules/sharp',               // From project root
+          '../../../../../node_modules/sharp',  // From deep gallery directory
+          path.join(__dirname, '../node_modules/sharp')  // Absolute path
         ];
 
         for (const sharpPath of possiblePaths) {
@@ -119,7 +119,7 @@ class GalleryProcessor {
         }
       } catch (error) {
         console.error('❌ Sharp not found:', error.message);
-        throw new Error('Sharp is required for image processing. Please ensure it is installed in docusaurus/node_modules');
+        throw new Error('Sharp is required for image processing. Please ensure it is installed in node_modules');
       }
     }
   }
@@ -906,10 +906,10 @@ Note: All generated galleries include Rapport comments by default.
 
 Examples:
   # Process single gallery with default settings
-  node gallery-processor.js docusaurus/docs/gallery/2023/1-simingshan-dragon-boat
+  node gallery-processor.js docs/gallery/2023/1-simingshan-dragon-boat
 
   # Dry run to preview changes
-  node gallery-processor.js --dry-run docusaurus/docs/gallery/2023/1-simingshan-dragon-boat
+  node gallery-processor.js --dry-run docs/gallery/2023/1-simingshan-dragon-boat
 
   # Process with custom watermark and sizes
   node gallery-processor.js --watermark watermark.png --web-max 1600 --thumb-size 400 gallery/
@@ -924,7 +924,7 @@ Examples:
   // Find project root and construct absolute watermark path
   const scriptDir = path.dirname(__filename);
   const projectRoot = path.resolve(scriptDir, '..');
-  let watermarkPath = path.join(projectRoot, 'docusaurus/static/img/herbert_watermark_no_bg.png');
+  let watermarkPath = path.join(projectRoot, 'static/img/herbert_watermark_no_bg.png');
   let galleryPath = null;
   let dryRun = false;
   let force = false;
