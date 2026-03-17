@@ -9,7 +9,7 @@ const isDraftMode = process.env.DOCUSAURUS_DRAFT_MODE === 'true';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to Herbert Yang\'s Digital Nexus!',
+  title: 'Herbert Yang - writer, builder, investor',
   tagline: '',
   favicon: 'img/favicon.ico',
 
