@@ -216,8 +216,8 @@ const config = {
         routeBasePath: 'public',
         path: './public',
         postsPerPage: 10,
-        blogSidebarCount: 0,
-        // Disable sidebar generation for blog plugin
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: 'All Events',
       },
     ],
   ],
