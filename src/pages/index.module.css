@@ -36,6 +36,49 @@
   text-decoration: none;
 }
 
+.roles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem auto 0;
+  width: fit-content;
+  text-align: left;
+}
+
+.role {
+  font-size: 0.9rem;
+}
+
+.roleTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0 0 0.4rem;
+}
+
+.roleList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roleList li {
+  margin-bottom: 0.2rem;
+}
+
+.roleList a {
+  color: var(--ifm-color-emphasis-800);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.roleList a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -79,4 +122,5 @@
   .landing {
     padding: 2rem 1rem;
   }
+
 }
