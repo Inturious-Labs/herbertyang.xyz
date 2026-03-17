@@ -41,3 +41,6 @@ pelican_posts/
 
 # Gallery script backup files
 **/*.backup
+
+# Claude Code
+.claude/
