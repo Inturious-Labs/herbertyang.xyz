@@ -33,7 +33,7 @@ const sections = [
 
 export default function Home() {
   return (
-    <Layout description="Herbert Yang - writer, builder, investor">
+    <Layout description="A recovering remnant of globalization in AI, web3, and data sovereignty">
       <main className={styles.landing}>
         <div className={styles.hero}>
           <img
