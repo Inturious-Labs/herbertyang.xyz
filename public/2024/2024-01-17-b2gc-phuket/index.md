@@ -1,7 +1,6 @@
 ---
 slug: b2gc-on-phuket-thailand
 title: 普吉岛 B2GC 大会
-author: Herbert Yang
 image: "./img/bond_island.png"
 tags: [phuket, thailand, b2gc]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Phuket Island, Thailand, B2GC]

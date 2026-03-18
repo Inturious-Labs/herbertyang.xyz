@@ -1,7 +1,6 @@
 ---
 slug: chainfeeds-on-icp
 title: 公链新格局 - 互联网计算机 ICP 生态发展前瞻
-author: Herbert Yang
 image: "./img/poster.jpg"
 tags: [AMA, Twitter Spaces, chainfeeds, octopus, astrox]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Twitter, ChainFeeds, Herbert, AstroX, Yuku, Octopus Network]
