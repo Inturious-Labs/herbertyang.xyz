@@ -260,142 +260,126 @@ Founder, Inturious Labs
 
 ## English Bio
 
-Herbert Yang is a serial entrepreneur and business leader of growth and innovation. He leads DFINITY's Asia operations & Global Community to grow the developer ecosystem for the Internet Computer and incubate disruptive Web3 startups. Before DFINITY, he headed the startup business for AWS Greater China, working with VC investors, PE firms, accelerators, incubators, and communities to build startup ecosystem across China, Hong Kong, and Taiwan. Previously Herbert was CFO of China Mobile's "12580" service and Zhang Yimou's "Impression Series" in Beijing, Deputy-Secretary for Wu Zuoren International Foundation of Fine Arts, CEO of ed-Tech startup Century Innovative Technology in Hong Kong, and founder CEO of fit-tech startup Linkqlo in Palo Alto. He was also an early member and director of PE firm Yunfeng Capital. Prior to startup and investment, Herbert was a finance executive in GE Capital leading digital innovation initiatives and driving turn-around transformation in Singapore, Tokyo, Munich, Florence, and Boston. Herbert earned MS degree (Sloan Fellow) from Graduate School of Business of Stanford University and BBA from National University of Singapore.
+Herbert Yang is a classically trained finance executive who also ships production code. He operates at the intersection of institutional finance, enterprise technology, and digital assets, with 25+ years of cross-border experience across the US, China, Singapore, Japan, and Europe. He is currently the founder of Inturious Labs, an AI-native development studio. Previously he was General Manager of Asia at DFINITY Foundation (creator of the Internet Computer Protocol, a layer-one blockchain), and before that Head of Startup & VC at AWS Greater China. Earlier in his career he served as CFO and CEO across Chinese TMT ventures (China Mobile's 12580 service, Zhang Yimou's Impression Series, Century Innovative Technology), was an early director at PE firm [Yunfeng Capital](https://www.yfc.cn), and was a finance executive and Corporate Auditor at GE.
 
 ## Chinese Bio
 
-Herbert Yang, 中美连续创业者，二十多年来在TMT跨国企业，投资公司和初创公司里有丰富的管理经验。Herbert现在是DFINITY亚太和全球社区的GM，负责构建互联网计算机 (Internet Computer) 的开发者生态系统并孵化Web 3.0区块链公司，加入DFINITY以前，Herbert领导云计算平台AWS大中华区Startup部门，在中港台搭建互联网初创企业生态体系，跟VC/PE，加速器/孵化器合作，发掘助力未来的独角兽。Herbert还曾担任中移动"12580"以及张艺谋"印象系列"的CFO，香港鹰君集团旗下教育动画IP"宝狄"系列的CEO，硅谷服装大数据公司Linkqlo和移动社交网站北京群熠创想的创始人，以及云锋基金的董事。在转向创投圈以前，Herbert在通用电气金融集团（GE Capital）旗下的亚洲，欧洲，美国部门负责数字化创新，财务分析和重建管理。Herbert毕业于新加坡国立大学和斯坦福商学院。
+Herbert Yang，从传统金融一路走到AI与区块链前沿，既懂资本也写代码。25+年横跨中美的职业生涯覆盖机构金融、企业科技、数字资产三大领域。Herbert目前是AI开发工作室 Inturious Labs 的创始人。此前任 DFINITY 亚太和全球社区的总经理，负责构建互联网计算机 (Internet Computer) 的开发者生态系统并孵化Web3.0 区块链公司，加入 DFINITY 以前，Herbert领导云计算平台 AWS 大中华区 Startup 部门，在中港台搭建互联网初创企业生态体系，跟 VC/PE，加速器/孵化器合作，发掘助力未来的独角兽。Herbert 还曾担任中移动 "12580" 以及张艺谋"印象系列"的 CFO，香港鹰君集团旗下教育动画 IP "宝狄"系列的 CEO，硅谷服装大数据公司 Linkqlo 和移动社交网站北京群熠创想的创始人，以及云锋基金的董事。在转向创投圈以前，Herbert 在通用电气金融集团（GE Capital）旗下的亚洲，欧洲，美国部门负责数字化创新，财务分析和重建管理。Herbert 毕业于新加坡国立大学和斯坦福商学院。
 
-## Contact
+## Professional Summary
 
-Please drop me a DM on:
+Classically trained finance executive who also ships production code. Senior leader with 25+ years of cross-border experience across the US, China, Singapore, Japan, and Europe, spanning institutional finance (GE Capital, [Yunfeng Capital](https://www.yfc.cn)), enterprise technology (AWS Greater China), and digital assets (DFINITY).
 
-- [Twitter](https://twitter.com/herbertyang), `@herbertyang`
-- [Telegram](https://telegram.org/), `@yangherbert`
-- [Linkedin](https://www.linkedin.com/in/herbertyang/), `@herbertyang`
-- [OpenChat](https://oc.app/), `@herbert`, or join via this [invite code](https://oc.app/?ref=inda5-hyaaa-aaaaf-aaioq-cai)
-- [DSCVR](https://dscvr.one/u/herbertyang), `@herbertyang`
-- [distrikt](https://distrikt.app/), `@herbert.yang`
+**Executive track record:** GM of Asia at DFINITY Foundation (creator of the Internet Computer, a layer-one blockchain); Head of BD for Startup & VC at AWS Greater China; CEO of the ed-Tech subsidiary of HK-listed Great Eagle Holdings; Director at [Yunfeng Capital](https://www.yfc.cn) and CFO of a Yunfeng portfolio company; VP of Finance at a GE Capital healthcare financing business; Corporate Auditor at General Electric.
 
-## Full Resume
+**Founder and investor experience:** 3x founder in TMT startups; 2x CFO of venture-backed startups; LP in Zhen Fund IV (representing an art foundation); alumnus of GGV Capital's OMEGA Accelerator.
 
-### DFINITY
+MSx, Stanford University, Graduate School of Business. BBA, National University of Singapore. US passport holder with Chinese permanent residency.
 
-#### GM of Asia
+## Core Competencies
 
-- Jul 2021 - Present, Shanghai, China
+- AI + Blockchain Infrastructure & Digital Asset Strategy
+- Budgeting, Fund-Raising & Financial Oversight
+- Keynote Speaking & Panel Moderation
+- Venture Capital, Startup Ecosystem & Strategic Partnership Development
 
-### Amazon Web Services
+## Professional Experience
 
-#### Head of Business Development for VC/Startup, Greater China
+### [Inturious Labs](https://inturious.com?utm_source=resume&utm_medium=web&utm_campaign=hy_about) | Founder
 
-- Jun 2018 - Jun 2021, Shanghai, China
-- Built startup ecosystem for AWS in China/Hong Kong/Taiwan and accelerate growth for future unicorns, partnering with VCs, accelerators, incubators, startup organizations, and working with startup founders and entrepreneurs to find, acquire, and enable early-stage startups through programs and connecting to pan-AWS/Amazon network and resources.
+An AI-native development studio building applications for content creators and financial investors
 
-### Wu Zuoren International Foundation of Fine Arts ("WIFA")
+- Dec 2025 – Present | Shanghai, China
+- Publish two newsletters: [*The Sunday Blender*](https://weekly.sundayblender.com?utm_source=resume&utm_medium=web&utm_campaign=hy_about), an AI-enabled English weekly news aggregator for teenage readers, and [*Digital Sovereignty Chronicle*](https://digitalsovereignty.herbertyang.xyz/?utm_source=resume&utm_medium=web&utm_campaign=hy_about), sharing front-row insight on AI, crypto & Web3
+- Lead a stealth crypto fund as general partner, incubating early-stage startups of on-chain DeFi protocols
+- Build the frontend of a stealth on-chain investment tool for managing and rebalancing digital assets
+- Advise CMAA (The Chinese Modern Art Archive) on monetization of its digital archive database
 
-#### Deputy Secretary General
+### [DFINITY Foundation](https://dfinity.org) | General Manager of Asia
 
-- Jan 2010 - May 2018
-- (WIFA) China's largest and most influential private art foundation that advances contemporary art development, art education, and art exchange between China and the world
-- 吴作人国际美术基金会是中国最有影响力的私人艺术基金会，致力于推动当代艺术的发展，艺术教育和中西方艺术交流
-- Negotiated a lucrative licensing partnership with China Minsheng Bank and Shanghai Government to convert French Pavilion of 2010 Shanghai Expo into an art museum
-- Organized "2010 Beijing Global Forum of Art Foundations" which received 50+ representatives from leading international art foundations and 300+ art practitioners
+A Switzerland-based developer lab that develops the [Internet Computer Protocol (ICP)](https://internetcomputer.org), a top-10 layer-one blockchain
 
-### Century Innovative Technology Limited (香港世纪创意)
+- Jul 2021 – Nov 2025 | Shanghai, China
+- Deployed developer grants to 200+ early-stage crypto projects in Asia across DeFi, BTC, social, gaming, AI, and tooling that contributed 40% of global decentralized apps in the ICP ecosystem
+- Delivered 100+ keynotes and panel sessions at industry events across Asia/US/Europe, in both English and Chinese, to audiences of developers, media, investors, enterprises, and government officials
+- Trained and certified 500+ ICP developers through online coursework, offline workshops, and hackathons via partnerships with leading Chinese crypto developer communities across Asia
+- Established ICP as a top-10 layer-one blockchain in Asia through strategic partnerships with major Ethereum investors (Wanxiang, Hashkey & Fenbushi) and crypto exchanges (Huobi & LBank)
+- Engaged government agencies and officials across Mainland China, Hong Kong, Singapore, Thailand, and Japan on building crypto infrastructure and exploring integration with traditional fintech
 
-#### CEO
+### [Amazon Web Services (AWS)](https://aws.amazon.com) | Head of BD for Startup/VC, Greater China
 
-- Jul 2017 - Jan 2018, Hong Kong, China
-- A preschool edutainment startup that develops top-rated Hello Bodhi English learning app, premium English learning content and popular Bodhi & Friends TV series on CCTV
-- 深圳世纪创意是一家以"智慧成就梦想"为宗旨的动漫制作和发行公司。公司成立于2012年，团队拥有广阔的国际化视野和丰富的渠道推广和品牌运营经验，创立了制作精良，广受好评的"宝狄与好友"3D动漫品牌, 在央视和五大卡通卫视已播出四季156集1700多分钟，是跨国品牌美泰（Mattel）和学乐（Scholastic）在亚太区的独家动漫合作伙伴。
-- Reset strategic focus from entertainment to online education by eliminating 3 non-core divisions, cutting products from 14 to 3 and slashing base cost by 75%
-- Launched Hello Bodhi (会英语的宝狄), a preschool English education app of more than 24 modules, 100 lessons and 160 mini-games that was featured on 360 Store
-- Oversaw the successful marketing campaign of KFC x Bodhi in Dec 2017 where 2 million Bodhi picture books were sold through +4,000 KFC stores across China
+AWS is the largest cloud computing service provider in the world, with $130B annual revenue
 
-### Linkqlo Inc
+- Jun 2018 – Jun 2021 | Shanghai, China
+- Onboarded 2,000+ high-potential Pre-A/Series-A teams into AWS's startup ecosystem annually, deploying a $50M budget of activation/migration credits and connecting founders with technical resources, investors, global GTM channels, and the broader pan-Amazon network
+- Drove AWS's penetration rate among Tier-1 VC firms in their startup portfolios from 10% to 35% by embedding AWS's services into their post-investment marketing and technical support
+- Spearheaded week-long bootcamp initiatives to discover startups in AI, autonomous driving, healthcare, and smart manufacturing through partnerships with prominent VCs and leading enterprises
+- Championed crypto as a new hot segment among all AWS global BU leaders by sponsoring Wanxiang Blockchain Group's 2018 Shanghai Blockchain Summit and Scaling Bitcoin 2018 in Tokyo
+- Localized global HQ's startup strategy in Mainland China, Hong Kong, and Taiwan by helping Y Combinator to land in China and integrating China's unique startup ecosystem into the global playbook
 
-#### Founder CEO
+### Century Innovative Technology | CEO
 
-- Jan 2014 - Jun 2017, Palo Alto, CA, USA
-- Linkqlo is a fashion retail big data startup that develops innovative Body Match Score ("BMS") algorithm to collect consumer body size data to find better fitting clothes
-- Raised US$1 million from angel investors, built and managed a global engineering team of 10 developers from 3 countries and a local marketing team in California of 3
-- Developed an innovative Body Match Score algorithm ("BMS") with the most complete body dataset of 14 measurements to match users of different body sizes
-- Launched Linkqlo app (social network) and Mirror Mirror app (game) with image-based AI neural network to collect consumer body size data and style preferences
-- Coded 12,000 lines for Mirror Mirror's iOS client using JavaScript-based React Native framework and managed end-to-end app shipping process in Xcode
+An ed-Tech startup that developed top-rated English learning apps and popular TV series for preschool kids
 
-### Yunfeng Capital ("云锋基金")
+- 2017 – 2018 | Hong Kong, China
+- Refocused the company from entertainment to online education by eliminating 3 non-core divisions, cutting product offerings from 14 to 3, and slashing base cost by 75%
+- Launched Hello Bodhi, a preschool English learning app spanning 24 modules, 100 lessons, and 160 mini-games, featured on China's 360 Store
+- Led the KFC x Bodhi marketing campaign, distributing 2 million Bodhi picture books through +4,000 KFC stores in China
 
-#### Director & Portfolio CFO
+### Impression Wonders | Director & CFO
 
-- YunFeng Capital (云锋基金) is one of the largest PE firms in China that was founded by Jack Ma and David Yu in 2010. It led the Series B investment of Impression Wonders Arts Development Company that produced 张艺谋"印象"系列 - China's most successful art performance company, founded by Zhang Yimou with RMB 1.4 billion ticket sales from 6 top-rated shows that was later sold to Sanxiang (SZ: 000863)
-- 中国最成功的实景演出艺术制作公司，由著名导演张艺谋，王潮歌，樊跃创立，由马云和虞锋创立的云锋基金和熊晓鸽的IDG基金投资的"印象系列"，制作了印象刘三姐，印象雪山，印象西湖，印象海南岛，印象大红袍，印象普陀。
-- CFO of Yunfeng Capital's first lead investment portfolio company Impression Wonders
-- Formulated A-share IPO strategy with a two-year time table and roadmap, and removed barrier to domestic listing by dismantling the legacy offshore VIE structure
-- Installed disciplined and robust cash flow management processes that supported rapid growth to 4.5 million annual visitors and RMB 1.4 billion ticket sales
-- Optimized capital structure by devising and executing a successful US$10 million share repurchase program that led to 3-fold increase of return on assets
-- Formed JV partnership with Zhoushan government to secure total investment of RMB 200 million for "Impression Putuo" that became a top attraction on Putuo Island
+A leading live performance company backed by [Yunfeng Capital](https://www.yfc.cn), with top-rated shows in popular tourism destinations
 
-### Beijing Galaxy Idea Technology Limited (北京群熠创想)
+- 2010 – 2012 | Beijing
+- Led the capital restructuring from an offshore red-chip vehicle to a domestic Chinese listing, unwinding the US-listing pathway and rebuilding a mirroring onshore shareholding to preserve investor positions
+- Built disciplined cash flow management processes that supported growth to 4.5 million annual visitors and RMB 1.4 billion ticket sales
+- Optimized capital structure through a US$10 million share repurchase program, driving a 3x increase in return on assets
 
-#### Cofounder & Angel Investor
+### Beijing UMessage Technology | CFO
 
-- 2010 - 2012, Beijing, China
-- One of China's earliest app development studios developing location-based life style apps that was backed by Xu Xiaoping and later sold to Renren Inc (NYSE: RENN)
-- 由徐小平个人投资的北京群熠创想，是中国最早开发移动app的团队之一，基于LBS等技术，发布了"这里"、app汇、左小祖咒等多个app，曾打入过苹果应用商店中国区生活服务前15名，后被人人网（NYSE: RENN）收购。
+Then China's largest lifestyle mobile service provider, operating China Mobile's nationwide "12580" service
 
-### Beijing UMessage Information Technologies (北京无限讯奇/中移动"12580")
+- 2008 – 2009 | Beijing
+- Closed the Series B round, securing RMB 250 million from CDH, Northern Light, and CBC Fund
+- Built the financial infrastructure that supported explosive growth from zero to 100+ million users across 334 cities and RMB 500 million in revenue
+- Designed and rolled out a performance-appraisal system with sales incentives and KPI allocation across 1,500 employees in 12 departments
+- Designed and executed the Employee Share Ownership Program (ESOP) for 50+ key employees, aligning long-term incentives with shareholder interests
 
-#### CFO
+### Startup Experiences
 
-- Jan 2008 - Nov 2009, Beijing, China
-- China's then largest life style mobile service provider that operated China Mobile's nation-wide "12580" service with RMB 500 million revenue and later sold to Goldtech Investment
-- 北京无限讯奇曾经是中国最大的本地生活信息移动服务商，负责承运中国移动覆盖全国的"12580"业务，涵盖334个地级市，拥有过亿用户和多项本地生活信息服务
-- Managed the successful Series B funding that brought in three top VC firms: CDH, Northern Light and CBC Fund with RMB 250 million investment
-- Built a sustainable and agile financial infrastructure that supported explosive business growth from zero to 100+ million users in 334 cities and RMB 500 million revenue
-- Designed and launched a comprehensive performance-appraisal system with sales incentive scheme and KPI allocation for 1,500 employees in 12 departments
-- Devised Employee Share Ownership Program (ESOP) and executed it with 50+ key employees to kick start the effort of building a highly motivated team with shared goal
+- 2010 – 2017 | Palo Alto, CA & Beijing, China
+- **Linkqlo Inc** (Palo Alto, 2014-2017) – Founder and CEO of a fit-tech startup using body-size data to match users with better-fitting clothes; raised US$1M angel funding, launched two apps on the App Store; and built a 10-person team across product, engineering, and marketing
+- **Beijing Galaxy Idea Technology** (Beijing, 2010-2012) – Co-founder and angel investor in one of China's earliest mobile app development studios, producing location-based lifestyle apps, backed by Xu Xiaoping of Zhen Fund and acquired by Renren Inc (NYSE: RENN)
+- **Dragon Dreams Animation Studio** (Palo Alto, 2012-2013) – Co-founder and COO of a Chinese animation film studio producing family-friendly, Pixar-styled films, negotiated distribution channels for 4 feature projects
 
-### GE Capital
+### GE Capital | VP of Finance, HPSC, GE Commercial Finance
 
-#### Vice President of Finance of HPSC, GE Commercial Finance
+GE Capital, a subsidiary of General Electric, was then one of the largest financial conglomerates in the world
 
-- Mar 2004 - Aug 2007, Boston, MA, USA
-- GE CAPITAL, HEALTHCARE FINANCIAL SERVICES, HPSC
-- HPSC was a newly acquired high-growth healthcare equipment financing provider with US$1.5 billion in assets and 15% return on equity
-- VP of Finance (2005 - 2007), Finance Manager for Planning and Analysis (2004 - 2005)
-- Instilled GE's result-oriented culture by establishing world-class financial processes in planning and analysis to promote unyielding integrity, accountability and inclusiveness
-- Collaborated with sales team to launch a new refinance product that Increased new business margin by 12% and led to additional US$2 million net income
-- Adopted segmentation-based pricing strategy to achieve additional US$2 million income and lower user acquisition cost by 20%
-- Spearheaded a cost-cutting initiative and convinced 15 department heads to reduce their operating costs by 5~15%, resulting in US$1 million savings
+- 2004 - 2007 | Boston, MA
+- Established GE-standard financial planning and analysis processes, embedding disciplined forecasting, clear accountability, and transparent performance review
+- Partnered with the sales team to launch a new refinance product, lifting new-business margin by 12% and adding US$2 million in net income
+- Implemented segmentation-based pricing that raised income by US$2 million and reduced customer acquisition cost by 20%
+- Led a cost-reduction initiative across 15 department heads, cutting operating costs by 5-15% and delivering US$1 million in annual savings
 
-### General Electric ("GE")
+### General Electric ("GE") | Senior Associate => Corporate Auditor
 
-#### Senior Associate, Corporate Audit Staff ("CAS")
+GE, before its 2024 restructuring, was one of the largest industrial and financial conglomerates in the world and a Fortune 10 company
 
-- Jan 2002 - Feb 2004, US, Europe
-- Corporate Audit Staff ("CAS") is GE's global leadership program with 350 corporate auditors from 50+ countries
-- Identified and corrected operational issues totaling US$16 million net income by performing financial reviews on 14 GE divisions in 11 industries and 8 countries
+- 2002 - 2004 | Singapore, Tokyo, Munich, Shanghai, Florence, Chicago, Connecticut
+- Completed 10 rotations across finance and operations in the US, Europe, and Asia through the Financial Management Program and Corporate Audit Staff – GE's two flagship finance leadership programs
+- Identified US$16 million in net income recovery through financial audits of 14 GE divisions across 11 industries and 8 countries
+- Led development of GE Asia's online letters-of-credit system, later scaled into GE's global portal, processing US$10 billion in applications annually
+- Built the financial model and pricing plan for an internal task force that launched one of the first online insurance marketplaces, securing US$2 million in funding from GE Capital
 
-#### Financial Analyst, Financial Management Program ("FMP")
+## Education
 
-- Jul 1999 - Dec 2001, Singapore, Tokyo
-- Financial Management Program ("FMP") is GE's two-year finance management trainee program with 100+ years of history
-- Led the development of an online system to issue letter of credit for GE Asia, which later became GE's global portal processing applications of US $10 billion per year
-- Developed financial model and pricing plan in a taskforce team that created one of the first online marketplaces to sell insurance and received US$2 million funding from HQ
+- **[Stanford University, Graduate School of Business](https://www.gsb.stanford.edu/programs/msx)**, Master of Science (MSx), 2012–2013
+- **[National University of Singapore](https://nus.edu.sg)**, Bachelor of Business Administration, 1995–1999
 
-### Education
+## Additional
 
-#### Stanford University Graduate School of Business
-
-- Master of Science ("Sloan Fellow") in Business Management, 2012 - 2013
-- Produced and directed the most successful flash mob (Gangnam Style) in Stanford history on Oct 12, 2012 with coverage by CNN. Orchestrated the marketing campaign to promote the dance video that became a viral hit and went on to gather half a million hits on Youtube and other sites.
-- Led the unprecedented half-time show performance by GSB Sloan students during Stanford Men's NCAA Basketball Game in Maples Pavilion on Nov 12, 2012
-- Co-founded a rock band for Sloan Class of 2013 - The Spillovers and managed its multiple public performances
-- Emceed the Chinese New Year Gala for Sloan Class of 2013, which broke the attendance record of Sloan's social events with 180 attendees.
-
-#### National University of Singapore
-
-- Bachelor of Business Administration ("BBA"), Finance, 1995 - 1999
-- Awarded full merit-based undergraduate scholarship by Singapore's Ministry of Education
-- Led the publicity efforts for APXLDS (Asia Pacific Exchange cum Leadership Development Seminar) '97 that received 350 participants from 17 countries, for AIESEC
+- **Citizenship & Residency:** US passport holder with Chinese permanent residency
+- **Languages:** English (fluent), Mandarin Chinese (native)
+- **Technical Fluency:** Hands-on across AI-native software development, smart contracts, and DeFi
+- **Interests:** cycling, badminton
