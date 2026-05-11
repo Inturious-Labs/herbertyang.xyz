@@ -28,6 +28,34 @@ npm run serve   # preview the build locally
 
 Deployed on [Vercel](https://vercel.com). Pushes to `main` trigger automatic production deployments.
 
+## Writing a New Blog Post
+
+1. Scaffold a new post from the repo root:
+
+```bash
+npm run new-post -- "Your Post Title"
+```
+
+For Chinese or non-Latin titles, provide a slug manually:
+
+```bash
+npm run new-post -- "你的标题" --slug your-slug
+```
+
+Options: `--tags tag1,tag2` to add tags, `--publish` to skip draft mode.
+
+2. Preview locally:
+
+```bash
+npm start
+```
+
+Draft posts are visible in dev mode but excluded from production builds.
+
+3. Edit `blog/<year>/<date>-<slug>/index.md`. Drop images into the `img/` subfolder.
+
+4. When ready to publish, set `draft: false` in the frontmatter and merge to `main`.
+
 ## Photo Gallery
 
 Galleries live in `docs/gallery/`. Use the `make-gallery` script to process photos:
