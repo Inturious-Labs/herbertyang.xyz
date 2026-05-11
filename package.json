@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "generate-gallery": "node scripts/generate-gallery-data.js"
+    "generate-gallery": "node scripts/generate-gallery-data.js",
+    "new-post": "node scripts/hy-init-article.js"
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
