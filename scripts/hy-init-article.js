@@ -56,6 +56,7 @@ fs.mkdirSync(imgDir);
 const tagsJson = JSON.stringify(tags);
 const frontmatter = `---
 title: "${title}"
+slug: ${slug}
 date: ${dateStr}
 tags: ${tagsJson}
 keywords: ["${slug}"]

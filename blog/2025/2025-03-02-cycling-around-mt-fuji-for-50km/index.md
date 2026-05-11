@@ -1,5 +1,6 @@
 ---
 title: 富士山脚下环湖骑行50公里
+slug: cycling-around-mt-fuji-for-50km
 date: 2025-03-02
 keywords: ["富士山", "Mount Fuji", "Brompton", "小布", "cycling", "骑行", "新干线", "Arakurayama Sengen Park", "新仓山浅间公园", "富士吉田市", "Fujiyoshida", "天梯小镇", "忍野八海"]
 draft: false
