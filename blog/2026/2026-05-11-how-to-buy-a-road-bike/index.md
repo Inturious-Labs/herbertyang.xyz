@@ -8,7 +8,7 @@ image: "./img/aethos.JPG"
 draft: false
 ---
 
-疫情期间我先开始[骑折叠自行车 Brompton](https://herbertyang.xyz/blog/why-i-love-riding-brompton/)，然后从2022年6月份开始尝试公路自行车。后来陆续把身边的朋友拉入公路车的深坑巨洞，组建自己的车队 Team Chirus，在2025年完成千岛湖和[太湖的环湖骑行](https://herbertyang.xyz/blog/2025/10/27/cycling-around-taihu-lake-300-km/)，逐渐积累了一套拉新入坑的经验之谈。骑自行车有各种好处，希望更多的朋友可以加入到骑行的行列。
+疫情期间我先开始[骑折叠自行车 Brompton](https://herbertyang.xyz/blog/why-i-love-riding-brompton/)，然后从2022年6月份开始尝试公路自行车。后来陆续把身边的朋友拉入公路车的深坑巨洞，组建自己的车队 Team Chirus，在2025年完成千岛湖和[太湖的环湖骑行](https://herbertyang.xyz/blog/cycling-around-taihu-lake-300-km/)，逐渐积累了一套拉新入坑的经验之谈。骑自行车有各种好处，希望更多的朋友可以加入到骑行的行列。
 
 <!-- truncate -->
 
