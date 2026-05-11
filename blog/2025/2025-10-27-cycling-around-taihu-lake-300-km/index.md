@@ -1,5 +1,6 @@
 ---
 title: 环太湖300
+slug: cycling-around-taihu-lake-300-km
 date: 2025-10-27
 tags: ["2025", "cycling"]
 keywords: ["Team Chirus", "Taihu Lake", "太湖", "环太湖骑行", "无锡", "苏州", "湖州", "宜兴", “cycling", "Aethos", "Specialized", "Taihu300"]
