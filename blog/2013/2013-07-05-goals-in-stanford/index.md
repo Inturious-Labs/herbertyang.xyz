@@ -29,7 +29,7 @@ Some of us are looking for new friends, from new cultures, from new industries, 
 
 3. **I**nspiration
 
-Some of us are looking for inspirations that connect dots, bridge isolated domains of knowledge, expand our horizon, or provide that "eureka" moments. Attend [Wednesday's ETL](http://etl.stanford.edu/) in Engineering School religiously, attend as many seminars, talks, BBLs in and around GSB as possible. Take some classes outside of GSB. Attend industry conferences around Silicon Valley by taking advantages of student discounts. Read the blog by [Sten](http://sten.tamkivi.com/) and [me](http://guizishanren.com/).
+Some of us are looking for inspirations that connect dots, bridge isolated domains of knowledge, expand our horizon, or provide that "eureka" moments. Attend [Wednesday's ETL](http://etl.stanford.edu/) in Engineering School religiously, attend as many seminars, talks, BBLs in and around GSB as possible. Take some classes outside of GSB. Attend industry conferences around Silicon Valley by taking advantages of student discounts. Read the blog by [Sten](http://sten.tamkivi.com/) and [me](https://herbertyang.xyz).
 
 4. **K**nowledge
 

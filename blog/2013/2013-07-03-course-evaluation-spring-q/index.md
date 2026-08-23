@@ -15,7 +15,7 @@ This is the last one in this CIDRAE Evaluation Series
 
 ---
 
-....continued from [Course Evaluation\_Winter Q](http://guizishanren.com/?p=2433) ...
+....continued from [Course Evaluation\_Winter Q](/blog/course-evaluation-winter-q/) ...
 
 This is the last one in this CIDRAE Evaluation Series.
 

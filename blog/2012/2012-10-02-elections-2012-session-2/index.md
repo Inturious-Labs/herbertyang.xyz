@@ -27,7 +27,7 @@ US' founding fathers, predicted the weak power of US President.
 - Herbert Hoover (who gave his presidential acceptance speech in 1928
 in Stanford) was a pioneering politician who used primary election ("beauty contest") as the vehicle to run for US President.
 - The phrase "fireside chats" (via radio) came from FDR, who was a big
-fan of press conference and a master of media (I first heard about this term from Michael Arrington's panel discussions on [TechCrunch Disrupt 2012 SF](http://www.guizishanren.com/?p=1238)). FDR's fireside chats became a huge hit and set up a precedent for all future US Presidents on how to make direct contact with ordinary people.
+fan of press conference and a master of media (I first heard about this term from Michael Arrington's panel discussions on [TechCrunch Disrupt 2012 SF](/blog/techcrunch-disrupt-sf-day-1/)). FDR's fireside chats became a huge hit and set up a precedent for all future US Presidents on how to make direct contact with ordinary people.
 - FDR's funeral lore: a man at FDR's funeral was asked if he knew FDR.
 He said: I don't know him, but he knows me.
 - "Government is not the solution to our problem; government is the

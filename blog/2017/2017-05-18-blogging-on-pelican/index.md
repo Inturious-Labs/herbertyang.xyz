@@ -4,7 +4,7 @@ title: Blogging On Pelican
 tags: [tech,pelican,2017]
 ---
 
-I've come to really enjoy Pelican since moving my [personal blog](https://guizishanren.com) from wordpress to static site generator [Pelican](https://blog.getpelican.com) on a Github Page in 2014. It's not the easiest thing [to set up in the beginning](/blog/guide-to-set-up-static-blog-site-on-github-page-and-pelican/) and it took me months in countless iterations to settle down a well-tuned configuration that met my needs. The end-game is very satisfying though.
+I've come to really enjoy Pelican since moving my [personal blog](https://herbertyang.xyz) from wordpress to static site generator [Pelican](https://blog.getpelican.com) on a Github Page in 2014. It's not the easiest thing [to set up in the beginning](/blog/guide-to-set-up-static-blog-site-on-github-page-and-pelican/) and it took me months in countless iterations to settle down a well-tuned configuration that met my needs. The end-game is very satisfying though.
 
 <!--truncate-->
 
@@ -22,7 +22,7 @@ MOU used to be my go-to editor for Markdown. It was the best from the crowd, but
 
 The recommended configuration for a Pelican site usually has Github Page as the hosting server. It's probably good enough for most users, but with one caveat. Github Page has a **1 GB** size limit for its repos and as a git server, is not the best tool to handle binary file like images. This turns out to be a major challenge for my blog.
 
-I have many images in my blog articles. Sometimes I simply create a gallery-like post with 10 images of the same theme, like [Here's Looking At You](https://guizishanren.com/heres-looking-at-you/) and [In Haste 匆匆](https://guizishanren.com/in-haste/). Embedding an image into a markdown file on a git server, boy, is a tricky business.
+I have many images in my blog articles. Sometimes I simply create a gallery-like post with 10 images of the same theme, like Here's Looking At You and In Haste 匆匆. Embedding an image into a markdown file on a git server, boy, is a tricky business.
 
 My goal is to maintain a declarative dependency source folder for all the images, like a *static/css* kind of folder, with a straightforward reference link in the related markdown files/posts.
 
@@ -90,7 +90,7 @@ alias publish="rsync -avhP --delete output/ joe@groot:/var/www/guizishanren.com/
 
 ```
 
-The first one is the standard command from Pelican to render everything in `/content` folder into HTML files based on the configuration set forth in `pelicaonconf.py`. The second one uses `rsync` to create a mirrored instance on the Linode VPS that will be immediately effective on https://guizishanren.com.
+The first one is the standard command from Pelican to render everything in `/content` folder into HTML files based on the configuration set forth in `pelicaonconf.py`. The second one uses `rsync` to create a mirrored instance on the Linode VPS that will be immediately effective on guizishanren.com.
 
 These two commands should be executed from the root directory for the Pelican site:
 

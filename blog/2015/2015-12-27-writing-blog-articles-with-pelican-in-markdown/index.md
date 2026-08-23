@@ -10,7 +10,7 @@ After [installing Pelican to generate your static single page blog site](/blog/g
 
 ## Learn Markdown language with an editor
 
-As of 2015, I almost write exclusively with Markdown language. For work on [Linkqlo](https://linkqlo.com), I write on issue trackers and wiki pages on our internal [Gitlab-based](https://gitlab.com/) server. For my day-to-day journal, I write on [DayOne App](http://dayoneapp.com/). For personal blog [the Good, the Bad, and the Curious](http://guizishanren.com), it's in Markdown as well as it's hosted on [Github Page](https://pages.github.com/).
+As of 2015, I almost write exclusively with Markdown language. For work on [Linkqlo](https://linkqlo.com), I write on issue trackers and wiki pages on our internal [Gitlab-based](https://gitlab.com/) server. For my day-to-day journal, I write on [DayOne App](http://dayoneapp.com/). For personal blog [the Good, the Bad, and the Curious](https://herbertyang.xyz), it's in Markdown as well as it's hosted on [Github Page](https://pages.github.com/).
 
 If something cannot be written in Markdown, I probably will not write it. This is one of the several reasons I stopped using Evernote a long time ago.
 

@@ -4,7 +4,7 @@ title: Set Up VPS on Linode - Part 1
 tags: [tech,devops,2017]
 ---
 
-Recently I had to set up virtual-private-server (VPS) for both my personal blog [the Good, the Bad, and the Curious](https://guizishanren.com) and [Linkqlo's website](https://linkqlo.com). Here is my workflow to set up *Ubuntu* Linux, *Apache* server and the server environment on Linode, which is one of the more popular VPS service providers along with Digital Ocean. [Linode's Getting Started Guide](https://www.linode.com/docs/getting-started) is a helpful reference for the basics.
+Recently I had to set up virtual-private-server (VPS) for both my personal blog [the Good, the Bad, and the Curious](https://herbertyang.xyz) and [Linkqlo's website](https://linkqlo.com). Here is my workflow to set up *Ubuntu* Linux, *Apache* server and the server environment on Linode, which is one of the more popular VPS service providers along with Digital Ocean. [Linode's Getting Started Guide](https://www.linode.com/docs/getting-started) is a helpful reference for the basics.
 
 <!--truncate-->
 

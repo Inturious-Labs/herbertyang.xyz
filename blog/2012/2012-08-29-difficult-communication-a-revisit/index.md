@@ -87,5 +87,4 @@ nothing)
 - your critical-thinking is great (so.. you can't execute or do
 operation)
 - you're such a nice guy (you got no memorable personality)
-- Something related to this, I wrote in
-2005-2006: [http://www.guizishanren.com/?p=269](http://www.guizishanren.com/?p=269)
+- Something related to this, I wrote about in 2005-2006

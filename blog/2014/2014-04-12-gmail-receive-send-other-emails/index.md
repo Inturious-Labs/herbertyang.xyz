@@ -48,4 +48,4 @@ When BBB@163.com receives your reply, he will see this email comes from AAA@XXX.
 
 That's it! Let me a comment if you run into any issues.
 
-(The original Chinese version was written earlier in [this post](http://guizishanren.com/posts/2014/02/receive-and-send-other-emails-through-Gmail/))
+(The original Chinese version was written earlier in [this post](/blog/receive-and-send-other-emails-through-gmail-chn/))

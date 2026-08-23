@@ -5,7 +5,7 @@ tags: [tech,pelican,2014]
 image: "./img/pelican-setup.jpg"
 ---
 
-In early March I migrated [the Good, the Bad, and the Curious](https://guizishanren.com) from the draconian Wordpress architecture to a much more elegant static site structure hosted on [Github Page](https://pages.github.com/) using a [static site generator](http://en.wikipedia.org/wiki/Web_template_system#Static_page_generators) [Pelican](http://docs.getpelican.com/en/3.4.0/). The original conversion was quite an involving effort of a series of trial-and-error because of the respective idiosyncrasies from Github Page itself, a fast-evolving Pelican, and legacy issues from Wordpress.
+In early March I migrated [the Good, the Bad, and the Curious](https://herbertyang.xyz) from the draconian Wordpress architecture to a much more elegant static site structure hosted on [Github Page](https://pages.github.com/) using a [static site generator](http://en.wikipedia.org/wiki/Web_template_system#Static_page_generators) [Pelican](http://docs.getpelican.com/en/3.4.0/). The original conversion was quite an involving effort of a series of trial-and-error because of the respective idiosyncrasies from Github Page itself, a fast-evolving Pelican, and legacy issues from Wordpress.
 
 <!--truncate-->
 

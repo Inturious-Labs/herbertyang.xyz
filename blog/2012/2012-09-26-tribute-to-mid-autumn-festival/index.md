@@ -38,7 +38,7 @@ On the beautiful night of Sep 28, six-city-spin tried out her calligraphy:
 
 ![image0](./img/photo.jpg)
 
-This poem is not one of [my best](http://www.guizishanren.com/?cat=177), and this calligraphy is not six-city-spin's best effort either, but together they were a nice tribute on this special occasion.
+This poem is not one of my best, and this calligraphy is not six-city-spin's best effort either, but together they were a nice tribute on this special occasion.
 
 then, after a joyful Facetime session with both my parents and in-laws in Shanghai, my parents responded with this much, much better poem:
 
