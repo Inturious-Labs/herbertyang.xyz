@@ -91,7 +91,7 @@ journey up to today. Hence, here it is:
 
 34. [Application to d.School](/blog/apply-to-stanford-dschool/)
 
-Special: Gangnam Style Goes to Stanford NCAA Half-Time Show
+Special: [Gangnam Style Goes to Stanford NCAA Half-Time Show](/blog/gangnam-style-goes-to-ncaa-game/) (companion to [Dance of My Life](/blog/dance-of-my-life/))
 
 35. [My BBL, My Choices](/blog/my-bbl/)
 
