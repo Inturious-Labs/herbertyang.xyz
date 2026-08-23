@@ -83,7 +83,7 @@ journey up to today. Hence, here it is:
 
 30. [View from California](/blog/view-from-california/)
 
-31. A Dummy’s Guide to Business Plan
+31. [A Dummy’s Guide to Business Plan](/blog/dummys-guide-to-business-plan/)
 
 32. [GSB Reporter – Bubbles & Flash Mob](/blog/bubbles-and-flash-mob/)
 
@@ -93,60 +93,60 @@ journey up to today. Hence, here it is:
 
 Special: Gangnam Style Goes to Stanford NCAA Half-Time Show
 
-35. My BBL, My Choices
+35. [My BBL, My Choices](/blog/my-bbl/)
 
-36. Rock Band Debut of The Spillovers
+36. [Rock Band Debut of The Spillovers](/blog/rock-band-debut/)
 
-37. Fall Quarter Course Final Evaluation
+37. [Fall Quarter Course Final Evaluation](/blog/fall-qtr-course-evaluation/)
 
-38. Sell Used Textbooks
+38. [Sell Used Textbooks](/blog/sell-used-textbooks/)
 
-39. Reflection Notes from S353 Jan 15
+39. [Reflection Notes from S353 Jan 15](/blog/reflection-notes-from-s353-jan-15/)
 
-40. Reflection Notes from S353 Jan 17 Fitness Anywhere Case
+40. [Reflection Notes from S353 Jan 17 Fitness Anywhere Case](/blog/reflection-notes-from-s353-fitness-anywhere-case/)
 
-41. Why Search Funds Might Make Sense
+41. [Why Search Funds Might Make Sense](/blog/why-search-funds-make-sense/)
 
-42. 15 Things to Know in Strategizing Your Sloan Courses
+42. [15 Things to Know in Strategizing Your Sloan Courses](/blog/15-things-to-know-in-strategizing-your-course-portfolio/)
 
-43. Where Is Stanford Sloan Fellow?
+43. [Where Is Stanford Sloan Fellow?](/blog/where-is-stanford-sloan-fellow/)
 
-44. Music Play List for Chinese New Year Party
+44. [Music Play List for Chinese New Year Party](/blog/must-play-list-for-chinese-new-year-party/)
 
-45. Should You Do Stanford’s Famous Startup Courses?
+45. [Should You Do Stanford’s Famous Startup Courses?](/blog/should-you-do-stanfords-famous-startup-courses/)
 
-46. Comparison of S353 (Formation of New Venture) and G566 (Real-Life Ethics)
+46. [Comparison of S353 (Formation of New Venture) and G566 (Real-Life Ethics)](/blog/comparison-S353-and-G566-in-GSB/)
 
-47. Sloan Fellow Life Cycle & How To Make The Most Out Of It
+47. [Sloan Fellow Life Cycle & How To Make The Most Out Of It](/blog/sloan-fellow-life-cycle-how-to-make-the-most-out-of-it/)
 
-48. My Yearbook Message
+48. [My Yearbook Message](/blog/my-yearbook-message-for-Stanford-Sloan/)
 
-49. Chinese New Year Party
+49. [Chinese New Year Party](/blog/chinese-new-year-party/)
 
-50. Key To Startup Success Reflection from S353
+50. [Key To Startup Success Reflection from S353](/blog/key-to-startup-success/)
 
-51. An Entrepreneur’s Manifesto
+51. [An Entrepreneur’s Manifesto](/blog/an-entrepreneurs-manifesto-POOOUA-model/)
 
-52. Stanford Business Magazine Quote
+52. [Stanford Business Magazine Quote](/blog/stanford-business-magazine-quote/)
 
-53. 10 Things To Do Before Coming to Stanford Sloan Master Program
+53. [10 Things To Do Before Coming to Stanford Sloan Master Program](/blog/10-things-to-do-before-coming-to-stanford-sloan-master-program/)
 
-54. The Spillovers Live! at Stanford Coho Cafe
+54. [The Spillovers Live! at Stanford Coho Cafe](/blog/rock-out-stanford-coho/)
 
-55. GCBC Talk_Stay Full Stay Smart
+55. [GCBC Talk_Stay Full Stay Smart](/blog/stay-full-stay-smart/)
 
-56. How To Make A Star
+56. [How To Make A Star](/blog/how-to-make-a-star/)
 
-57. Swan Song by The Spillovers
+57. [Swan Song by The Spillovers](/blog/swan-song-by-the-spillovers/)
 
-58. Course Evaluation Winter Q
+58. [Course Evaluation Winter Q](/blog/course-evaluation-winter-q/)
 
-59. Course Evaluation Spring Q
+59. [Course Evaluation Spring Q](/blog/course-evaluation-spring-Q/)
 
-60. April Orientation Performance at CEMEX Auditorium
+60. [April Orientation Performance at CEMEX Auditorium](/blog/april-orientation-performance-at-cemex-auditorium/)
 
-61. What Do You Want to Get in Stanford_PFIKER Model
+61. [What Do You Want to Get in Stanford_PFIKER Model](/blog/goals-in-stanford/)
 
-62. GCBC Talk Herbert Introduction
+62. [GCBC Talk Herbert Introduction](/blog/Herbert-GCBC-Talk/)
 
 63. [A Day In A Sloan’s Life](/blog/a-day-in-a-sloans-life/)
