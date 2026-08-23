@@ -37,12 +37,10 @@ My friend [LYZ](http://weibo.com/u/1743289671) has responded with a much better 
 
 ![brother 4](./img/brothers-4.jpg)
 
----
-
-1. Paul and Goblin的院子里有两棵树，左边一棵是松树，右边一棵也是松树
-2. Paul and Goblin's elder son is playing Bach
-3. 凌客 = Linkqlo
-4. 充满挑战的一年
-5. Lake Oswego
-6. 来自王维七言绝句《渭城曲》之“渭城朝雨浥轻尘”, P&G 老大的中文名
-7. Paul在江湖上人称九瓜
+[^1]: Paul and Goblin的院子里有两棵树，左边一棵是松树，右边一棵也是松树
+[^2]: Paul and Goblin's elder son is playing Bach
+[^3]: 凌客 = Linkqlo
+[^4]: 充满挑战的一年
+[^5]: Lake Oswego
+[^6]: 来自王维七言绝句《渭城曲》之“渭城朝雨浥轻尘”, P&G 老大的中文名
+[^7]: Paul在江湖上人称九瓜

@@ -15,7 +15,7 @@ image: "./img/instagram.jpg"
 Something）让我如此沉溺其中不能自拔。本来我还在考虑把用了7-8年的Nikon
 D-70升级一下，但在跟instagram耳鬓厮磨的过去两个月里发现，Instagram＋iPhone4s让绝对多数的单反相机（M8当然还是值得拥有的）和卡片机失去了存在的价值。
 
-身边不少朋友其实都已经在Instagram上了，但大多数属于僵尸状态－这我完全可以理解。Instagram几乎可以算是我玩过的社交网络（如果我们仅仅从狭隘的社交网络去理解Instagram的话）里最难玩的一个了，积累粉丝（follower）非常缓慢。Instagram不同于新浪微博（我对新浪微博的建议是只要是华人就应该上，否则就跟这个时代的中国彻底脱节了，if he/she still cares。见前文：[新浪微博入门2011版](http://guizishanren.com/sina-weibo-introduction/)，并非适合每个人。我只能说，它太适合我了，简直就是为我量身定做的。如果你对我的了解超越CFO这个单词的话，不妨睁大你晶莹透亮的大眼睛/中眼睛/小眼睛，来更多地了解一下instagram。
+身边不少朋友其实都已经在Instagram上了，但大多数属于僵尸状态－这我完全可以理解。Instagram几乎可以算是我玩过的社交网络（如果我们仅仅从狭隘的社交网络去理解Instagram的话）里最难玩的一个了，积累粉丝（follower）非常缓慢。Instagram不同于新浪微博（我对新浪微博的建议是只要是华人就应该上，否则就跟这个时代的中国彻底脱节了，if he/she still cares。见前文：[新浪微博入门2011版](/blog/introduce-sina-weibo/)，并非适合每个人。我只能说，它太适合我了，简直就是为我量身定做的。如果你对我的了解超越CFO这个单词的话，不妨睁大你晶莹透亮的大眼睛/中眼睛/小眼睛，来更多地了解一下instagram。
 
 ## What
 

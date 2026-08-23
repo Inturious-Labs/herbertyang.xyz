@@ -18,7 +18,7 @@ I guess I owe an explanation to many of my friends who have watched and followed
 - Why are you moving your home base again?
 
 Admittedly I was a bit jaded explaining my recent endeavor to my friends, who constitute a fairly substantial group across the Pacific. Our annual newsletter at the end of the year still serves as an effective way to keep all our cared ones updated - a tradition we have been practicing since 2004 when living in Boston. However I stopped writing the English version of the newsletter two years ago because a Chinese version alone already exhausted all my creativity and
-inspiration (I don't think any English newsletter can beat my Chinese [newsletter of 2010](http://www.guizishanren.com/?p=549) and 2011. They're not as good as Umberto Eco's, but they are decent and pride attempts in that direction). The problem with the newsletter is that we've moving our lives too fast for the newsletter to catch up.
+inspiration (I don't think any English newsletter can beat my Chinese newsletter of 2010 and 2011. They're not as good as Umberto Eco's, but they are decent and pride attempts in that direction). The problem with the newsletter is that we've moving our lives too fast for the newsletter to catch up.
 
 My feeble attempt on Sina Weibo also got buried in the sea of tweets quickly. I wrote this[《出师表·2012》](/blog/leaving-beijing/) in May 22, but Sina Weibo already started its irreversible decline and much fewer users are still active. Nothing of much substance can really leave a trail on twitter-esque Sina Weibo.
 
@@ -63,7 +63,7 @@ would not want to be anywhere but Silicon Valley and which university would serv
 
 Once this seed had been planted, the rest of the execution was fairly easy. The past four years in Beijing saw tremendous professional and personal growth for me. I've been through a lot. Maybe I'm yet to figure out what works best, but at least I've known enough what does not work.
 
-So here I am, in Stanford Graduate Business School's Sloan Fellow program. My decision on Stanford was straightforward because it was significantly [location-based](http://www.guizishanren.com/?p=871), which was by the way in sharp contrast to my friend [Sten's highly methodological and scientific
+So here I am, in Stanford Graduate Business School's Sloan Fellow program. My decision on Stanford was straightforward because it was significantly location-based, which was by the way in sharp contrast to my friend [Sten's highly methodological and scientific
 approach](http://sten.tamkivi.com/2012/02/why-and-how-i-became-a-stanford-student/).
 
 Many friends would ask me, so ... is this move going to be permanent?
