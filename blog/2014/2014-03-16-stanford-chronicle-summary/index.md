@@ -25,61 +25,61 @@ journey up to today. Hence, here it is:
 
 1. [Survival Guide for the First Three Days](/blog/first-3-days-in-stanford/)
 
-2. How to Set Up Stanford Email on OSX Mail
+2. [How to Set Up Stanford Email on OSX Mail](/blog/setup-stanford-email-on-osx-mail/)
 
-3. How to Plan a Beach Party
+3. [How to Plan a Beach Party](/blog/how-to-plan-a-beach-party/)
 
-4. Let’s Get It On
+4. [Let’s Get It On](/blog/lets-get-it-on/)
 
 5. [Sloan Officer Analysis](/blog/sloan-class-officer-strategy/)
 
 6. [Live Stanford Life to the Fullest](/blog/live-stanford-life-to-the-fullest/)
 
-7. Difficult Communication, A Revisit
+7. [Difficult Communication, A Revisit](/blog/difficult-communication-a-revisit/)
 
-8. Phil Libin Talk (CEO of Evernote)
+8. [Phil Libin Talk (CEO of Evernote)](/blog/phil-libin-talk-evernote/)
 
 9. [Stanford MBA vs Stanford Sloan Fellow](/blog/stanford-mba-vs-sloan-fellow/)
 
-10. Set Up Home Network in EV
+10. [Set Up Home Network in EV](/blog/set-up-home-network-in-ev/)
 
-11. Social Chair
+11. [Social Chair](/blog/social-chair/)
 
-12. Set Up Sloan Program Calendar on iPhone
+12. [Set Up Sloan Program Calendar on iPhone](/blog/set-up-sloan-calendar-on-iphone/)
 
-13. TechCrunch Disrupt SF Day 1
+13. [TechCrunch Disrupt SF Day 1](/blog/techcrunch-disrupt-sf-day-1/)
 
-14. Tribute to Mid-Autumn Festival
+14. [Tribute to Mid-Autumn Festival](/blog/tribute-to-mid-autumn-festival/)
 
-15. Fall Quarter Courses
+15. [Fall Quarter Courses](/blog/fall-quarter-courses/)
 
-16. Elections 2012_Oct 02
+16. [Elections 2012_Oct 02](/blog/elections-2012-session-2/)
 
-17. ETL Seminar_Oct 3
+17. [ETL Seminar_Oct 3](/blog/etl-seminar-oct-3/)
 
 18. [10 Reflections of a CFO](/blog/10-reflections-cfo/)
 
-19. Powerpoint & Business Plan
+19. [Powerpoint & Business Plan](/blog/powerpoint-and-business-plan/)
 
 20. [Dance of My Life](/blog/dance-of-my-life/)
 
-21. Demystify Board of Directors
+21. [Demystify Board of Directors](/blog/demystify-board-of-directors/)
 
-22. New Spin on iShare
+22. [New Spin on iShare](/blog/new-spin-on-ishare/)
 
-23. Geoff Yang’s Winning Entrepreneurs
+23. [Geoff Yang’s Winning Entrepreneurs](/blog/geoff-yang-winning-entrepreneurs/)
 
 24. [Evaluate Courses with CIDRAE](/blog/evaluate-stanford-course/)
 
 25. [Summer Quarter Course Evaluation](/blog/summer-quarter-course-evaluation/)
 
-26. Fall Quarter Course Evaluation (Interim)
+26. [Fall Quarter Course Evaluation (Interim)](/blog/fall-quarter-course-evaluation-interim/)
 
-27. Famous Speeches
+27. [Famous Speeches](/blog/famous-speeches/)
 
-28. Talk with Steve Blank and Andy Rachleff
+28. [Talk with Steve Blank and Andy Rachleff](/blog/talk-with-steve-blank-and-andy-rachleff/)
 
-29. Usefulness of Learning Various Accounting Concepts in B-School
+29. [Usefulness of Learning Various Accounting Concepts in B-School](/blog/usefulness-of-accounting-in-b-school/)
 
 30. [View from California](/blog/view-from-california/)
 
@@ -87,7 +87,7 @@ journey up to today. Hence, here it is:
 
 32. [GSB Reporter – Bubbles & Flash Mob](/blog/bubbles-and-flash-mob/)
 
-33. A Fictional Debate
+33. [A Fictional Debate](/blog/a-fictional-debate/)
 
 34. [Application to d.School](/blog/apply-to-stanford-dschool/)
 

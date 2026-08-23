@@ -5,6 +5,8 @@ tags: [stanford, msx-chronicle, 2012]
 image: "./img/dschool.png"
 ---
 
+dMedia is a course from d.school of Stanford in the coming Winter Quarter. As most other design-themed courses from Stanford's trendy Design School, it has a somewhat idiosyncratic application, in which I need to do this:
+
 ![d School](./img/dschool.png)
 
 <!--truncate-->
@@ -13,7 +15,7 @@ image: "./img/dschool.png"
 
 ---
 
-dMediais a course from d.school of Stanford in the coming Winter Quarter. As most other design-themed courses from Stanford's trendy Design School, it has a somewhat idiosyncratic application, in which I need to do this: 
+dMedia is a course from d.school of Stanford in the coming Winter Quarter. As most other design-themed courses from Stanford's trendy Design School, it has a somewhat idiosyncratic application, in which I need to do this: 
 
 > Share a single url that describes how your past experience has prepared you to contribute to the dmedia class- a portfolio, a pdf, a flickr page, a twitter feed, a video, an example of your work online-preferably something we haven't thought of... it's up to you. Please make sure your name & a title / description on the url is visible so we know it's you. 
 
