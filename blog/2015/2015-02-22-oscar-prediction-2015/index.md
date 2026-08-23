@@ -1,5 +1,5 @@
 ---
-slug: Oscar-Prediction-2015
+slug: oscar-prediction-2015
 title: Oscar Prediction
 tags: [leisure,2015]
 ---

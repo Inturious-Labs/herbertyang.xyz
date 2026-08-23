@@ -1,10 +1,10 @@
 ---
-slug: set-up-VPS-on-Linode-part-3
+slug: set-up-vps-on-linode-part-3
 title: Set Up VPS on Linode - Part 3
 tags: [tech,2017]
 ---
 
-Continuing from [Part 1](https://guizishanren.com/set-up-VPS-on-Linode-part-1) and [Part 2](https://guizishanren.com/set-up-VPS-on-Linode-part-2) about setting up VPS on Linode, here's the final episode on deployment from local repo to remote server with version control, and deploy on production instance.
+Continuing from [Part 1](/blog/set-up-vps-on-linode-part-1/) and [Part 2](/blog/set-up-vps-on-linode-part-2/) about setting up VPS on Linode, here's the final episode on deployment from local repo to remote server with version control, and deploy on production instance.
 
 <!--truncate-->
 

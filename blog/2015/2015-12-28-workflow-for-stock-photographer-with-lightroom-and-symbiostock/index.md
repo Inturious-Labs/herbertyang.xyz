@@ -10,7 +10,7 @@ Image resolution to photography is like location to real estate business. It's t
 
 <!--truncate-->
 
-Interestingly, one of the reasons [I think that Instagram has become a wild success](http://guizishanren.com/instagram-photography-and-sharing/) while all its predecessors have failed (Flickr, Picasa) is that it shamelessly and smartly lowers the resolution requirement for a high-quality image. It must be unthinkable for an old-school photographer from pre-Instagram era, but well, here we are.
+Interestingly, one of the reasons [I think that Instagram has become a wild success](/blog/introduce-instagram/) while all its predecessors have failed (Flickr, Picasa) is that it shamelessly and smartly lowers the resolution requirement for a high-quality image. It must be unthinkable for an old-school photographer from pre-Instagram era, but well, here we are.
 
 Advised by [Paul](http://thev.net), I'm now shooting with [Olympus OM-D E-M1](http://www.getolympus.com/us/en/e-m1.html), arguably the best mirrorless camera out there in 2015. Leica has a very good mirrorless camera, but it's 8X more expensive so it's in a league of its own (as always for Leica) and not a fair comparison to Olympus E-M1. [E-M1](http://www.amazon.com/Olympus-Mirrorless-Digital-Camera-3-Inch/dp/B00EQ07PG2) has 16.3 mega pixels resolution so it's good enough for entry-level stock photography.
 
@@ -28,7 +28,7 @@ I use [Lightroom 4](http://www.adobe.com/products/photoshop-lightroom.html) and 
 
 The software has to be vector-based and handles images at file-level. So amateur-level applications such as iPhoto and Picasa are out. It would be nice to manage both photo organization and photo editing, so many pure editing softwares are out, such as [GIMP](https://www.gimp.org) or [Sketch 3](https://www.sketchapp.com). It'd better not be as ridiculously expensive as Adobe Photoshop, so there are only several choices left. Lightroom is a popular choice among photographers.
 
-[Setting up Lightroom](http://guizishanren.com/how-to-manage-photos-part-2/) warrants an article on its own. The set-up also touches another critical question - how to set up a centralized file accessing and backup network at home, which is an even BIGGER question that can become very complicated very quickly. I'll discuss them later in separate posts.
+[Setting up Lightroom](/blog/how-to-manage-photos-part-2/) warrants an article on its own. The set-up also touches another critical question - how to set up a centralized file accessing and backup network at home, which is an even BIGGER question that can become very complicated very quickly. I'll discuss them later in separate posts.
 
 I organize my Lightroom catalogs by year. So all my 2015 photos will be in Catalog 2015. Then I create a sub-folder for each month such as 01, 02, 03, ... 12. In each monthly folder I organize photos by events and create sub-folders for them.
 

@@ -1,5 +1,5 @@
 ---
-slug: find-IP-for-synology-dsm-on-new-router
+slug: find-ip-for-synology-dsm-on-new-router
 title: How to Find IP for Synology DSM on New Router
 tags: [tech,2017]
 ---

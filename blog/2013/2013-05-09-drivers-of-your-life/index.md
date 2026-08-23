@@ -114,7 +114,7 @@ People with such desire and derive happiness from such accomplishment, can be fo
 
 - For your reference, my main drivers, in descending order of significance, are: *Influence*, *Recognition*, and *Money*.
 
-- Since 2007, I have been using this SIMPLERK framework as a compass to guide me through [every career transition](/blog/an-entrepreneurs-manifesto-POOOUA-model/), from a corporate career in GE to CFO in China, then to an entrepreneur in the Bay area after Stanford. It’s done a very effective and adequate job explaining my every move, and it also explains why I would not fancy a career in VC just yet. I’ll be happy to share some personal thoughts on this in person.
+- Since 2007, I have been using this SIMPLERK framework as a compass to guide me through [every career transition](/blog/an-entrepreneurs-manifesto-poooua-model/), from a corporate career in GE to CFO in China, then to an entrepreneur in the Bay area after Stanford. It’s done a very effective and adequate job explaining my every move, and it also explains why I would not fancy a career in VC just yet. I’ll be happy to share some personal thoughts on this in person.
 
 - I’ve always wanted to complete this article.  The end of my Sloan days feels like a right moment to synthesize everything. Hopefully my friends feel the same and find some value in SIMPLERK as well.
 

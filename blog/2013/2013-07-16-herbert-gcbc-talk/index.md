@@ -1,5 +1,5 @@
 ---
-slug: Herbert-GCBC-Talk
+slug: herbert-gcbc-talk
 title: Herbert's GCBC Talk
 tags: [stanford, msx-chronicle, journey, 2013]
 ---

@@ -115,17 +115,17 @@ Special: [Gangnam Style Goes to Stanford NCAA Half-Time Show](/blog/gangnam-styl
 
 45. [Should You Do Stanford’s Famous Startup Courses?](/blog/should-you-do-stanfords-famous-startup-courses/)
 
-46. [Comparison of S353 (Formation of New Venture) and G566 (Real-Life Ethics)](/blog/comparison-S353-and-G566-in-GSB/)
+46. [Comparison of S353 (Formation of New Venture) and G566 (Real-Life Ethics)](/blog/comparison-s353-and-g566-in-gsb/)
 
 47. [Sloan Fellow Life Cycle & How To Make The Most Out Of It](/blog/sloan-fellow-life-cycle-how-to-make-the-most-out-of-it/)
 
-48. [My Yearbook Message](/blog/my-yearbook-message-for-Stanford-Sloan/)
+48. [My Yearbook Message](/blog/my-yearbook-message-for-stanford-sloan/)
 
 49. [Chinese New Year Party](/blog/chinese-new-year-party/)
 
 50. [Key To Startup Success Reflection from S353](/blog/key-to-startup-success/)
 
-51. [An Entrepreneur’s Manifesto](/blog/an-entrepreneurs-manifesto-POOOUA-model/)
+51. [An Entrepreneur’s Manifesto](/blog/an-entrepreneurs-manifesto-poooua-model/)
 
 52. [Stanford Business Magazine Quote](/blog/stanford-business-magazine-quote/)
 
@@ -141,12 +141,12 @@ Special: [Gangnam Style Goes to Stanford NCAA Half-Time Show](/blog/gangnam-styl
 
 58. [Course Evaluation Winter Q](/blog/course-evaluation-winter-q/)
 
-59. [Course Evaluation Spring Q](/blog/course-evaluation-spring-Q/)
+59. [Course Evaluation Spring Q](/blog/course-evaluation-spring-q/)
 
 60. [April Orientation Performance at CEMEX Auditorium](/blog/april-orientation-performance-at-cemex-auditorium/)
 
 61. [What Do You Want to Get in Stanford_PFIKER Model](/blog/goals-in-stanford/)
 
-62. [GCBC Talk Herbert Introduction](/blog/Herbert-GCBC-Talk/)
+62. [GCBC Talk Herbert Introduction](/blog/herbert-gcbc-talk/)
 
 63. [A Day In A Sloan’s Life](/blog/a-day-in-a-sloans-life/)

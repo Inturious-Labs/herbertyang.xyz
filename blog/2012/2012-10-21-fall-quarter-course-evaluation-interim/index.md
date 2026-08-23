@@ -21,6 +21,6 @@ taking a pulse for the Fall Quarter ... the complete summer-to-fall evaluation c
 
 [CIDRAE Evaluation for Stanford GSB Sloan Fellow Program](https://docs.google.com/spreadsheet/ccc?key=0AiXMz-HsLt8fdHpqM3B5UGhNaEljWmg1Q1BGQ0ZyT2c)
 
-...and: t[he same CIDRAE score for my Summer Quarter 2012](http://guizishanren.com/confession-of-a-stanford-sloan-fellow_25_summer-quarter-course-evaluation/)
+...and: t[he same CIDRAE score for my Summer Quarter 2012](/blog/summer-quarter-course-evaluation/)
 
-...also: [what is CIDRAE score?](http://guizishanren.com/confession-of-a-stanford-sloan-fellow_24_evaluate-stanford-courses-with-cidrae/)
+...also: [what is CIDRAE score?](/blog/evaluate-stanford-course/)

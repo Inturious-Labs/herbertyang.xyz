@@ -4,7 +4,7 @@ title: Writing Blog Articles with Pelican in Markdown
 tags: [tech,pelican,2015]
 ---
 
-After [installing Pelican to generate your static single page blog site](https://guizishanren.com/guide-to-set-up-github-page-and-pelican), I follow the below steps to write my blog articles.
+After [installing Pelican to generate your static single page blog site](/blog/guide-to-set-up-static-blog-site-on-github-page-and-pelican/), I follow the below steps to write my blog articles.
 
 <!--truncate-->
 

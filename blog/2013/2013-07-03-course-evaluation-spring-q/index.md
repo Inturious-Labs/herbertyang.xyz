@@ -1,5 +1,5 @@
 ---
-slug: course-evaluation-spring-Q
+slug: course-evaluation-spring-q
 title: Course Evaluation_Spring Q
 tags: [stanford, msx-chronicle, 2013]
 image: "./img/CIDRAE_Spring.png"

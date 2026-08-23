@@ -1,5 +1,5 @@
 ---
-slug: comparison-S353-and-G566-in-GSB
+slug: comparison-s353-and-g566-in-gsb
 title: Comparison of S353 (Formation of New Venture) and G566 (Real-Life Ethics)
 tags: [stanford, msx-chronicle, 2013]
 image: "./img/G566vsS353_All.png"

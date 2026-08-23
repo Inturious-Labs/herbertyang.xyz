@@ -1,5 +1,5 @@
 ---
-slug: my-yearbook-message-for-Stanford-Sloan
+slug: my-yearbook-message-for-stanford-sloan
 title: My Yearbook Message
 tags: [stanford, msx-chronicle, 2013]
 ---

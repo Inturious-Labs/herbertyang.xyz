@@ -23,10 +23,10 @@ At the end of my speech, he smiled at me, I'm glad to hear that, Mark is my fath
 
 .....o....k.
 
-for an overview and introduction of CIDRAE, please read [here](http://guizishanren.com/confession-of-a-stanford-sloan-fellow_24_evaluate-stanford-courses-with-cidrae/):
+for an overview and introduction of CIDRAE, please read [here](/blog/evaluate-stanford-course/):
 | - to compare to the similar evaluation of my Summer Quarter courses,
-please read [here](http://guizishanren.com/confession-of-a-stanford-sloan-fellow_25_summer-quarter-course-evaluation/):
+please read [here](/blog/summer-quarter-course-evaluation/):
 | - to compare to the interim evaluation of my Fall Quarter courses,
-please read [here](http://guizishanren.com/confession-of-a-stanford-sloan-fellow_26_fall-quarter-course-evaluation-interim/):
+please read [here](/blog/fall-quarter-course-evaluation-interim/):
 
 ![CIDRAE Score for Fall Qtr](./img/CIDRAE_Fall-Qtr.png)

@@ -15,7 +15,7 @@ In my last post on this subject, I compared some similarities and differences be
 
 ---
 
-In my last post on this subject, I compared some [similarities and differences between S353 (Entrepreneurship: Formation of New Business)  and G566 (Real-Life Ethics)](/blog/comparison-S353-and-G566-in-GSB/), two of my favorite GSB courses. Today's S353 class presented the last case in this series of 18 very different and interesting startup stories. So after all the discussions, what kind of lessons can we draw from them?
+In my last post on this subject, I compared some [similarities and differences between S353 (Entrepreneurship: Formation of New Business)  and G566 (Real-Life Ethics)](/blog/comparison-s353-and-g566-in-gsb/), two of my favorite GSB courses. Today's S353 class presented the last case in this series of 18 very different and interesting startup stories. So after all the discussions, what kind of lessons can we draw from them?
 
 Before George and Jim give us a summary on Thursday, I just want to share my own takeaways. I call them "**PPT**".
 

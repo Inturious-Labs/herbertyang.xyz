@@ -1,11 +1,11 @@
 ---
-slug: 2014-US-summer-tentpole-schedule
+slug: 2014-us-summer-tentpole-schedule
 title: Analysis of 2014 US Summer Tentpole Movie Release Schedule
 tags: [business,2014]
 image: "./img/2014-summer-movie-schedule.png"
 ---
 
-Here's my annual analysis of US summer tentpole movie release schedule. The 2013 one is [here](/blog/2013-US-summer-tentpole-schedule/).
+Here's my annual analysis of US summer tentpole movie release schedule. The 2013 one is [here](/blog/2013-us-summer-tentpole-schedule/).
 
 <!--truncate-->
 

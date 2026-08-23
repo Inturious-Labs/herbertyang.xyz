@@ -1,5 +1,5 @@
 ---
-slug: change-syntax-highlight-with-pygments-CSS-for-Pelican-blog
+slug: change-syntax-highlight-with-pygments-css-for-pelican-blog
 title: Change Syntax Highlights with Pygments CSS for Pelican Site
 tags: [tech,pelican,2015]
 ---

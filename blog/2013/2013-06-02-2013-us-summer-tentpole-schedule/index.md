@@ -1,5 +1,5 @@
 ---
-slug: 2013-US-summer-tentpole-schedule
+slug: 2013-us-summer-tentpole-schedule
 title: Analysis of 2013 US Summer Tentpole Movie Release Schedule
 tags: [business,2013]
 image: "./img/2013-summer-movie-schedule.jpg"

@@ -5,7 +5,7 @@ tags: [stanford, msx-chronicle, 2013]
 image: "./img/CIDRAE_Winter.png"
 ---
 
-... continued from [Course Evaluation\_Fall Q](http://guizishanren.com/confession-of-a-stanford-sloan-fellow_37_fall-qtr-course-final-evaluation/) ...
+... continued from [Course Evaluation\_Fall Q](/blog/fall-qtr-course-evaluation/) ...
 
 ![Course Evaluation_Winter Q](./img/CIDRAE_Winter.png)
 

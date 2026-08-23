@@ -4,7 +4,7 @@ title: Blogging On Pelican
 tags: [tech,pelican,2017]
 ---
 
-I've come to really enjoy Pelican since moving my [personal blog](https://guizishanren.com) from wordpress to static site generator [Pelican](https://blog.getpelican.com) on a Github Page in 2014. It's not the easiest thing [to set up in the beginning](https://guizishanren.com/guide-to-set-up-static-blog-site-on-github-page-and-pelican/) and it took me months in countless iterations to settle down a well-tuned configuration that met my needs. The end-game is very satisfying though.
+I've come to really enjoy Pelican since moving my [personal blog](https://guizishanren.com) from wordpress to static site generator [Pelican](https://blog.getpelican.com) on a Github Page in 2014. It's not the easiest thing [to set up in the beginning](/blog/guide-to-set-up-static-blog-site-on-github-page-and-pelican/) and it took me months in countless iterations to settle down a well-tuned configuration that met my needs. The end-game is very satisfying though.
 
 <!--truncate-->
 
@@ -38,7 +38,7 @@ Second, it generates a special hashed link for the image. This is troublesome. I
 
 The second problem also makes me reluctant to replace Flickr with Amazon S3, as S3 uses a similar process to generate an S3-specific link for the image. I don't want these images to carry any platform-specific hash code/format of any kind. I will be held hostage by those platforms. The reference link to the image has to be at the **file level** and defined only by a relative path and the file name, nothing more.
 
-One way to tackle this is just to host your own server, then you can set up file folders however you want. That's my solution. I used to think it must require a lot of technical work to set up your own server, but I have done that multiple times by now and it's quite doable, as explained in [Set Up VPS on Linode - Part 1](https://guizishanren.com/set-up-VPS-on-Linode-part-1/) and [Set Up VPS on Linode - Part 2](https://guizishanren.com/set-up-VPS-on-Linode-part-2/).
+One way to tackle this is just to host your own server, then you can set up file folders however you want. That's my solution. I used to think it must require a lot of technical work to set up your own server, but I have done that multiple times by now and it's quite doable, as explained in [Set Up VPS on Linode - Part 1](/blog/set-up-vps-on-linode-part-1/) and [Set Up VPS on Linode - Part 2](/blog/set-up-vps-on-linode-part-2/).
 
 A few months ago I moved away from Github Page and opened a new instance on Linode to host this blog. Linode's lowest tier for Virtual Private Server (VPS) charges only $5/month. It's been working pretty well.
 

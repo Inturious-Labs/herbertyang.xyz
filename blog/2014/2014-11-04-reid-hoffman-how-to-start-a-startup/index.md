@@ -1,5 +1,5 @@
 ---
-slug: reid-hoffman-YC-startup-series
+slug: reid-hoffman-yc-startup-series
 title: Reid Hoffman from How To Start A Startup Series
 tags: [business,2014]
 ---

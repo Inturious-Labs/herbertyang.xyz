@@ -1,5 +1,5 @@
 ---
-slug: an-entrepreneurs-manifesto-POOOUA-model
+slug: an-entrepreneurs-manifesto-poooua-model
 title: An Entrepreneur's Manifesto
 tags: [stanford, msx-chronicle, framework, 2013]
 image: "./img/Career-Transition.png"

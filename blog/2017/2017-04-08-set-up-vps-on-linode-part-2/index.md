@@ -1,11 +1,11 @@
 ---
-slug: set-up-VPS-on-Linode-part-2
+slug: set-up-vps-on-linode-part-2
 title: Set Up VPS on Linode - Part 2
 tags: [tech,devops,2017]
 image: "./img/apache2-default-page.png"
 ---
 
-Continuing from [Set Up VPS on Linode - Part 1](https://guizishanren.com/set-up-VPS-on-Linode-part-1), here's Part 2 on DNS (nameserver and IP address), Apache (folder structure, virtual hosts), and enabling HTTPS with SSL certificate from Let's Encrypt.
+Continuing from [Set Up VPS on Linode - Part 1](/blog/set-up-vps-on-linode-part-1/), here's Part 2 on DNS (nameserver and IP address), Apache (folder structure, virtual hosts), and enabling HTTPS with SSL certificate from Let's Encrypt.
 
 <!--truncate-->
 

@@ -1,5 +1,5 @@
 ---
-slug: set-up-VPS-on-Linode-part-1
+slug: set-up-vps-on-linode-part-1
 title: Set Up VPS on Linode - Part 1
 tags: [tech,devops,2017]
 ---
@@ -212,4 +212,4 @@ This concludes Part 1 of "Setting Up VPS on Linode". In Part 2, I'll lay out ste
 - How to deploy from local to remote live instance with Gitlab
 - How to deploy wordpress automatically (tricky business...still working through it).
 
-Please proceed to [Setting Up VPS on Linode - Part 2](https://guizishanren.com/set-up-VPS-on-Linode-part-2).
+Please proceed to [Setting Up VPS on Linode - Part 2](/blog/set-up-vps-on-linode-part-2/).

@@ -4,7 +4,7 @@ title: Set Up Subdomain Website Hosted on VPS with Git Deployment
 tags: [tech,2018]
 ---
 
-The previous series **Set Up VPS on Linode** ([Part 1](https://guizishanren.com/set-up-VPS-on-Linode-part-1), [Part 2](https://guizishanren.com/set-up-VPS-on-Linode-part-2), [Part 3](https://guizishanren.com/set-up-VPS-on-Linode-part-3/)) explains how to set up the server environment with necessary dependencies on a Linode VPS virtual machine. This article takes one step further to lay out the steps to launch a new website from this virtual machine with git-based deployment.
+The previous series **Set Up VPS on Linode** ([Part 1](/blog/set-up-vps-on-linode-part-1/), [Part 2](/blog/set-up-vps-on-linode-part-2/), [Part 3](/blog/set-up-vps-on-linode-part-3/)) explains how to set up the server environment with necessary dependencies on a Linode VPS virtual machine. This article takes one step further to lay out the steps to launch a new website from this virtual machine with git-based deployment.
 
 <!--truncate-->
 

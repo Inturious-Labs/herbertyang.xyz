@@ -18,7 +18,7 @@ Update the **Version number**. [Semantic Versioning 2.0.0](http://semver.org) pr
 
 Update the **Build number**. It has to be continuously incremental as [Apple requires in this technical note](https://developer.apple.com/library/content/technotes/tn2420/_index.html). I use a naming convention of `xxx.z.yyyymmdd`. xxx is a 3-digit serial number. z has two possible values, 1 for **Production** and 0 for **Staging**. For every submission, I increments xxx by 1, pick the right z, and use the current date for the last 8 digits.
 
-Since these two values have changed, Xcode's `info.plist` file is modified. Git add/commit/push, then [git tag this commit](https://guizishanren.com/how-to-git-tag).
+Since these two values have changed, Xcode's `info.plist` file is modified. Git add/commit/push, then [git tag this commit](/blog/how-to-git-tag/).
 
 Pick the right **Scheme** for archiving the binary. Scheme in iOS is a complicated topic and can easily mess up the deployment. iTunes Connect submission requires phase **Archive**. Make sure it's set to `Release`, not Debug.
 ![How To Make App Store Submission](./img/20170525_app_store_submission_0.png)

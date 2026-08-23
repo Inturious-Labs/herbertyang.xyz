@@ -1,5 +1,5 @@
 ---
-slug: Serve-Wordpress-Site-From-Subdirectory
+slug: serve-wordpress-site-from-subdirectory
 title: How to Serve Wordpress Site from Subdirectory
 tags: [tech,devops,2017]
 ---
