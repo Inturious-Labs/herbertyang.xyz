@@ -1,0 +1,26 @@
+.block {
+  margin: 2.5rem 0 1rem;
+  text-align: center;
+}
+
+/* Uses the theme's own primary colour, so light and dark are handled already. */
+.link {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 999px;
+  color: var(--ifm-color-primary);
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.link:hover {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link { transition: none; }
+}

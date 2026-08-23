@@ -13,6 +13,7 @@ import BlogPostPageStructuredData from '@theme/BlogPostPage/StructuredData';
 import TOC from '@theme/TOC';
 import ContentVisibility from '@theme/ContentVisibility';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import TipLink from '@site/src/components/TipLink';
 
 function RapportComments() {
   return (
@@ -62,6 +63,9 @@ function BlogPostPageContent({sidebar, children}) {
   } = frontMatter;
 
   const shouldShowRapport = frontMatter?.enable_rapport === true;
+  const shouldShowTip = frontMatter?.hideTip !== true;
+  // permalink is like /blog/2026/some-post; the last segment identifies the post.
+  const slug = metadata.permalink.split('/').filter(Boolean).pop();
 
   return (
     <BlogLayout
@@ -78,6 +82,8 @@ function BlogPostPageContent({sidebar, children}) {
       <ContentVisibility metadata={metadata} />
 
       <BlogPostItem>{children}</BlogPostItem>
+
+      {shouldShowTip && <TipLink slug={slug} />}
 
       {shouldShowRapport && (
         <div style={{ marginTop: '3rem', marginBottom: '3rem' }}>
