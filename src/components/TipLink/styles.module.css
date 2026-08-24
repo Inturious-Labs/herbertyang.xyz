@@ -3,7 +3,13 @@
   text-align: center;
 }
 
-/* Uses the theme's own primary colour, so light and dark are handled already. */
+/*
+ * Uses the theme's own primary colour for the outline, so light and dark both
+ * pick up the right accent. The hover text colour is set explicitly rather than
+ * borrowed from the page background: the site paints its own cream background,
+ * so the theme's background variable is not a reliable contrast partner and the
+ * label disappeared into the filled pill.
+ */
 .link {
   display: inline-block;
   padding: 0.6rem 1.4rem;
@@ -15,10 +21,21 @@
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-.link:hover {
+.link:hover,
+.link:focus-visible {
   background-color: var(--ifm-color-primary);
-  color: var(--ifm-background-color);
+  /* White on the navy fill in light mode. */
+  color: #ffffff;
   text-decoration: none;
+}
+
+/* The dark theme's accent is a light teal, so it needs dark ink instead. */
+[data-theme='dark'] .link:hover {
+  color: #1c1e21;
+}
+
+[data-theme='dark'] .link:focus-visible {
+  color: #1c1e21;
 }
 
 @media (prefers-reduced-motion: reduce) {
